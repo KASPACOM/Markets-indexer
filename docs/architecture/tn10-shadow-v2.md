@@ -71,11 +71,12 @@ Build the isolated image with a pinned decoder identity:
 
 ```bash
 docker build -f Dockerfile.shadow-v2 \
-  --build-arg SHADOW_DECODER_REVISION="$REVIEWED_DECODER_REVISION" \
-  -t tn10-shadow-v2:local .
+  --build-arg SHADOW_DECODER_REVISION="$(cat decoder-compatibility.txt)" \
+  --build-arg SOURCE_REVISION="$(git rev-parse HEAD)" \
+  -t markets-indexer:local .
 ```
 
-`REVIEWED_DECODER_REVISION` must match the seed's decoder identity. It identifies
+`decoder-compatibility.txt` must match the seed's decoder identity. It identifies
 the reviewed decoder compatibility revision, separately from the V2 image commit.
 Do not relabel incompatible source state to pass this check. Live runs, replay
 and the shadow API require the compiled pin; status remains available for diagnosis.

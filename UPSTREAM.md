@@ -17,7 +17,8 @@ dependencies remain pinned by the unchanged Cargo.lock.
 - Dockerfile.shadow-v2 pins base image digests and requires source and decoder
   revision build arguments, both recorded in image metadata. `.dockerignore` retains embedded build assets.
 - Local Compose, verification scripts and workflows belong to this repository.
-- The imported runbook describes the V2 runtime. References to legacy commands
+- The imported runbook uses the local compatibility file and source revision
+  for its Markets-indexer build command. References to legacy commands
   are context; wallet settlement helpers and frontends are not shipped here.
 
 `decoder-compatibility.txt` identifies the imported decoder behavior. A build's
