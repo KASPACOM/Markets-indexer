@@ -21,8 +21,18 @@ Hosted verification has these jobs:
 Every job uploads its tested SHA. Job logs contain test counts and failures.
 Imported `#[ignore]` annotations stay unchanged. Release budget, active-output
 ordering and projector tests have explicit jobs that opt into their named ignores.
-Other upstream ignored tests and runtime fixture-availability skips remain
-visible in their source/logs; they are not claimed as executed coverage.
+Existing capture-only tests remain ignored: `captured_full_window_paired_benchmark`
+requires TN10_CONSOLIDATION_FIXTURE, and
+`captured_window_matches_reference_and_reuses_verified_baseline` requires
+TN10_GENESIS_CAPTURE. Live wRPC/REST smoke tests require TN10_WRPC_TEST_URL or
+TN10_REST_TEST_URL and remain out of this offline suite. Tests for retired
+protocol profiles retain their upstream ignore annotations. These are not
+claimed as executed coverage.
+
+Full local verification reserves 127.0.0.1:55439 because the existing uncertain-
+commit fault proxy asserts that port. If occupied, Docker refuses the bind;
+the runner never attaches to another database. PostgreSQL-only mode uses a
+random loopback port.
 
 The provenance check retains byte identity for imported code, migration checksums
 and fixtures. Changes to imported files require a reviewed entry in

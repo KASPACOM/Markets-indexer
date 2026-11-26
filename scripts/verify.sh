@@ -3,6 +3,9 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mode=${1:-postgres}
 case "$mode" in postgres|full) ;; *) echo "Usage: bash scripts/verify.sh [postgres|full]" >&2; exit 2;; esac
+# Existing fault-injection tests require this owned local port. Docker fails
+# rather than attaching to another service if it is occupied.
+if [[ "$mode" == full ]]; then export MARKETS_TEST_PORT=55439; else unset MARKETS_TEST_PORT; fi
 project="markets-verify-$(date +%s)-$$"
 compose=(docker compose --project-name "$project" --file compose.verify.yml)
 cleanup() { "${compose[@]}" down --volumes --remove-orphans; }

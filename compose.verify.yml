@@ -1,12 +1,12 @@
 services:
   postgres:
-    image: postgres:16-bookworm
+    image: postgres:16-bookworm@sha256:cd0e9518bda5f2ea667ff84d22795d089720c883f288e215d97ce57437e8ef37
     environment:
       POSTGRES_USER: markets_test
       POSTGRES_PASSWORD: markets_test
       POSTGRES_DB: postgres
     ports:
-      - "127.0.0.1::5432"
+      - "127.0.0.1:${MARKETS_TEST_PORT:-}:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U markets_test -d postgres"]
       interval: 2s
