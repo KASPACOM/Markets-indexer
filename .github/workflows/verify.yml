@@ -43,6 +43,7 @@ jobs:
 
         '
     - run: pip install -r scripts/shadow-v2/requirements.txt
+    - run: python3 -m unittest discover -s scripts/tests -p test_dev_parity.py -v
     - run: python scripts/shadow-v2/test_coordination.py
     - run: python scripts/shadow-v2/test_snapshot.py
     - run: python scripts/shadow-v2/test_archive.py
