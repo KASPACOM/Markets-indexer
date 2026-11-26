@@ -1,0 +1,2038 @@
+{
+  "repository": "https://github.com/KASPACOM/kaspa-covenants",
+  "commit": "2306f23cd3bacff4ead8d78477563697579a6057",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "853743867fd75fc32882293bd52c1345a9a2ac5744626a599367ee4187d928d5"
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "ebd47245f2b503f74dbf35df9a37f25c944aed5eef02f41545f68653787e702d"
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "ff46fd65bc34d93515f6227b39a0510aa55b486fbc246e9e3495798ecf198464"
+    },
+    {
+      "path": "Dockerfile.shadow-v2",
+      "sha256": "53bf2aadacf7ffd03697d368ce857fa60c3e9636e3741d7955e2909bafba5aff"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "75cdb61073b1a949352371e703babf3eae9c2ffbbd96ad7646b5ce1949c09c15"
+    },
+    {
+      "path": "crates/tn12-indexer-api/Cargo.toml",
+      "sha256": "9d2903998ca15730384e57bb5ac176e57abd28d6c03790eb60cda3960fd14cbb"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/api_payments.rs",
+      "sha256": "def63a5259d6fb8cbf2a3a32915a3a84fe57601f1b8e282bd55a6fa3b6d6cae7"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/main.rs",
+      "sha256": "21ec1d2d01df3b438715f397f58c42732a3aa69c463f7dfe8456b408c6329f96"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/openapi.rs",
+      "sha256": "d8e88cf3b4f2299cfa1db0a6a5432cb99dea9ad5cc8f48b5dfb4e46fcc97e044"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/recovery_health.rs",
+      "sha256": "fc205f46b15b992aea6eb7a782320046b55d53974daa3637700a51276e7fd676"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/settled_recheck.rs",
+      "sha256": "4ba75a8fdac4b345da773cab1596eeec8054aa66c87eb6b170fd69f602974f9e"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/shadow.rs",
+      "sha256": "4828450d6cbb617fbdbc62d7f2211f61dca538a9d5af4466fd4ecbb9521f8609"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/shadow_contract_tests.rs",
+      "sha256": "8c3d486cf33d859a3448d03df705e455222f7f56cebd2ef21f92ed000ed3be95"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/sync_queue.rs",
+      "sha256": "e5229351cdfdc656ad3c0b6ca428f26d456485dc704be3f6daec2c8bec839b52"
+    },
+    {
+      "path": "crates/tn12-indexer-api/src/sync_queue_tests.rs",
+      "sha256": "ee76b066ccf9959c6e1ff609a9c36e6f884bd780fd6f64a2730eb8baaf45d2de"
+    },
+    {
+      "path": "crates/tn12-indexer-cli/Cargo.toml",
+      "sha256": "22ab1ba2d7012aa8541174049fd125bca873b909ea1b4e0a5bd26548804eadd3"
+    },
+    {
+      "path": "crates/tn12-indexer-cli/src/main.rs",
+      "sha256": "cbeae7e3eab0fa9d8ca00329c8e1a55eb480beba9c2790bb131f1562d5ee2730"
+    },
+    {
+      "path": "crates/tn12-indexer-cli/src/projector_tests.rs",
+      "sha256": "75c54bbefbe28a1f67b9c6b96b60ba5fcebcbab38fae54b2b13e7695aeab9020"
+    },
+    {
+      "path": "crates/tn12-indexer-cli/src/shadow_main.rs",
+      "sha256": "46796185eb4c97a3408b54316ec88d41b2dc2187fe9f3f500a9552d736f7172c"
+    },
+    {
+      "path": "crates/tn12-indexer-cli/tests/shadow_replay.rs",
+      "sha256": "1cb6126e73efebcb06df2766c843f1e983d99215ac4f941d2c3da4e0da36bd4c"
+    },
+    {
+      "path": "crates/tn12-indexer-core/Cargo.toml",
+      "sha256": "7564e4a6cf8f442ff8e4e2dc61caec93635118add88fdee2baa3a286bfb9f2a5"
+    },
+    {
+      "path": "crates/tn12-indexer-core/src/api_payments.rs",
+      "sha256": "6555e99156aa0deed3d10c3336abc9e66b1fbda6b492dbc918fddc50d44581d2"
+    },
+    {
+      "path": "crates/tn12-indexer-core/src/covenant_id.rs",
+      "sha256": "5ec9584dd475ff7334a93418265b7a9e9c511133c0ff6f3257b2dbc9bdfd2d70"
+    },
+    {
+      "path": "crates/tn12-indexer-core/src/lib.rs",
+      "sha256": "d98133321a82c5f9e71d8474c66673a2ca3cb2e34e71be6665861132a243b296"
+    },
+    {
+      "path": "crates/tn12-indexer-core/src/rest_types.rs",
+      "sha256": "d56a2c0f2a631f34f6406bc8186847488f763e6aafb77a31b94c73ffdfd26b3a"
+    },
+    {
+      "path": "crates/tn12-indexer-core/src/script.rs",
+      "sha256": "e64a942649ca49ed70e70ca05c8c469f79993a827dad4eb8b89a0ac7e9346d0f"
+    },
+    {
+      "path": "crates/tn12-indexer-core/src/types.rs",
+      "sha256": "5938fde4285b09981e8d01a42d37577d9a33c10c18de4ab96404313fd125acda"
+    },
+    {
+      "path": "crates/tn12-indexer-core/tests/golden/generate.mjs",
+      "sha256": "fda194adcdac5143936ebec395032becdafa43c4f682b246166978ff6fa35899"
+    },
+    {
+      "path": "crates/tn12-indexer-core/tests/golden/golden.json",
+      "sha256": "2dd9e4191f441ae61ae5acbd56a337eed384f7d7e87e6a76ae40d7c74bcec49f"
+    },
+    {
+      "path": "crates/tn12-indexer-core/tests/golden_covenant_id.rs",
+      "sha256": "3da6041a527b3ac54433fa125a3dd34702e417fa1225e5c4841ab2aeec257f77"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/Cargo.toml",
+      "sha256": "3543b93634e40572f4a7b8020ee9b4adefaeda0d2e8d739b73b29433336c8f32"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/examples/capture_tn10_wrpc_inbox.rs",
+      "sha256": "f33168aa5b83f5409026bd53996b8f3d4a4886f341ab360ee1a9b52d20a815af"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/examples/check_durable_join_capture.rs",
+      "sha256": "dfac34f47c37dbdb21b14daa74d6c3226db4e20658375fc2885193bc729c0ea3"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/examples/observe_tn10_queryability.rs",
+      "sha256": "4f8377746828e05cb14f11349c241eddd98bbf23b7980d711832944f9bc8bc25"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/fixtures/tn10-v1-unbound-output.json",
+      "sha256": "f37327c53f93ec501673701861eb0fea5758843b88475135e56bb0f3da54a1c7"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/bounded_notification.rs",
+      "sha256": "3750959a0e41df50c15d10793df55eba96261512f7bacdc9110fdf788def8620"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/bounded_wrpc_intake.rs",
+      "sha256": "bb62898e6f625e903b01c73d25acd49e4b07c01812d41dc77ab02e516f85e5d2"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/cached_prevout.rs",
+      "sha256": "04453d7eba4d87e4ba6a839cf749751c4a109253135293142a3c311b03e31880"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_apply.rs",
+      "sha256": "bc06165d7d1b911b8feba14eda0b8e6050160f603d20b7e146cef3c4eef299cc"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_consumer.rs",
+      "sha256": "3f285c501fde0ed4aeba6405f6d2d27b0a8a05a6dd2e88576aa5bc5ea160cad8"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_continuity.rs",
+      "sha256": "4060f9c70085fd50c57dae3388c12702687de6d182f6014ab5c679ba0743fbc6"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_effects.rs",
+      "sha256": "45916e2a2b912290211eafa0b440c946a9ca5d002b4d44b97469fae8eaa7530d"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_event.rs",
+      "sha256": "583324d7c06a1ad92c28db43675863c11edbb2cce6ec953140c7cf2eaa9d73d4"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_inbox.rs",
+      "sha256": "e1a2862c0239cc49ec7de148548477fc1ccbcaac7cc1769c481f5d13dd916987"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_join.rs",
+      "sha256": "b95402d1164054c04f289522bb54a1d45be024e118e6ae5a6815b73a64e0df5a"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/durable_recovery_snapshot.rs",
+      "sha256": "797234b5822d6f60ffe61e204d2aabc707701e26bc3bb6226eac0e109da14dd3"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/engine.rs",
+      "sha256": "045c5a5b5c0908866a190138a8b3c6f58c9bbbac2262953bb3613805d4f8fe8d"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/lib.rs",
+      "sha256": "2526b0b60034f11a1201474b9c84d02f44bf00e37d7c493083a3d822c5f02d36"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/live_funding_tests.rs",
+      "sha256": "30c08fd64865e769d9f28221bf7748622c1f215f6722328adc5b4780b062b3d8"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/live_recovery.rs",
+      "sha256": "4fbcfc2b92dd80f4621b0d17b0358e4928843c30c3e728656b3878b55d271eb1"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/live_recovery_impact.rs",
+      "sha256": "14b4ba6362053f49e861829bd07171873e89718a24ac03729af6c73e533ec110"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/live_recovery_pg_tests.rs",
+      "sha256": "c1e69a39c4804a96979c393ea5ff8ddd9d332e139285d605c71eaf84c07ef117"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/live_recovery_tests.rs",
+      "sha256": "7115221a6a951dcb6825b2f7020a75a58f17cfc2d0a35b7b9238a9377020c887"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/live_supervisor.rs",
+      "sha256": "6bc000b38a233c5b59dfd86b7652267897408064567f9c59fa04c1f172b585cd"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/paged_replay_fetch_tests.rs",
+      "sha256": "fc0ee9e0a5b935ac62c138ee7498a58a9a3dde5b29bf7f89a600ec176745a3c9"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/recovery_handoff_tests.rs",
+      "sha256": "8a9ceb41f1b03052c5b9ccdf4695a9ba0e2e96a87d5b08fa4b5522cfff0f43cf"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/recovery_policy.rs",
+      "sha256": "661eb19983d7b2b98a9d5d1625c1d8df737a2a256f56c831050faff8914e5f9f"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/recovery_state.rs",
+      "sha256": "61b3aa70d3b6f73306e01d4c615ffe52a35c24670fb8b36c1185f2de0982762b"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/reorg.rs",
+      "sha256": "ac3583ba122f5026ae00970ef4057e667d6241d5cf21ec65302678965a164e54"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/rest_removal_tests.rs",
+      "sha256": "f4f114703b7873c9bb42c7d85fe03aa9726dda17d4b9baa8295565578ade47fc"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/rest_replay_fence.rs",
+      "sha256": "15db5c20073e94ac64b3f0c0e2b163008181d29a4349d42d5ba0a44e37c81126"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/rpc/mod.rs",
+      "sha256": "641303e235be6bbf3e62b016f82328b3c084714dc6d801e08a363ea6ae138567"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/rpc/rest.rs",
+      "sha256": "d799ce69cfe29a10eabd06523acd407f3f9494c42fe01df8353874280e9f06fa"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/rpc/rest/acceptance.rs",
+      "sha256": "ddcdf213e1242c8d9b7e95cb90b0e762efad287f20105dd224e8983060be06ec"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/rpc/rest/acceptance_map.rs",
+      "sha256": "688824e001f4d56601df6fe6c21eac5fe5c9f0c0657e9d0e74a8e710731f9c6e"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/scan.rs",
+      "sha256": "35d1ba9e81609e2c6db3807f9c6d75a655b54d728e8f84f0419f3191dc878661"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/shadow_source.rs",
+      "sha256": "4cae40d64d833105cdeebffe9fe6dad8ac5482a3a4da410ce2d179a2368cf8cd"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/source_observation.rs",
+      "sha256": "f277f47d878d9fbb2c258a388319ae44ddfb8d0af81024988a0be654a1038e08"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/tip.rs",
+      "sha256": "246573ff8876bc73fa78b79c70a219b9eaf06ba1d3cad97e6dd9a1db8fda2b97"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/tip_commit_recovery_tests.rs",
+      "sha256": "b32f5072df87b145853b3bcade93812645506c24b5560e3a7456ce88847f9488"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/watch.rs",
+      "sha256": "2cb64079b89fec377136cf0f73fbe497550967e4235697975dff7e106b2681ac"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/wrpc.rs",
+      "sha256": "6acaf937d2c15267b5a7874876c45152f7119afd21636506652323dd8f46f9f0"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/wrpc_decode_isolation_tests.rs",
+      "sha256": "46aaee9e7a8ba9c86942112c806644269cf419cd41669aa543bc05fc39b78ef8"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/src/wrpc_hydration.rs",
+      "sha256": "2c9686f15c947330473a5ae3aa33205522be58c40fae66d06a76152c3d02cb58"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/tests/fixtures/README.md",
+      "sha256": "af4d6807a12b4d056ed257b7dbb0c7498de907f7032c49f2020d0420ea18e0ec"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/tests/fixtures/live-oom-parents.json",
+      "sha256": "d542dd27d1457bef103dc1d256ccab6abf4935d5861de3333fe2d6b1d11c021c"
+    },
+    {
+      "path": "crates/tn12-indexer-crawl/tests/fixtures/live-oom-transactions.json",
+      "sha256": "5a6c0a1cefd49c987483d085af52dea8bc1546a3ea0ad0efb5a5aaffdfa7ff83"
+    },
+    {
+      "path": "crates/tn12-indexer-db/Cargo.toml",
+      "sha256": "052b4b0fe257f882ec9be85de914f2f6fe3c8f11fdf7685870b552bec196e4ba"
+    },
+    {
+      "path": "crates/tn12-indexer-db/build.rs",
+      "sha256": "9a929cd0994408a0c221a230650f1b2ca125a70fe34e2161eea4d472c60f437c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/examples/bench_tn10_writer_budget.rs",
+      "sha256": "dc84efc32e7eeb32a87b2473d7cdc2ea0ca4e0f9aa3310295714c3ceb07c54a7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/fixtures/kcc20-fee-ticket-root-deploy-20261107.json",
+      "sha256": "1375773dd88f4a2156bbc516549afd27f60a8f1de9203f3b99bb6f3872c2af5b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/fixtures/kcc20-fee-ticket-root-deploy.json",
+      "sha256": "10c5e0ad3fe9990a90946000fa9cf440c42ac5689ab1ae7a743701eab4004372"
+    },
+    {
+      "path": "crates/tn12-indexer-db/fixtures/kcc20-ten-lane-deploy.json",
+      "sha256": "4751abf59ec2ae28586e1bb5d51acfca82d8d804a542a04eb594e3636955b2ef"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260512000000_init.sql",
+      "sha256": "b0769e147c8300f56f65cd0e2ddb5bc1ae4d0d8c4fa5027a2ddc7213b64eea94"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260513000000_indexer_state.sql",
+      "sha256": "d183f351be4f2504d56257960ce8850d909c95f6fd082f8b8a8ecef29397123e"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260513120000_dedupe_actions.sql",
+      "sha256": "3bb3e98e4c9789455d1277e559320506e33f0b2a540f3fc3074c5296c63f3b2a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260514000000_claimed_params.sql",
+      "sha256": "c99a4b9719669f6e40eeeb63beef368c9cf7fa2a3be1b3537bdab3d2d4c4e736"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260515000000_classification_columns.sql",
+      "sha256": "56e5b32f89dc705800febc98e35eac4f64bd1d285678f17f2ac2435fb43707e9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260524000000_continuation_action_dedupe.sql",
+      "sha256": "33b5320bd4c50539e8238b64caa3deddf98562037a07d1f599866225ba00b5ec"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260602000000_kcc20_market_summaries.sql",
+      "sha256": "b95361e3c4edf593011ae1aeade7c4a9fa57bca1bfe7c2acdf38164b49e0b486"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603000000_kcc20_market_summary_windows.sql",
+      "sha256": "953a38135d037305994b2d18184d5a139a350c2fb90826de0dd5fe9c063d3b17"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603120000_api_payment_state.sql",
+      "sha256": "0f57a7d8db0ea4a4a2bce4a0b4a07f439e32467ec2c15e7f9feccebc8020813e"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603140000_api_direct_payment_proofs.sql",
+      "sha256": "1c7746af90967dc93502985605199a179c80805d1627d5141884be464dbe117d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603150000_api_payment_settlement_authorizations.sql",
+      "sha256": "6b5551931c90c41f685d34d3eb510f4044fc600f3f3ef3efd9eabcb63e16a232"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603170000_api_payment_channel_indexed_projection.sql",
+      "sha256": "130b3fe2798954d5d3d513498b9961d8e7772b7d643696d39c2766d733d5fd28"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603181000_api_payment_receipt_lookup.sql",
+      "sha256": "a5456dbd98b20c650e73ad490c74c19761ab40bc3a86fc6e27df3f0582be8123"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603182000_api_payment_settlement_candidates.sql",
+      "sha256": "16ca591d76003a71ad7b6a4bdaec131f38ea1bf75f6569be47f18a26054b0b86"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603183000_api_payment_pricing_seed.sql",
+      "sha256": "05a7f839b2499595075b7748ce9188ffbb2245508ab98e4293e058a24cf7de07"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603193000_api_payment_settlement_artifacts.sql",
+      "sha256": "8e04fc1373732fcc74d59c9b7e5bc5af6f0df3538aaced9a0e5eab216daaf768"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603200000_api_payment_settlement_artifact_json.sql",
+      "sha256": "aa4ed9411c6aa75d7c434e93583f2b992c8c4af29a7efbb980090d7fb412b964"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603201000_api_payment_pricing_active_index.sql",
+      "sha256": "f4f3776b752c6b0dfa2a2f63f316b529a33e8c0a19c793162cd3012e38efc869"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260603214000_api_payment_opening_reconcile_index.sql",
+      "sha256": "2ce7bf702cbcfcc44a3597a10d87b3ea63271b98a87e60d082e773786ea92f5f"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260604120000_health_latest_action_index.sql",
+      "sha256": "177cdf29a39addd9f6a1369bf61a73b47624c95a5352eb3850c15e81eebbeb7f"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260605114000_api_payment_channel_close_requests.sql",
+      "sha256": "6f4edc1f336484b179ce5e15452335d96e983197f88d92088f604ba32b5504b5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260607110000_api_payment_channel_id_update_cascade.sql",
+      "sha256": "f9b3e9bf59d2fa7097c334656c5f3ec25edf39b27e2bdb1a310815567c6d1018"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260607120000_api_payment_proof_pricing_route.sql",
+      "sha256": "bc1a69dd3c79c27e37897abb812266a192b7c0e4efb918acf1d13a8df0acfa41"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260607144500_api_payment_proof_price_floor.sql",
+      "sha256": "27ae2e98bd31f3d93e4141b1dcdb63f36922e9d5a3e69dc1687c2da675284a6d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260609150000_api_payment_body_echo_pricing_route.sql",
+      "sha256": "bd64f6ab0fedbca817e4bf4664a03db189ea4ae938a2a21b3186a0adc32109b5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260614120000_api_payment_channel_continuation.sql",
+      "sha256": "a474843767e27345fa80cadbdd2fd7fbe63517066541b1ca1eb2199e1fd4ed75"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260614150000_api_payment_channel_close_after.sql",
+      "sha256": "15530f637ae20c60012dce06081a10cd3f7d89ea8c4359805504c4f6c8f3a381"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260616000000_kcc20_owner_order_indexes.sql",
+      "sha256": "15ac4faa7cb9069e6065a704d73578f2c59d503cbc278cf959b6f81371b94082"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260618132000_active_script_pubkey_index.sql",
+      "sha256": "f99453d81ff2d253bc20b2e437701fbf1892c9a03675466730d4111478afcdd9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260624170000_covenant_actions_canonical_token_id.sql",
+      "sha256": "c665ae16393af01ad94951705eb219f1c3db197c84a54e9cf0b12b0b9a270684"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260630100000_kcc20_token_page_projections.sql",
+      "sha256": "dff81309b69f1d213ccc66b8c9b08ef870577b621cd3014b59079bd76fb5e3c5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260702113000_covenant_utxos_active_status_index.sql",
+      "sha256": "704524c68cc30378a5a1a0fd5bfc715d4faaf9a0ea8ea43410e52881432cc3dc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260702190000_drop_covenant_utxos_active_status_index.sql",
+      "sha256": "fd2fcfde585d4b1717e4a1fb39a8d92ace935134c96a323ab0fd59d7803f68ed"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260702190100_create_covenant_utxos_active_status_index.sql",
+      "sha256": "0e29b9307cef77ecaa057b80d793a6dd877545c15e0d692cf8f776a739682313"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260702190200_analyze_covenant_utxos.sql",
+      "sha256": "d831ff0b2b7a7d5db47959391af3ea6c46b07b556da9a77e6d8e9d7ce412a80e"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260702193000_kcc20_activity_feed_kind_lookup_index.sql",
+      "sha256": "c526c25ec5095d81d01a8c13a8f3395e51c083c36775f9508cb9b863896ecaaa"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260702203000_kcc20_holders_minter_primary_key.sql",
+      "sha256": "367e726970ee204965967c3b3ad0c752f24af611c1c04aeedf5ca66967f70e48"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260703113000_rebuild_kcc20_spendable_holders.sql",
+      "sha256": "f0df40bdcac16582a039aabb6337d5589af56f439237b8f29bada031cb7b941b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260705090000_covenant_summaries.sql",
+      "sha256": "5924e2c4dc616a30e030b8136d3bea374600c3015391e6fb6a3da3c6b9ffd9d0"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260705140000_explorer_template_summaries.sql",
+      "sha256": "1af00040e9db62521a1a4e236a7fcdfabbcc6f6c5acc0d582e11d8198d28f0b4"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260705180000_covenant_action_summaries.sql",
+      "sha256": "ae8f2ba766ca76f66c890114791ec88d972f5b02c1e3e02c73b9283ff734393b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260705181000_kcc20_activity_feed_latest_index.sql",
+      "sha256": "4fa9085331ff5109f4f78bb34a992e612abbfb2789e93936aeb2b2ce12f270a7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260706120000_tune_writer_hot_tables_autovacuum.sql",
+      "sha256": "bbcf04b30b8ec729119832a87e4a97b2fbca422fa854f00586d60e507695a45b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707101000_address_events_indexes.sql",
+      "sha256": "2d9d5e55dcb766d69e1da9eaea54c7d44e444c1f9e2b1cc2642710d77b7bf6c4"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707104000_search_events_indexes.sql",
+      "sha256": "bb86dd89fe38cb07dd4acacc19ea8fe5a2b95fd161cc234c6e4c00ff61afbc46"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707110500_address_events_index_statement_timeout.sql",
+      "sha256": "95110272e7efe675c8be391acd0d37e138a992af951a9ae269f65a37712bf5b8"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707110600_drop_invalid_address_events_output_index.sql",
+      "sha256": "2a0a5e4f899f394a6f2f2982f98908411716e80150fb93a4011dfc9cbfbf7b79"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707110700_recreate_address_events_output_index.sql",
+      "sha256": "0f0deef9556163aaf31583025f7e272d04450b56eca96832e63db77ca5e9b28b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707110800_analyze_covenant_actions_after_address_index.sql",
+      "sha256": "408280a7c343e31a3af1611f91c931c6ab2181a4758503951e3a9db68744f5fc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707110900_reset_address_events_index_statement_timeout.sql",
+      "sha256": "a53ac52072a91ff19097186268ecbd98312638ec6ea585f099b5015a7492b7dd"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707134000_kcc20_projection_dirty_watermark.sql",
+      "sha256": "a8ca10c549a1e42428bbbaa720f76f96b7f5547f11de2c33869c714c63ba69d8"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260707223000_covenant_participants_projection.sql",
+      "sha256": "7de0d2fcf6479caa67f014a647b45c6b7eff1b4960827a03b8409e3ed46cfb2c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260709150000_covenant_actions_spend_outpoint_dedupe.sql",
+      "sha256": "3d44c23c076efb7f514833c4f6051481984e7286c959f0b690949aa525cb2968"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260716213000_kcc20_wrap_activity_dedupe.sql",
+      "sha256": "3f041a2fe0b7fd1e257b90ce35b51de4ccf5966705871cc80281162bda0db766"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260716223000_kcc20_paired_bid_trade_dedupe.sql",
+      "sha256": "25d163ece1e3175fd726a7713eea525a96c7e1574de43b13713ba73bf3e3ab77"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260717090000_kcc20_wrapper_lifecycle_activity_hardening.sql",
+      "sha256": "49c1533a3e18b4c08efd22e1d456a937f77b1b2996733a289377f1f6625cdca3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260717103000_kcc20_activity_owner_identifier_type.sql",
+      "sha256": "d5db4bfb2fe26c17294f7cba65e876fc6df863d58c18e0223e00183dc3fa5559"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260720100000_kcc20_wrapper_lifecycle_amount_backfill.sql",
+      "sha256": "322f191da9fcc2d1806cb195638e8679d5640124d94b9318bd981a04e8f9450a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260723100000_covenant_participant_address_arrays.sql",
+      "sha256": "5f1f734a59907386b872e9a71dcc4f95cb65845444c3e173162f5d33af7e00f7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260723120000_template_summary_template_move_delta.sql",
+      "sha256": "3608112a0d300a9ae291c2ec7aa4abceccac1de13604ea189b0adc896c2514ce"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260726120000_kcc20_bid_trade_activity_seller_owner_backfill.sql",
+      "sha256": "c1830fc3be68be91b92062839db39ceec9ec0d65e900b1736c39eae9e931f1f3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260728150000_covenant_actions_covenant_time_id_index.sql",
+      "sha256": "145633e57e38a9e394dd8acec8b719275e75db0b2dfd5b9c4933e9eae21b9a77"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260728150100_covenant_utxos_active_covenant_amount_index.sql",
+      "sha256": "2902f490a69ba8c8ab812f0d290d9ce670f236c610e08a65b8f896590a867022"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260728150200_analyze_covenant_page_indexes.sql",
+      "sha256": "2a33d5a07933b57e8a888c7f062daaa4cdb533580463ef32a828a19b73cdbb84"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260730070000_covenant_utxos_active_address_page_index.sql",
+      "sha256": "42de022250b93203c2f17ec86d8c5c8ca9357692b2a6c5e3fa93e173c40a5860"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260731120000_kcc20_owner_portfolio_assets.sql",
+      "sha256": "8373cca555b8016c2e2aa672ac8f65ebd6b7d9c773e344eeec8d7e0efe3a4b42"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260731120100_covenants_genesis_txid_index.sql",
+      "sha256": "e36b3d22ecea9b7aa19c6308954b2c510014875bcf756da94260f0463e2cb260"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260804100000_kcc20_activity_feed_request_indexes.sql",
+      "sha256": "f7e00839d8926e020fe0327319f4ffa202c11d09ed7663c5da0a66ae074b16ab"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260804120000_kcc20_cross_match_trade_dedupe.sql",
+      "sha256": "2300cc46be3f569834fa7e2d3951044b12d6f7d771343291f2d9ebe0d9f52667"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260809120000_kcc20_activity_feed_dirty_txid_backfill.sql",
+      "sha256": "cb45c775cc49c48d7824ec3513307f1bc798f3eb59c6e5d58d36bd299ec1ff51"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260809133000_kcc20_activity_feed_missing_trade_txids.sql",
+      "sha256": "bdcb5b0f31c05a44c8c6d1f4b247085507149839a0afe5b1f88c4c0d0bf4cbd4"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260818140000_covenant_actions_covenant_id_id_index.sql",
+      "sha256": "dedfcaa244f697eb5704cd97d064d79182ce55c94d543ec138d86ac7ebff8206"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260819120000_kcc20_public_mint_availability.sql",
+      "sha256": "b766215dc6b5fa5f484dead128e978e7ac5735890ca6fe214b3db6e7346c5eaa"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260822190000_kcc20_standard_native_cutover.sql",
+      "sha256": "501ec90418a848e03f36ac309ab0c07656db223d8a219f34108a4d2824b41112"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260823140000_kcc20_role_based_projection_names.sql",
+      "sha256": "e96a42d8478c6e7a52cca520ff1764500912bba59b04d0902b81c05599a16e0c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260823153000_kcc20_fee_ticket_indexed_arg_backfill.sql",
+      "sha256": "32bb92623edb32552ec437512fc04125496ea62e87f57da876856ec3fca71eeb"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260823161000_kcc20_fee_ticket_multi_transfer_owner_backfill.sql",
+      "sha256": "b2ce127e1df5916c4c84c7babf8a56883ce9ba7f0e569540dbf931081a280b94"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260824120000_kcc20_projection_dirty_performance.sql",
+      "sha256": "6d29f8e853606034fe83a295e84b639e441189922a9a5c2a4bde4cfa8f03e627"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260828110000_incremental_covenant_summaries.sql",
+      "sha256": "8b32cbd91df2fe6680dc0979b6c1d2e253801982fd434c11f7b77acc9269137c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260828160000_incremental_covenant_action_summaries.sql",
+      "sha256": "c1a18889ca683760ae23726bdf922d5b35ad837808e54ea5bf802d81b57712e0"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260829223000_covenant_actions_revert_block_index.sql",
+      "sha256": "54c47c903d88f2159f7254235f5ec1655bb35443bac30a0f8976c5f1eca0ae89"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260829223100_covenant_utxos_spent_block_index.sql",
+      "sha256": "71c5635dfe051c227f00a90b0aa16aee7a045678d94766dd5b6f1ee92c0fa198"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260829223200_covenant_utxos_created_block_index.sql",
+      "sha256": "5ec768299f5b2ac57579096b15f14b91b62dcb24db85690e50f5e98b09ff9035"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260829223300_covenants_genesis_block_index.sql",
+      "sha256": "1b4083c41c8bed83c550340aaeea676232bcf42bfb68eb535195dfc632ae21a7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260830105000_incremental_template_action_reorg_summaries.sql",
+      "sha256": "bac1c6fc995ec426b4af1c398c77820b04d49f1c4959995527701ca38e713ffc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260830105100_reconcile_template_summaries_from_compact_state.sql",
+      "sha256": "86e50993d7d44260646159da090228b33b20b16b4570b66d86421cd80276efc3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260830120000_tip_follower_windows.sql",
+      "sha256": "372d1ab25436f4137017259bc03d058a7dff38c2a19062d7ad9e5cef6b2ccda3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260830130000_recover_legacy_activity_reverts.sql",
+      "sha256": "501fcdae1168ef2bda3a88b361356eb36068d318aa36d5a785f451fa6bde0885"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260830131000_covenant_utxos_kcc20_active_mint_policy_index.sql",
+      "sha256": "ab64d804907db6cde66672a2e582c772911f38b7c38c77d3a1e55d531df0fbd2"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260830132000_template_summary_latest_action_index_order.sql",
+      "sha256": "a179b5cc9593e8904a91cb23c1c56db41d451958de9244d9640bd29caec3a6bd"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260831190000_kcc20_owner_orders_projection.sql",
+      "sha256": "026e112c42c8923788d07f5669a1bf8e49322eb60c1303dbb610d3c41b6de204"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260911140000_kcc20_snapshot_claim_projection.sql",
+      "sha256": "08c13371d11aff40f0e7807773a1c13b1dd5f6f1e0f471c0d26aa9021efbc168"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260911150000_snapshot_claim_history_revision.sql",
+      "sha256": "c7cbd5d6668244fcd849be38d6ef5d59dc0b08af7ebc58bd016240eefe5a38f4"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260927150000_covenants_script_hash_index.sql",
+      "sha256": "cf92ee68d180dcabc06ba6fabb2a38130b45c7b2944a0bb7fc4eabb1ce998117"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260929010000_bound_covenant_summary_latest_lookup.sql",
+      "sha256": "aeb77c27e03618c8682b2a2b879fd286e99401295892099d32f21a710b7760b2"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260929090000_canonical_block_replacements.sql",
+      "sha256": "67143e68b8bc09125472ac06c11a5920678047fbbb79611a2b0b20f8a4627057"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260929180000_batch_action_timestamp_summary_repairs.sql",
+      "sha256": "d4bff4c4f5e4e7fb8cd87fabdbcaa42012959d8c6a7e95d9d0bcabf0f7dc2db4"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260929200000_same_score_acceptance_summary.sql",
+      "sha256": "24126d1cc34c317f7efff3c897fe70092a2010cf150c3320c385a33def4bac62"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260929210000_managed_action_index_retirement.sql",
+      "sha256": "f25d221371bef482fc2c8547c762e32c4c727c258078c95faaa0fe7da758ccee"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260930093000_historical_acceptance_maps.sql",
+      "sha256": "b0f841f109e935d9781204cb06f8fa0ecda27f36ff823c8363edbc5a89749c2c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260930131000_nonlatest_acceptance_summary.sql",
+      "sha256": "d969e731b69b35724ceb2b253430e01b043c3654f3eaa16d8b884f6ded615a2f"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260930150000_batch_action_timestamp_summaries.sql",
+      "sha256": "ff67fe654d1416a9e0400448d5d914aea4d0dd2c15374930ef77f03eefcba5b9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260930153000_utxo_update_page_reserve.sql",
+      "sha256": "2c3fd92c702765f698c67e8a8c4145c58d5b1bbd3a923851e918ce1fde541e8a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20260930172000_historical_evidence_compression.sql",
+      "sha256": "e40685f05e88c58f6699a72bd0084ce56ce1eaed7fe3ec3105421f2d437025ad"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261002123000_deferred_acceptance_summary_refresh.sql",
+      "sha256": "32f7ce555e77e3946e4360b80a1fb23c49092beac7135f2e8793a92ad8204330"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261002151000_batch_action_insert_summaries.sql",
+      "sha256": "5ffaaf01b43e3ea3ee8b6afdc3e7c5c40cd07fa7a78cee2f87e43d62a50733f3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261011120000_scope_snapshot_claim_covenant_revision.sql",
+      "sha256": "9e6b7f33f72f06586222025143c97abc4f7a2a6fb00c0b38082a6c6fd2092294"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261011180000_durable_wrpc_inbox.sql",
+      "sha256": "e6804425337e53b3811518cac8e221001e2abae40fbb76ed2ea124d653f3247c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261011200000_wrpc_replay_tail.sql",
+      "sha256": "02a9f2667c3f304ee90d47a819473d2f3a2e9e693a87309ed73dc981f11e6c3e"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261011210000_wrpc_consumer_fence.sql",
+      "sha256": "420add31f60823bae3f2f0ddf0b8e449c9e0a5a6578de1cc41efd070c70a8da6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261011220000_wrpc_frame_bound.sql",
+      "sha256": "c37391fccf83f394f28ae28127488ef7831c28ec6289505b834e0f1edeec3675"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261011230000_deferred_reorg_utxo_summaries.sql",
+      "sha256": "802a465f88bd6b974fd3b3cef3d06e01f945e936e767c14191265709ded77a9a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261012010000_bulk_utxo_summary_deltas.sql",
+      "sha256": "c4693c28d2777c5e18636546e6f9b4c9d67c9e548791399127537613fb4ac5f3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261012020000_durable_wrpc_effects.sql",
+      "sha256": "e5dc1b61c0497fdfe46f7cc04a5a95690a66afe4685aeaec8761a0ec03a7e157"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261012170000_wrpc_recovery_snapshots.sql",
+      "sha256": "f5c25f842431ec707d3a526a644b3c80d2ddc8763044a0abada6bee73447a575"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261017170000_resumable_genesis.sql",
+      "sha256": "c6d9fec3f9f9ddf8fdc27cfd824fb212eeb57ffa40984d4b6127e9f7a2c4fdfc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261018210000_indexer_state_created_at.sql",
+      "sha256": "f36ee7e3ba09eaeec12a2b2837b989cfb66226727129d6fd1be362e4a7ea9d89"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261022120000_identity_reconciliation.sql",
+      "sha256": "0240dab1b3359c829eae3be1f01b9e878ec3cdab7a56316f6bd89c7add120461"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261026120000_kcc20_owner_action_history.sql",
+      "sha256": "b268c236174fa03659f066643028dc9f8bb04c9f979a9f34d4f1b49690eb08bc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261102214500_fee_market_holder_authority.sql",
+      "sha256": "9215ebb31a1291fa9f5c23f6a497767b717b881152036515c8a33dba1bb4bcef"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261102223900_fee_market_identity_index.sql",
+      "sha256": "2b5062cabb4a10b57985d119f336fa5eac01adc6e08e2bc4520745f62e113490"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261102224000_fee_market_portfolio_identity.sql",
+      "sha256": "1a76c458218f3ee8ed8c097713920773bf6066910aba307737e154e570409aec"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261102225900_fee_trade_execution_index.sql",
+      "sha256": "19e7fb9c9ac920301a2fc4c7e773371aeba9272ff5ec485b77845ffe0aa88ad6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261102230000_fee_trade_executions.sql",
+      "sha256": "a4f31a3e770cdc4dca80f2502329c8c41ccd98f208461c2bb93409e801b1f0f7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261102233000_fee_owner_trades.sql",
+      "sha256": "0b76ae8d08ca756fa2b332fad4fc150744f1ae319533cf86aefef86307d5c17d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261103090000_deferred_decoding.sql",
+      "sha256": "aaea5081c78bdb511bfea1bba4a18d5bf69482b7ae1103ed8df520299b054586"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261107180000_paged_live_recovery.sql",
+      "sha256": "8a7c6e2a2ab9327aa16a79fb299454e5cd84aa33eb21df72bf8d34f479f0e794"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261109120000_deploy_action_output_identity.sql",
+      "sha256": "806ceb8a610b9a52864b61b38cf831148cd1689ec88e7bc6090d55be98849ffa"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261109120001_retire_deploy_action_transaction_identity.sql",
+      "sha256": "1c2dd7b39c69d1c982b8e578e88ef5be9b15b1810f15f08a00bf20b6b63ba6c2"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261109120002_repair_snapshot_genesis_deploy_outputs.sql",
+      "sha256": "a28b3033c6222e14502b9fd90cbb8bcaf29d2fafc5c1c42c6a10904d118476f0"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261111010000_chunked_recovery_impacts.sql",
+      "sha256": "fbd46e35ace51edffaab65ca767cfeb0e636ad23005168ce8d7e3c9251c42d4e"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261111100000_kcc20_owner_order_candidate_index.sql",
+      "sha256": "161311ebfb4176a9fcc6313f360b66deee9981b529d90ff48d201b0475a8f5b8"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261111100100_create_kcc20_owner_order_candidate_index.sql",
+      "sha256": "1651a50eb4aa4db21c3501915f83dd9d33e8726f34649c3a492a87911fabf2fe"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261111100200_kcc20_fee_order_candidate_index.sql",
+      "sha256": "eb08d2d3b77cd4b208aead1f6d996b676b2457d2e0ae6f380b7a0d29152a8458"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261112010000_kcc20_public_fee_order_index.sql",
+      "sha256": "97b3d2cc1b0bef33b5cfd9e9dac40cf406fe2cb89d3ea91d204b74a2cf474fd9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114010000_active_output_order.sql",
+      "sha256": "1630765d4de7d83fe88c7117148f1d3bdfe56876cdacd7833b1de18b2a9aaea2"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114020000_recovery_step_progress.sql",
+      "sha256": "6d31c6d341d244b5c894e716350f232d4f2f636af07221c73a0169c23028bb2f"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114030000_recovery_summary_pages.sql",
+      "sha256": "4d5d3a62b9d14cd54db50f5e01d66eb649f8ef59964cfe6140a40510c2356a08"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114040000_recovery_progress_observations.sql",
+      "sha256": "16f8bfa6ececf9d32317051a347c90f3a416fa1fc586db17430208517adced8a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114050000_direct_sync_queue.sql",
+      "sha256": "5decfdf7e6b28858477508a664f923b2d5e9734f82726c88fd2ecf176b64bd11"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114060000_recovery_replay_ready.sql",
+      "sha256": "d39dd1ec4b0beb0c067eaafa89af66b879d7e9b14188f8d5079cabf573e0e201"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114070000_active_output_backfill_index.sql",
+      "sha256": "9b0c627c78b0869cd3b590ccd082227153d7af9488711f80d487d17370a92603"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114070100_active_only_output_backfill.sql",
+      "sha256": "8c9a83adcb91a440d18917ea8cd1ef8501a46dd2ed9eeee4f0b55aa383a434c8"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261114080000_recovery_intent_digest.sql",
+      "sha256": "8bebdb7af2c9e8bd07062a112d2cedf8d25a0cae831cbe1ad832c4658f6af7de"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261115170000_deferred_history_windows.sql",
+      "sha256": "4043763fd1b90302319e7cbd0c4560c0e3935431fee8d3a067ff1925af2309ec"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261117120000_snapshot_claim_history_commitments.sql",
+      "sha256": "fefceab36fd57a64afaeee3e6c4184cb7a13b7b4837cb95efbd690b0e56e3426"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261122000000_rest_replay_removal_fence.sql",
+      "sha256": "75f341bd0eea0105ccd95bc7d747d4bbd246e1c93be7adc1b03ec24de6cb4738"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261122120000_activity_event_identity.sql",
+      "sha256": "5cf789d04563b927719ed05710273d8410b6f69ed657c07b5af074a1ce3eb26a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/migrations/20261125000000_deferred_decode_retry.sql",
+      "sha256": "eea7be3e5719c0c609b004e6e804db3106883a0de5e5181b040b382177d97d69"
+    },
+    {
+      "path": "crates/tn12-indexer-db/shadow-migrations/001_coordination.sql",
+      "sha256": "3ebe86aec4f06ea985af92c6ad6d7f666073a13701efb211e10c2a35eec7e55a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/api_payments.rs",
+      "sha256": "94bb8fb418fc12a6ce2b25a3e4e6b2803367bfbe375cd6d67cb32aad78ffac5a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/claim.rs",
+      "sha256": "3b3b59a59fb57c2ab1f7f49687bce3c4df34662019dce170600fa7cd3e6180ac"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/deferred_decode.rs",
+      "sha256": "213e4554c7392ca338f40fc7ddec9c444afb17459f85cdf292f6c5ef6d73188c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/lib.rs",
+      "sha256": "f612efdef43d05c85eb5877e20077774569182209b57c59758353dd677602dbd"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist.rs",
+      "sha256": "6bf307a41dcaf5e207450bb9034d886bfced27c58095ffeff170aa91b3fcda43"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance.rs",
+      "sha256": "f563f74add0008411826577fa1e4204830196487e81597576276b54d45da8005"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_cohort.rs",
+      "sha256": "a9d8eec671c2e7602896b50d5d252efe48fc24a5210dcbbd09eace93721986fe"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_cohort_guard.sql",
+      "sha256": "d812dc19b2481152f4e1b45f1dfbd73f594f80658eba4cb71cec9895cf7788e8"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_cohort_tests.rs",
+      "sha256": "95afdc14e189dd8b8de44864b21664240d5bfcb63b7999337d7925bf31174392"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_map.rs",
+      "sha256": "6ca5668665dfd103959cf19104ef533bd898d9bc189ec5b21018edb26d2959f2"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_map_apply.rs",
+      "sha256": "38e7127eeea5cc5935ea884a041750fe5366e01d5fe8335c88dd9b52e835eb19"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_map_lifecycle.rs",
+      "sha256": "0a9bb79a29dd24111eca2a97d4e38b909df76bda540fae6967797acd5ce3bb5a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_map_proof.rs",
+      "sha256": "9a34bd6567d504dfa9b19fea2b76378a839ba2b6f27784211223939b898f1180"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_map_state.rs",
+      "sha256": "bc671413182bc4d6393728e28b03b25d381afdcc729872007ffb0dd022ed5421"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_transition_after_cohort.sql",
+      "sha256": "b2b0b6e884cf85490a8270845d9a4e4223f1b044f41ed85584863e6e6aebb0f7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_transition_batch.rs",
+      "sha256": "cae868bc74d7a8d3d84fb6eed61815101669ff597466362eb78509719ef1d4e5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_transition_before_cohort.sql",
+      "sha256": "fa5b507788512b80eeb4ea8af6434baf7fc5f6361462935bee1a17e9484856aa"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_transition_reference.rs",
+      "sha256": "2c8e3bd484c0837f3907f3adfe79721983d588008cae5f17059b637ccce1364a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_transition_stage.sql",
+      "sha256": "e971d2dc01ab790917f269af0febaa8eb24701cc44af65a45be575da51929639"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/acceptance_transition_tests.rs",
+      "sha256": "95b511fc2a6393a01f933bfcdc86a426ce54a02e3a456b84c6844e9377d94123"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/chunked_recovery.rs",
+      "sha256": "a487430f2807a82ee69cd5df75dce5c820fe6fa72928399168b27d52a8f11434"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/consumer_fence.rs",
+      "sha256": "ea532ff290fb83b76eadb7f6895656e97532c55147bef24c8006f372bb328d3e"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/deferred_decode.rs",
+      "sha256": "bd30c324c7547b071fb26802bb1e48b8b3e9ad7b45e7bcc6d25622df59183b81"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/deferred_decode_tests.rs",
+      "sha256": "1c83cc1b338036fb268afe6e5974eab1253c0410a906d0a51f7e2566bcb14540"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/fee_trades.rs",
+      "sha256": "bb1ed9675906cb1c3ad35bb65e619f43390c013cea5f050e41fab294c5a63885"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/finalize_bulk_summary_deltas.sql",
+      "sha256": "6cbd1291db5812e45de5cf4b501d4a1baa269c32fbd3d83784c060c941ec25e6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/finalize_reorg_summaries.sql",
+      "sha256": "6c9e9c8bd4e7b18872d12c926340652048682565e0d4a700529986fb017a4ea1"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/finalize_reorg_summary_deltas.sql",
+      "sha256": "ee63ac8f7c8f638c326bd61e0548b8f08460ac0c2b0e1566c7e106b3c773bd9d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/generic_budget_progress_tests.rs",
+      "sha256": "c6112b4393b15cfbe09e6e5a75244e45465a30eaa07f399e4ff8488632dbd846"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/generic_bulk.rs",
+      "sha256": "993f576260269d4bd7c9a6ae43c35c7e2aedd1801cbc0b84bd522aaec3b9a9b9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/generic_probe.rs",
+      "sha256": "a7d6f27ead335c2375fd38562d966699deefed9cdb211f325f7f19f5c5a1d102"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/generic_probe_sql_tests.rs",
+      "sha256": "3d329d68d3756c8ec30d7df564d88bd98adca84571cb07714c7a8e9aa5e9f7d0"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/generic_probe_tests.rs",
+      "sha256": "22c98e29241e6d019c79be342c7bdf68c9cb65b34bdc6ae8ba55e9ce422aeff7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/genesis.rs",
+      "sha256": "45f5585da68e141d7530046a569c8db130f96604a22469ccc80381fb362ad2e0"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/genesis/unverified.rs",
+      "sha256": "ffe3293ce25456137042db5a0c6f8e444fa6693360d6cb2decf8d36d0318e879"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/genesis/unverified_tests.rs",
+      "sha256": "c152e685065a6a31f133d15aa856f1ba28f74b74bc1b1a89e2f3963521a9178d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/genesis_pending_tests.rs",
+      "sha256": "ef21bd31ed10cadffae1081dd953348c8bc7957735f0a45c989cc8b070c6867d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/identity.rs",
+      "sha256": "d9e029a8226b44179b9fa6ea8178b2874b64548e41791e305cbc6528951b7486"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/live_pressure.rs",
+      "sha256": "ea2ae4a505d2672d1036874f9bcef6cdf88444f6a3e0550d078fc2d7f57475e6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/native_genesis_tests.rs",
+      "sha256": "a431ed9147b0363d8a38cc8dce100e02eb801da6203dec57aafed285413462ba"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/paged_recovery.rs",
+      "sha256": "cb3a55c72d85ec71f87b27635dd3b7016bc692356444e80b7698a80215807835"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/paged_recovery_tests.rs",
+      "sha256": "99f2951760003154eb24dc11516d256cbc815e8fd233afb7f767e8673d6ba353"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/read_prefetch.rs",
+      "sha256": "24b44feaed57cf9b6206ceae1ef55a461e85290616be7c978fded54c1fc527cf"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/recovery_impact.rs",
+      "sha256": "11a3a9903973a8883a1630eb05344e2140d09ed8f2284a79edaf6cd68217f130"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/recovery_impact_tests.rs",
+      "sha256": "d1caa6085c42a248e79b3a6174eb7cd5d309a650a4bb6514acd5dac959a6f91a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/recovery_missing_summary.sql",
+      "sha256": "893ebfae5ac92a85bcffb16b67811cb78a787af5009cebb1b8c686b1b7ab25df"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/recovery_removal_steps.rs",
+      "sha256": "91c9eb6e6362d4f4bd10a8b1d07b11f36cfba41523ca4c48b0463c8423539ab4"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/recovery_session.rs",
+      "sha256": "e7df8e3fe01546829b197dec787dbb88c8e794cc36de260387414d48ccf2b07c"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/recovery_summary_pages.rs",
+      "sha256": "012917b2607665627ea65ca4e014d34e4a5c01410f4a441f33dd52ac8761f9fa"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/replay_genesis_tests.rs",
+      "sha256": "3ef9b07c5c135f4ef057f638a95e20e88b3628cd75226fe4cf4c971c945deb73"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/replay_ready_tests.rs",
+      "sha256": "56285fb108382aa515d5481911badd8b3f35ca9d4dfde628973aa2b8c14fd202"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/rest_replay_fence.rs",
+      "sha256": "69e2fb9a499e316d5c712906a54ea270237f45d419601fd7fea8e4e902c4d773"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/settled_fence.rs",
+      "sha256": "232a32a55bf97082366d52dd11a346ac41b514f509abc41eac9c5679d39e80c6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/persist/shadow.rs",
+      "sha256": "cab80a73ba8eb968791f614c3cd5e43c67efdb3c785fcb496999d7cb78518d83"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/queries/kcc20_token_summaries.sql",
+      "sha256": "9c26cc21829c1a6f532906c3966cd210a186d55191813f21be76c4e6789c9eed"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/repo.rs",
+      "sha256": "6663317035b10ee2d08d469f35d06d0704ba06b66cb05a0a4d5745b87945d14b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/repo/activity_identity_tests.rs",
+      "sha256": "4d93215bdafb76ce6663b9b1ca8aeed071c51ec7b89862c71a5666248f79da84"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/repo/kcc20_bids.sql",
+      "sha256": "52381dcdf6b4d20ae75b8c9045b18183f822762b365c2cf312cb5e13b786fef1"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/repo/kcc20_listings.sql",
+      "sha256": "a655d3bef146862db2816e9dd92bb2f3096007f1abe2e20f6eca0d45ca76db92"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/repo/kcc20_portfolio_assets.sql",
+      "sha256": "cf3a8c8d0ac93429a9c5eeaccd2365a58eb5ce5f6f8472d833ea2b40a20056d7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/src/shadow.rs",
+      "sha256": "5801e2aaa10b4563d69f985f0060f72c112836d5f5a9fe5756d747affd58df50"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/acceptance.rs",
+      "sha256": "c14f561917ddc0c89600f1bad54a1015835d63ec812d26f973a54e4d7dd53de6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/acceptance_summary.rs",
+      "sha256": "59b5490f1c23c296791d1f0cdc29200bf56aaf4cd80f64c54ccdeba16afcfade"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/action_index_retirement.rs",
+      "sha256": "16ce08e8554024e17c81e54e5d532b80945ffa8a28eaeb229be96034a39116a6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/action_prefix_retirement.rs",
+      "sha256": "60c74f0c6d1798206efbef64ca273477dc2623bf25288626e2a87fc1c0eee677"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/action_timestamp_batch.rs",
+      "sha256": "09525ba5c77b6dfb2725728055d1f0a102b0ddbd2e36a6c5b5ebd44164c0c773"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/active_output_order.rs",
+      "sha256": "ab4357e277136cc71ee977cb0dc24a15a0c70f4d3b44966a114f938afe6d8f62"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/api_payments.rs",
+      "sha256": "dba2748ccb81c46502fa5730682b9ca3ac3a3b1b2bd031f9e3bd43c033640ed3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/bulk_summary_deltas.rs",
+      "sha256": "a0a45c3dc7a051e9b858d8c601fea4c43df63f7fe61089b77cbf188bc914468b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/conflicting_input_spends.rs",
+      "sha256": "8db2c51cd276399f195bf5550d6a34279554e1ba3390463ba27bfd22ac8ebcd5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/consolidation.rs",
+      "sha256": "ee98d4ab7f4800fe425cc8bd35cbc0df2cb1fffef87d063598fec4e21fccbe78"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/deploy_output_action_identity.rs",
+      "sha256": "a2072b0a2db431ed57e5cb6e838f9b9c2a50ed3802fdefcb416e44ed9c102250"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fee_market_discovery.rs",
+      "sha256": "89e94f4c48d7b17092151e76473224ca12dade4f450f4f3faff6efc94b733d82"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fee_receipts.rs",
+      "sha256": "5b4f4610542344a400e38297a930c3ab42c62f98a7ee38522516d926a2bfb1e5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/fee-wrapper-argent-v2-active.json",
+      "sha256": "d30b7093359867d41510efa34db5f61e7e8c675170120d353cfc67b4680b4fa9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/fee-wrapper-native-v2-ghoad-active.json",
+      "sha256": "4c7fbf6504a6ee1b25558891c3f30a037e0177492ee6cd1f0ebcf42fac693dbc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/generic-writer-budget-delays.sql",
+      "sha256": "f8857dead0eab329679f99b5d8ee3642658380306c1f6f4f6a650c9503caf491"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/kcom-vesting/accepted-parents.json",
+      "sha256": "9a97c6288267e102f175784798d643085f0343ebc9a5b27725ee0eb1ebebbd9b"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/kcom-vesting/alice-long.json",
+      "sha256": "80b871f05835c8a766b45901b343408ba6368b78e9e1c305e1cf5ea1cc27b400"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/kcom-vesting/alice-medium.json",
+      "sha256": "9c84015287ecafa46c22a3675b9a9a73defd87c8ead6563ccbd1eb035c61eb9a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/kcom-vesting/alice-short.json",
+      "sha256": "fd9fc7e8002eb353f2936aea1d6a9d6cd24cf841e0b937f6feb9c0c7041d0edb"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/snapshot-start-tn10/README.md",
+      "sha256": "6f196ce9408be58d85c66d094202364c7762c326f3c9e0d0700aa1bdf7150203"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/snapshot-start-tn10/parent-0.json",
+      "sha256": "41118ee4c34869a0ac629c3c94b85506eded0e5e5e90ee8199e62b7c1bcd75b5"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/snapshot-start-tn10/parent-1.json",
+      "sha256": "f6d694801f56582d359870ec3e05ea567e59e603796958634195326bbc020476"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/snapshot-start-tn10/start.json",
+      "sha256": "83f44a976962c73a797c217bff381d7975717831b781406634f7ac708a0cacc8"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-cold-parent-child.json",
+      "sha256": "9ef7e1d6cc81e507a3f4ed309bda60f6e7802b74d473f4388aed84e65b404229"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-cold-parent.json",
+      "sha256": "2d6f302ba6314bfc6bc1113003b7151968e0a17a2b1fd52e92fe6c725cb98459"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-consolidation-2.json",
+      "sha256": "8fc3f4acb6abfc9f8f13d6982494c21491c52ca9f7eeed67c783cb05bad00b51"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-dense-generic-32.json",
+      "sha256": "d21c8d786152a29cd3e6fd034a58b521f518312d8e9ed4c26959e8709cb569bc"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-identity-child.json",
+      "sha256": "dbdad09573f3940d9748f7f09db46319c3478e03a5507d6bdb6e4dc0e4c89cf3"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-identity-genesis.json",
+      "sha256": "3b97cc99e3c14227e6f48d7a55be62732acdd49485352df426acc6471f0b2b5d"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-identity-parent.json",
+      "sha256": "b4f8b5e41876187d8860c09b2b1547bdea3abb60d8b6edad131964f9dff44c94"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/fixtures/tn10-native-genesis-burst.json",
+      "sha256": "b02822d4a3bd87245fa1ac47c9fe453d83feff3ba3621cd3104670ab05552fc9"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/historical_acceptance_map.rs",
+      "sha256": "865250b4dfdf244813db975fd90332e3753f072fe89c063045a365c482070903"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/historical_evidence_compression.rs",
+      "sha256": "851c9886c390c38e79ca9f0477685431a8228205e862ddc4eaf254b4a6c504da"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/historical_transition_protocol.rs",
+      "sha256": "94a28f7b05a3cb4eabadff362bc3c9a1a182af685961191fd95acdf03b5d098a"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/identity_reconciliation.rs",
+      "sha256": "2421139e40784e5ef84f404f706c2b4f41a5264f33f3bf1ddd64fea78022b9fa"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/kcom_claim_decoder.rs",
+      "sha256": "88eb15533088be11423211fc847525dbec857be9da64be17f85b4892923222f0"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/kcom_fast_campaign.rs",
+      "sha256": "7fa4c01d80ecd3f5b2ea7477fed3a4d09776f8139e3a9b8452a82294a38d68e7"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/kcom_vesting.rs",
+      "sha256": "9523baf80d180d4cf0f33ba18ceb0b33ef5999bfdfaa82f7dbf2a4a9b18d0b85"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/nacho_wide_deployment_payload.rs",
+      "sha256": "f55ff783db0ffc24fb42f2e10c2d5bc51c8a0a830571992b3e268193bb2992cf"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/reorg_batch.rs",
+      "sha256": "243bcadfd9c6a3444cf5b9f1870c7d534dc375b943c3a30cd1b4601a2dbb4ca6"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/repair_writer_lock.rs",
+      "sha256": "9ca7cb57428ee14177055d8cd0bb99e881ac1574bbcf43a9be43ac408a1ec1be"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/repo.rs",
+      "sha256": "83abf246f09f59c1c97c6b7675b6e13d6d4ae232403c0403edda764069603e26"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/resumable_genesis.rs",
+      "sha256": "54c53f16eb0d9ed1ad850cb4b69324b7f068e2103f257f6949e1bc3b8bae1ec2"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/shadow_v2.rs",
+      "sha256": "7d28656ffb6c7531fead163f792c0a5e5e374c60cd03f6a3ae26a8fe97f8bb46"
+    },
+    {
+      "path": "crates/tn12-indexer-db/tests/snapshot_start.rs",
+      "sha256": "1a792d61c9719c317022206cf5582cb8fa2315cd1c8b6010888778d27616422e"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/Cargo.toml",
+      "sha256": "0f12b602a5e0340daf6c7ee36c181249d89cd6dd60e4af2ea0019c64a15925f5"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/examples/decode_captured_reveals.rs",
+      "sha256": "b1c69cd52f5ab43edd67f69c71199cc8c8af880e11ad777cedac99fe19ae3ad3"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/api-payment-channel/ApiPaymentChannel.placeholder.json",
+      "sha256": "64099b2e06b5393498702ff6f3cdbdfbb4045e622811906cf66dc1173f1c6957"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kaspa-fomo-round/KaspaFomoRound.placeholder.json",
+      "sha256": "54a3a4487dc9c7a7fc4913131f6e1b1a2ee0475b9e768295fc1be77a2dc8deac"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-buy-order/KCC20BuyOrder.placeholder.json",
+      "sha256": "297a3566f58173625f2a53d29e0b45dcd703798c7981859610ea0ce7bb187ff5"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/KCC20FeeEscrowV1.placeholder.json",
+      "sha256": "40aeb72a858bd3e20143e8686226dd66df191745d990a4afd8e22ea1cc643bdf"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/recipient-creator-1-true.json",
+      "sha256": "b9d880a6cf8ebf2781edd2560b6d3bc68afee6b96f740b8f4a0ff31251e722ec"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/recipient-protocol-5-true.json",
+      "sha256": "f8a613ece64e3366718427d7690de2556ce3a0d3cab8d5cea6ca9e1912d61e8b"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/recipient-rotation-back.json",
+      "sha256": "906e9b7c53fdd1e487062055b89e8377a535f13de1a211046312dd749341724a"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/signed-cross-2-2.json",
+      "sha256": "0e9eed292209fe779acc4cb7f211e314f30a63fcb874a38ef3a3f0f17432eeac"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/signed-cross-2-3.json",
+      "sha256": "d740bb257f4e953de6be5de5a3a73a91c36e94ac8c7e92eaab24db543eaece33"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/signed-cross-3-2.json",
+      "sha256": "10f360ffd355db4728f6c40e3820d3614b03c8d5c7f8ef19acecfaceb82b0c71"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/tn10-matcher-cross.json",
+      "sha256": "65b27941aca76e8bf984ffd28e74f10c23a25b46eb4462cb7c01491105a89f7f"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-escrow-v1/tn10-rotate-schnorr-hash.json",
+      "sha256": "dd734edca9760a1165d273ded5b2440a9cc28e39eba6096e12621e055e76e075"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-recipient-v1/KCC20FeeRecipientV1.placeholder.json",
+      "sha256": "06944587b4055ee61050707c35e3774bee82f1c6e37914b0f14c6d7fdaf5ab71"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-ticket/KCC20FeeTicket.legacy-pre-v2-price-scale.placeholder.json",
+      "sha256": "2c7a18fe604a0556ab9633190e035ab0b1243ec3c6e42b58e1c1ceb38dd2933a"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-ticket/KCC20FeeTicket.placeholder.json",
+      "sha256": "b104ff07adcfe58a1db134bb44782fa59453dadb7716e0a831447f910efb9526"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-ticket/KCC20FeeTicket.pre-batch.placeholder.json",
+      "sha256": "c536d233c171832bd7a82e8c2dd436d37be27b320da6bebaac9158af2860fa83"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-ticket/KCC20FeeTicket.pre-public-mint-control.placeholder.json",
+      "sha256": "131e666c4b7b712eef1b574432757d311830a46bee580600d900f0981e82cd2c"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-ticket/KCC20FeeTicket.pre-refund.placeholder.json",
+      "sha256": "95c8028744b8cced6df49acaf51f2adf79ac452e77a04b296a2d4e8cb0bb7720"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-fee-zero-buy.json",
+      "sha256": "7eb294888f32462a990138499ad08f0f550f69c26d1240633a6a2ebf23d7c45a"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-orderbook-fee-ask-v1/KCC20OrderbookFeeAskV1.placeholder.json",
+      "sha256": "e2f04e79a64acf330ae45ad55bab61f92039c76d1c59e4d9b39d41b1c3296553"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-orderbook-fee-bid-v1/KCC20OrderbookFeeBidV1.placeholder.json",
+      "sha256": "4a6150291bb9e459a4ca61609854af7063c5f7314e0f5c2438a7f462627d33d4"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-orderbook-fee-holder-v1/KCC20OrderbookFeeHolderV1.placeholder.json",
+      "sha256": "1124365e746ebe108fe8e5a9a7d13ea351bba0768011fd3228567d35de0847d1"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-orderbook-fee-root-v1/KCC20OrderbookFeeRootV1.placeholder.json",
+      "sha256": "25f28f56285bda070d4a6fa6a4733e7c3cf5eebee44531990b6f4c5a9ab254a8"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-orderbook-fee-v1/KCC20OrderbookFeeV1.placeholder.json",
+      "sha256": "2f5b837d96ef30a8145eefebb4270b9fab7eb06a58df6965372b83153cb164c1"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-orderbook/KCC20Orderbook.placeholder.json",
+      "sha256": "97be94850bcbf253a5de88d34c101e9310a5b6c077fa357b77153c9311dd6629"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-sale-v2/KCC20SaleV2.placeholder.json",
+      "sha256": "03a5e2cde5c3d27480ff3c5904e6365d883c1a10c4b9292881958712c8ec4617"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-sale/KCC20Sale.placeholder.json",
+      "sha256": "67bfd3885635799acd38a521f170b8f1720f5afb4e7ef420cb6f9ce6185cf2d4"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-snapshot-bootstrap/KCC20SnapshotBootstrap.placeholder.json",
+      "sha256": "d6a730e3b03b8af389410ea2ddbe75fba461f767126d3cf5391bca60b2b81359"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-snapshot-controller/KCC20SnapshotController.placeholder.json",
+      "sha256": "f8da807b6015eee31f5ec8e8bfd909f10a7e47d91ff5ef2c1237a1121af5dc25"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-snapshot-controller/codec-vectors.v1.json",
+      "sha256": "ba0b88119662180c8f33bc1bde34b47846ead14709d03e0491ab133e9e1cf3d5"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-v2/KCC20V2.legacy-pre-price-scale.placeholder.json",
+      "sha256": "aaa5c51a9088b774795fc9547139aa2df7fbea74c495f26d84faad865b7db28e"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-v2/KCC20V2.placeholder.json",
+      "sha256": "b2abb325b8eba58b9789133ce15e8a33eb1377007e7e2a17ac6e5418007094ab"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-v2/KCC20V2.pre-public-mint-control.placeholder.json",
+      "sha256": "fc573b6c6666f9f8dd016863c52c631e8c85da724c8fc511804601bb2ed14987"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-v3/KCC20V3.placeholder.json",
+      "sha256": "444f7a1d571ba8541d539ad7bf0e66d78f54b38b7517670896b3bd05b1f13984"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-vesting/KCC20Vesting.placeholder.json",
+      "sha256": "b917c9dcd05237fdedf76ac6b0df5791d5953aca1d057909c5fac075fb17ca43"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-wrapper-fee-argent-v1/KCC20WrapperFeeArgentV1.placeholder.json",
+      "sha256": "d14cdd05f9522b393e9b5e674a4645cf6b51f8831a5bb370882eb0e9a2f8d4b0"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-wrapper-fee-argent-v2/KCC20WrapperFeeArgentV2.placeholder.json",
+      "sha256": "eec339c8b255fc59790fbff699acbbf6c1f06baecb855fbbd590c9428d5611be"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-wrapper-fee-v1/KCC20WrapperFeeV1.placeholder.json",
+      "sha256": "345cbefc8f870b2daa408e2608c4fcf50d27d9f5ebb505439ee22092715f0007"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-wrapper-fee-v2/KCC20WrapperFeeV2.placeholder.json",
+      "sha256": "1bebe5434045e44a423a622b10f0d6fb70f3ba5792c46d2788dc2c0dde1b282e"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20-wrapper/KCC20Wrapper.placeholder.json",
+      "sha256": "2461e39a285d1f135f4891659cb78b3b6e5d2b28b32e153b61e2e336eab02115"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20/KCC20.placeholder.json",
+      "sha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcc20/nacho-wide-deployment-payload.v1.json",
+      "sha256": "e3a143058b9510861dcb2875e3eee3e5d5824a22cb3323c7bc2827c197920c1c"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-claim-factory-vectors.json",
+      "sha256": "2d9b7cccc1a6183d9a7ac0111df6ffba1951b1a35e829b2ea3dd4da420720bc9"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-claim-fund-vectors.json",
+      "sha256": "4c7ae4579d3ffc996e8361c3ca33f7a59b25d0e5b3d7887daad5e8994d491b34"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-claim-open-vectors.json",
+      "sha256": "e09f67f841dbf59a34003960e66e1bd88662e363723675e72b47888f6198b092"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-claim-recovery-vectors.json",
+      "sha256": "db4ca295772a41df7129a7294777be7de513aac805a7a9be1a1f16e0261e3711"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-configurable-engine.json",
+      "sha256": "8a479922d64f2310ab6cbcc30f3ffd39684deac4ff6400526c3c99d9107b0854"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-fast-tn10/graph.program-abi.json",
+      "sha256": "7bb9ee8bba182f648325dcb6eb489e45bccbb80d2196992eb46512ebbc68e810"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-fast-tn10/manifest.json",
+      "sha256": "271215c831d3e136a4bb7bdb26f3c9db3b9845c7cdb136c916fe3a6ad9f4be7d"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-fast-tn10/open.program-abi.json",
+      "sha256": "4900ac23285ed4419eb8d8ef5464b7fd25d214517ae9bb9cad9cc1d725f0fa9c"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-fast-tn10/vesting.program-abi.json",
+      "sha256": "97f5c645981fae903b63607b1e6f5847ea318032fd906babc2f4de5c5280088d"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-vesting/KCOMVesting.program-abi.json",
+      "sha256": "89c240da607494a18e7ed66f1b03df12be387d932323abdcc49859649bb40024"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-vesting/tn10-final.json",
+      "sha256": "562c598e0c52d2954afd8b248ff42e4b847bcd6d014190609febf53cbb062788"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/kcom-vesting/tn10-partial.json",
+      "sha256": "5691483e85770a8eebbb26cc29ad6794c0fffebda6183ef4a682955c7730f8cc"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/token-profiles/ArgentKCC20Wrapper.placeholder.json",
+      "sha256": "fc3b21bdd90cef56d18f4eb2e05b2b0938cb631cfda2a247c99caeec4e505235"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/wallet-contracts/DeadManSwitch.placeholder.json",
+      "sha256": "c871e560c59a3b8839d46b5d81f1945c44dfff025f8edcbee551a64034e41053"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/wallet-contracts/EscrowWithArbiter.placeholder.json",
+      "sha256": "d202f1c8360234279ede9e0b98aeacc573a8f2c84b70377692151372fbef08ea"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/wallet-contracts/MultiSigVault.placeholder.json",
+      "sha256": "f1484225fd876771366889dc03ce1f1f2ffc5a11fa33237d82b50fec9bfa6064"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/fixtures/wallet-contracts/TimeLockVault.placeholder.json",
+      "sha256": "af88bb3ac78efcc0ac2a4c495e24ee1793ac86ad3a1ba5cc94ef27163de40ecb"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/api_payment_channel.rs",
+      "sha256": "2b183b77f86b30dcb80f4377a48c4ada87fbcf1d9389652fb6cfee5e69f0414b"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/inscriptions.rs",
+      "sha256": "b407ed8ba3153071ce076c3b91c6edc2f9b72c9ca5c15e9d99b9ddfd3eacc8e2"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kaspa_fomo_round.rs",
+      "sha256": "676c9f6561de92bfa380793aeba961632acab923f80b7f7463f24862ec55115c"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kaspacom.rs",
+      "sha256": "a96b7f62736b3fb25bd93d7a98ef6220c552fea7bbc3f9c9a141418260009dfa"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20.rs",
+      "sha256": "219fb6094a33c19f3dc939850a309c1114a3a16b30a77ac597a508af58b6599a"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_fee_contracts.rs",
+      "sha256": "05c0f1255b97bc65d30fc342459c76593bde6965b1c372a893ade4250180dbf5"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_fee_ticket.rs",
+      "sha256": "70c9499e9b425336eb8c4bc0c521ec604e2354f2a98b5c9148131dfdbe69c06b"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_fee_v1.rs",
+      "sha256": "23b9f7fabde9a089dc61379935642c5016a52bdb0028d05162e518a50d2ba373"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_orderbook.rs",
+      "sha256": "697b67e3e38973421dec55bfbe6c8dceb6960b6c9c29d95065d7274e04393ed1"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_sale.rs",
+      "sha256": "830f6678ecd7363e5b78fe64369fcf3ab4b6d0921bf45c2c34fbff2523ab3ed6"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_snapshot_bootstrap.rs",
+      "sha256": "79f951b9885cfb14e325d19fed38d1626221453ad80f73171c9b93002d68462f"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_snapshot_controller.rs",
+      "sha256": "8fd4410e72cce8933fe59313bdcaea08d68f7889c22579275bb0b9c8a04666cb"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_standard.rs",
+      "sha256": "08bc2f2f5ba157e244563cd485655a773b689b6d94b34e35453edf1670424830"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_v2.rs",
+      "sha256": "4e2180604bb72a457e281df0c2f207507a52981bbb9003204ac5ccdef68cb7b5"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_v3.rs",
+      "sha256": "00cb3c352d5aac8b259d7d18874ecb529a4e3983912d15de1417301b97128980"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_vesting.rs",
+      "sha256": "199c04360a3d7f6013532b3368f40572a775da01c74e319d65adb2adfcc14182"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcc20_wrapper.rs",
+      "sha256": "e8dc9b6040a9937a817fc3f45e8679f0e782dd788dafc70bc812b2f8e74950cd"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcom_claim.rs",
+      "sha256": "8edc033d53e2ea444ffc3427c773ee746b1e9c41276f91bbdfdc16af40617da9"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcom_profile.rs",
+      "sha256": "bd9987c3be284d1509ba8af2ba07dd550cb404292b5e9d7f8ddbf5a818c50316"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/kcom_vesting.rs",
+      "sha256": "c581bfcce8d77b4186a42549bd3b25c4359955e8030eaeabbfabc975b427489f"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/lib.rs",
+      "sha256": "95331b9f430d08c7421bbdc6b554d9f7c5915c17d929d7de9f7320981807443b"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/parker.rs",
+      "sha256": "fdf5d7247e7d13de3e416717253b9329d9a5ecb07bed3ef50d87c76599efb1ea"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/timelock.rs",
+      "sha256": "9ea085168e41add4d83f689c83e92b478f4e3fb29019796e23e32de7f06fe53f"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/src/token_profiles.rs",
+      "sha256": "b252a412c4fb6233417234bf3915166757cc1f23757351119a5f52b8e75c0e53"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/kns-create-example.sighex",
+      "sha256": "6365410d2a4e9da08d7b2484215a56b9dde71bea6d599433f2c0dfddc2e055a8"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc20-deploy-dukbux.sighex",
+      "sha256": "8378efc4e75885730fe2d8450ffc11b165f6112d1dec3ca05fe6d93d597e1bf7"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc20-mint-ksoc.sighex",
+      "sha256": "6b2b13ecc248fe37030a4811f0be254b09097a499bf2fade75484e7550494bdd"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc20-transfer-dukbux.sighex",
+      "sha256": "bdd2058199896153b18a2921ee4f952ba674f2f493971160ee34beec2ab3dc15"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc721-deploy-kspr.sighex",
+      "sha256": "5f873eba3a7257994b8c7c9077640292d06b815e2f8b4f109336d3a0c8a5aea9"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc721-discount-kspr.sighex",
+      "sha256": "4badab9daa26ff2f94f4d6ebe8d29ae9782ccb07c3dd375d986156086638cc3d"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc721-mint-kspr.sighex",
+      "sha256": "8e6429f013ac92579110a24ac4f5ecd99031c28fee0fc2b590bfc986381deab0"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/fixtures/inscriptions/krc721-transfer-kspr.sighex",
+      "sha256": "b59573ab7c81dba0cf913a33f5cbe4e01fc5711b7c35d6bd430a10730fdc8e67"
+    },
+    {
+      "path": "crates/tn12-indexer-decoder/tests/real_inscriptions.rs",
+      "sha256": "2bf0d6f3868447075b99186e5123fe82442167ee6ceee7fe660434a980407a81"
+    },
+    {
+      "path": "docs/architecture/tn10-shadow-v2.md",
+      "sha256": "6186e6d266c321e79e72ba48efda6ff92e86b65058793998c8df0841633f6782"
+    },
+    {
+      "path": "docs/evidence/kcom-claim-tn10-main-full-20261030.json",
+      "sha256": "315bb9d6dd99f515bd2c2e5b20f05464e715a1ca2a4c2f0f44a568c8efef904b"
+    },
+    {
+      "path": "docs/evidence/kcom-claim-tn10-no-long-full-20261030.json",
+      "sha256": "8845c8c89284aa772aab15f7699aa6ca6a7c470c00867253b2553ca23454d42a"
+    },
+    {
+      "path": "docs/evidence/kcom-fast-tn10-full-20261102.json",
+      "sha256": "d145758dece62e90947fc91ef481b8a78111cce81473505a38f76babc2423391"
+    },
+    {
+      "path": "fixtures/api-payment-channel-tn10/01-settlement-open.json",
+      "sha256": "2d534fa92a93cdff46cfa7e3784490cfaae92236a75ca9f409cc4f4eb6453a4d"
+    },
+    {
+      "path": "fixtures/api-payment-channel-tn10/02-settlement-settle.json",
+      "sha256": "9134db00fb5f98d25cda060fe7e1f3b6bd14c4feef8408fbe17b224955fe087f"
+    },
+    {
+      "path": "fixtures/api-payment-channel-tn10/03-refund-open.json",
+      "sha256": "1e92adbcdaae258a64542c99d2906e809c71f766516247198b96b1c96f99c16c"
+    },
+    {
+      "path": "fixtures/api-payment-channel-tn10/04-refund.json",
+      "sha256": "6f248c6d0d68529d17690426e579f7d72034f1650eb9bc095d237509c61ceaf0"
+    },
+    {
+      "path": "fixtures/kcc20/independent-reference/KCC20.sil",
+      "sha256": "9c61d62a1b90ad541bbf5c48ec53faaff1826cbc6f26bd42fa429df5c295316c"
+    },
+    {
+      "path": "fixtures/kcc20/independent-reference/NOTICE.md",
+      "sha256": "d85b6b4a63b5a1cc7e916ff94bdca3473a684910e87e6fbad58f68bb8731154a"
+    },
+    {
+      "path": "fixtures/kcc20/independent-reference/artifact.json",
+      "sha256": "a419f2aa5f18f2917bf1cd69fbf04942ef746fc832f8e1fcd7625582d4c6c771"
+    },
+    {
+      "path": "fixtures/kcc20/independent-reference/kcc20.ag",
+      "sha256": "f6131d97368461e74b02507d5ef2d7af57c76226cf945ebbbe9735f0953414e9"
+    },
+    {
+      "path": "fixtures/kcc20/independent-reference/kcc20.json",
+      "sha256": "dac7b9f25155a187771a554b1a2ffc4cd50980ce015577e29a5cf964e53a3439"
+    },
+    {
+      "path": "fixtures/kcc20/independent-reference/source.json",
+      "sha256": "554b7747d762c8140f5272ab1251403c7ccb958c51a61273713f044169642fcb"
+    },
+    {
+      "path": "fixtures/kcc20/kcc20-last-call-boundaries.test.json",
+      "sha256": "95550b67c8430e089b2e366bc3c3b0865d0c54772734343649d856f72a0c12e6"
+    },
+    {
+      "path": "fixtures/kcc20/kcc20-standard.test.json",
+      "sha256": "50cd5afcf4bf0d42c53b519842a6bbaa2b27480b16005c95a50b1b916a26abf8"
+    },
+    {
+      "path": "fixtures/kcc20/kcc20-v1.debug.test.json",
+      "sha256": "750474b1066bfbe7082c3b12e80fd9a45eddad4128956ef18368694fdcd8d9da"
+    },
+    {
+      "path": "fixtures/kcc20/upstream/README.md",
+      "sha256": "77fdda164130cb7602241678098090469345ec16b9851c383da1ca9e6b967e97"
+    },
+    {
+      "path": "fixtures/kcc20/upstream/SOURCES.json",
+      "sha256": "5e702f98acc2f06e54ebc4e6617bfe7a4ccab5b6ef3f5c4003648130c6adb7cc"
+    },
+    {
+      "path": "fixtures/kcc20/upstream/conformance.json",
+      "sha256": "9b424c96ea0e0093cacfd98e3013fd5cbf93dd149cb27696acf288510133010b"
+    },
+    {
+      "path": "fixtures/kcc20/upstream/kcc-0001.md",
+      "sha256": "eace192e3249ee7e125946ad68a2a1b64846f2c0ff5b82926301eae77f0b5a19"
+    },
+    {
+      "path": "fixtures/kcc20/upstream/kcc-0002.md",
+      "sha256": "a0ab5175b934ecfd17287ab82a8a59f99753364ffbb752752344a215e1cfdded"
+    },
+    {
+      "path": "fixtures/kcc20/upstream/kcc-0020.md",
+      "sha256": "d5d0f2431cf42e49624e7b8ff8c900d6ba068906b4e37c4df5a2a40c8b34f91d"
+    },
+    {
+      "path": "fixtures/kcom-claim-tn10-live/create-shard-2.json",
+      "sha256": "e875a5c57c3d080aeb2aa47a7bb3fb1d270baed68e59e49d1dddd217bc0284b0"
+    },
+    {
+      "path": "fixtures/kcom-claim-tn10-live/ordered-no-long.json",
+      "sha256": "a80c7ac0718ecf0a939c1ed8c695f43c01c23f1d9c5f651866edd17a88804929"
+    },
+    {
+      "path": "fixtures/kcom-claim-tn10-live/ordered-token-and-main.json",
+      "sha256": "26e911237d2f777c2f6a7c334f6fc9dd639ad8f4c5e9ded6e5d02c403df71276"
+    },
+    {
+      "path": "fixtures/kcom-claim-tn10-live/select-alice.json",
+      "sha256": "f73cb6d855155a44ba4e4c25bed4602c6e893a0c084608caaa3332bf1124c43d"
+    },
+    {
+      "path": "fixtures/kcom-fast-tn10-live/ordered-fast.json",
+      "sha256": "430d44d11a1b16a1d9a965ed73736360414124c965a9a0826eaed49381bf999f"
+    },
+    {
+      "path": "fixtures/kcom-fast-tn10-live/ordered-latest.json",
+      "sha256": "1f70de370abb32e81acdae6f95922eef176fad0b0f363e0c90ac9f19b84d06b0"
+    },
+    {
+      "path": "fixtures/parker-tn12/auction-funding-fund.json",
+      "sha256": "868a70b26ddad7bb532220f4e6465e5e8e90b1759a6031edb975fa9777820b57"
+    },
+    {
+      "path": "fixtures/parker-tn12/auction-funding.json",
+      "sha256": "9c535102d99e72d8f2e6facfd6465749d4bfd38bc401f1e40c547d1a6085d6c1"
+    },
+    {
+      "path": "fixtures/parker-tn12/auction-settle.json",
+      "sha256": "c5a58f1739b134776073f1a9b6d32db83cf96de15903d8a89e5c4dcbf5b3f90a"
+    },
+    {
+      "path": "fixtures/parker-tn12/escrow-cancel-fund.json",
+      "sha256": "71b8cb7e8acbeafcdb71dc973c53fcf1e5e9682888f0b71ace0965445fa8b5c0"
+    },
+    {
+      "path": "fixtures/parker-tn12/escrow-cancel.json",
+      "sha256": "fce42ff23cc074e622f641aee81c4cdaf3074b28a8367bf77079f0be03f689d6"
+    },
+    {
+      "path": "fixtures/parker-tn12/escrow-refund-fund.json",
+      "sha256": "027f99e2824124010c1b567a1fd16cb7c63a609c1d14580ebaf2fba9631a824d"
+    },
+    {
+      "path": "fixtures/parker-tn12/escrow-refund.json",
+      "sha256": "8b3a79a0f0b872a2c95069da2cbbb12f6aac5bcd90f08fabfb1fb305bccd8794"
+    },
+    {
+      "path": "fixtures/parker-tn12/escrow-release-fund.json",
+      "sha256": "8630f07aca6405722ba1fd1c1d1e3e35daf44d0df22ed9e7f68a79f484511bf0"
+    },
+    {
+      "path": "fixtures/parker-tn12/escrow-release.json",
+      "sha256": "c26e431b27e666821710c374878cdc0112911f26b8853d80e6aa94b8fd6b7657"
+    },
+    {
+      "path": "fixtures/parker-tn12/pledge-refund-fund.json",
+      "sha256": "ac7827dfbd6669e3d9b5686b4f8b7606d541bce6c8df1f8f83c64330e9350d93"
+    },
+    {
+      "path": "fixtures/parker-tn12/pledge-refund.json",
+      "sha256": "afffe963b07011cab587eafe2fba0bfc37eba4ce40f3345a633152841b97805a"
+    },
+    {
+      "path": "fixtures/parker-tn12/pledge-release-fund.json",
+      "sha256": "4e714d32c225ea5c43d910a456343a03c39950ec9f59e417a3b2c17a0be1c6ca"
+    },
+    {
+      "path": "fixtures/parker-tn12/pledge-release.json",
+      "sha256": "b12815ce1aebb3ecd89f79b6525fdf313352be1b055c174438fb8a4533d2d5ce"
+    },
+    {
+      "path": "fixtures/parker-tn12/vault-recover-fund.json",
+      "sha256": "5410be4533f2208e10c4ff21f2da90a2f8cc9f03fa35987accf5c280ceb7fc12"
+    },
+    {
+      "path": "fixtures/parker-tn12/vault-recover.json",
+      "sha256": "9867349a59d54286895a5c9eb868d7f365cfcf1820be062a268576d64fb6f37c"
+    },
+    {
+      "path": "fixtures/parker-tn12/vault-withdraw-fund.json",
+      "sha256": "c238fafcc41b2636fbbf4e67d54af9110936fcf749703bd6fd7c758789523a4c"
+    },
+    {
+      "path": "fixtures/parker-tn12/vault-withdraw.json",
+      "sha256": "fa461c7f90409bb8a4f0555771384e65dc187c396a2618dea88367a899b92a0b"
+    },
+    {
+      "path": "fixtures/time-lock-vault/README.md",
+      "sha256": "efb42251a1236dc6655740a44fd772bb42cfc6c0426863d169dc11d19cf17194"
+    },
+    {
+      "path": "fixtures/time-lock-vault/time-lock-vault-tx-time.debug.sil",
+      "sha256": "a15c613722432153f2ed186abbef8b5198e1d12e83acb7b3ba006fa7a0570018"
+    },
+    {
+      "path": "fixtures/time-lock-vault/time-lock-vault-tx-time.debug.test.json",
+      "sha256": "2f10fa69510bbe78af879fad4199834e62e68ea9cb8d1067a13b9009f1cf12e9"
+    },
+    {
+      "path": "fixtures/time-lock-vault/time-lock-vault.webwallet.sil",
+      "sha256": "a22d48af7317ac3f936d68f549bbbdb98104910febce321a63bc3c4a01e51a92"
+    },
+    {
+      "path": "fixtures/timelock-live/create.json",
+      "sha256": "a49676c1c90a1fbc8dbaa9442b19482297261f9f192710f84a0a434e9bdac717"
+    },
+    {
+      "path": "fixtures/timelock-live/redeem.json",
+      "sha256": "11dc251d74f780da9778c29db58065b01439a4750ea661fe29b3f25de2c3ae99"
+    },
+    {
+      "path": "fixtures/tn10-wrapper-action/deploy.json",
+      "sha256": "ec747845b649c6d4baca10b03198ce1ac27cfece7ae1765d68838150a42593ac"
+    },
+    {
+      "path": "fixtures/tn10-wrapper-action/wrap.json",
+      "sha256": "2fbb164b455ac91a16e93d121c5b5085fb38d3609e643dd17c264a80e55adf2b"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "sha256": "7d21c66a15f41bad66b82ed06a289f5dc8a6e3751951d2696bbf20ce296f2b0f"
+    },
+    {
+      "path": "scripts/ci/run_db_integrations.py",
+      "sha256": "f1b4eeefa1f333604c46d7150699ee4d404cb8b1f279cfa2f84ff0a2d9b6b88b"
+    },
+    {
+      "path": "scripts/shadow-v2/.gitignore",
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "scripts/shadow-v2/archive.py",
+      "sha256": "a399d2c6edd5bae01253aa2404e9a086a4307dfbf9a758bd6fbf5e9fff33be3e"
+    },
+    {
+      "path": "scripts/shadow-v2/requirements.txt",
+      "sha256": "3a9f3ec66bda4b7195a3f10605ed7d2b04006faf0bd550d7d488f74925e374a5"
+    },
+    {
+      "path": "scripts/shadow-v2/snapshot.py",
+      "sha256": "c305f56ffcce20ebf5ce5b7b37175afae4526fd744cc1828c02696622dbff33b"
+    },
+    {
+      "path": "scripts/shadow-v2/test_archive.py",
+      "sha256": "1f5fd898c370b3d2c446159e471c9185577f103c0f1e52a07e1cebb8d04c1aea"
+    },
+    {
+      "path": "scripts/shadow-v2/test_coordination.py",
+      "sha256": "f8002030926f033a3f968dfa9ca497355a985f26623524a7686ebde22a86502c"
+    },
+    {
+      "path": "scripts/shadow-v2/test_snapshot.py",
+      "sha256": "b5ca5881e4fb9710185a1dca6c0b06bc88b0c8049bdc4c9585ed54daa16a2717"
+    },
+    {
+      "path": "scripts/tests/test_tn10_recovery_audit.py",
+      "sha256": "0eafb2cc2637ec057d4541859e27374030aec3a2febb03f8bdc224b049172880"
+    },
+    {
+      "path": "scripts/tn10_recovery_audit.py",
+      "sha256": "441958465f28e155bd7c6aee4abf4cb31e82e01609bffceffaa2c82d02254e35"
+    },
+    {
+      "path": "wallet-lab/vendor/kcc20-fee-policy-v1/manifest.json",
+      "sha256": "959b3bbf29dc9299d987e49a1642a43b6a7111f9608ffd5db4bb200f20959084"
+    },
+    {
+      "path": "wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements-open/program-abi.json",
+      "sha256": "faaf91ad0af7b83910e2e7ebb9c8d9935d8add5594a5967cdfe9a739f1990ca2"
+    },
+    {
+      "path": "wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements/program-abi.json",
+      "sha256": "d2a65313b146e047eb0add80a80bfbf325ae7d74f4f3d78cafe9fa970ad1fd9c"
+    },
+    {
+      "path": "wallet-lab/vendor/kcom-configurable-v2/graph/program-abi.json",
+      "sha256": "e66318e8e6df56cdcad47e18cde757bc28511c704eb87d20302b946ec7d9238e"
+    },
+    {
+      "path": "wallet-lab/vendor/kcom-configurable-v2/initializer/program-abi.json",
+      "sha256": "b28b169f07804c35835c790db7c8ba9696f634a5a085c280212d81b09cb9a00d"
+    },
+    {
+      "path": "wallet-lab/vendor/kcom-configurable-v2/vesting/program-abi.json",
+      "sha256": "5e514a51fb6886e6bd1f825afc2e685f3ed2182f35b3e9f8f4158300ea494cf0"
+    },
+    {
+      "path": "wallet-lab/vendor/token-profiles/ArgentKCC20.reference.json",
+      "sha256": "eb95459fdcfd63c3736be623984f49529899fb03288f1363e340eb3acf74e513"
+    },
+    {
+      "path": "wallet-lab/vendor/token-profiles/registry.json",
+      "sha256": "b00292bbfcf8fb8857faff66f61e9fe68e8b17e2158196ea03135571d1df0c4c"
+    },
+    {
+      "path": "wallet-lab/vendor/token-profiles/registry.sha256",
+      "sha256": "529ab05de7218ad3e121687c52501b9ad11d5a98a82a0d62f45eebc3e2ea8d4a"
+    }
+  ]
+}

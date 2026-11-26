@@ -1,0 +1,4482 @@
+{
+  "contract_name": "ApiPaymentChannel",
+  "compiler_version": "0.1.0",
+  "bytecode": [
+    107,
+    32,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    32,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    32,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    32,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    8,
+    1,
+    136,
+    82,
+    106,
+    116,
+    0,
+    0,
+    0,
+    8,
+    232,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    24,
+    198,
+    154,
+    59,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    108,
+    118,
+    4,
+    208,
+    213,
+    17,
+    59,
+    135,
+    99,
+    117,
+    94,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    93,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    92,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    91,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    90,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    89,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    88,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    94,
+    121,
+    88,
+    121,
+    172,
+    105,
+    93,
+    121,
+    87,
+    121,
+    172,
+    105,
+    82,
+    121,
+    0,
+    162,
+    105,
+    120,
+    0,
+    160,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    99,
+    118,
+    84,
+    121,
+    160,
+    105,
+    104,
+    90,
+    121,
+    0,
+    162,
+    105,
+    92,
+    121,
+    85,
+    121,
+    135,
+    105,
+    91,
+    121,
+    185,
+    190,
+    120,
+    0,
+    160,
+    105,
+    120,
+    84,
+    121,
+    161,
+    105,
+    120,
+    120,
+    86,
+    121,
+    148,
+    161,
+    105,
+    185,
+    190,
+    94,
+    121,
+    148,
+    93,
+    121,
+    148,
+    118,
+    0,
+    162,
+    105,
+    92,
+    121,
+    95,
+    121,
+    120,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    3,
+    0,
+    0,
+    32,
+    91,
+    121,
+    126,
+    1,
+    172,
+    126,
+    82,
+    121,
+    194,
+    82,
+    121,
+    156,
+    105,
+    82,
+    121,
+    195,
+    120,
+    135,
+    105,
+    83,
+    121,
+    0,
+    160,
+    99,
+    94,
+    121,
+    84,
+    121,
+    120,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    3,
+    0,
+    0,
+    32,
+    96,
+    121,
+    126,
+    1,
+    172,
+    126,
+    82,
+    121,
+    194,
+    82,
+    121,
+    156,
+    105,
+    82,
+    121,
+    195,
+    120,
+    135,
+    105,
+    117,
+    117,
+    117,
+    104,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    4,
+    30,
+    145,
+    186,
+    95,
+    135,
+    99,
+    117,
+    90,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    89,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    88,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    90,
+    121,
+    88,
+    121,
+    172,
+    105,
+    82,
+    121,
+    0,
+    162,
+    105,
+    120,
+    0,
+    160,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    99,
+    118,
+    84,
+    121,
+    160,
+    105,
+    104,
+    118,
+    0,
+    160,
+    105,
+    89,
+    121,
+    0,
+    162,
+    105,
+    118,
+    118,
+    5,
+    0,
+    136,
+    82,
+    106,
+    116,
+    162,
+    105,
+    176,
+    185,
+    190,
+    90,
+    121,
+    148,
+    89,
+    121,
+    120,
+    120,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    3,
+    0,
+    0,
+    32,
+    91,
+    121,
+    126,
+    1,
+    172,
+    126,
+    82,
+    121,
+    194,
+    82,
+    121,
+    156,
+    105,
+    82,
+    121,
+    195,
+    120,
+    135,
+    105,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    4,
+    8,
+    33,
+    211,
+    168,
+    135,
+    99,
+    117,
+    94,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    93,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    92,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    91,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    90,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    89,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    88,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    94,
+    121,
+    88,
+    121,
+    172,
+    105,
+    93,
+    121,
+    87,
+    121,
+    172,
+    105,
+    82,
+    121,
+    0,
+    162,
+    105,
+    120,
+    0,
+    160,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    99,
+    118,
+    84,
+    121,
+    160,
+    105,
+    104,
+    90,
+    121,
+    0,
+    162,
+    105,
+    91,
+    121,
+    0,
+    162,
+    105,
+    91,
+    121,
+    82,
+    121,
+    161,
+    105,
+    92,
+    121,
+    85,
+    121,
+    135,
+    105,
+    185,
+    190,
+    92,
+    121,
+    148,
+    91,
+    121,
+    148,
+    118,
+    0,
+    162,
+    105,
+    92,
+    121,
+    0,
+    160,
+    99,
+    90,
+    121,
+    93,
+    121,
+    120,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    3,
+    0,
+    0,
+    32,
+    89,
+    121,
+    126,
+    1,
+    172,
+    126,
+    82,
+    121,
+    194,
+    82,
+    121,
+    156,
+    105,
+    82,
+    121,
+    195,
+    120,
+    135,
+    105,
+    117,
+    117,
+    117,
+    104,
+    118,
+    0,
+    160,
+    99,
+    89,
+    121,
+    120,
+    120,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    3,
+    0,
+    0,
+    32,
+    91,
+    121,
+    126,
+    1,
+    172,
+    126,
+    82,
+    121,
+    194,
+    82,
+    121,
+    156,
+    105,
+    82,
+    121,
+    195,
+    120,
+    135,
+    105,
+    117,
+    117,
+    117,
+    104,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    4,
+    165,
+    32,
+    171,
+    74,
+    135,
+    99,
+    117,
+    91,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    90,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    89,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    88,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    91,
+    121,
+    88,
+    121,
+    172,
+    105,
+    82,
+    121,
+    0,
+    162,
+    105,
+    120,
+    0,
+    160,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    99,
+    118,
+    84,
+    121,
+    160,
+    105,
+    104,
+    118,
+    0,
+    156,
+    105,
+    90,
+    121,
+    90,
+    121,
+    90,
+    121,
+    185,
+    190,
+    83,
+    121,
+    0,
+    162,
+    105,
+    82,
+    121,
+    88,
+    121,
+    160,
+    105,
+    120,
+    86,
+    121,
+    160,
+    105,
+    120,
+    84,
+    121,
+    194,
+    88,
+    121,
+    148,
+    161,
+    105,
+    83,
+    121,
+    194,
+    120,
+    160,
+    105,
+    91,
+    121,
+    91,
+    121,
+    91,
+    121,
+    91,
+    121,
+    86,
+    121,
+    91,
+    121,
+    87,
+    121,
+    0,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    39,
+    5,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    126,
+    132,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    92,
+    121,
+    195,
+    136,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    4,
+    87,
+    232,
+    22,
+    134,
+    135,
+    99,
+    117,
+    91,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    90,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    89,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    88,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    91,
+    121,
+    88,
+    121,
+    172,
+    105,
+    82,
+    121,
+    0,
+    162,
+    105,
+    120,
+    0,
+    160,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    99,
+    118,
+    84,
+    121,
+    160,
+    105,
+    104,
+    118,
+    0,
+    156,
+    105,
+    90,
+    121,
+    0,
+    162,
+    105,
+    83,
+    121,
+    118,
+    5,
+    0,
+    136,
+    82,
+    106,
+    116,
+    162,
+    105,
+    176,
+    89,
+    121,
+    89,
+    121,
+    92,
+    121,
+    185,
+    190,
+    118,
+    82,
+    121,
+    148,
+    84,
+    121,
+    0,
+    162,
+    105,
+    83,
+    121,
+    89,
+    121,
+    160,
+    105,
+    118,
+    0,
+    160,
+    105,
+    118,
+    88,
+    121,
+    162,
+    105,
+    84,
+    121,
+    194,
+    120,
+    156,
+    105,
+    92,
+    121,
+    92,
+    121,
+    92,
+    121,
+    92,
+    121,
+    92,
+    121,
+    92,
+    121,
+    92,
+    121,
+    90,
+    121,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    32,
+    88,
+    121,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    88,
+    121,
+    88,
+    205,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    39,
+    5,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    126,
+    132,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    93,
+    121,
+    195,
+    136,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    106,
+    104,
+    104,
+    104,
+    104,
+    104
+  ],
+  "ast": {
+    "name": "ApiPaymentChannel",
+    "params": [
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "channelPayer",
+        "span": "byte[32] channelPayer",
+        "type_span": "byte[32]",
+        "name_span": "channelPayer"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "channelProvider",
+        "span": "byte[32] channelProvider",
+        "type_span": "byte[32]",
+        "name_span": "channelProvider"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "channelProviderPayout",
+        "span": "byte[32] channelProviderPayout",
+        "type_span": "byte[32]",
+        "name_span": "channelProviderPayout"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "channelVoucherDomainHash",
+        "span": "byte[32] channelVoucherDomainHash",
+        "type_span": "byte[32]",
+        "name_span": "channelVoucherDomainHash"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "channelRefundAfterMs",
+        "span": "int channelRefundAfterMs",
+        "type_span": "int ",
+        "name_span": "channelRefundAfterMs"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "channelReserveSompi",
+        "span": "int channelReserveSompi",
+        "type_span": "int ",
+        "name_span": "channelReserveSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "channelMaxSpendSompi",
+        "span": "int channelMaxSpendSompi",
+        "type_span": "int ",
+        "name_span": "channelMaxSpendSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "channelCloseAfterMs",
+        "span": "int channelCloseAfterMs",
+        "type_span": "int ",
+        "name_span": "channelCloseAfterMs"
+      }
+    ],
+    "fields": [
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "payer",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelPayer",
+          "span": "channelPayer"
+        },
+        "span": "byte[32] payer = channelPayer;",
+        "type_span": "byte[32]",
+        "name_span": "payer"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "provider",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelProvider",
+          "span": "channelProvider"
+        },
+        "span": "byte[32] provider = channelProvider;",
+        "type_span": "byte[32]",
+        "name_span": "provider"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "providerPayout",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelProviderPayout",
+          "span": "channelProviderPayout"
+        },
+        "span": "byte[32] providerPayout = channelProviderPayout;",
+        "type_span": "byte[32]",
+        "name_span": "providerPayout"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "voucherDomainHash",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelVoucherDomainHash",
+          "span": "channelVoucherDomainHash"
+        },
+        "span": "byte[32] voucherDomainHash = channelVoucherDomainHash;",
+        "type_span": "byte[32]",
+        "name_span": "voucherDomainHash"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "refundAfterMs",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelRefundAfterMs",
+          "span": "channelRefundAfterMs"
+        },
+        "span": "int refundAfterMs = channelRefundAfterMs;",
+        "type_span": "int ",
+        "name_span": "refundAfterMs"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "reserveSompi",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelReserveSompi",
+          "span": "channelReserveSompi"
+        },
+        "span": "int reserveSompi = channelReserveSompi;",
+        "type_span": "int ",
+        "name_span": "reserveSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "maxSpendSompi",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelMaxSpendSompi",
+          "span": "channelMaxSpendSompi"
+        },
+        "span": "int maxSpendSompi = channelMaxSpendSompi;",
+        "type_span": "int ",
+        "name_span": "maxSpendSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "closeAfterMs",
+        "expr": {
+          "kind": "identifier",
+          "data": "channelCloseAfterMs",
+          "span": "channelCloseAfterMs"
+        },
+        "span": "int closeAfterMs = channelCloseAfterMs;",
+        "type_span": "int ",
+        "name_span": "closeAfterMs"
+      }
+    ],
+    "constants": [],
+    "functions": [
+      {
+        "name": "requirePolicy",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "reserveSompi",
+                    "span": "reserveSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "reserveSompi >= 0"
+              },
+              "message": null,
+              "span": "require(reserveSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "maxSpendSompi",
+                    "span": "maxSpendSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "maxSpendSompi > 0"
+              },
+              "message": null,
+              "span": "require(maxSpendSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "refundAfterMs",
+                    "span": "refundAfterMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "refundAfterMs > 0"
+              },
+              "message": null,
+              "span": "require(refundAfterMs > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "closeAfterMs",
+                    "span": "closeAfterMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "closeAfterMs >= 0"
+              },
+              "message": null,
+              "span": "require(closeAfterMs >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "closeAfterMs",
+                    "span": "closeAfterMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "closeAfterMs > 0"
+              },
+              "then_branch": [
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "gt",
+                        "left": {
+                          "kind": "identifier",
+                          "data": "closeAfterMs",
+                          "span": "closeAfterMs"
+                        },
+                        "right": {
+                          "kind": "identifier",
+                          "data": "refundAfterMs",
+                          "span": "refundAfterMs"
+                        }
+                      },
+                      "span": "closeAfterMs > refundAfterMs"
+                    },
+                    "message": null,
+                    "span": "require(closeAfterMs > refundAfterMs);",
+                    "message_span": null
+                  }
+                }
+              ],
+              "else_branch": null,
+              "span": "if (closeAfterMs > 0) {\n            require(closeAfterMs > refundAfterMs);\n        }\n    ",
+              "then_span": "require(closeAfterMs > refundAfterMs);",
+              "else_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requirePolicy() {\n        require(reserveSompi >= 0);\n        require(maxSpendSompi > 0);\n        require(refundAfterMs > 0);\n        require(closeAfterMs >= 0);\n        if (closeAfterMs > 0) {\n            require(closeAfterMs > refundAfterMs);\n        }\n    }",
+        "name_span": "requirePolicy",
+        "body_span": "require(reserveSompi >= 0);\n        require(maxSpendSompi > 0);\n        require(refundAfterMs > 0);\n        require(closeAfterMs >= 0);\n        if (closeAfterMs > 0) {\n            require(closeAfterMs > refundAfterMs);\n        }\n    "
+      },
+      {
+        "name": "requireActiveChannel",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "closeAfterMs",
+                    "span": "closeAfterMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "closeAfterMs == 0"
+              },
+              "message": null,
+              "span": "require(closeAfterMs == 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireActiveChannel() {\n        require(closeAfterMs == 0);\n    }",
+        "name_span": "requireActiveChannel",
+        "body_span": "require(closeAfterMs == 0);"
+      },
+      {
+        "name": "requireClosingChannel",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "closeAfterMs",
+                    "span": "closeAfterMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "closeAfterMs > 0"
+              },
+              "message": null,
+              "span": "require(closeAfterMs > 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireClosingChannel() {\n        require(closeAfterMs > 0);\n    }",
+        "name_span": "requireClosingChannel",
+        "body_span": "require(closeAfterMs > 0);"
+      },
+      {
+        "name": "requireProviderPayout",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "providerOutputIndex",
+            "span": "int providerOutputIndex",
+            "type_span": "int ",
+            "name_span": "providerOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "providerAmountSompi",
+            "span": "int providerAmountSompi",
+            "type_span": "int ",
+            "name_span": "providerAmountSompi"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "providerOutputIndex",
+                    "span": "providerOutputIndex"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "providerOutputIndex >= 0"
+              },
+              "message": null,
+              "span": "require(providerOutputIndex >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "providerAmountSompi",
+                    "span": "providerAmountSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "providerAmountSompi > 0"
+              },
+              "message": null,
+              "span": "require(providerAmountSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "byte",
+                "array_dims": [
+                  {
+                    "kind": "fixed",
+                    "value": 34
+                  }
+                ]
+              },
+              "modifiers": [],
+              "name": "providerLock",
+              "expr": {
+                "kind": "new",
+                "data": {
+                  "name": "ScriptPubKeyP2PK",
+                  "args": [
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "providerPayout",
+                            "span": "providerPayout"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(providerPayout)"
+                    }
+                  ],
+                  "name_span": "ScriptPubKeyP2PK"
+                },
+                "span": "new ScriptPubKeyP2PK(pubkey(providerPayout))"
+              },
+              "span": "byte[34] providerLock = new ScriptPubKeyP2PK(pubkey(providerPayout));",
+              "type_span": "byte[34]",
+              "modifier_spans": [],
+              "name_span": "providerLock"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "providerOutputIndex",
+                        "span": "providerOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[providerOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "providerAmountSompi",
+                    "span": "providerAmountSompi"
+                  }
+                },
+                "span": "tx.outputs[providerOutputIndex].value == providerAmountSompi"
+              },
+              "message": null,
+              "span": "require(tx.outputs[providerOutputIndex].value == providerAmountSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "providerOutputIndex",
+                        "span": "providerOutputIndex"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[providerOutputIndex].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "providerLock",
+                          "span": "providerLock"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](providerLock)"
+                  }
+                },
+                "span": "tx.outputs[providerOutputIndex].scriptPubKey == byte[](providerLock)"
+              },
+              "message": null,
+              "span": "require(tx.outputs[providerOutputIndex].scriptPubKey == byte[](providerLock));",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireProviderPayout(int providerOutputIndex, int providerAmountSompi) {\n        require(providerOutputIndex >= 0);\n        require(providerAmountSompi > 0);\n        byte[34] providerLock = new ScriptPubKeyP2PK(pubkey(providerPayout));\n        require(tx.outputs[providerOutputIndex].value == providerAmountSompi);\n        require(tx.outputs[providerOutputIndex].scriptPubKey == byte[](providerLock));\n    }",
+        "name_span": "requireProviderPayout",
+        "body_span": "require(providerOutputIndex >= 0);\n        require(providerAmountSompi > 0);\n        byte[34] providerLock = new ScriptPubKeyP2PK(pubkey(providerPayout));\n        require(tx.outputs[providerOutputIndex].value == providerAmountSompi);\n        require(tx.outputs[providerOutputIndex].scriptPubKey == byte[](providerLock));"
+      },
+      {
+        "name": "requirePayerRefund",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "payerOutputIndex",
+            "span": "int payerOutputIndex",
+            "type_span": "int ",
+            "name_span": "payerOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "payerAmountSompi",
+            "span": "int payerAmountSompi",
+            "type_span": "int ",
+            "name_span": "payerAmountSompi"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "payerOutputIndex",
+                    "span": "payerOutputIndex"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "payerOutputIndex >= 0"
+              },
+              "message": null,
+              "span": "require(payerOutputIndex >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "payerAmountSompi",
+                    "span": "payerAmountSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "payerAmountSompi > 0"
+              },
+              "message": null,
+              "span": "require(payerAmountSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "byte",
+                "array_dims": [
+                  {
+                    "kind": "fixed",
+                    "value": 34
+                  }
+                ]
+              },
+              "modifiers": [],
+              "name": "payerLock",
+              "expr": {
+                "kind": "new",
+                "data": {
+                  "name": "ScriptPubKeyP2PK",
+                  "args": [
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "payer",
+                            "span": "payer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(payer)"
+                    }
+                  ],
+                  "name_span": "ScriptPubKeyP2PK"
+                },
+                "span": "new ScriptPubKeyP2PK(pubkey(payer))"
+              },
+              "span": "byte[34] payerLock = new ScriptPubKeyP2PK(pubkey(payer));",
+              "type_span": "byte[34]",
+              "modifier_spans": [],
+              "name_span": "payerLock"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "payerOutputIndex",
+                        "span": "payerOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[payerOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "payerAmountSompi",
+                    "span": "payerAmountSompi"
+                  }
+                },
+                "span": "tx.outputs[payerOutputIndex].value == payerAmountSompi"
+              },
+              "message": null,
+              "span": "require(tx.outputs[payerOutputIndex].value == payerAmountSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "payerOutputIndex",
+                        "span": "payerOutputIndex"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[payerOutputIndex].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "payerLock",
+                          "span": "payerLock"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](payerLock)"
+                  }
+                },
+                "span": "tx.outputs[payerOutputIndex].scriptPubKey == byte[](payerLock)"
+              },
+              "message": null,
+              "span": "require(tx.outputs[payerOutputIndex].scriptPubKey == byte[](payerLock));",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requirePayerRefund(int payerOutputIndex, int payerAmountSompi) {\n        require(payerOutputIndex >= 0);\n        require(payerAmountSompi > 0);\n        byte[34] payerLock = new ScriptPubKeyP2PK(pubkey(payer));\n        require(tx.outputs[payerOutputIndex].value == payerAmountSompi);\n        require(tx.outputs[payerOutputIndex].scriptPubKey == byte[](payerLock));\n    }",
+        "name_span": "requirePayerRefund",
+        "body_span": "require(payerOutputIndex >= 0);\n        require(payerAmountSompi > 0);\n        byte[34] payerLock = new ScriptPubKeyP2PK(pubkey(payer));\n        require(tx.outputs[payerOutputIndex].value == payerAmountSompi);\n        require(tx.outputs[payerOutputIndex].scriptPubKey == byte[](payerLock));"
+      },
+      {
+        "name": "requireSpendWithinChannel",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "totalSpentSompi",
+            "span": "int totalSpentSompi",
+            "type_span": "int ",
+            "name_span": "totalSpentSompi"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "inputValue",
+              "expr": {
+                "kind": "indexed_introspection",
+                "data": {
+                  "kind": "input_value",
+                  "index": {
+                    "kind": "introspection",
+                    "data": "active_input_index",
+                    "span": "this.activeInputIndex"
+                  },
+                  "field_span": ".value"
+                },
+                "span": "tx.inputs[this.activeInputIndex].value"
+              },
+              "span": "int inputValue = tx.inputs[this.activeInputIndex].value;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "inputValue"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "totalSpentSompi",
+                    "span": "totalSpentSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "totalSpentSompi > 0"
+              },
+              "message": null,
+              "span": "require(totalSpentSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "totalSpentSompi",
+                    "span": "totalSpentSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "maxSpendSompi",
+                    "span": "maxSpendSompi"
+                  }
+                },
+                "span": "totalSpentSompi <= maxSpendSompi"
+              },
+              "message": null,
+              "span": "require(totalSpentSompi <= maxSpendSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "totalSpentSompi",
+                    "span": "totalSpentSompi"
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "sub",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "inputValue",
+                        "span": "inputValue"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "reserveSompi",
+                        "span": "reserveSompi"
+                      }
+                    },
+                    "span": "inputValue - reserveSompi"
+                  }
+                },
+                "span": "totalSpentSompi <= inputValue - reserveSompi"
+              },
+              "message": null,
+              "span": "require(totalSpentSompi <= inputValue - reserveSompi);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireSpendWithinChannel(int totalSpentSompi) {\n        int inputValue = tx.inputs[this.activeInputIndex].value;\n        require(totalSpentSompi > 0);\n        require(totalSpentSompi <= maxSpendSompi);\n        require(totalSpentSompi <= inputValue - reserveSompi);\n    }",
+        "name_span": "requireSpendWithinChannel",
+        "body_span": "int inputValue = tx.inputs[this.activeInputIndex].value;\n        require(totalSpentSompi > 0);\n        require(totalSpentSompi <= maxSpendSompi);\n        require(totalSpentSompi <= inputValue - reserveSompi);"
+      },
+      {
+        "name": "requireContinuation",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "channelOutputIndex",
+            "span": "int channelOutputIndex",
+            "type_span": "int ",
+            "name_span": "channelOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "newRefundAfterMs",
+            "span": "int newRefundAfterMs",
+            "type_span": "int ",
+            "name_span": "newRefundAfterMs"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "newMaxSpendSompi",
+            "span": "int newMaxSpendSompi",
+            "type_span": "int ",
+            "name_span": "newMaxSpendSompi"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "inputValue",
+              "expr": {
+                "kind": "indexed_introspection",
+                "data": {
+                  "kind": "input_value",
+                  "index": {
+                    "kind": "introspection",
+                    "data": "active_input_index",
+                    "span": "this.activeInputIndex"
+                  },
+                  "field_span": ".value"
+                },
+                "span": "tx.inputs[this.activeInputIndex].value"
+              },
+              "span": "int inputValue = tx.inputs[this.activeInputIndex].value;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "inputValue"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "channelOutputIndex",
+                    "span": "channelOutputIndex"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "channelOutputIndex >= 0"
+              },
+              "message": null,
+              "span": "require(channelOutputIndex >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "newRefundAfterMs",
+                    "span": "newRefundAfterMs"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "refundAfterMs",
+                    "span": "refundAfterMs"
+                  }
+                },
+                "span": "newRefundAfterMs > refundAfterMs"
+              },
+              "message": null,
+              "span": "require(newRefundAfterMs > refundAfterMs);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "newMaxSpendSompi",
+                    "span": "newMaxSpendSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "maxSpendSompi",
+                    "span": "maxSpendSompi"
+                  }
+                },
+                "span": "newMaxSpendSompi > maxSpendSompi"
+              },
+              "message": null,
+              "span": "require(newMaxSpendSompi > maxSpendSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "newMaxSpendSompi",
+                    "span": "newMaxSpendSompi"
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "sub",
+                      "left": {
+                        "kind": "indexed_introspection",
+                        "data": {
+                          "kind": "output_value",
+                          "index": {
+                            "kind": "identifier",
+                            "data": "channelOutputIndex",
+                            "span": "channelOutputIndex"
+                          },
+                          "field_span": ".value"
+                        },
+                        "span": "tx.outputs[channelOutputIndex].value"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "reserveSompi",
+                        "span": "reserveSompi"
+                      }
+                    },
+                    "span": "tx.outputs[channelOutputIndex].value - reserveSompi"
+                  }
+                },
+                "span": "newMaxSpendSompi <= tx.outputs[channelOutputIndex].value - reserveSompi"
+              },
+              "message": null,
+              "span": "require(newMaxSpendSompi <= tx.outputs[channelOutputIndex].value - reserveSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "channelOutputIndex",
+                        "span": "channelOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[channelOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "inputValue",
+                    "span": "inputValue"
+                  }
+                },
+                "span": "tx.outputs[channelOutputIndex].value > inputValue"
+              },
+              "message": null,
+              "span": "require(tx.outputs[channelOutputIndex].value > inputValue);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "channelOutputIndex",
+                  "span": "channelOutputIndex"
+                },
+                {
+                  "kind": "struct_literal",
+                  "data": {
+                    "name": "State",
+                    "fields": [
+                      {
+                        "name": "payer",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "payer",
+                          "span": "payer"
+                        },
+                        "span": "payer: payer",
+                        "name_span": "payer"
+                      },
+                      {
+                        "name": "provider",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "provider",
+                          "span": "provider"
+                        },
+                        "span": "provider: provider",
+                        "name_span": "provider"
+                      },
+                      {
+                        "name": "providerPayout",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "providerPayout",
+                          "span": "providerPayout"
+                        },
+                        "span": "providerPayout: providerPayout",
+                        "name_span": "providerPayout"
+                      },
+                      {
+                        "name": "voucherDomainHash",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "voucherDomainHash",
+                          "span": "voucherDomainHash"
+                        },
+                        "span": "voucherDomainHash: voucherDomainHash",
+                        "name_span": "voucherDomainHash"
+                      },
+                      {
+                        "name": "refundAfterMs",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "newRefundAfterMs",
+                          "span": "newRefundAfterMs"
+                        },
+                        "span": "refundAfterMs: newRefundAfterMs",
+                        "name_span": "refundAfterMs"
+                      },
+                      {
+                        "name": "reserveSompi",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "reserveSompi",
+                          "span": "reserveSompi"
+                        },
+                        "span": "reserveSompi: reserveSompi",
+                        "name_span": "reserveSompi"
+                      },
+                      {
+                        "name": "maxSpendSompi",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "newMaxSpendSompi",
+                          "span": "newMaxSpendSompi"
+                        },
+                        "span": "maxSpendSompi: newMaxSpendSompi",
+                        "name_span": "maxSpendSompi"
+                      },
+                      {
+                        "name": "closeAfterMs",
+                        "expr": {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0\n        "
+                        },
+                        "span": "closeAfterMs: 0\n        ",
+                        "name_span": "closeAfterMs"
+                      }
+                    ],
+                    "name_span": "State"
+                  },
+                  "span": "State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: newRefundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: newMaxSpendSompi,\n            closeAfterMs: 0\n        }"
+                }
+              ],
+              "span": "validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: newRefundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: newMaxSpendSompi,\n            closeAfterMs: 0\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireContinuation(\n        int channelOutputIndex,\n        int newRefundAfterMs,\n        int newMaxSpendSompi\n    ) {\n        int inputValue = tx.inputs[this.activeInputIndex].value;\n        require(channelOutputIndex >= 0);\n        require(newRefundAfterMs > refundAfterMs);\n        require(newMaxSpendSompi > maxSpendSompi);\n        require(newMaxSpendSompi <= tx.outputs[channelOutputIndex].value - reserveSompi);\n        require(tx.outputs[channelOutputIndex].value > inputValue);\n        validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: newRefundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: newMaxSpendSompi,\n            closeAfterMs: 0\n        });\n    }",
+        "name_span": "requireContinuation",
+        "body_span": "int inputValue = tx.inputs[this.activeInputIndex].value;\n        require(channelOutputIndex >= 0);\n        require(newRefundAfterMs > refundAfterMs);\n        require(newMaxSpendSompi > maxSpendSompi);\n        require(newMaxSpendSompi <= tx.outputs[channelOutputIndex].value - reserveSompi);\n        require(tx.outputs[channelOutputIndex].value > inputValue);\n        validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: newRefundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: newMaxSpendSompi,\n            closeAfterMs: 0\n        });"
+      },
+      {
+        "name": "requireCloseContinuation",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "channelOutputIndex",
+            "span": "int channelOutputIndex",
+            "type_span": "int ",
+            "name_span": "channelOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "newCloseAfterMs",
+            "span": "int newCloseAfterMs",
+            "type_span": "int ",
+            "name_span": "newCloseAfterMs"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "settlementFeeSompi",
+            "span": "int settlementFeeSompi",
+            "type_span": "int ",
+            "name_span": "settlementFeeSompi"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "inputValue",
+              "expr": {
+                "kind": "indexed_introspection",
+                "data": {
+                  "kind": "input_value",
+                  "index": {
+                    "kind": "introspection",
+                    "data": "active_input_index",
+                    "span": "this.activeInputIndex"
+                  },
+                  "field_span": ".value"
+                },
+                "span": "tx.inputs[this.activeInputIndex].value"
+              },
+              "span": "int inputValue = tx.inputs[this.activeInputIndex].value;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "inputValue"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "continuedValue",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "inputValue",
+                    "span": "inputValue"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  }
+                },
+                "span": "inputValue - settlementFeeSompi"
+              },
+              "span": "int continuedValue = inputValue - settlementFeeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "continuedValue"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "channelOutputIndex",
+                    "span": "channelOutputIndex"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "channelOutputIndex >= 0"
+              },
+              "message": null,
+              "span": "require(channelOutputIndex >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "newCloseAfterMs",
+                    "span": "newCloseAfterMs"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "refundAfterMs",
+                    "span": "refundAfterMs"
+                  }
+                },
+                "span": "newCloseAfterMs > refundAfterMs"
+              },
+              "message": null,
+              "span": "require(newCloseAfterMs > refundAfterMs);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "continuedValue",
+                    "span": "continuedValue"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "continuedValue > 0"
+              },
+              "message": null,
+              "span": "require(continuedValue > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "continuedValue",
+                    "span": "continuedValue"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "reserveSompi",
+                    "span": "reserveSompi"
+                  }
+                },
+                "span": "continuedValue >= reserveSompi"
+              },
+              "message": null,
+              "span": "require(continuedValue >= reserveSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "channelOutputIndex",
+                        "span": "channelOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[channelOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "continuedValue",
+                    "span": "continuedValue"
+                  }
+                },
+                "span": "tx.outputs[channelOutputIndex].value == continuedValue"
+              },
+              "message": null,
+              "span": "require(tx.outputs[channelOutputIndex].value == continuedValue);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "channelOutputIndex",
+                  "span": "channelOutputIndex"
+                },
+                {
+                  "kind": "struct_literal",
+                  "data": {
+                    "name": "State",
+                    "fields": [
+                      {
+                        "name": "payer",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "payer",
+                          "span": "payer"
+                        },
+                        "span": "payer: payer",
+                        "name_span": "payer"
+                      },
+                      {
+                        "name": "provider",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "provider",
+                          "span": "provider"
+                        },
+                        "span": "provider: provider",
+                        "name_span": "provider"
+                      },
+                      {
+                        "name": "providerPayout",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "providerPayout",
+                          "span": "providerPayout"
+                        },
+                        "span": "providerPayout: providerPayout",
+                        "name_span": "providerPayout"
+                      },
+                      {
+                        "name": "voucherDomainHash",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "voucherDomainHash",
+                          "span": "voucherDomainHash"
+                        },
+                        "span": "voucherDomainHash: voucherDomainHash",
+                        "name_span": "voucherDomainHash"
+                      },
+                      {
+                        "name": "refundAfterMs",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "refundAfterMs",
+                          "span": "refundAfterMs"
+                        },
+                        "span": "refundAfterMs: refundAfterMs",
+                        "name_span": "refundAfterMs"
+                      },
+                      {
+                        "name": "reserveSompi",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "reserveSompi",
+                          "span": "reserveSompi"
+                        },
+                        "span": "reserveSompi: reserveSompi",
+                        "name_span": "reserveSompi"
+                      },
+                      {
+                        "name": "maxSpendSompi",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "maxSpendSompi",
+                          "span": "maxSpendSompi"
+                        },
+                        "span": "maxSpendSompi: maxSpendSompi",
+                        "name_span": "maxSpendSompi"
+                      },
+                      {
+                        "name": "closeAfterMs",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "newCloseAfterMs",
+                          "span": "newCloseAfterMs"
+                        },
+                        "span": "closeAfterMs: newCloseAfterMs\n        ",
+                        "name_span": "closeAfterMs"
+                      }
+                    ],
+                    "name_span": "State"
+                  },
+                  "span": "State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: refundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: maxSpendSompi,\n            closeAfterMs: newCloseAfterMs\n        }"
+                }
+              ],
+              "span": "validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: refundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: maxSpendSompi,\n            closeAfterMs: newCloseAfterMs\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireCloseContinuation(\n        int channelOutputIndex,\n        int newCloseAfterMs,\n        int settlementFeeSompi\n    ) {\n        int inputValue = tx.inputs[this.activeInputIndex].value;\n        int continuedValue = inputValue - settlementFeeSompi;\n        require(channelOutputIndex >= 0);\n        require(newCloseAfterMs > refundAfterMs);\n        require(continuedValue > 0);\n        require(continuedValue >= reserveSompi);\n        require(tx.outputs[channelOutputIndex].value == continuedValue);\n        validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: refundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: maxSpendSompi,\n            closeAfterMs: newCloseAfterMs\n        });\n    }",
+        "name_span": "requireCloseContinuation",
+        "body_span": "int inputValue = tx.inputs[this.activeInputIndex].value;\n        int continuedValue = inputValue - settlementFeeSompi;\n        require(channelOutputIndex >= 0);\n        require(newCloseAfterMs > refundAfterMs);\n        require(continuedValue > 0);\n        require(continuedValue >= reserveSompi);\n        require(tx.outputs[channelOutputIndex].value == continuedValue);\n        validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: refundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: maxSpendSompi,\n            closeAfterMs: newCloseAfterMs\n        });"
+      },
+      {
+        "name": "settle",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "payerSettleSig",
+            "span": "sig payerSettleSig",
+            "type_span": "sig ",
+            "name_span": "payerSettleSig"
+          },
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "providerSig",
+            "span": "sig providerSig",
+            "type_span": "sig ",
+            "name_span": "providerSig"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "settlementVoucherDomainHash",
+            "span": "byte[32] settlementVoucherDomainHash",
+            "type_span": "byte[32]",
+            "name_span": "settlementVoucherDomainHash"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "totalSpentSompi",
+            "span": "int totalSpentSompi",
+            "type_span": "int ",
+            "name_span": "totalSpentSompi"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "settlementFeeSompi",
+            "span": "int settlementFeeSompi",
+            "type_span": "int ",
+            "name_span": "settlementFeeSompi"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "providerOutputIndex",
+            "span": "int providerOutputIndex",
+            "type_span": "int ",
+            "name_span": "providerOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "payerRefundOutputIndex",
+            "span": "int payerRefundOutputIndex",
+            "type_span": "int ",
+            "name_span": "payerRefundOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "payerSettleSig",
+                      "span": "payerSettleSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "payer",
+                            "span": "payer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(payer)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(payerSettleSig, pubkey(payer))"
+              },
+              "message": null,
+              "span": "require(checkSig(payerSettleSig, pubkey(payer)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "providerSig",
+                      "span": "providerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "provider",
+                            "span": "provider"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(provider)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(providerSig, pubkey(provider))"
+              },
+              "message": null,
+              "span": "require(checkSig(providerSig, pubkey(provider)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "settlementFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(settlementFeeSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementVoucherDomainHash",
+                    "span": "settlementVoucherDomainHash"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "voucherDomainHash",
+                    "span": "voucherDomainHash"
+                  }
+                },
+                "span": "settlementVoucherDomainHash == voucherDomainHash"
+              },
+              "message": null,
+              "span": "require(settlementVoucherDomainHash == voucherDomainHash);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireSpendWithinChannel",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "totalSpentSompi",
+                  "span": "totalSpentSompi"
+                }
+              ],
+              "span": "requireSpendWithinChannel(totalSpentSompi);",
+              "name_span": "requireSpendWithinChannel"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "payerRefund",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "sub",
+                      "left": {
+                        "kind": "indexed_introspection",
+                        "data": {
+                          "kind": "input_value",
+                          "index": {
+                            "kind": "introspection",
+                            "data": "active_input_index",
+                            "span": "this.activeInputIndex"
+                          },
+                          "field_span": ".value"
+                        },
+                        "span": "tx.inputs[this.activeInputIndex].value"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "totalSpentSompi",
+                        "span": "totalSpentSompi"
+                      }
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value - totalSpentSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value - totalSpentSompi - settlementFeeSompi"
+              },
+              "span": "int payerRefund = tx.inputs[this.activeInputIndex].value - totalSpentSompi - settlementFeeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "payerRefund"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "payerRefund",
+                    "span": "payerRefund"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "payerRefund >= 0"
+              },
+              "message": null,
+              "span": "require(payerRefund >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireProviderPayout",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "providerOutputIndex",
+                  "span": "providerOutputIndex"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "totalSpentSompi",
+                  "span": "totalSpentSompi"
+                }
+              ],
+              "span": "requireProviderPayout(providerOutputIndex, totalSpentSompi);",
+              "name_span": "requireProviderPayout"
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "payerRefund",
+                    "span": "payerRefund"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "payerRefund > 0"
+              },
+              "then_branch": [
+                {
+                  "kind": "function_call",
+                  "data": {
+                    "name": "requirePayerRefund",
+                    "args": [
+                      {
+                        "kind": "identifier",
+                        "data": "payerRefundOutputIndex",
+                        "span": "payerRefundOutputIndex"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "payerRefund",
+                        "span": "payerRefund"
+                      }
+                    ],
+                    "span": "requirePayerRefund(payerRefundOutputIndex, payerRefund);",
+                    "name_span": "requirePayerRefund"
+                  }
+                }
+              ],
+              "else_branch": null,
+              "span": "if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    ",
+              "then_span": "requirePayerRefund(payerRefundOutputIndex, payerRefund);",
+              "else_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry settle(\n        sig payerSettleSig,\n        sig providerSig,\n        byte[32] settlementVoucherDomainHash,\n        int totalSpentSompi,\n        int settlementFeeSompi,\n        int providerOutputIndex,\n        int payerRefundOutputIndex\n    ) {\n        require(checkSig(payerSettleSig, pubkey(payer)));\n        require(checkSig(providerSig, pubkey(provider)));\n        requirePolicy();\n        require(settlementFeeSompi >= 0);\n        require(settlementVoucherDomainHash == voucherDomainHash);\n        requireSpendWithinChannel(totalSpentSompi);\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - totalSpentSompi - settlementFeeSompi;\n        require(payerRefund >= 0);\n        requireProviderPayout(providerOutputIndex, totalSpentSompi);\n        if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    }",
+        "name_span": "settle",
+        "body_span": "require(checkSig(payerSettleSig, pubkey(payer)));\n        require(checkSig(providerSig, pubkey(provider)));\n        requirePolicy();\n        require(settlementFeeSompi >= 0);\n        require(settlementVoucherDomainHash == voucherDomainHash);\n        requireSpendWithinChannel(totalSpentSompi);\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - totalSpentSompi - settlementFeeSompi;\n        require(payerRefund >= 0);\n        requireProviderPayout(providerOutputIndex, totalSpentSompi);\n        if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    "
+      },
+      {
+        "name": "refund",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "payerSig",
+            "span": "sig payerSig",
+            "type_span": "sig ",
+            "name_span": "payerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "settlementFeeSompi",
+            "span": "int settlementFeeSompi",
+            "type_span": "int ",
+            "name_span": "settlementFeeSompi"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "payerOutputIndex",
+            "span": "int payerOutputIndex",
+            "type_span": "int ",
+            "name_span": "payerOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "payerSig",
+                      "span": "payerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "payer",
+                            "span": "payer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(payer)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(payerSig, pubkey(payer))"
+              },
+              "message": null,
+              "span": "require(checkSig(payerSig, pubkey(payer)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireClosingChannel",
+              "args": [],
+              "span": "requireClosingChannel();",
+              "name_span": "requireClosingChannel"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "settlementFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(settlementFeeSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require_tx_time",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "temporal",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "closeAfterMs",
+                      "span": "closeAfterMs"
+                    }
+                  ],
+                  "name_span": "temporal"
+                },
+                "span": "temporal(closeAfterMs)"
+              },
+              "message": null,
+              "span": "require(tx.time >= temporal(closeAfterMs));",
+              "target_span": "tx.time",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "payerRefund",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "introspection",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value - settlementFeeSompi"
+              },
+              "span": "int payerRefund = tx.inputs[this.activeInputIndex].value - settlementFeeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "payerRefund"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePayerRefund",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "payerOutputIndex",
+                  "span": "payerOutputIndex"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "payerRefund",
+                  "span": "payerRefund"
+                }
+              ],
+              "span": "requirePayerRefund(payerOutputIndex, payerRefund);",
+              "name_span": "requirePayerRefund"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry refund(sig payerSig, int settlementFeeSompi, int payerOutputIndex) {\n        require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireClosingChannel();\n        require(settlementFeeSompi >= 0);\n        require(tx.time >= temporal(closeAfterMs));\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - settlementFeeSompi;\n        requirePayerRefund(payerOutputIndex, payerRefund);\n    }",
+        "name_span": "refund",
+        "body_span": "require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireClosingChannel();\n        require(settlementFeeSompi >= 0);\n        require(tx.time >= temporal(closeAfterMs));\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - settlementFeeSompi;\n        requirePayerRefund(payerOutputIndex, payerRefund);"
+      },
+      {
+        "name": "cooperativeClose",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "payerSig",
+            "span": "sig payerSig",
+            "type_span": "sig ",
+            "name_span": "payerSig"
+          },
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "providerSig",
+            "span": "sig providerSig",
+            "type_span": "sig ",
+            "name_span": "providerSig"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "settlementVoucherDomainHash",
+            "span": "byte[32] settlementVoucherDomainHash",
+            "type_span": "byte[32]",
+            "name_span": "settlementVoucherDomainHash"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "providerAmountSompi",
+            "span": "int providerAmountSompi",
+            "type_span": "int ",
+            "name_span": "providerAmountSompi"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "settlementFeeSompi",
+            "span": "int settlementFeeSompi",
+            "type_span": "int ",
+            "name_span": "settlementFeeSompi"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "providerOutputIndex",
+            "span": "int providerOutputIndex",
+            "type_span": "int ",
+            "name_span": "providerOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "payerRefundOutputIndex",
+            "span": "int payerRefundOutputIndex",
+            "type_span": "int ",
+            "name_span": "payerRefundOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "payerSig",
+                      "span": "payerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "payer",
+                            "span": "payer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(payer)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(payerSig, pubkey(payer))"
+              },
+              "message": null,
+              "span": "require(checkSig(payerSig, pubkey(payer)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "providerSig",
+                      "span": "providerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "provider",
+                            "span": "provider"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(provider)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(providerSig, pubkey(provider))"
+              },
+              "message": null,
+              "span": "require(checkSig(providerSig, pubkey(provider)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "settlementFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(settlementFeeSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "providerAmountSompi",
+                    "span": "providerAmountSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "providerAmountSompi >= 0"
+              },
+              "message": null,
+              "span": "require(providerAmountSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "providerAmountSompi",
+                    "span": "providerAmountSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "maxSpendSompi",
+                    "span": "maxSpendSompi"
+                  }
+                },
+                "span": "providerAmountSompi <= maxSpendSompi"
+              },
+              "message": null,
+              "span": "require(providerAmountSompi <= maxSpendSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementVoucherDomainHash",
+                    "span": "settlementVoucherDomainHash"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "voucherDomainHash",
+                    "span": "voucherDomainHash"
+                  }
+                },
+                "span": "settlementVoucherDomainHash == voucherDomainHash"
+              },
+              "message": null,
+              "span": "require(settlementVoucherDomainHash == voucherDomainHash);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "payerRefund",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "sub",
+                      "left": {
+                        "kind": "indexed_introspection",
+                        "data": {
+                          "kind": "input_value",
+                          "index": {
+                            "kind": "introspection",
+                            "data": "active_input_index",
+                            "span": "this.activeInputIndex"
+                          },
+                          "field_span": ".value"
+                        },
+                        "span": "tx.inputs[this.activeInputIndex].value"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "providerAmountSompi",
+                        "span": "providerAmountSompi"
+                      }
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value - providerAmountSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value - providerAmountSompi - settlementFeeSompi"
+              },
+              "span": "int payerRefund = tx.inputs[this.activeInputIndex].value - providerAmountSompi - settlementFeeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "payerRefund"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "payerRefund",
+                    "span": "payerRefund"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "payerRefund >= 0"
+              },
+              "message": null,
+              "span": "require(payerRefund >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "providerAmountSompi",
+                    "span": "providerAmountSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "providerAmountSompi > 0"
+              },
+              "then_branch": [
+                {
+                  "kind": "function_call",
+                  "data": {
+                    "name": "requireProviderPayout",
+                    "args": [
+                      {
+                        "kind": "identifier",
+                        "data": "providerOutputIndex",
+                        "span": "providerOutputIndex"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "providerAmountSompi",
+                        "span": "providerAmountSompi"
+                      }
+                    ],
+                    "span": "requireProviderPayout(providerOutputIndex, providerAmountSompi);",
+                    "name_span": "requireProviderPayout"
+                  }
+                }
+              ],
+              "else_branch": null,
+              "span": "if (providerAmountSompi > 0) {\n            requireProviderPayout(providerOutputIndex, providerAmountSompi);\n        }\n        ",
+              "then_span": "requireProviderPayout(providerOutputIndex, providerAmountSompi);",
+              "else_span": null
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "payerRefund",
+                    "span": "payerRefund"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "payerRefund > 0"
+              },
+              "then_branch": [
+                {
+                  "kind": "function_call",
+                  "data": {
+                    "name": "requirePayerRefund",
+                    "args": [
+                      {
+                        "kind": "identifier",
+                        "data": "payerRefundOutputIndex",
+                        "span": "payerRefundOutputIndex"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "payerRefund",
+                        "span": "payerRefund"
+                      }
+                    ],
+                    "span": "requirePayerRefund(payerRefundOutputIndex, payerRefund);",
+                    "name_span": "requirePayerRefund"
+                  }
+                }
+              ],
+              "else_branch": null,
+              "span": "if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    ",
+              "then_span": "requirePayerRefund(payerRefundOutputIndex, payerRefund);",
+              "else_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry cooperativeClose(\n        sig payerSig,\n        sig providerSig,\n        byte[32] settlementVoucherDomainHash,\n        int providerAmountSompi,\n        int settlementFeeSompi,\n        int providerOutputIndex,\n        int payerRefundOutputIndex\n    ) {\n        require(checkSig(payerSig, pubkey(payer)));\n        require(checkSig(providerSig, pubkey(provider)));\n        requirePolicy();\n        require(settlementFeeSompi >= 0);\n        require(providerAmountSompi >= 0);\n        require(providerAmountSompi <= maxSpendSompi);\n        require(settlementVoucherDomainHash == voucherDomainHash);\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - providerAmountSompi - settlementFeeSompi;\n        require(payerRefund >= 0);\n        if (providerAmountSompi > 0) {\n            requireProviderPayout(providerOutputIndex, providerAmountSompi);\n        }\n        if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    }",
+        "name_span": "cooperativeClose",
+        "body_span": "require(checkSig(payerSig, pubkey(payer)));\n        require(checkSig(providerSig, pubkey(provider)));\n        requirePolicy();\n        require(settlementFeeSompi >= 0);\n        require(providerAmountSompi >= 0);\n        require(providerAmountSompi <= maxSpendSompi);\n        require(settlementVoucherDomainHash == voucherDomainHash);\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - providerAmountSompi - settlementFeeSompi;\n        require(payerRefund >= 0);\n        if (providerAmountSompi > 0) {\n            requireProviderPayout(providerOutputIndex, providerAmountSompi);\n        }\n        if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    "
+      },
+      {
+        "name": "continueChannel",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "payerSig",
+            "span": "sig payerSig",
+            "type_span": "sig ",
+            "name_span": "payerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "channelOutputIndex",
+            "span": "int channelOutputIndex",
+            "type_span": "int ",
+            "name_span": "channelOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "newRefundAfterMs",
+            "span": "int newRefundAfterMs",
+            "type_span": "int ",
+            "name_span": "newRefundAfterMs"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "newMaxSpendSompi",
+            "span": "int newMaxSpendSompi",
+            "type_span": "int ",
+            "name_span": "newMaxSpendSompi"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "payerSig",
+                      "span": "payerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "payer",
+                            "span": "payer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(payer)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(payerSig, pubkey(payer))"
+              },
+              "message": null,
+              "span": "require(checkSig(payerSig, pubkey(payer)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireActiveChannel",
+              "args": [],
+              "span": "requireActiveChannel();",
+              "name_span": "requireActiveChannel"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireContinuation",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "channelOutputIndex",
+                  "span": "channelOutputIndex"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "newRefundAfterMs",
+                  "span": "newRefundAfterMs"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "newMaxSpendSompi",
+                  "span": "newMaxSpendSompi"
+                }
+              ],
+              "span": "requireContinuation(channelOutputIndex, newRefundAfterMs, newMaxSpendSompi);",
+              "name_span": "requireContinuation"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry continueChannel(\n        sig payerSig,\n        int channelOutputIndex,\n        int newRefundAfterMs,\n        int newMaxSpendSompi\n    ) {\n        require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireActiveChannel();\n        requireContinuation(channelOutputIndex, newRefundAfterMs, newMaxSpendSompi);\n    }",
+        "name_span": "continueChannel",
+        "body_span": "require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireActiveChannel();\n        requireContinuation(channelOutputIndex, newRefundAfterMs, newMaxSpendSompi);"
+      },
+      {
+        "name": "requestRefundClose",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "payerSig",
+            "span": "sig payerSig",
+            "type_span": "sig ",
+            "name_span": "payerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "settlementFeeSompi",
+            "span": "int settlementFeeSompi",
+            "type_span": "int ",
+            "name_span": "settlementFeeSompi"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "channelOutputIndex",
+            "span": "int channelOutputIndex",
+            "type_span": "int ",
+            "name_span": "channelOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "finalRefundAfterMs",
+            "span": "int finalRefundAfterMs",
+            "type_span": "int ",
+            "name_span": "finalRefundAfterMs"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "payerSig",
+                      "span": "payerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "payer",
+                            "span": "payer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(payer)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(payerSig, pubkey(payer))"
+              },
+              "message": null,
+              "span": "require(checkSig(payerSig, pubkey(payer)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireActiveChannel",
+              "args": [],
+              "span": "requireActiveChannel();",
+              "name_span": "requireActiveChannel"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "settlementFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(settlementFeeSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require_tx_time",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "temporal",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "refundAfterMs",
+                      "span": "refundAfterMs"
+                    }
+                  ],
+                  "name_span": "temporal"
+                },
+                "span": "temporal(refundAfterMs)"
+              },
+              "message": null,
+              "span": "require(tx.time >= temporal(refundAfterMs));",
+              "target_span": "tx.time",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireCloseContinuation",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "channelOutputIndex",
+                  "span": "channelOutputIndex"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "finalRefundAfterMs",
+                  "span": "finalRefundAfterMs"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "settlementFeeSompi",
+                  "span": "settlementFeeSompi"
+                }
+              ],
+              "span": "requireCloseContinuation(channelOutputIndex, finalRefundAfterMs, settlementFeeSompi);",
+              "name_span": "requireCloseContinuation"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry requestRefundClose(\n        sig payerSig,\n        int settlementFeeSompi,\n        int channelOutputIndex,\n        int finalRefundAfterMs\n    ) {\n        require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireActiveChannel();\n        require(settlementFeeSompi >= 0);\n        require(tx.time >= temporal(refundAfterMs));\n        requireCloseContinuation(channelOutputIndex, finalRefundAfterMs, settlementFeeSompi);\n    }",
+        "name_span": "requestRefundClose",
+        "body_span": "require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireActiveChannel();\n        require(settlementFeeSompi >= 0);\n        require(tx.time >= temporal(refundAfterMs));\n        requireCloseContinuation(channelOutputIndex, finalRefundAfterMs, settlementFeeSompi);"
+      }
+    ],
+    "span": "contract ApiPaymentChannel(\n    byte[32] channelPayer,\n    byte[32] channelProvider,\n    byte[32] channelProviderPayout,\n    byte[32] channelVoucherDomainHash,\n    int channelRefundAfterMs,\n    int channelReserveSompi,\n    int channelMaxSpendSompi,\n    int channelCloseAfterMs\n) {\n    byte[32] payer = channelPayer;\n    byte[32] provider = channelProvider;\n    byte[32] providerPayout = channelProviderPayout;\n    byte[32] voucherDomainHash = channelVoucherDomainHash;\n    int refundAfterMs = channelRefundAfterMs;\n    int reserveSompi = channelReserveSompi;\n    int maxSpendSompi = channelMaxSpendSompi;\n    int closeAfterMs = channelCloseAfterMs;\n\n    function requirePolicy() {\n        require(reserveSompi >= 0);\n        require(maxSpendSompi > 0);\n        require(refundAfterMs > 0);\n        require(closeAfterMs >= 0);\n        if (closeAfterMs > 0) {\n            require(closeAfterMs > refundAfterMs);\n        }\n    }\n\n    function requireActiveChannel() {\n        require(closeAfterMs == 0);\n    }\n\n    function requireClosingChannel() {\n        require(closeAfterMs > 0);\n    }\n\n    function requireProviderPayout(int providerOutputIndex, int providerAmountSompi) {\n        require(providerOutputIndex >= 0);\n        require(providerAmountSompi > 0);\n        byte[34] providerLock = new ScriptPubKeyP2PK(pubkey(providerPayout));\n        require(tx.outputs[providerOutputIndex].value == providerAmountSompi);\n        require(tx.outputs[providerOutputIndex].scriptPubKey == byte[](providerLock));\n    }\n\n    function requirePayerRefund(int payerOutputIndex, int payerAmountSompi) {\n        require(payerOutputIndex >= 0);\n        require(payerAmountSompi > 0);\n        byte[34] payerLock = new ScriptPubKeyP2PK(pubkey(payer));\n        require(tx.outputs[payerOutputIndex].value == payerAmountSompi);\n        require(tx.outputs[payerOutputIndex].scriptPubKey == byte[](payerLock));\n    }\n\n    function requireSpendWithinChannel(int totalSpentSompi) {\n        int inputValue = tx.inputs[this.activeInputIndex].value;\n        require(totalSpentSompi > 0);\n        require(totalSpentSompi <= maxSpendSompi);\n        require(totalSpentSompi <= inputValue - reserveSompi);\n    }\n\n    function requireContinuation(\n        int channelOutputIndex,\n        int newRefundAfterMs,\n        int newMaxSpendSompi\n    ) {\n        int inputValue = tx.inputs[this.activeInputIndex].value;\n        require(channelOutputIndex >= 0);\n        require(newRefundAfterMs > refundAfterMs);\n        require(newMaxSpendSompi > maxSpendSompi);\n        require(newMaxSpendSompi <= tx.outputs[channelOutputIndex].value - reserveSompi);\n        require(tx.outputs[channelOutputIndex].value > inputValue);\n        validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: newRefundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: newMaxSpendSompi,\n            closeAfterMs: 0\n        });\n    }\n\n    function requireCloseContinuation(\n        int channelOutputIndex,\n        int newCloseAfterMs,\n        int settlementFeeSompi\n    ) {\n        int inputValue = tx.inputs[this.activeInputIndex].value;\n        int continuedValue = inputValue - settlementFeeSompi;\n        require(channelOutputIndex >= 0);\n        require(newCloseAfterMs > refundAfterMs);\n        require(continuedValue > 0);\n        require(continuedValue >= reserveSompi);\n        require(tx.outputs[channelOutputIndex].value == continuedValue);\n        validateOutputState(channelOutputIndex, State {\n            payer: payer,\n            provider: provider,\n            providerPayout: providerPayout,\n            voucherDomainHash: voucherDomainHash,\n            refundAfterMs: refundAfterMs,\n            reserveSompi: reserveSompi,\n            maxSpendSompi: maxSpendSompi,\n            closeAfterMs: newCloseAfterMs\n        });\n    }\n\n    entry settle(\n        sig payerSettleSig,\n        sig providerSig,\n        byte[32] settlementVoucherDomainHash,\n        int totalSpentSompi,\n        int settlementFeeSompi,\n        int providerOutputIndex,\n        int payerRefundOutputIndex\n    ) {\n        require(checkSig(payerSettleSig, pubkey(payer)));\n        require(checkSig(providerSig, pubkey(provider)));\n        requirePolicy();\n        require(settlementFeeSompi >= 0);\n        require(settlementVoucherDomainHash == voucherDomainHash);\n        requireSpendWithinChannel(totalSpentSompi);\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - totalSpentSompi - settlementFeeSompi;\n        require(payerRefund >= 0);\n        requireProviderPayout(providerOutputIndex, totalSpentSompi);\n        if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    }\n\n    entry refund(sig payerSig, int settlementFeeSompi, int payerOutputIndex) {\n        require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireClosingChannel();\n        require(settlementFeeSompi >= 0);\n        require(tx.time >= temporal(closeAfterMs));\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - settlementFeeSompi;\n        requirePayerRefund(payerOutputIndex, payerRefund);\n    }\n\n    entry cooperativeClose(\n        sig payerSig,\n        sig providerSig,\n        byte[32] settlementVoucherDomainHash,\n        int providerAmountSompi,\n        int settlementFeeSompi,\n        int providerOutputIndex,\n        int payerRefundOutputIndex\n    ) {\n        require(checkSig(payerSig, pubkey(payer)));\n        require(checkSig(providerSig, pubkey(provider)));\n        requirePolicy();\n        require(settlementFeeSompi >= 0);\n        require(providerAmountSompi >= 0);\n        require(providerAmountSompi <= maxSpendSompi);\n        require(settlementVoucherDomainHash == voucherDomainHash);\n\n        int payerRefund = tx.inputs[this.activeInputIndex].value - providerAmountSompi - settlementFeeSompi;\n        require(payerRefund >= 0);\n        if (providerAmountSompi > 0) {\n            requireProviderPayout(providerOutputIndex, providerAmountSompi);\n        }\n        if (payerRefund > 0) {\n            requirePayerRefund(payerRefundOutputIndex, payerRefund);\n        }\n    }\n\n    entry continueChannel(\n        sig payerSig,\n        int channelOutputIndex,\n        int newRefundAfterMs,\n        int newMaxSpendSompi\n    ) {\n        require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireActiveChannel();\n        requireContinuation(channelOutputIndex, newRefundAfterMs, newMaxSpendSompi);\n    }\n\n    entry requestRefundClose(\n        sig payerSig,\n        int settlementFeeSompi,\n        int channelOutputIndex,\n        int finalRefundAfterMs\n    ) {\n        require(checkSig(payerSig, pubkey(payer)));\n        requirePolicy();\n        requireActiveChannel();\n        require(settlementFeeSompi >= 0);\n        require(tx.time >= temporal(refundAfterMs));\n        requireCloseContinuation(channelOutputIndex, finalRefundAfterMs, settlementFeeSompi);\n    }\n}",
+    "name_span": "ApiPaymentChannel"
+  },
+  "abi": [
+    {
+      "name": "settle",
+      "inputs": [
+        {
+          "name": "payerSettleSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "providerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "settlementVoucherDomainHash",
+          "type_name": "byte[32]"
+        },
+        {
+          "name": "totalSpentSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "settlementFeeSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "providerOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "payerRefundOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "refund",
+      "inputs": [
+        {
+          "name": "payerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "settlementFeeSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "payerOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "cooperativeClose",
+      "inputs": [
+        {
+          "name": "payerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "providerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "settlementVoucherDomainHash",
+          "type_name": "byte[32]"
+        },
+        {
+          "name": "providerAmountSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "settlementFeeSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "providerOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "payerRefundOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "continueChannel",
+      "inputs": [
+        {
+          "name": "payerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "channelOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "newRefundAfterMs",
+          "type_name": "int"
+        },
+        {
+          "name": "newMaxSpendSompi",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "requestRefundClose",
+      "inputs": [
+        {
+          "name": "payerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "settlementFeeSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "channelOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "finalRefundAfterMs",
+          "type_name": "int"
+        }
+      ]
+    }
+  ],
+  "state_layout": {
+    "start": 1,
+    "len": 168
+  },
+  "debug_info": null
+}

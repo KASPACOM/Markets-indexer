@@ -1,0 +1,90 @@
+{
+  "schema": "kaspacom-snapshot-codec-vectors/v1",
+  "codec": "kasmelt-snapshot-v2/blake2b256/sharded-full-claim",
+  "cases": [
+    {
+      "name": "depth-two-p2pk-p2sh-claim",
+      "context": "4444444444444444444444444444444444444444444444444444444444444444",
+      "shard": {
+        "shardIndex": "2",
+        "globalIndexStart": "10",
+        "holderCount": "2",
+        "treeDepth": "2",
+        "allocationTotal": "579"
+      },
+      "holders": [
+        {
+          "globalIndex": "10",
+          "shardLeafIndex": "0",
+          "ownerScheme": "0",
+          "owner": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "amount": "123"
+        },
+        {
+          "globalIndex": "11",
+          "shardLeafIndex": "1",
+          "ownerScheme": "3",
+          "owner": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "amount": "456"
+        }
+      ],
+      "preimages": {
+        "entitlementA": "1044444444444444444444444444444444444444444444444444444444444444440a0000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa7b00000000000000",
+        "entitlementB": "1044444444444444444444444444444444444444444444444444444444444444440b0000000000000003bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbc801000000000000",
+        "claimedB": "1244444444444444444444444444444444444444444444444444444444444444440b00000000000000",
+        "padding2": "13444444444444444444444444444444444444444444444444444444444444444402000000000000000200000000000000",
+        "padding3": "13444444444444444444444444444444444444444444444444444444444444444402000000000000000300000000000000",
+        "branchLeft": "1150ebd6b0ca86c6d3fdff9c21ad6e634bc1062ef7f88f748a6578b25c38adb9947463722eccfd027434cddb1a58dce1b7508793ef2ee73fb9542c333da92f68d2",
+        "branchRight": "110ccc79479a2d34100ff74abd69ae322dbb2be38be36028af25fa14c432c220b24cfa847aaf88c6a2f482345db79a90de00a4b01e9fe504618373bbd2b0db14cb",
+        "rootBefore": "1108a7d5517c2136a243afa6fc168c52f36c77cea869723c9ce6a4b502f8c51cb983dae8410c8b6b0b437201a42daf6aa5b5cafceeec0b3c04e16ecd74bc82321e",
+        "rootAfter": "11f3e565a45732dc5fbd1f5fb2722ef57e88d5ad6c6151cbc6b70731910de0b8d683dae8410c8b6b0b437201a42daf6aa5b5cafceeec0b3c04e16ecd74bc82321e"
+      },
+      "hashes": {
+        "entitlementA": "50ebd6b0ca86c6d3fdff9c21ad6e634bc1062ef7f88f748a6578b25c38adb994",
+        "entitlementB": "7463722eccfd027434cddb1a58dce1b7508793ef2ee73fb9542c333da92f68d2",
+        "claimedB": "cea4ad1a7dd5a742f314e88488f77a37824000b7c2015f5390e1159e6bc9031a",
+        "padding2": "0ccc79479a2d34100ff74abd69ae322dbb2be38be36028af25fa14c432c220b2",
+        "padding3": "4cfa847aaf88c6a2f482345db79a90de00a4b01e9fe504618373bbd2b0db14cb",
+        "branchLeft": "08a7d5517c2136a243afa6fc168c52f36c77cea869723c9ce6a4b502f8c51cb9",
+        "branchRight": "83dae8410c8b6b0b437201a42daf6aa5b5cafceeec0b3c04e16ecd74bc82321e",
+        "rootBefore": "b11b11f1147d699210a9a321884ef790386e25a8864da7d900f30074a772bff0",
+        "rootAfter": "4063da2f193ca247faee02e0d2c499b519a05e2a65db02da26a10ecbd7560d3e"
+      },
+      "proof": {
+        "claimGlobalIndex": "11",
+        "claimShardLeafIndex": "1",
+        "siblings": [
+          "50ebd6b0ca86c6d3fdff9c21ad6e634bc1062ef7f88f748a6578b25c38adb994",
+          "83dae8410c8b6b0b437201a42daf6aa5b5cafceeec0b3c04e16ecd74bc82321e"
+        ]
+      },
+      "controllerState": {
+        "migrationId": "1010101010101010101010101010101010101010101010101010101010101010",
+        "tokenId": "0000000000000000000000000000000000000000000000000000000000000000",
+        "holderExtensionCommitment": "2222222222222222222222222222222222222222222222222222222222222222",
+        "manifestCommitment": "3333333333333333333333333333333333333333333333333333333333333333",
+        "snapshotContext": "4444444444444444444444444444444444444444444444444444444444444444",
+        "kcc20TemplateHash": "5d6cacdf57c734536fcb8a9c833f0318671226727ec77c503a98fc5be59f9e29",
+        "bootstrapTemplateHash": "0e02cae3bcbbe66f390d54451eff1359afb7f886aee6ee33567b41608f97437b",
+        "deploymentGuardCommitment": "0000000000000000000000000000000000000000000000000000000000000000",
+        "claimNotBeforeDaaScore": "50000",
+        "shardIndex": "2",
+        "globalIndexStart": "10",
+        "holderCount": "2",
+        "treeDepth": "2",
+        "kcc20TemplatePrefixLen": "1",
+        "kcc20TemplateSuffixLen": "25264",
+        "bootstrapTemplatePrefixLen": "1",
+        "bootstrapTemplateSuffixLen": "35498",
+        "shardCount": "3",
+        "controllerCellKas": "50000000",
+        "reserveCellKas": "50000000",
+        "recipientMinCellKas": "50000000",
+        "remainingRoot": "b11b11f1147d699210a9a321884ef790386e25a8864da7d900f30074a772bff0",
+        "remainingAmount": "579",
+        "claimsProcessed": "0"
+      },
+      "controllerStateCommitment": "7769ef4ab481a7e9b7e6a3d7e6636a11c3b913edea3f56464d43c7261ef66ddd"
+    }
+  ]
+}

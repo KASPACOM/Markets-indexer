@@ -1,0 +1,16 @@
+pragma silverscript ^0.1.0;
+
+contract TimeLockVault(
+    pubkey owner,
+    pubkey recovery,
+    int timeout
+) {
+    entrypoint function spend(sig s) {
+        require(checkSig(s, owner));
+    }
+
+    entrypoint function recover(sig s) {
+        require(checkSig(s, recovery));
+        require(tx.time >= timeout);
+    }
+}

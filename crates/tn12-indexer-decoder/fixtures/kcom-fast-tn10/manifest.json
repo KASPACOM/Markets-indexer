@@ -1,0 +1,30 @@
+{
+  "schema": "kcom-fast-tn10-artifacts/v1",
+  "network": "testnet-10",
+  "productionCompatible": false,
+  "compilerCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+  "claimWindowMs": "3600000",
+  "vestingPeriodMs": "60000",
+  "artifacts": {
+    "open": {
+      "id": "2201127f5998a97f2a21f167af0d536b9a292f326f11d5fb0a501ce9bcdf4016",
+      "sha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369",
+      "abiSha256": "626a0fd2f67d7bc3f858b895d702dbfc57e3073b52734a9c132b13adb76da577"
+    },
+    "graph": {
+      "id": "988b773c14ff9e48ca1f92ed0b5d2bd2ce18976785c7442af44c2b8723607433",
+      "sha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+      "abiSha256": "48d1f29714eb201ca6f31f3d2c80599e5bda10945c46b38155ab15f7b54bdaea"
+    },
+    "vesting": {
+      "id": "52fdb903011d5f87e67470b6fbb745bb98998834ab5fb4ad1895b0619bfffe16",
+      "sha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79",
+      "abiSha256": "b6b1e5dca155c98336dffb31cc0264364d089966f8d7b6b3ba6ae7c9ff4a4903"
+    }
+  },
+  "sources": {
+    "kcom-vesting/vesting.ag": "c8a45c43fb1f4b1621ce04ced336f94bdf9fa5d1f6104729c1ff08d9cfe27bab",
+    "kcom-claim-capabilities/campaign-entitlements.ag": "652a8e9b1ddc1caa92d2b238568c5bd359cd4c3511c04d29b7adb5b31762a1bd",
+    "kcom-claim-capabilities/campaign-entitlements-open.ag": "9eda4445e2e22de3aa660498eb6c1276165786f1b8e3c3c2b8b1a4ce1bdec883"
+  }
+}

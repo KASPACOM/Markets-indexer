@@ -1,0 +1,17 @@
+FROM rust:1.95.0-bookworm AS build
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends pkg-config libssl-dev ca-certificates && rm -rf /var/lib/apt/lists/*
+COPY . .
+ARG SHADOW_DECODER_REVISION
+ENV SHADOW_DECODER_REVISION=$SHADOW_DECODER_REVISION
+RUN test -n "$SHADOW_DECODER_REVISION"
+RUN cargo build --locked --release -p tn12-indexer-cli --bin tn10-shadow-indexer -p tn12-indexer-api --bin covenant-tools-api
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates libssl3 && rm -rf /var/lib/apt/lists/* && useradd --system --uid 10001 shadow-indexer
+COPY --from=build /app/target/release/tn10-shadow-indexer /usr/local/bin/
+COPY --from=build /app/target/release/covenant-tools-api /usr/local/bin/
+ARG SOURCE_REVISION=unknown
+LABEL org.opencontainers.image.source="https://github.com/KASPACOM/Markets-indexer" \
+      org.opencontainers.image.revision=$SOURCE_REVISION
+USER shadow-indexer
+ENTRYPOINT ["tn10-shadow-indexer"]

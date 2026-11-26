@@ -1,0 +1,8 @@
+pragma silverscript ^0.1.0;
+
+contract TimeLockVaultTxTime(int timeout) {
+    entrypoint function recover() {
+        console.log("timeout", timeout);
+        require(tx.time >= timeout);
+    }
+}

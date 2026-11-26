@@ -1,0 +1,4272 @@
+{
+  "contract_name": "KCC20FeeTicket",
+  "compiler_version": "0.1.0",
+  "script": [
+    107,
+    32,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    8,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    32,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    8,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    108,
+    118,
+    0,
+    156,
+    99,
+    117,
+    82,
+    121,
+    81,
+    156,
+    105,
+    118,
+    0,
+    160,
+    105,
+    1,
+    20,
+    121,
+    207,
+    82,
+    121,
+    135,
+    105,
+    185,
+    203,
+    82,
+    156,
+    105,
+    185,
+    0,
+    204,
+    1,
+    19,
+    121,
+    156,
+    105,
+    185,
+    81,
+    204,
+    1,
+    18,
+    121,
+    156,
+    105,
+    1,
+    17,
+    121,
+    194,
+    185,
+    190,
+    156,
+    105,
+    1,
+    20,
+    121,
+    191,
+    1,
+    21,
+    121,
+    1,
+    22,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    1,
+    23,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    147,
+    188,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    135,
+    105,
+    1,
+    20,
+    121,
+    1,
+    21,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    1,
+    22,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    147,
+    188,
+    1,
+    21,
+    121,
+    1,
+    22,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    147,
+    2,
+    210,
+    0,
+    147,
+    1,
+    23,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    147,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    188,
+    126,
+    32,
+    15,
+    28,
+    48,
+    7,
+    60,
+    52,
+    165,
+    214,
+    97,
+    165,
+    212,
+    130,
+    66,
+    114,
+    20,
+    232,
+    236,
+    219,
+    133,
+    134,
+    166,
+    111,
+    104,
+    234,
+    81,
+    190,
+    149,
+    208,
+    87,
+    64,
+    158,
+    213,
+    124,
+    170,
+    135,
+    105,
+    1,
+    20,
+    121,
+    1,
+    21,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    81,
+    147,
+    147,
+    1,
+    22,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    81,
+    147,
+    147,
+    1,
+    32,
+    147,
+    188,
+    1,
+    21,
+    121,
+    1,
+    22,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    34,
+    147,
+    147,
+    1,
+    23,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    34,
+    147,
+    147,
+    88,
+    147,
+    188,
+    1,
+    22,
+    121,
+    1,
+    23,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    43,
+    147,
+    147,
+    1,
+    24,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    43,
+    147,
+    147,
+    88,
+    147,
+    188,
+    1,
+    23,
+    121,
+    1,
+    24,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    52,
+    147,
+    147,
+    1,
+    25,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    52,
+    147,
+    147,
+    88,
+    147,
+    188,
+    1,
+    24,
+    121,
+    1,
+    25,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    61,
+    147,
+    147,
+    1,
+    26,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    61,
+    147,
+    147,
+    88,
+    147,
+    188,
+    1,
+    25,
+    121,
+    1,
+    26,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    70,
+    147,
+    147,
+    1,
+    27,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    70,
+    147,
+    147,
+    1,
+    32,
+    147,
+    188,
+    1,
+    26,
+    121,
+    1,
+    27,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    103,
+    147,
+    147,
+    1,
+    28,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    1,
+    103,
+    147,
+    147,
+    1,
+    32,
+    147,
+    188,
+    1,
+    27,
+    121,
+    1,
+    28,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    136,
+    0,
+    147,
+    147,
+    1,
+    29,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    136,
+    0,
+    147,
+    147,
+    88,
+    147,
+    188,
+    1,
+    28,
+    121,
+    1,
+    29,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    145,
+    0,
+    147,
+    147,
+    1,
+    30,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    145,
+    0,
+    147,
+    147,
+    1,
+    32,
+    147,
+    188,
+    1,
+    29,
+    121,
+    1,
+    30,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    178,
+    0,
+    147,
+    147,
+    1,
+    31,
+    121,
+    201,
+    81,
+    2,
+    210,
+    0,
+    147,
+    2,
+    146,
+    8,
+    147,
+    148,
+    81,
+    2,
+    178,
+    0,
+    147,
+    147,
+    1,
+    32,
+    147,
+    188,
+    89,
+    121,
+    89,
+    121,
+    89,
+    121,
+    89,
+    121,
+    118,
+    0,
+    156,
+    105,
+    120,
+    95,
+    121,
+    162,
+    105,
+    120,
+    95,
+    121,
+    160,
+    99,
+    1,
+    33,
+    121,
+    0,
+    162,
+    105,
+    1,
+    34,
+    121,
+    203,
+    81,
+    156,
+    105,
+    1,
+    34,
+    121,
+    0,
+    204,
+    1,
+    34,
+    121,
+    156,
+    105,
+    1,
+    23,
+    121,
+    90,
+    121,
+    156,
+    105,
+    1,
+    22,
+    121,
+    89,
+    121,
+    135,
+    105,
+    1,
+    21,
+    121,
+    88,
+    121,
+    135,
+    105,
+    1,
+    20,
+    121,
+    87,
+    121,
+    156,
+    105,
+    1,
+    19,
+    121,
+    86,
+    121,
+    135,
+    105,
+    1,
+    18,
+    121,
+    85,
+    121,
+    135,
+    105,
+    1,
+    27,
+    121,
+    84,
+    121,
+    135,
+    105,
+    1,
+    26,
+    121,
+    83,
+    121,
+    156,
+    105,
+    1,
+    25,
+    121,
+    82,
+    121,
+    96,
+    121,
+    148,
+    156,
+    105,
+    1,
+    24,
+    121,
+    0,
+    156,
+    105,
+    1,
+    29,
+    121,
+    1,
+    29,
+    121,
+    126,
+    32,
+    15,
+    28,
+    48,
+    7,
+    60,
+    52,
+    165,
+    214,
+    97,
+    165,
+    212,
+    130,
+    66,
+    114,
+    20,
+    232,
+    236,
+    219,
+    133,
+    134,
+    166,
+    111,
+    104,
+    234,
+    81,
+    190,
+    149,
+    208,
+    87,
+    64,
+    158,
+    213,
+    124,
+    170,
+    135,
+    105,
+    1,
+    27,
+    121,
+    1,
+    32,
+    124,
+    126,
+    1,
+    27,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    27,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    27,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    27,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    27,
+    121,
+    1,
+    32,
+    124,
+    126,
+    1,
+    27,
+    121,
+    1,
+    32,
+    124,
+    126,
+    1,
+    27,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    27,
+    121,
+    1,
+    32,
+    124,
+    126,
+    1,
+    27,
+    121,
+    1,
+    32,
+    124,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    1,
+    30,
+    121,
+    124,
+    126,
+    1,
+    29,
+    121,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    1,
+    34,
+    121,
+    195,
+    135,
+    105,
+    103,
+    1,
+    33,
+    121,
+    0,
+    159,
+    105,
+    1,
+    34,
+    121,
+    203,
+    0,
+    156,
+    105,
+    104,
+    1,
+    30,
+    121,
+    1,
+    32,
+    124,
+    126,
+    82,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    17,
+    121,
+    1,
+    32,
+    124,
+    126,
+    1,
+    17,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    42,
+    6,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    42,
+    6,
+    148,
+    1,
+    85,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    1,
+    33,
+    121,
+    195,
+    135,
+    105,
+    1,
+    17,
+    121,
+    1,
+    32,
+    124,
+    126,
+    81,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    1,
+    17,
+    121,
+    1,
+    32,
+    124,
+    126,
+    1,
+    17,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    42,
+    6,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    42,
+    6,
+    148,
+    1,
+    85,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    1,
+    32,
+    121,
+    195,
+    135,
+    105,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    81,
+    156,
+    99,
+    117,
+    82,
+    121,
+    82,
+    156,
+    105,
+    118,
+    0,
+    160,
+    105,
+    86,
+    121,
+    84,
+    121,
+    172,
+    105,
+    185,
+    203,
+    81,
+    156,
+    105,
+    185,
+    0,
+    204,
+    85,
+    121,
+    156,
+    105,
+    85,
+    121,
+    1,
+    32,
+    124,
+    126,
+    82,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    83,
+    121,
+    1,
+    32,
+    124,
+    126,
+    83,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    42,
+    6,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    42,
+    6,
+    148,
+    1,
+    85,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    85,
+    121,
+    195,
+    135,
+    105,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    82,
+    156,
+    99,
+    117,
+    82,
+    121,
+    82,
+    156,
+    105,
+    118,
+    0,
+    160,
+    105,
+    84,
+    121,
+    84,
+    121,
+    172,
+    105,
+    185,
+    203,
+    0,
+    156,
+    105,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    83,
+    156,
+    99,
+    117,
+    82,
+    121,
+    81,
+    156,
+    105,
+    118,
+    0,
+    160,
+    105,
+    86,
+    121,
+    84,
+    121,
+    172,
+    105,
+    85,
+    121,
+    0,
+    160,
+    105,
+    185,
+    203,
+    81,
+    156,
+    105,
+    185,
+    0,
+    204,
+    85,
+    121,
+    156,
+    105,
+    84,
+    121,
+    194,
+    185,
+    190,
+    156,
+    105,
+    83,
+    121,
+    1,
+    32,
+    124,
+    126,
+    81,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    83,
+    121,
+    1,
+    32,
+    124,
+    126,
+    88,
+    121,
+    88,
+    205,
+    1,
+    8,
+    124,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    42,
+    6,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    42,
+    6,
+    148,
+    1,
+    85,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    85,
+    121,
+    195,
+    135,
+    105,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    117,
+    0,
+    105,
+    104,
+    104,
+    104,
+    104
+  ],
+  "ast": {
+    "name": "KCC20FeeTicket",
+    "params": [
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "stateOwner",
+        "span": "byte[32] stateOwner",
+        "type_span": "byte[32]",
+        "name_span": "stateOwner"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "stateMode",
+        "span": "int stateMode",
+        "type_span": "int ",
+        "name_span": "stateMode"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "utilityKcc20V2TokenId",
+        "span": "byte[32] utilityKcc20V2TokenId",
+        "type_span": "byte[32]",
+        "name_span": "utilityKcc20V2TokenId"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "utilityTokenAmount",
+        "span": "int utilityTokenAmount",
+        "type_span": "int ",
+        "name_span": "utilityTokenAmount"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "v2TemplatePrefixLen",
+        "span": "int v2TemplatePrefixLen",
+        "type_span": "int ",
+        "name_span": "v2TemplatePrefixLen"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "v2TemplateSuffixLen",
+        "span": "int v2TemplateSuffixLen",
+        "type_span": "int ",
+        "name_span": "v2TemplateSuffixLen"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "v2ExpectedTemplateHash",
+        "span": "byte[32] v2ExpectedTemplateHash",
+        "type_span": "byte[32]",
+        "name_span": "v2ExpectedTemplateHash"
+      }
+    ],
+    "structs": [
+      {
+        "name": "KCC20V2State",
+        "fields": [
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "ownerIdentifier",
+            "span": "byte[32] ownerIdentifier;",
+            "type_span": "byte[32]",
+            "name_span": "ownerIdentifier"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "identifierType",
+            "span": "int identifierType;",
+            "type_span": "int ",
+            "name_span": "identifierType"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "amount",
+            "span": "int amount;",
+            "type_span": "int ",
+            "name_span": "amount"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "minterMode",
+            "span": "int minterMode;",
+            "type_span": "int ",
+            "name_span": "minterMode"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "mintPriceSompi",
+            "span": "int mintPriceSompi;",
+            "type_span": "int ",
+            "name_span": "mintPriceSompi"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "treasury",
+            "span": "byte[32] treasury;",
+            "type_span": "byte[32]",
+            "name_span": "treasury"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "feeRecipient",
+            "span": "byte[32] feeRecipient;",
+            "type_span": "byte[32]",
+            "name_span": "feeRecipient"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "feeBps",
+            "span": "int feeBps;",
+            "type_span": "int ",
+            "name_span": "feeBps"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "ticker",
+            "span": "byte[32] ticker;",
+            "type_span": "byte[32]",
+            "name_span": "ticker"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "name",
+            "span": "byte[32] name;",
+            "type_span": "byte[32]",
+            "name_span": "name"
+          }
+        ],
+        "span": "struct KCC20V2State {\n        byte[32] ownerIdentifier;\n        int identifierType;\n        int amount;\n        int minterMode;\n        int mintPriceSompi;\n        byte[32] treasury;\n        byte[32] feeRecipient;\n        int feeBps;\n        byte[32] ticker;\n        byte[32] name;\n    }",
+        "name_span": "KCC20V2State"
+      }
+    ],
+    "fields": [
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "owner",
+        "expr": {
+          "kind": "identifier",
+          "data": "stateOwner",
+          "span": "stateOwner"
+        },
+        "span": "byte[32] owner = stateOwner;",
+        "type_span": "byte[32]",
+        "name_span": "owner"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "mode",
+        "expr": {
+          "kind": "identifier",
+          "data": "stateMode",
+          "span": "stateMode"
+        },
+        "span": "int mode = stateMode;",
+        "type_span": "int ",
+        "name_span": "mode"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "utilityTokenId",
+        "expr": {
+          "kind": "identifier",
+          "data": "utilityKcc20V2TokenId",
+          "span": "utilityKcc20V2TokenId"
+        },
+        "span": "byte[32] utilityTokenId = utilityKcc20V2TokenId;",
+        "type_span": "byte[32]",
+        "name_span": "utilityTokenId"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "denomination",
+        "expr": {
+          "kind": "identifier",
+          "data": "utilityTokenAmount",
+          "span": "utilityTokenAmount"
+        },
+        "span": "int denomination = utilityTokenAmount;",
+        "type_span": "int ",
+        "name_span": "denomination"
+      }
+    ],
+    "constants": [
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "MODE_ROOT",
+        "expr": {
+          "kind": "int",
+          "data": 1,
+          "span": "1"
+        },
+        "span": "int constant MODE_ROOT = 1;",
+        "type_span": "int ",
+        "name_span": "MODE_ROOT"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "MODE_TICKET",
+        "expr": {
+          "kind": "int",
+          "data": 2,
+          "span": "2"
+        },
+        "span": "int constant MODE_TICKET = 2;",
+        "type_span": "int ",
+        "name_span": "MODE_TICKET"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "V2_MODE_HOLDER",
+        "expr": {
+          "kind": "int",
+          "data": 0,
+          "span": "0"
+        },
+        "span": "int constant V2_MODE_HOLDER = 0;",
+        "type_span": "int ",
+        "name_span": "V2_MODE_HOLDER"
+      }
+    ],
+    "functions": [
+      {
+        "name": "requireRoot",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "mode",
+                    "span": "mode"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "MODE_ROOT",
+                    "span": "MODE_ROOT"
+                  }
+                },
+                "span": "mode == MODE_ROOT"
+              },
+              "message": null,
+              "span": "require(mode == MODE_ROOT);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "denomination",
+                    "span": "denomination"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "denomination > 0"
+              },
+              "message": null,
+              "span": "require(denomination > 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireRoot() {\n        require(mode == MODE_ROOT);\n        require(denomination > 0);\n    }",
+        "name_span": "requireRoot",
+        "body_span": "require(mode == MODE_ROOT);\n        require(denomination > 0);"
+      },
+      {
+        "name": "requireTicket",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "mode",
+                    "span": "mode"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "MODE_TICKET",
+                    "span": "MODE_TICKET"
+                  }
+                },
+                "span": "mode == MODE_TICKET"
+              },
+              "message": null,
+              "span": "require(mode == MODE_TICKET);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "denomination",
+                    "span": "denomination"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "denomination > 0"
+              },
+              "message": null,
+              "span": "require(denomination > 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireTicket() {\n        require(mode == MODE_TICKET);\n        require(denomination > 0);\n    }",
+        "name_span": "requireTicket",
+        "body_span": "require(mode == MODE_TICKET);\n        require(denomination > 0);"
+      },
+      {
+        "name": "ticketId",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [
+          {
+            "base": "byte",
+            "array_dims": [
+              {
+                "kind": "fixed",
+                "value": 32
+              }
+            ]
+          }
+        ],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "return",
+            "data": {
+              "exprs": [
+                {
+                  "kind": "call",
+                  "data": {
+                    "name": "OpInputCovenantId",
+                    "args": [
+                      {
+                        "kind": "nullary",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      }
+                    ],
+                    "name_span": "OpInputCovenantId"
+                  },
+                  "span": "OpInputCovenantId(this.activeInputIndex)"
+                }
+              ],
+              "span": "return(OpInputCovenantId(this.activeInputIndex));"
+            }
+          }
+        ],
+        "return_type_spans": [
+          "byte[32]"
+        ],
+        "span": "function ticketId() : byte[32] {\n        return(OpInputCovenantId(this.activeInputIndex));\n    }",
+        "name_span": "ticketId",
+        "body_span": "return(OpInputCovenantId(this.activeInputIndex));"
+      },
+      {
+        "name": "readV2",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "inputIndex",
+            "span": "int inputIndex",
+            "type_span": "int ",
+            "name_span": "inputIndex"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [
+          {
+            "base": "KCC20V2State"
+          }
+        ],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "KCC20V2State"
+              },
+              "modifiers": [],
+              "name": "state",
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "readInputStateWithTemplate",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "inputIndex",
+                      "span": "inputIndex"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "v2TemplatePrefixLen",
+                      "span": "v2TemplatePrefixLen"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "v2TemplateSuffixLen",
+                      "span": "v2TemplateSuffixLen"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "v2ExpectedTemplateHash",
+                      "span": "v2ExpectedTemplateHash"
+                    }
+                  ],
+                  "name_span": "readInputStateWithTemplate"
+                },
+                "span": "readInputStateWithTemplate(\n            inputIndex,\n            v2TemplatePrefixLen,\n            v2TemplateSuffixLen,\n            v2ExpectedTemplateHash\n        )"
+              },
+              "span": "KCC20V2State state = readInputStateWithTemplate(\n            inputIndex,\n            v2TemplatePrefixLen,\n            v2TemplateSuffixLen,\n            v2ExpectedTemplateHash\n        );",
+              "type_span": "KCC20V2State ",
+              "modifier_spans": [],
+              "name_span": "state"
+            }
+          },
+          {
+            "kind": "return",
+            "data": {
+              "exprs": [
+                {
+                  "kind": "identifier",
+                  "data": "state",
+                  "span": "state"
+                }
+              ],
+              "span": "return(state);"
+            }
+          }
+        ],
+        "return_type_spans": [
+          "KCC20V2State "
+        ],
+        "span": "function readV2(int inputIndex) : KCC20V2State {\n        KCC20V2State state = readInputStateWithTemplate(\n            inputIndex,\n            v2TemplatePrefixLen,\n            v2TemplateSuffixLen,\n            v2ExpectedTemplateHash\n        );\n        return(state);\n    }",
+        "name_span": "readV2",
+        "body_span": "KCC20V2State state = readInputStateWithTemplate(\n            inputIndex,\n            v2TemplatePrefixLen,\n            v2TemplateSuffixLen,\n            v2ExpectedTemplateHash\n        );\n        return(state);"
+      },
+      {
+        "name": "requireSameV2Policy",
+        "params": [
+          {
+            "type_ref": {
+              "base": "KCC20V2State"
+            },
+            "name": "a",
+            "span": "KCC20V2State a",
+            "type_span": "KCC20V2State ",
+            "name_span": "a"
+          },
+          {
+            "type_ref": {
+              "base": "KCC20V2State"
+            },
+            "name": "b",
+            "span": "KCC20V2State b",
+            "type_span": "KCC20V2State ",
+            "name_span": "b"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "b",
+                        "span": "b"
+                      },
+                      "field": "mintPriceSompi",
+                      "field_span": "mintPriceSompi"
+                    },
+                    "span": "b.mintPriceSompi"
+                  },
+                  "right": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "a",
+                        "span": "a"
+                      },
+                      "field": "mintPriceSompi",
+                      "field_span": "mintPriceSompi"
+                    },
+                    "span": "a.mintPriceSompi"
+                  }
+                },
+                "span": "b.mintPriceSompi == a.mintPriceSompi"
+              },
+              "message": null,
+              "span": "require(b.mintPriceSompi == a.mintPriceSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "b",
+                        "span": "b"
+                      },
+                      "field": "treasury",
+                      "field_span": "treasury"
+                    },
+                    "span": "b.treasury"
+                  },
+                  "right": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "a",
+                        "span": "a"
+                      },
+                      "field": "treasury",
+                      "field_span": "treasury"
+                    },
+                    "span": "a.treasury"
+                  }
+                },
+                "span": "b.treasury == a.treasury"
+              },
+              "message": null,
+              "span": "require(b.treasury == a.treasury);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "b",
+                        "span": "b"
+                      },
+                      "field": "feeRecipient",
+                      "field_span": "feeRecipient"
+                    },
+                    "span": "b.feeRecipient"
+                  },
+                  "right": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "a",
+                        "span": "a"
+                      },
+                      "field": "feeRecipient",
+                      "field_span": "feeRecipient"
+                    },
+                    "span": "a.feeRecipient"
+                  }
+                },
+                "span": "b.feeRecipient == a.feeRecipient"
+              },
+              "message": null,
+              "span": "require(b.feeRecipient == a.feeRecipient);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "b",
+                        "span": "b"
+                      },
+                      "field": "feeBps",
+                      "field_span": "feeBps"
+                    },
+                    "span": "b.feeBps"
+                  },
+                  "right": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "a",
+                        "span": "a"
+                      },
+                      "field": "feeBps",
+                      "field_span": "feeBps"
+                    },
+                    "span": "a.feeBps"
+                  }
+                },
+                "span": "b.feeBps == a.feeBps"
+              },
+              "message": null,
+              "span": "require(b.feeBps == a.feeBps);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "b",
+                        "span": "b"
+                      },
+                      "field": "ticker",
+                      "field_span": "ticker"
+                    },
+                    "span": "b.ticker"
+                  },
+                  "right": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "a",
+                        "span": "a"
+                      },
+                      "field": "ticker",
+                      "field_span": "ticker"
+                    },
+                    "span": "a.ticker"
+                  }
+                },
+                "span": "b.ticker == a.ticker"
+              },
+              "message": null,
+              "span": "require(b.ticker == a.ticker);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "b",
+                        "span": "b"
+                      },
+                      "field": "name",
+                      "field_span": "name"
+                    },
+                    "span": "b.name"
+                  },
+                  "right": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "a",
+                        "span": "a"
+                      },
+                      "field": "name",
+                      "field_span": "name"
+                    },
+                    "span": "a.name"
+                  }
+                },
+                "span": "b.name == a.name"
+              },
+              "message": null,
+              "span": "require(b.name == a.name);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireSameV2Policy(KCC20V2State a, KCC20V2State b) {\n        require(b.mintPriceSompi == a.mintPriceSompi);\n        require(b.treasury == a.treasury);\n        require(b.feeRecipient == a.feeRecipient);\n        require(b.feeBps == a.feeBps);\n        require(b.ticker == a.ticker);\n        require(b.name == a.name);\n    }",
+        "name_span": "requireSameV2Policy",
+        "body_span": "require(b.mintPriceSompi == a.mintPriceSompi);\n        require(b.treasury == a.treasury);\n        require(b.feeRecipient == a.feeRecipient);\n        require(b.feeBps == a.feeBps);\n        require(b.ticker == a.ticker);\n        require(b.name == a.name);"
+      },
+      {
+        "name": "validateV2Output",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "outputIndex",
+            "span": "int outputIndex",
+            "type_span": "int ",
+            "name_span": "outputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "KCC20V2State"
+            },
+            "name": "state",
+            "span": "KCC20V2State state",
+            "type_span": "KCC20V2State ",
+            "name_span": "state"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "dynamic"
+                }
+              ]
+            },
+            "name": "templatePrefix",
+            "span": "byte[] templatePrefix",
+            "type_span": "byte[]",
+            "name_span": "templatePrefix"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "dynamic"
+                }
+              ]
+            },
+            "name": "templateSuffix",
+            "span": "byte[] templateSuffix",
+            "type_span": "byte[]",
+            "name_span": "templateSuffix"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputStateWithTemplate",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "outputIndex",
+                  "span": "outputIndex"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "state",
+                  "span": "state"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "templatePrefix",
+                  "span": "templatePrefix"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "templateSuffix",
+                  "span": "templateSuffix"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "v2ExpectedTemplateHash",
+                  "span": "v2ExpectedTemplateHash"
+                }
+              ],
+              "span": "validateOutputStateWithTemplate(\n            outputIndex,\n            state,\n            templatePrefix,\n            templateSuffix,\n            v2ExpectedTemplateHash\n        );",
+              "name_span": "validateOutputStateWithTemplate"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function validateV2Output(int outputIndex, KCC20V2State state, byte[] templatePrefix, byte[] templateSuffix) {\n        validateOutputStateWithTemplate(\n            outputIndex,\n            state,\n            templatePrefix,\n            templateSuffix,\n            v2ExpectedTemplateHash\n        );\n    }",
+        "name_span": "validateV2Output",
+        "body_span": "validateOutputStateWithTemplate(\n            outputIndex,\n            state,\n            templatePrefix,\n            templateSuffix,\n            v2ExpectedTemplateHash\n        );"
+      },
+      {
+        "name": "rootOutput",
+        "params": [
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "outOwner",
+            "span": "byte[32] outOwner",
+            "type_span": "byte[32]",
+            "name_span": "outOwner"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "outputIndex",
+            "span": "int outputIndex",
+            "type_span": "int ",
+            "name_span": "outputIndex"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "outputIndex",
+                  "span": "outputIndex"
+                },
+                {
+                  "kind": "state_object",
+                  "data": [
+                    {
+                      "name": "owner",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "outOwner",
+                        "span": "outOwner"
+                      },
+                      "span": "owner: outOwner",
+                      "name_span": "owner"
+                    },
+                    {
+                      "name": "mode",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "MODE_ROOT",
+                        "span": "MODE_ROOT"
+                      },
+                      "span": "mode: MODE_ROOT",
+                      "name_span": "mode"
+                    },
+                    {
+                      "name": "utilityTokenId",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "utilityTokenId",
+                        "span": "utilityTokenId"
+                      },
+                      "span": "utilityTokenId: utilityTokenId",
+                      "name_span": "utilityTokenId"
+                    },
+                    {
+                      "name": "denomination",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "denomination",
+                        "span": "denomination"
+                      },
+                      "span": "denomination: denomination\n        ",
+                      "name_span": "denomination"
+                    }
+                  ],
+                  "span": "{\n            owner: outOwner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        }"
+                }
+              ],
+              "span": "validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function rootOutput(byte[32] outOwner, int outputIndex) {\n        validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });\n    }",
+        "name_span": "rootOutput",
+        "body_span": "validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });"
+      },
+      {
+        "name": "ticketOutput",
+        "params": [
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "outOwner",
+            "span": "byte[32] outOwner",
+            "type_span": "byte[32]",
+            "name_span": "outOwner"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "outputIndex",
+            "span": "int outputIndex",
+            "type_span": "int ",
+            "name_span": "outputIndex"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "outputIndex",
+                  "span": "outputIndex"
+                },
+                {
+                  "kind": "state_object",
+                  "data": [
+                    {
+                      "name": "owner",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "outOwner",
+                        "span": "outOwner"
+                      },
+                      "span": "owner: outOwner",
+                      "name_span": "owner"
+                    },
+                    {
+                      "name": "mode",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "MODE_TICKET",
+                        "span": "MODE_TICKET"
+                      },
+                      "span": "mode: MODE_TICKET",
+                      "name_span": "mode"
+                    },
+                    {
+                      "name": "utilityTokenId",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "utilityTokenId",
+                        "span": "utilityTokenId"
+                      },
+                      "span": "utilityTokenId: utilityTokenId",
+                      "name_span": "utilityTokenId"
+                    },
+                    {
+                      "name": "denomination",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "denomination",
+                        "span": "denomination"
+                      },
+                      "span": "denomination: denomination\n        ",
+                      "name_span": "denomination"
+                    }
+                  ],
+                  "span": "{\n            owner: outOwner,\n            mode: MODE_TICKET,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        }"
+                }
+              ],
+              "span": "validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_TICKET,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function ticketOutput(byte[32] outOwner, int outputIndex) {\n        validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_TICKET,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });\n    }",
+        "name_span": "ticketOutput",
+        "body_span": "validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_TICKET,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });"
+      },
+      {
+        "name": "createFromUtilityBurn",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "utilityInputIndex",
+            "span": "int utilityInputIndex",
+            "type_span": "int ",
+            "name_span": "utilityInputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "utilityChangeOutputIndex",
+            "span": "int utilityChangeOutputIndex",
+            "type_span": "int ",
+            "name_span": "utilityChangeOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "ticketOutputIndex",
+            "span": "int ticketOutputIndex",
+            "type_span": "int ",
+            "name_span": "ticketOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "rootOutputIndex",
+            "span": "int rootOutputIndex",
+            "type_span": "int ",
+            "name_span": "rootOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "ticketOwner",
+            "span": "byte[32] ticketOwner",
+            "type_span": "byte[32]",
+            "name_span": "ticketOwner"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "dynamic"
+                }
+              ]
+            },
+            "name": "v2TemplatePrefix",
+            "span": "byte[] v2TemplatePrefix",
+            "type_span": "byte[]",
+            "name_span": "v2TemplatePrefix"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "dynamic"
+                }
+              ]
+            },
+            "name": "v2TemplateSuffix",
+            "span": "byte[] v2TemplateSuffix",
+            "type_span": "byte[]",
+            "name_span": "v2TemplateSuffix"
+          },
+          {
+            "type_ref": {
+              "base": "KCC20V2State"
+            },
+            "name": "utilityChangeState",
+            "span": "KCC20V2State utilityChangeState",
+            "type_span": "KCC20V2State ",
+            "name_span": "utilityChangeState"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireRoot",
+              "args": [],
+              "span": "requireRoot();",
+              "name_span": "requireRoot"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpInputCovenantId",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "utilityInputIndex",
+                          "span": "utilityInputIndex"
+                        }
+                      ],
+                      "name_span": "OpInputCovenantId"
+                    },
+                    "span": "OpInputCovenantId(utilityInputIndex)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "utilityTokenId",
+                    "span": "utilityTokenId"
+                  }
+                },
+                "span": "OpInputCovenantId(utilityInputIndex) == utilityTokenId"
+              },
+              "message": null,
+              "span": "require(OpInputCovenantId(utilityInputIndex) == utilityTokenId);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 2,
+                    "span": "2"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 2"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 2);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputIdx",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        },
+                        {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputIdx"
+                    },
+                    "span": "OpAuthOutputIdx(this.activeInputIndex, 0)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "ticketOutputIndex",
+                    "span": "ticketOutputIndex"
+                  }
+                },
+                "span": "OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputIdx",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        },
+                        {
+                          "kind": "int",
+                          "data": 1,
+                          "span": "1"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputIdx"
+                    },
+                    "span": "OpAuthOutputIdx(this.activeInputIndex, 1)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "rootOutputIndex",
+                    "span": "rootOutputIndex"
+                  }
+                },
+                "span": "OpAuthOutputIdx(this.activeInputIndex, 1) == rootOutputIndex"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputIdx(this.activeInputIndex, 1) == rootOutputIndex);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "rootOutputIndex",
+                        "span": "rootOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[rootOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "nullary",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  }
+                },
+                "span": "tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value"
+              },
+              "message": null,
+              "span": "require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "KCC20V2State"
+              },
+              "modifiers": [],
+              "name": "utilityIn",
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "readV2",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "utilityInputIndex",
+                      "span": "utilityInputIndex"
+                    }
+                  ],
+                  "name_span": "readV2"
+                },
+                "span": "readV2(utilityInputIndex)"
+              },
+              "span": "KCC20V2State utilityIn = readV2(utilityInputIndex);",
+              "type_span": "KCC20V2State ",
+              "modifier_spans": [],
+              "name_span": "utilityIn"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "utilityIn",
+                        "span": "utilityIn"
+                      },
+                      "field": "minterMode",
+                      "field_span": "minterMode"
+                    },
+                    "span": "utilityIn.minterMode"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "V2_MODE_HOLDER",
+                    "span": "V2_MODE_HOLDER"
+                  }
+                },
+                "span": "utilityIn.minterMode == V2_MODE_HOLDER"
+              },
+              "message": null,
+              "span": "require(utilityIn.minterMode == V2_MODE_HOLDER);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "utilityIn",
+                        "span": "utilityIn"
+                      },
+                      "field": "amount",
+                      "field_span": "amount"
+                    },
+                    "span": "utilityIn.amount"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "denomination",
+                    "span": "denomination"
+                  }
+                },
+                "span": "utilityIn.amount >= denomination"
+              },
+              "message": null,
+              "span": "require(utilityIn.amount >= denomination);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "field_access",
+                    "data": {
+                      "source": {
+                        "kind": "identifier",
+                        "data": "utilityIn",
+                        "span": "utilityIn"
+                      },
+                      "field": "amount",
+                      "field_span": "amount"
+                    },
+                    "span": "utilityIn.amount"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "denomination",
+                    "span": "denomination"
+                  }
+                },
+                "span": "utilityIn.amount > denomination"
+              },
+              "then_branch": [
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "ge",
+                        "left": {
+                          "kind": "identifier",
+                          "data": "utilityChangeOutputIndex",
+                          "span": "utilityChangeOutputIndex"
+                        },
+                        "right": {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      },
+                      "span": "utilityChangeOutputIndex >= 0"
+                    },
+                    "message": null,
+                    "span": "require(utilityChangeOutputIndex >= 0);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "call",
+                          "data": {
+                            "name": "OpAuthOutputCount",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "utilityInputIndex",
+                                "span": "utilityInputIndex"
+                              }
+                            ],
+                            "name_span": "OpAuthOutputCount"
+                          },
+                          "span": "OpAuthOutputCount(utilityInputIndex)"
+                        },
+                        "right": {
+                          "kind": "int",
+                          "data": 1,
+                          "span": "1"
+                        }
+                      },
+                      "span": "OpAuthOutputCount(utilityInputIndex) == 1"
+                    },
+                    "message": null,
+                    "span": "require(OpAuthOutputCount(utilityInputIndex) == 1);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "call",
+                          "data": {
+                            "name": "OpAuthOutputIdx",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "utilityInputIndex",
+                                "span": "utilityInputIndex"
+                              },
+                              {
+                                "kind": "int",
+                                "data": 0,
+                                "span": "0"
+                              }
+                            ],
+                            "name_span": "OpAuthOutputIdx"
+                          },
+                          "span": "OpAuthOutputIdx(utilityInputIndex, 0)"
+                        },
+                        "right": {
+                          "kind": "identifier",
+                          "data": "utilityChangeOutputIndex",
+                          "span": "utilityChangeOutputIndex"
+                        }
+                      },
+                      "span": "OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex"
+                    },
+                    "message": null,
+                    "span": "require(OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "function_call",
+                  "data": {
+                    "name": "requireSameV2Policy",
+                    "args": [
+                      {
+                        "kind": "identifier",
+                        "data": "utilityIn",
+                        "span": "utilityIn"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "utilityChangeState",
+                        "span": "utilityChangeState"
+                      }
+                    ],
+                    "span": "requireSameV2Policy(utilityIn, utilityChangeState);",
+                    "name_span": "requireSameV2Policy"
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "field_access",
+                          "data": {
+                            "source": {
+                              "kind": "identifier",
+                              "data": "utilityChangeState",
+                              "span": "utilityChangeState"
+                            },
+                            "field": "ownerIdentifier",
+                            "field_span": "ownerIdentifier"
+                          },
+                          "span": "utilityChangeState.ownerIdentifier"
+                        },
+                        "right": {
+                          "kind": "field_access",
+                          "data": {
+                            "source": {
+                              "kind": "identifier",
+                              "data": "utilityIn",
+                              "span": "utilityIn"
+                            },
+                            "field": "ownerIdentifier",
+                            "field_span": "ownerIdentifier"
+                          },
+                          "span": "utilityIn.ownerIdentifier"
+                        }
+                      },
+                      "span": "utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier"
+                    },
+                    "message": null,
+                    "span": "require(utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "field_access",
+                          "data": {
+                            "source": {
+                              "kind": "identifier",
+                              "data": "utilityChangeState",
+                              "span": "utilityChangeState"
+                            },
+                            "field": "identifierType",
+                            "field_span": "identifierType"
+                          },
+                          "span": "utilityChangeState.identifierType"
+                        },
+                        "right": {
+                          "kind": "field_access",
+                          "data": {
+                            "source": {
+                              "kind": "identifier",
+                              "data": "utilityIn",
+                              "span": "utilityIn"
+                            },
+                            "field": "identifierType",
+                            "field_span": "identifierType"
+                          },
+                          "span": "utilityIn.identifierType"
+                        }
+                      },
+                      "span": "utilityChangeState.identifierType == utilityIn.identifierType"
+                    },
+                    "message": null,
+                    "span": "require(utilityChangeState.identifierType == utilityIn.identifierType);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "field_access",
+                          "data": {
+                            "source": {
+                              "kind": "identifier",
+                              "data": "utilityChangeState",
+                              "span": "utilityChangeState"
+                            },
+                            "field": "amount",
+                            "field_span": "amount"
+                          },
+                          "span": "utilityChangeState.amount"
+                        },
+                        "right": {
+                          "kind": "binary",
+                          "data": {
+                            "op": "sub",
+                            "left": {
+                              "kind": "field_access",
+                              "data": {
+                                "source": {
+                                  "kind": "identifier",
+                                  "data": "utilityIn",
+                                  "span": "utilityIn"
+                                },
+                                "field": "amount",
+                                "field_span": "amount"
+                              },
+                              "span": "utilityIn.amount"
+                            },
+                            "right": {
+                              "kind": "identifier",
+                              "data": "denomination",
+                              "span": "denomination"
+                            }
+                          },
+                          "span": "utilityIn.amount - denomination"
+                        }
+                      },
+                      "span": "utilityChangeState.amount == utilityIn.amount - denomination"
+                    },
+                    "message": null,
+                    "span": "require(utilityChangeState.amount == utilityIn.amount - denomination);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "field_access",
+                          "data": {
+                            "source": {
+                              "kind": "identifier",
+                              "data": "utilityChangeState",
+                              "span": "utilityChangeState"
+                            },
+                            "field": "minterMode",
+                            "field_span": "minterMode"
+                          },
+                          "span": "utilityChangeState.minterMode"
+                        },
+                        "right": {
+                          "kind": "identifier",
+                          "data": "V2_MODE_HOLDER",
+                          "span": "V2_MODE_HOLDER"
+                        }
+                      },
+                      "span": "utilityChangeState.minterMode == V2_MODE_HOLDER"
+                    },
+                    "message": null,
+                    "span": "require(utilityChangeState.minterMode == V2_MODE_HOLDER);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "function_call",
+                  "data": {
+                    "name": "validateV2Output",
+                    "args": [
+                      {
+                        "kind": "identifier",
+                        "data": "utilityChangeOutputIndex",
+                        "span": "utilityChangeOutputIndex"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "utilityChangeState",
+                        "span": "utilityChangeState"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "v2TemplatePrefix",
+                        "span": "v2TemplatePrefix"
+                      },
+                      {
+                        "kind": "identifier",
+                        "data": "v2TemplateSuffix",
+                        "span": "v2TemplateSuffix"
+                      }
+                    ],
+                    "span": "validateV2Output(utilityChangeOutputIndex, utilityChangeState, v2TemplatePrefix, v2TemplateSuffix);",
+                    "name_span": "validateV2Output"
+                  }
+                }
+              ],
+              "else_branch": [
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "lt",
+                        "left": {
+                          "kind": "identifier",
+                          "data": "utilityChangeOutputIndex",
+                          "span": "utilityChangeOutputIndex"
+                        },
+                        "right": {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      },
+                      "span": "utilityChangeOutputIndex < 0"
+                    },
+                    "message": null,
+                    "span": "require(utilityChangeOutputIndex < 0);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "call",
+                          "data": {
+                            "name": "OpAuthOutputCount",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "utilityInputIndex",
+                                "span": "utilityInputIndex"
+                              }
+                            ],
+                            "name_span": "OpAuthOutputCount"
+                          },
+                          "span": "OpAuthOutputCount(utilityInputIndex)"
+                        },
+                        "right": {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      },
+                      "span": "OpAuthOutputCount(utilityInputIndex) == 0"
+                    },
+                    "message": null,
+                    "span": "require(OpAuthOutputCount(utilityInputIndex) == 0);",
+                    "message_span": null
+                  }
+                }
+              ],
+              "span": "if (utilityIn.amount > denomination) {\n            require(utilityChangeOutputIndex >= 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 1);\n            require(OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex);\n            requireSameV2Policy(utilityIn, utilityChangeState);\n            require(utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier);\n            require(utilityChangeState.identifierType == utilityIn.identifierType);\n            require(utilityChangeState.amount == utilityIn.amount - denomination);\n            require(utilityChangeState.minterMode == V2_MODE_HOLDER);\n            validateV2Output(utilityChangeOutputIndex, utilityChangeState, v2TemplatePrefix, v2TemplateSuffix);\n        } else {\n            require(utilityChangeOutputIndex < 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 0);\n        }",
+              "then_span": "require(utilityChangeOutputIndex >= 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 1);\n            require(OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex);\n            requireSameV2Policy(utilityIn, utilityChangeState);\n            require(utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier);\n            require(utilityChangeState.identifierType == utilityIn.identifierType);\n            require(utilityChangeState.amount == utilityIn.amount - denomination);\n            require(utilityChangeState.minterMode == V2_MODE_HOLDER);\n            validateV2Output(utilityChangeOutputIndex, utilityChangeState, v2TemplatePrefix, v2TemplateSuffix);",
+              "else_span": "require(utilityChangeOutputIndex < 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 0);"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "ticketOutput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "ticketOwner",
+                  "span": "ticketOwner"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "ticketOutputIndex",
+                  "span": "ticketOutputIndex"
+                }
+              ],
+              "span": "ticketOutput(ticketOwner, ticketOutputIndex);",
+              "name_span": "ticketOutput"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "rootOutput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "owner",
+                  "span": "owner"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "rootOutputIndex",
+                  "span": "rootOutputIndex"
+                }
+              ],
+              "span": "rootOutput(owner, rootOutputIndex);",
+              "name_span": "rootOutput"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function createFromUtilityBurn(\n        int utilityInputIndex,\n        int utilityChangeOutputIndex,\n        int ticketOutputIndex,\n        int rootOutputIndex,\n        byte[32] ticketOwner,\n        byte[] v2TemplatePrefix,\n        byte[] v2TemplateSuffix,\n        KCC20V2State utilityChangeState\n    ) {\n        requireRoot();\n        require(OpInputCovenantId(utilityInputIndex) == utilityTokenId);\n        require(OpAuthOutputCount(this.activeInputIndex) == 2);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);\n        require(OpAuthOutputIdx(this.activeInputIndex, 1) == rootOutputIndex);\n        require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n\n        KCC20V2State utilityIn = readV2(utilityInputIndex);\n        require(utilityIn.minterMode == V2_MODE_HOLDER);\n        require(utilityIn.amount >= denomination);\n\n        if (utilityIn.amount > denomination) {\n            require(utilityChangeOutputIndex >= 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 1);\n            require(OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex);\n            requireSameV2Policy(utilityIn, utilityChangeState);\n            require(utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier);\n            require(utilityChangeState.identifierType == utilityIn.identifierType);\n            require(utilityChangeState.amount == utilityIn.amount - denomination);\n            require(utilityChangeState.minterMode == V2_MODE_HOLDER);\n            validateV2Output(utilityChangeOutputIndex, utilityChangeState, v2TemplatePrefix, v2TemplateSuffix);\n        } else {\n            require(utilityChangeOutputIndex < 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 0);\n        }\n\n        ticketOutput(ticketOwner, ticketOutputIndex);\n        rootOutput(owner, rootOutputIndex);\n    }",
+        "name_span": "createFromUtilityBurn",
+        "body_span": "requireRoot();\n        require(OpInputCovenantId(utilityInputIndex) == utilityTokenId);\n        require(OpAuthOutputCount(this.activeInputIndex) == 2);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);\n        require(OpAuthOutputIdx(this.activeInputIndex, 1) == rootOutputIndex);\n        require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n\n        KCC20V2State utilityIn = readV2(utilityInputIndex);\n        require(utilityIn.minterMode == V2_MODE_HOLDER);\n        require(utilityIn.amount >= denomination);\n\n        if (utilityIn.amount > denomination) {\n            require(utilityChangeOutputIndex >= 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 1);\n            require(OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex);\n            requireSameV2Policy(utilityIn, utilityChangeState);\n            require(utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier);\n            require(utilityChangeState.identifierType == utilityIn.identifierType);\n            require(utilityChangeState.amount == utilityIn.amount - denomination);\n            require(utilityChangeState.minterMode == V2_MODE_HOLDER);\n            validateV2Output(utilityChangeOutputIndex, utilityChangeState, v2TemplatePrefix, v2TemplateSuffix);\n        } else {\n            require(utilityChangeOutputIndex < 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 0);\n        }\n\n        ticketOutput(ticketOwner, ticketOutputIndex);\n        rootOutput(owner, rootOutputIndex);"
+      },
+      {
+        "name": "transferByOwnerSig",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "ownerSig",
+            "span": "sig ownerSig",
+            "type_span": "sig ",
+            "name_span": "ownerSig"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "toOwner",
+            "span": "byte[32] toOwner",
+            "type_span": "byte[32]",
+            "name_span": "toOwner"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "ticketOutputIndex",
+            "span": "int ticketOutputIndex",
+            "type_span": "int ",
+            "name_span": "ticketOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireTicket",
+              "args": [],
+              "span": "requireTicket();",
+              "name_span": "requireTicket"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "ownerSig",
+                      "span": "ownerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "owner",
+                            "span": "owner"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(owner)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(ownerSig, pubkey(owner))"
+              },
+              "message": null,
+              "span": "require(checkSig(ownerSig, pubkey(owner)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 1,
+                    "span": "1"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 1"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 1);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputIdx",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        },
+                        {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputIdx"
+                    },
+                    "span": "OpAuthOutputIdx(this.activeInputIndex, 0)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "ticketOutputIndex",
+                    "span": "ticketOutputIndex"
+                  }
+                },
+                "span": "OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "ticketOutput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "toOwner",
+                  "span": "toOwner"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "ticketOutputIndex",
+                  "span": "ticketOutputIndex"
+                }
+              ],
+              "span": "ticketOutput(toOwner, ticketOutputIndex);",
+              "name_span": "ticketOutput"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function transferByOwnerSig(sig ownerSig, byte[32] toOwner, int ticketOutputIndex) {\n        requireTicket();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);\n        ticketOutput(toOwner, ticketOutputIndex);\n    }",
+        "name_span": "transferByOwnerSig",
+        "body_span": "requireTicket();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);\n        ticketOutput(toOwner, ticketOutputIndex);"
+      },
+      {
+        "name": "burnByOwnerSig",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "ownerSig",
+            "span": "sig ownerSig",
+            "type_span": "sig ",
+            "name_span": "ownerSig"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireTicket",
+              "args": [],
+              "span": "requireTicket();",
+              "name_span": "requireTicket"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "ownerSig",
+                      "span": "ownerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "owner",
+                            "span": "owner"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(owner)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(ownerSig, pubkey(owner))"
+              },
+              "message": null,
+              "span": "require(checkSig(ownerSig, pubkey(owner)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 0"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function burnByOwnerSig(sig ownerSig) {\n        requireTicket();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(OpAuthOutputCount(this.activeInputIndex) == 0);\n    }",
+        "name_span": "burnByOwnerSig",
+        "body_span": "requireTicket();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(OpAuthOutputCount(this.activeInputIndex) == 0);"
+      },
+      {
+        "name": "updateDenominationByOwnerSig",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "ownerSig",
+            "span": "sig ownerSig",
+            "type_span": "sig ",
+            "name_span": "ownerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "newDenomination",
+            "span": "int newDenomination",
+            "type_span": "int ",
+            "name_span": "newDenomination"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "rootOutputIndex",
+            "span": "int rootOutputIndex",
+            "type_span": "int ",
+            "name_span": "rootOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireRoot",
+              "args": [],
+              "span": "requireRoot();",
+              "name_span": "requireRoot"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "ownerSig",
+                      "span": "ownerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "owner",
+                            "span": "owner"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(owner)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(ownerSig, pubkey(owner))"
+              },
+              "message": null,
+              "span": "require(checkSig(ownerSig, pubkey(owner)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "newDenomination",
+                    "span": "newDenomination"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "newDenomination > 0"
+              },
+              "message": null,
+              "span": "require(newDenomination > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 1,
+                    "span": "1"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 1"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 1);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputIdx",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        },
+                        {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputIdx"
+                    },
+                    "span": "OpAuthOutputIdx(this.activeInputIndex, 0)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "rootOutputIndex",
+                    "span": "rootOutputIndex"
+                  }
+                },
+                "span": "OpAuthOutputIdx(this.activeInputIndex, 0) == rootOutputIndex"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputIdx(this.activeInputIndex, 0) == rootOutputIndex);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "rootOutputIndex",
+                        "span": "rootOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[rootOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "nullary",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  }
+                },
+                "span": "tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value"
+              },
+              "message": null,
+              "span": "require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "rootOutputIndex",
+                  "span": "rootOutputIndex"
+                },
+                {
+                  "kind": "state_object",
+                  "data": [
+                    {
+                      "name": "owner",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "owner",
+                        "span": "owner"
+                      },
+                      "span": "owner: owner",
+                      "name_span": "owner"
+                    },
+                    {
+                      "name": "mode",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "MODE_ROOT",
+                        "span": "MODE_ROOT"
+                      },
+                      "span": "mode: MODE_ROOT",
+                      "name_span": "mode"
+                    },
+                    {
+                      "name": "utilityTokenId",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "utilityTokenId",
+                        "span": "utilityTokenId"
+                      },
+                      "span": "utilityTokenId: utilityTokenId",
+                      "name_span": "utilityTokenId"
+                    },
+                    {
+                      "name": "denomination",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "newDenomination",
+                        "span": "newDenomination"
+                      },
+                      "span": "denomination: newDenomination\n        ",
+                      "name_span": "denomination"
+                    }
+                  ],
+                  "span": "{\n            owner: owner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: newDenomination\n        }"
+                }
+              ],
+              "span": "validateOutputState(rootOutputIndex, {\n            owner: owner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: newDenomination\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function updateDenominationByOwnerSig(sig ownerSig, int newDenomination, int rootOutputIndex) {\n        requireRoot();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(newDenomination > 0);\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == rootOutputIndex);\n        require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n        validateOutputState(rootOutputIndex, {\n            owner: owner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: newDenomination\n        });\n    }",
+        "name_span": "updateDenominationByOwnerSig",
+        "body_span": "requireRoot();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(newDenomination > 0);\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == rootOutputIndex);\n        require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n        validateOutputState(rootOutputIndex, {\n            owner: owner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: newDenomination\n        });"
+      }
+    ],
+    "span": "contract KCC20FeeTicket(\n    byte[32] stateOwner,\n    int stateMode,\n    byte[32] utilityKcc20V2TokenId,\n    int utilityTokenAmount,\n    int v2TemplatePrefixLen,\n    int v2TemplateSuffixLen,\n    byte[32] v2ExpectedTemplateHash\n) {\n    int constant MODE_ROOT = 1;\n    int constant MODE_TICKET = 2;\n    int constant V2_MODE_HOLDER = 0;\n\n    byte[32] owner = stateOwner;\n    int mode = stateMode;\n    byte[32] utilityTokenId = utilityKcc20V2TokenId;\n    int denomination = utilityTokenAmount;\n\n    struct KCC20V2State {\n        byte[32] ownerIdentifier;\n        int identifierType;\n        int amount;\n        int minterMode;\n        int mintPriceSompi;\n        byte[32] treasury;\n        byte[32] feeRecipient;\n        int feeBps;\n        byte[32] ticker;\n        byte[32] name;\n    }\n\n    function requireRoot() {\n        require(mode == MODE_ROOT);\n        require(denomination > 0);\n    }\n\n    function requireTicket() {\n        require(mode == MODE_TICKET);\n        require(denomination > 0);\n    }\n\n    function ticketId() : byte[32] {\n        return(OpInputCovenantId(this.activeInputIndex));\n    }\n\n    function readV2(int inputIndex) : KCC20V2State {\n        KCC20V2State state = readInputStateWithTemplate(\n            inputIndex,\n            v2TemplatePrefixLen,\n            v2TemplateSuffixLen,\n            v2ExpectedTemplateHash\n        );\n        return(state);\n    }\n\n    function requireSameV2Policy(KCC20V2State a, KCC20V2State b) {\n        require(b.mintPriceSompi == a.mintPriceSompi);\n        require(b.treasury == a.treasury);\n        require(b.feeRecipient == a.feeRecipient);\n        require(b.feeBps == a.feeBps);\n        require(b.ticker == a.ticker);\n        require(b.name == a.name);\n    }\n\n    function validateV2Output(int outputIndex, KCC20V2State state, byte[] templatePrefix, byte[] templateSuffix) {\n        validateOutputStateWithTemplate(\n            outputIndex,\n            state,\n            templatePrefix,\n            templateSuffix,\n            v2ExpectedTemplateHash\n        );\n    }\n\n    function rootOutput(byte[32] outOwner, int outputIndex) {\n        validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });\n    }\n\n    function ticketOutput(byte[32] outOwner, int outputIndex) {\n        validateOutputState(outputIndex, {\n            owner: outOwner,\n            mode: MODE_TICKET,\n            utilityTokenId: utilityTokenId,\n            denomination: denomination\n        });\n    }\n\n    entrypoint function createFromUtilityBurn(\n        int utilityInputIndex,\n        int utilityChangeOutputIndex,\n        int ticketOutputIndex,\n        int rootOutputIndex,\n        byte[32] ticketOwner,\n        byte[] v2TemplatePrefix,\n        byte[] v2TemplateSuffix,\n        KCC20V2State utilityChangeState\n    ) {\n        requireRoot();\n        require(OpInputCovenantId(utilityInputIndex) == utilityTokenId);\n        require(OpAuthOutputCount(this.activeInputIndex) == 2);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);\n        require(OpAuthOutputIdx(this.activeInputIndex, 1) == rootOutputIndex);\n        require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n\n        KCC20V2State utilityIn = readV2(utilityInputIndex);\n        require(utilityIn.minterMode == V2_MODE_HOLDER);\n        require(utilityIn.amount >= denomination);\n\n        if (utilityIn.amount > denomination) {\n            require(utilityChangeOutputIndex >= 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 1);\n            require(OpAuthOutputIdx(utilityInputIndex, 0) == utilityChangeOutputIndex);\n            requireSameV2Policy(utilityIn, utilityChangeState);\n            require(utilityChangeState.ownerIdentifier == utilityIn.ownerIdentifier);\n            require(utilityChangeState.identifierType == utilityIn.identifierType);\n            require(utilityChangeState.amount == utilityIn.amount - denomination);\n            require(utilityChangeState.minterMode == V2_MODE_HOLDER);\n            validateV2Output(utilityChangeOutputIndex, utilityChangeState, v2TemplatePrefix, v2TemplateSuffix);\n        } else {\n            require(utilityChangeOutputIndex < 0);\n            require(OpAuthOutputCount(utilityInputIndex) == 0);\n        }\n\n        ticketOutput(ticketOwner, ticketOutputIndex);\n        rootOutput(owner, rootOutputIndex);\n    }\n\n    entrypoint function transferByOwnerSig(sig ownerSig, byte[32] toOwner, int ticketOutputIndex) {\n        requireTicket();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == ticketOutputIndex);\n        ticketOutput(toOwner, ticketOutputIndex);\n    }\n\n    entrypoint function burnByOwnerSig(sig ownerSig) {\n        requireTicket();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(OpAuthOutputCount(this.activeInputIndex) == 0);\n    }\n\n    entrypoint function updateDenominationByOwnerSig(sig ownerSig, int newDenomination, int rootOutputIndex) {\n        requireRoot();\n        require(checkSig(ownerSig, pubkey(owner)));\n        require(newDenomination > 0);\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == rootOutputIndex);\n        require(tx.outputs[rootOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n        validateOutputState(rootOutputIndex, {\n            owner: owner,\n            mode: MODE_ROOT,\n            utilityTokenId: utilityTokenId,\n            denomination: newDenomination\n        });\n    }\n}",
+    "name_span": "KCC20FeeTicket"
+  },
+  "abi": [
+    {
+      "name": "createFromUtilityBurn",
+      "inputs": [
+        {
+          "name": "utilityInputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "utilityChangeOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "ticketOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "rootOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "ticketOwner",
+          "type_name": "byte[32]"
+        },
+        {
+          "name": "v2TemplatePrefix",
+          "type_name": "byte[]"
+        },
+        {
+          "name": "v2TemplateSuffix",
+          "type_name": "byte[]"
+        },
+        {
+          "name": "utilityChangeState",
+          "type_name": "KCC20V2State"
+        }
+      ]
+    },
+    {
+      "name": "transferByOwnerSig",
+      "inputs": [
+        {
+          "name": "ownerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "toOwner",
+          "type_name": "byte[32]"
+        },
+        {
+          "name": "ticketOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "burnByOwnerSig",
+      "inputs": [
+        {
+          "name": "ownerSig",
+          "type_name": "sig"
+        }
+      ]
+    },
+    {
+      "name": "updateDenominationByOwnerSig",
+      "inputs": [
+        {
+          "name": "ownerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "newDenomination",
+          "type_name": "int"
+        },
+        {
+          "name": "rootOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    }
+  ],
+  "without_selector": false,
+  "state_layout": {
+    "start": 1,
+    "len": 84
+  },
+  "debug_info": null
+}

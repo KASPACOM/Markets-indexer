@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/kaspanet/kccs",
+  "commit": "3fbec524abfbc20e87652eb938db218f8c17db17",
+  "files": {
+    "kcc-0020.md": "d5d0f2431cf42e49624e7b8ff8c900d6ba068906b4e37c4df5a2a40c8b34f91d",
+    "kcc-0001.md": "eace192e3249ee7e125946ad68a2a1b64846f2c0ff5b82926301eae77f0b5a19",
+    "conformance.json": "9b424c96ea0e0093cacfd98e3013fd5cbf93dd149cb27696acf288510133010b",
+    "kcc-0002.md": "a0ab5175b934ecfd17287ab82a8a59f99753364ffbb752752344a215e1cfdded"
+  }
+}

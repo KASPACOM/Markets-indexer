@@ -1,0 +1,1864 @@
+{
+  "contract_name": "KCC20SaleV2",
+  "script": [
+    107,
+    32,
+    215,
+    57,
+    222,
+    75,
+    59,
+    97,
+    168,
+    148,
+    240,
+    25,
+    136,
+    182,
+    207,
+    208,
+    150,
+    61,
+    67,
+    209,
+    180,
+    10,
+    120,
+    116,
+    19,
+    102,
+    97,
+    34,
+    164,
+    241,
+    46,
+    11,
+    96,
+    213,
+    32,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    32,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    64,
+    66,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    225,
+    245,
+    5,
+    0,
+    0,
+    0,
+    0,
+    32,
+    215,
+    57,
+    222,
+    75,
+    59,
+    97,
+    168,
+    148,
+    240,
+    25,
+    136,
+    182,
+    207,
+    208,
+    150,
+    61,
+    67,
+    209,
+    180,
+    10,
+    120,
+    116,
+    19,
+    102,
+    97,
+    34,
+    164,
+    241,
+    46,
+    11,
+    96,
+    213,
+    8,
+    200,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    108,
+    118,
+    0,
+    156,
+    99,
+    117,
+    89,
+    121,
+    87,
+    121,
+    172,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    82,
+    121,
+    0,
+    160,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    2,
+    16,
+    39,
+    161,
+    105,
+    185,
+    203,
+    81,
+    156,
+    105,
+    185,
+    0,
+    204,
+    88,
+    121,
+    156,
+    105,
+    87,
+    121,
+    194,
+    185,
+    190,
+    156,
+    105,
+    86,
+    121,
+    1,
+    32,
+    124,
+    126,
+    86,
+    121,
+    1,
+    32,
+    124,
+    126,
+    90,
+    121,
+    1,
+    32,
+    124,
+    126,
+    86,
+    121,
+    88,
+    205,
+    88,
+    124,
+    126,
+    86,
+    121,
+    88,
+    205,
+    88,
+    124,
+    126,
+    86,
+    121,
+    1,
+    32,
+    124,
+    126,
+    86,
+    121,
+    88,
+    205,
+    88,
+    124,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    12,
+    2,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    12,
+    2,
+    148,
+    2,
+    160,
+    0,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    88,
+    121,
+    195,
+    135,
+    105,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    81,
+    156,
+    99,
+    117,
+    87,
+    121,
+    118,
+    207,
+    87,
+    121,
+    135,
+    105,
+    118,
+    191,
+    86,
+    121,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    135,
+    105,
+    120,
+    0,
+    162,
+    105,
+    120,
+    2,
+    16,
+    39,
+    161,
+    105,
+    84,
+    121,
+    0,
+    160,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    83,
+    121,
+    82,
+    121,
+    149,
+    2,
+    16,
+    39,
+    150,
+    185,
+    190,
+    85,
+    121,
+    147,
+    120,
+    148,
+    118,
+    0,
+    160,
+    105,
+    0,
+    194,
+    120,
+    156,
+    105,
+    0,
+    195,
+    90,
+    121,
+    3,
+    0,
+    0,
+    32,
+    124,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    120,
+    0,
+    160,
+    99,
+    81,
+    194,
+    82,
+    121,
+    156,
+    105,
+    81,
+    195,
+    85,
+    121,
+    3,
+    0,
+    0,
+    32,
+    124,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    104,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    82,
+    156,
+    99,
+    117,
+    88,
+    121,
+    87,
+    121,
+    172,
+    105,
+    87,
+    121,
+    118,
+    207,
+    87,
+    121,
+    135,
+    105,
+    118,
+    191,
+    86,
+    121,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    135,
+    105,
+    84,
+    121,
+    0,
+    160,
+    105,
+    0,
+    122,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    117,
+    0,
+    105,
+    104,
+    104,
+    104
+  ],
+  "ast": {
+    "name": "KCC20SaleV2",
+    "params": [
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "listingSeller",
+        "span": "pubkey listingSeller",
+        "type_span": "pubkey ",
+        "name_span": "listingSeller"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "listingTokenId",
+        "span": "byte[32] listingTokenId",
+        "type_span": "byte[32]",
+        "name_span": "listingTokenId"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "listingLockedTokenScriptHash",
+        "span": "byte[32] listingLockedTokenScriptHash",
+        "type_span": "byte[32]",
+        "name_span": "listingLockedTokenScriptHash"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "listingTokenAmount",
+        "span": "int listingTokenAmount",
+        "type_span": "int ",
+        "name_span": "listingTokenAmount"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "listingPriceSompi",
+        "span": "int listingPriceSompi",
+        "type_span": "int ",
+        "name_span": "listingPriceSompi"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "protocolFeeRecipient",
+        "span": "pubkey protocolFeeRecipient",
+        "type_span": "pubkey ",
+        "name_span": "protocolFeeRecipient"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "protocolFeeBps",
+        "span": "int protocolFeeBps",
+        "type_span": "int ",
+        "name_span": "protocolFeeBps"
+      }
+    ],
+    "fields": [
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "seller",
+        "expr": {
+          "kind": "identifier",
+          "data": "listingSeller",
+          "span": "listingSeller"
+        },
+        "span": "pubkey seller = listingSeller;",
+        "type_span": "pubkey ",
+        "name_span": "seller"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "tokenId",
+        "expr": {
+          "kind": "identifier",
+          "data": "listingTokenId",
+          "span": "listingTokenId"
+        },
+        "span": "byte[32] tokenId = listingTokenId;",
+        "type_span": "byte[32]",
+        "name_span": "tokenId"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "lockedTokenScriptHash",
+        "expr": {
+          "kind": "identifier",
+          "data": "listingLockedTokenScriptHash",
+          "span": "listingLockedTokenScriptHash"
+        },
+        "span": "byte[32] lockedTokenScriptHash = listingLockedTokenScriptHash;",
+        "type_span": "byte[32]",
+        "name_span": "lockedTokenScriptHash"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "tokenAmount",
+        "expr": {
+          "kind": "identifier",
+          "data": "listingTokenAmount",
+          "span": "listingTokenAmount"
+        },
+        "span": "int tokenAmount = listingTokenAmount;",
+        "type_span": "int ",
+        "name_span": "tokenAmount"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "priceSompi",
+        "expr": {
+          "kind": "identifier",
+          "data": "listingPriceSompi",
+          "span": "listingPriceSompi"
+        },
+        "span": "int priceSompi = listingPriceSompi;",
+        "type_span": "int ",
+        "name_span": "priceSompi"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "feeRecipient",
+        "expr": {
+          "kind": "identifier",
+          "data": "protocolFeeRecipient",
+          "span": "protocolFeeRecipient"
+        },
+        "span": "pubkey feeRecipient = protocolFeeRecipient;",
+        "type_span": "pubkey ",
+        "name_span": "feeRecipient"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "feeBps",
+        "expr": {
+          "kind": "identifier",
+          "data": "protocolFeeBps",
+          "span": "protocolFeeBps"
+        },
+        "span": "int feeBps = protocolFeeBps;",
+        "type_span": "int ",
+        "name_span": "feeBps"
+      }
+    ],
+    "constants": [
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "FEE_DENOMINATOR_BPS",
+        "expr": {
+          "kind": "int",
+          "data": 10000,
+          "span": "10000"
+        },
+        "span": "int constant FEE_DENOMINATOR_BPS = 10000;",
+        "type_span": "int ",
+        "name_span": "FEE_DENOMINATOR_BPS"
+      }
+    ],
+    "functions": [
+      {
+        "name": "requireLockedTokenInput",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpInputCovenantId",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "tokenInputIndex",
+                          "span": "tokenInputIndex"
+                        }
+                      ],
+                      "name_span": "OpInputCovenantId"
+                    },
+                    "span": "OpInputCovenantId(tokenInputIndex)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "tokenId",
+                    "span": "tokenId"
+                  }
+                },
+                "span": "OpInputCovenantId(tokenInputIndex) == tokenId"
+              },
+              "message": null,
+              "span": "require(OpInputCovenantId(tokenInputIndex) == tokenId);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "input_script_pub_key",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "tokenInputIndex",
+                        "span": "tokenInputIndex"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.inputs[tokenInputIndex].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "new",
+                          "data": {
+                            "name": "ScriptPubKeyP2SH",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "lockedTokenScriptHash",
+                                "span": "lockedTokenScriptHash"
+                              }
+                            ],
+                            "name_span": "ScriptPubKeyP2SH"
+                          },
+                          "span": "new ScriptPubKeyP2SH(lockedTokenScriptHash)"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](new ScriptPubKeyP2SH(lockedTokenScriptHash))"
+                  }
+                },
+                "span": "tx.inputs[tokenInputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(lockedTokenScriptHash))"
+              },
+              "message": null,
+              "span": "require(tx.inputs[tokenInputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(lockedTokenScriptHash)));",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireLockedTokenInput(int tokenInputIndex) {\n        require(OpInputCovenantId(tokenInputIndex) == tokenId);\n        require(tx.inputs[tokenInputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(lockedTokenScriptHash)));\n    }",
+        "name_span": "requireLockedTokenInput",
+        "body_span": "require(OpInputCovenantId(tokenInputIndex) == tokenId);\n        require(tx.inputs[tokenInputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(lockedTokenScriptHash)));"
+      },
+      {
+        "name": "requireFeePolicy",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "feeBps",
+                    "span": "feeBps"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "feeBps >= 0"
+              },
+              "message": null,
+              "span": "require(feeBps >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "feeBps",
+                    "span": "feeBps"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "FEE_DENOMINATOR_BPS",
+                    "span": "FEE_DENOMINATOR_BPS"
+                  }
+                },
+                "span": "feeBps <= FEE_DENOMINATOR_BPS"
+              },
+              "message": null,
+              "span": "require(feeBps <= FEE_DENOMINATOR_BPS);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireFeePolicy() {\n        require(feeBps >= 0);\n        require(feeBps <= FEE_DENOMINATOR_BPS);\n    }",
+        "name_span": "requireFeePolicy",
+        "body_span": "require(feeBps >= 0);\n        require(feeBps <= FEE_DENOMINATOR_BPS);"
+      },
+      {
+        "name": "activateListing",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "sellerSig",
+            "span": "sig sellerSig",
+            "type_span": "sig ",
+            "name_span": "sellerSig"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "activatedLockedTokenScriptHash",
+            "span": "byte[32] activatedLockedTokenScriptHash",
+            "type_span": "byte[32]",
+            "name_span": "activatedLockedTokenScriptHash"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "listingOutputIndex",
+            "span": "int listingOutputIndex",
+            "type_span": "int ",
+            "name_span": "listingOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "sellerSig",
+                      "span": "sellerSig"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "seller",
+                      "span": "seller"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(sellerSig, seller)"
+              },
+              "message": null,
+              "span": "require(checkSig(sellerSig, seller));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "tokenAmount",
+                    "span": "tokenAmount"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "tokenAmount > 0"
+              },
+              "message": null,
+              "span": "require(tokenAmount > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "priceSompi",
+                    "span": "priceSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "priceSompi > 0"
+              },
+              "message": null,
+              "span": "require(priceSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireFeePolicy",
+              "args": [],
+              "span": "requireFeePolicy();",
+              "name_span": "requireFeePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 1,
+                    "span": "1"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 1"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 1);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputIdx",
+                      "args": [
+                        {
+                          "kind": "nullary",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        },
+                        {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputIdx"
+                    },
+                    "span": "OpAuthOutputIdx(this.activeInputIndex, 0)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "listingOutputIndex",
+                    "span": "listingOutputIndex"
+                  }
+                },
+                "span": "OpAuthOutputIdx(this.activeInputIndex, 0) == listingOutputIndex"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputIdx(this.activeInputIndex, 0) == listingOutputIndex);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "listingOutputIndex",
+                        "span": "listingOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[listingOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "nullary",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  }
+                },
+                "span": "tx.outputs[listingOutputIndex].value == tx.inputs[this.activeInputIndex].value"
+              },
+              "message": null,
+              "span": "require(tx.outputs[listingOutputIndex].value == tx.inputs[this.activeInputIndex].value);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "listingOutputIndex",
+                  "span": "listingOutputIndex"
+                },
+                {
+                  "kind": "state_object",
+                  "data": [
+                    {
+                      "name": "seller",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "seller",
+                        "span": "seller"
+                      },
+                      "span": "seller: seller",
+                      "name_span": "seller"
+                    },
+                    {
+                      "name": "tokenId",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "tokenId",
+                        "span": "tokenId"
+                      },
+                      "span": "tokenId: tokenId",
+                      "name_span": "tokenId"
+                    },
+                    {
+                      "name": "lockedTokenScriptHash",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "activatedLockedTokenScriptHash",
+                        "span": "activatedLockedTokenScriptHash"
+                      },
+                      "span": "lockedTokenScriptHash: activatedLockedTokenScriptHash",
+                      "name_span": "lockedTokenScriptHash"
+                    },
+                    {
+                      "name": "tokenAmount",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "tokenAmount",
+                        "span": "tokenAmount"
+                      },
+                      "span": "tokenAmount: tokenAmount",
+                      "name_span": "tokenAmount"
+                    },
+                    {
+                      "name": "priceSompi",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "priceSompi",
+                        "span": "priceSompi"
+                      },
+                      "span": "priceSompi: priceSompi",
+                      "name_span": "priceSompi"
+                    },
+                    {
+                      "name": "feeRecipient",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "feeRecipient",
+                        "span": "feeRecipient"
+                      },
+                      "span": "feeRecipient: feeRecipient",
+                      "name_span": "feeRecipient"
+                    },
+                    {
+                      "name": "feeBps",
+                      "expr": {
+                        "kind": "identifier",
+                        "data": "feeBps",
+                        "span": "feeBps"
+                      },
+                      "span": "feeBps: feeBps\n        ",
+                      "name_span": "feeBps"
+                    }
+                  ],
+                  "span": "{\n            seller: seller,\n            tokenId: tokenId,\n            lockedTokenScriptHash: activatedLockedTokenScriptHash,\n            tokenAmount: tokenAmount,\n            priceSompi: priceSompi,\n            feeRecipient: feeRecipient,\n            feeBps: feeBps\n        }"
+                }
+              ],
+              "span": "validateOutputState(listingOutputIndex, {\n            seller: seller,\n            tokenId: tokenId,\n            lockedTokenScriptHash: activatedLockedTokenScriptHash,\n            tokenAmount: tokenAmount,\n            priceSompi: priceSompi,\n            feeRecipient: feeRecipient,\n            feeBps: feeBps\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function activateListing(sig sellerSig, byte[32] activatedLockedTokenScriptHash, int listingOutputIndex) {\n        require(checkSig(sellerSig, seller));\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n        requireFeePolicy();\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == listingOutputIndex);\n        require(tx.outputs[listingOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n\n        validateOutputState(listingOutputIndex, {\n            seller: seller,\n            tokenId: tokenId,\n            lockedTokenScriptHash: activatedLockedTokenScriptHash,\n            tokenAmount: tokenAmount,\n            priceSompi: priceSompi,\n            feeRecipient: feeRecipient,\n            feeBps: feeBps\n        });\n    }",
+        "name_span": "activateListing",
+        "body_span": "require(checkSig(sellerSig, seller));\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n        requireFeePolicy();\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == listingOutputIndex);\n        require(tx.outputs[listingOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n\n        validateOutputState(listingOutputIndex, {\n            seller: seller,\n            tokenId: tokenId,\n            lockedTokenScriptHash: activatedLockedTokenScriptHash,\n            tokenAmount: tokenAmount,\n            priceSompi: priceSompi,\n            feeRecipient: feeRecipient,\n            feeBps: feeBps\n        });"
+      },
+      {
+        "name": "buyListing",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireLockedTokenInput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "tokenInputIndex",
+                  "span": "tokenInputIndex"
+                }
+              ],
+              "span": "requireLockedTokenInput(tokenInputIndex);",
+              "name_span": "requireLockedTokenInput"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireFeePolicy",
+              "args": [],
+              "span": "requireFeePolicy();",
+              "name_span": "requireFeePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "tokenAmount",
+                    "span": "tokenAmount"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "tokenAmount > 0"
+              },
+              "message": null,
+              "span": "require(tokenAmount > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "priceSompi",
+                    "span": "priceSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "priceSompi > 0"
+              },
+              "message": null,
+              "span": "require(priceSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "feeSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "div",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "mul",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "priceSompi",
+                        "span": "priceSompi"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "feeBps",
+                        "span": "feeBps"
+                      }
+                    },
+                    "span": "priceSompi * feeBps"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "FEE_DENOMINATOR_BPS",
+                    "span": "FEE_DENOMINATOR_BPS"
+                  }
+                },
+                "span": "priceSompi * feeBps / FEE_DENOMINATOR_BPS"
+              },
+              "span": "int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "feeSompi"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "sellerNet",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "add",
+                      "left": {
+                        "kind": "introspection",
+                        "data": {
+                          "kind": "input_value",
+                          "index": {
+                            "kind": "nullary",
+                            "data": "active_input_index",
+                            "span": "this.activeInputIndex"
+                          },
+                          "field_span": ".value"
+                        },
+                        "span": "tx.inputs[this.activeInputIndex].value"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "priceSompi",
+                        "span": "priceSompi"
+                      }
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value + priceSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "feeSompi",
+                    "span": "feeSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value + priceSompi - feeSompi"
+              },
+              "span": "int sellerNet = tx.inputs[this.activeInputIndex].value + priceSompi - feeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "sellerNet"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "sellerNet",
+                    "span": "sellerNet"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "sellerNet > 0"
+              },
+              "message": null,
+              "span": "require(sellerNet > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "byte",
+                "array_dims": [
+                  {
+                    "kind": "fixed",
+                    "value": 34
+                  }
+                ]
+              },
+              "modifiers": [],
+              "name": "sellerLock",
+              "expr": {
+                "kind": "new",
+                "data": {
+                  "name": "ScriptPubKeyP2PK",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "seller",
+                      "span": "seller"
+                    }
+                  ],
+                  "name_span": "ScriptPubKeyP2PK"
+                },
+                "span": "new ScriptPubKeyP2PK(seller)"
+              },
+              "span": "byte[34] sellerLock = new ScriptPubKeyP2PK(seller);",
+              "type_span": "byte[34]",
+              "modifier_spans": [],
+              "name_span": "sellerLock"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[0].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "sellerNet",
+                    "span": "sellerNet"
+                  }
+                },
+                "span": "tx.outputs[0].value == sellerNet"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].value == sellerNet);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[0].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "sellerLock",
+                          "span": "sellerLock"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](sellerLock)"
+                  }
+                },
+                "span": "tx.outputs[0].scriptPubKey == byte[](sellerLock)"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].scriptPubKey == byte[](sellerLock));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "feeSompi",
+                    "span": "feeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "feeSompi > 0"
+              },
+              "then_branch": [
+                {
+                  "kind": "variable_definition",
+                  "data": {
+                    "type_ref": {
+                      "base": "byte",
+                      "array_dims": [
+                        {
+                          "kind": "fixed",
+                          "value": 34
+                        }
+                      ]
+                    },
+                    "modifiers": [],
+                    "name": "feeLock",
+                    "expr": {
+                      "kind": "new",
+                      "data": {
+                        "name": "ScriptPubKeyP2PK",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "feeRecipient",
+                            "span": "feeRecipient"
+                          }
+                        ],
+                        "name_span": "ScriptPubKeyP2PK"
+                      },
+                      "span": "new ScriptPubKeyP2PK(feeRecipient)"
+                    },
+                    "span": "byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);",
+                    "type_span": "byte[34]",
+                    "modifier_spans": [],
+                    "name_span": "feeLock"
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "introspection",
+                          "data": {
+                            "kind": "output_value",
+                            "index": {
+                              "kind": "int",
+                              "data": 1,
+                              "span": "1"
+                            },
+                            "field_span": ".value"
+                          },
+                          "span": "tx.outputs[1].value"
+                        },
+                        "right": {
+                          "kind": "identifier",
+                          "data": "feeSompi",
+                          "span": "feeSompi"
+                        }
+                      },
+                      "span": "tx.outputs[1].value == feeSompi"
+                    },
+                    "message": null,
+                    "span": "require(tx.outputs[1].value == feeSompi);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "introspection",
+                          "data": {
+                            "kind": "output_script_pub_key",
+                            "index": {
+                              "kind": "int",
+                              "data": 1,
+                              "span": "1"
+                            },
+                            "field_span": ".scriptPubKey"
+                          },
+                          "span": "tx.outputs[1].scriptPubKey"
+                        },
+                        "right": {
+                          "kind": "call",
+                          "data": {
+                            "name": "byte[]",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "feeLock",
+                                "span": "feeLock"
+                              }
+                            ],
+                            "name_span": "byte[]"
+                          },
+                          "span": "byte[](feeLock)"
+                        }
+                      },
+                      "span": "tx.outputs[1].scriptPubKey == byte[](feeLock)"
+                    },
+                    "message": null,
+                    "span": "require(tx.outputs[1].scriptPubKey == byte[](feeLock));",
+                    "message_span": null
+                  }
+                }
+              ],
+              "else_branch": null,
+              "span": "if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    ",
+              "then_span": "byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));",
+              "else_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function buyListing(int tokenInputIndex) {\n        requireLockedTokenInput(tokenInputIndex);\n        requireFeePolicy();\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n\n        int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;\n        int sellerNet = tx.inputs[this.activeInputIndex].value + priceSompi - feeSompi;\n        require(sellerNet > 0);\n\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].value == sellerNet);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n        if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    }",
+        "name_span": "buyListing",
+        "body_span": "requireLockedTokenInput(tokenInputIndex);\n        requireFeePolicy();\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n\n        int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;\n        int sellerNet = tx.inputs[this.activeInputIndex].value + priceSompi - feeSompi;\n        require(sellerNet > 0);\n\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].value == sellerNet);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n        if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    "
+      },
+      {
+        "name": "cancelListing",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "sellerSig",
+            "span": "sig sellerSig",
+            "type_span": "sig ",
+            "name_span": "sellerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "sellerSig",
+                      "span": "sellerSig"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "seller",
+                      "span": "seller"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(sellerSig, seller)"
+              },
+              "message": null,
+              "span": "require(checkSig(sellerSig, seller));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireLockedTokenInput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "tokenInputIndex",
+                  "span": "tokenInputIndex"
+                }
+              ],
+              "span": "requireLockedTokenInput(tokenInputIndex);",
+              "name_span": "requireLockedTokenInput"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "tokenAmount",
+                    "span": "tokenAmount"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "tokenAmount > 0"
+              },
+              "message": null,
+              "span": "require(tokenAmount > 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function cancelListing(sig sellerSig, int tokenInputIndex) {\n        require(checkSig(sellerSig, seller));\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n    }",
+        "name_span": "cancelListing",
+        "body_span": "require(checkSig(sellerSig, seller));\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);"
+      }
+    ],
+    "span": "contract KCC20SaleV2(\n    pubkey listingSeller,\n    byte[32] listingTokenId,\n    byte[32] listingLockedTokenScriptHash,\n    int listingTokenAmount,\n    int listingPriceSompi,\n    pubkey protocolFeeRecipient,\n    int protocolFeeBps\n) {\n    int constant FEE_DENOMINATOR_BPS = 10000;\n\n    pubkey seller = listingSeller;\n    byte[32] tokenId = listingTokenId;\n    byte[32] lockedTokenScriptHash = listingLockedTokenScriptHash;\n    int tokenAmount = listingTokenAmount;\n    int priceSompi = listingPriceSompi;\n    pubkey feeRecipient = protocolFeeRecipient;\n    int feeBps = protocolFeeBps;\n\n    function requireLockedTokenInput(int tokenInputIndex) {\n        require(OpInputCovenantId(tokenInputIndex) == tokenId);\n        require(tx.inputs[tokenInputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(lockedTokenScriptHash)));\n    }\n\n    function requireFeePolicy() {\n        require(feeBps >= 0);\n        require(feeBps <= FEE_DENOMINATOR_BPS);\n    }\n\n    entrypoint function activateListing(sig sellerSig, byte[32] activatedLockedTokenScriptHash, int listingOutputIndex) {\n        require(checkSig(sellerSig, seller));\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n        requireFeePolicy();\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == listingOutputIndex);\n        require(tx.outputs[listingOutputIndex].value == tx.inputs[this.activeInputIndex].value);\n\n        validateOutputState(listingOutputIndex, {\n            seller: seller,\n            tokenId: tokenId,\n            lockedTokenScriptHash: activatedLockedTokenScriptHash,\n            tokenAmount: tokenAmount,\n            priceSompi: priceSompi,\n            feeRecipient: feeRecipient,\n            feeBps: feeBps\n        });\n    }\n\n    entrypoint function buyListing(int tokenInputIndex) {\n        requireLockedTokenInput(tokenInputIndex);\n        requireFeePolicy();\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n\n        int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;\n        int sellerNet = tx.inputs[this.activeInputIndex].value + priceSompi - feeSompi;\n        require(sellerNet > 0);\n\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].value == sellerNet);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n        if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    }\n\n    entrypoint function cancelListing(sig sellerSig, int tokenInputIndex) {\n        require(checkSig(sellerSig, seller));\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n    }\n}",
+    "name_span": "KCC20SaleV2"
+  },
+  "abi": [
+    {
+      "name": "activateListing",
+      "inputs": [
+        {
+          "name": "sellerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "activatedLockedTokenScriptHash",
+          "type_name": "byte[32]"
+        },
+        {
+          "name": "listingOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "buyListing",
+      "inputs": [
+        {
+          "name": "tokenInputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "cancelListing",
+      "inputs": [
+        {
+          "name": "sellerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "tokenInputIndex",
+          "type_name": "int"
+        }
+      ]
+    }
+  ],
+  "without_selector": false,
+  "state_layout": {
+    "start": 1,
+    "len": 159
+  },
+  "debug_info": null
+}

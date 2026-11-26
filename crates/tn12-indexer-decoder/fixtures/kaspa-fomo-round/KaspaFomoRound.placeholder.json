@@ -1,0 +1,3048 @@
+{
+  "contract_name": "KaspaFomoRound",
+  "compiler_version": "0.1.0",
+  "bytecode": [
+    107,
+    32,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    8,
+    1,
+    136,
+    82,
+    106,
+    116,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    108,
+    118,
+    4,
+    11,
+    4,
+    210,
+    6,
+    135,
+    99,
+    117,
+    87,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    86,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    85,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    84,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    83,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    4,
+    0,
+    225,
+    245,
+    5,
+    0,
+    160,
+    105,
+    3,
+    96,
+    234,
+    0,
+    0,
+    160,
+    105,
+    3,
+    128,
+    238,
+    54,
+    0,
+    160,
+    105,
+    5,
+    0,
+    232,
+    118,
+    72,
+    23,
+    4,
+    0,
+    225,
+    245,
+    5,
+    162,
+    105,
+    5,
+    0,
+    249,
+    2,
+    149,
+    0,
+    0,
+    160,
+    105,
+    3,
+    64,
+    75,
+    76,
+    0,
+    162,
+    105,
+    87,
+    121,
+    86,
+    121,
+    172,
+    105,
+    86,
+    121,
+    32,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    172,
+    105,
+    185,
+    203,
+    81,
+    156,
+    105,
+    185,
+    0,
+    204,
+    84,
+    121,
+    156,
+    105,
+    84,
+    121,
+    82,
+    121,
+    160,
+    105,
+    84,
+    121,
+    82,
+    121,
+    3,
+    96,
+    234,
+    0,
+    147,
+    161,
+    105,
+    84,
+    121,
+    3,
+    128,
+    238,
+    54,
+    148,
+    118,
+    5,
+    0,
+    136,
+    82,
+    106,
+    116,
+    162,
+    105,
+    176,
+    185,
+    190,
+    4,
+    0,
+    225,
+    245,
+    5,
+    147,
+    118,
+    5,
+    0,
+    232,
+    118,
+    72,
+    23,
+    161,
+    105,
+    84,
+    121,
+    194,
+    120,
+    156,
+    105,
+    86,
+    121,
+    86,
+    121,
+    83,
+    121,
+    81,
+    147,
+    1,
+    32,
+    83,
+    121,
+    126,
+    1,
+    8,
+    83,
+    121,
+    88,
+    205,
+    126,
+    1,
+    8,
+    83,
+    121,
+    88,
+    205,
+    126,
+    126,
+    126,
+    185,
+    118,
+    201,
+    2,
+    18,
+    4,
+    148,
+    118,
+    81,
+    147,
+    188,
+    124,
+    126,
+    185,
+    118,
+    201,
+    118,
+    2,
+    222,
+    131,
+    147,
+    124,
+    188,
+    126,
+    170,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    88,
+    121,
+    195,
+    136,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    4,
+    236,
+    188,
+    199,
+    145,
+    135,
+    99,
+    117,
+    90,
+    121,
+    130,
+    1,
+    65,
+    157,
+    117,
+    89,
+    121,
+    130,
+    89,
+    159,
+    105,
+    117,
+    88,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    87,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    86,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    85,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    84,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    83,
+    121,
+    130,
+    1,
+    32,
+    157,
+    117,
+    4,
+    0,
+    225,
+    245,
+    5,
+    0,
+    160,
+    105,
+    3,
+    96,
+    234,
+    0,
+    0,
+    160,
+    105,
+    3,
+    128,
+    238,
+    54,
+    0,
+    160,
+    105,
+    5,
+    0,
+    232,
+    118,
+    72,
+    23,
+    4,
+    0,
+    225,
+    245,
+    5,
+    162,
+    105,
+    5,
+    0,
+    249,
+    2,
+    149,
+    0,
+    0,
+    160,
+    105,
+    3,
+    64,
+    75,
+    76,
+    0,
+    162,
+    105,
+    90,
+    121,
+    32,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    172,
+    105,
+    120,
+    118,
+    5,
+    0,
+    136,
+    82,
+    106,
+    116,
+    162,
+    105,
+    176,
+    185,
+    203,
+    0,
+    156,
+    105,
+    89,
+    121,
+    0,
+    162,
+    105,
+    89,
+    121,
+    3,
+    64,
+    75,
+    76,
+    161,
+    105,
+    185,
+    190,
+    118,
+    5,
+    0,
+    249,
+    2,
+    149,
+    0,
+    162,
+    105,
+    118,
+    91,
+    121,
+    148,
+    118,
+    0,
+    160,
+    105,
+    118,
+    2,
+    136,
+    19,
+    149,
+    2,
+    16,
+    39,
+    150,
+    120,
+    2,
+    200,
+    0,
+    149,
+    2,
+    16,
+    39,
+    150,
+    82,
+    121,
+    2,
+    44,
+    1,
+    149,
+    2,
+    16,
+    39,
+    150,
+    118,
+    0,
+    160,
+    105,
+    118,
+    86,
+    149,
+    84,
+    121,
+    84,
+    121,
+    148,
+    83,
+    121,
+    148,
+    120,
+    148,
+    118,
+    86,
+    121,
+    2,
+    184,
+    11,
+    149,
+    2,
+    16,
+    39,
+    150,
+    162,
+    105,
+    0,
+    90,
+    121,
+    86,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    81,
+    32,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    85,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    82,
+    32,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    91,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    83,
+    1,
+    25,
+    121,
+    93,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    84,
+    1,
+    27,
+    121,
+    96,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    85,
+    1,
+    29,
+    121,
+    1,
+    19,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    86,
+    1,
+    31,
+    121,
+    1,
+    22,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    87,
+    1,
+    33,
+    121,
+    1,
+    25,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    88,
+    1,
+    35,
+    121,
+    1,
+    28,
+    121,
+    82,
+    121,
+    0,
+    162,
+    105,
+    118,
+    0,
+    160,
+    105,
+    82,
+    121,
+    194,
+    120,
+    156,
+    105,
+    82,
+    121,
+    195,
+    3,
+    0,
+    0,
+    32,
+    83,
+    121,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    106,
+    104,
+    104
+  ],
+  "ast": {
+    "name": "KaspaFomoRound",
+    "params": [
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "initialLastBuyer",
+        "span": "byte[32] initialLastBuyer",
+        "type_span": "byte[32]",
+        "name_span": "initialLastBuyer"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "initialEndTimeMs",
+        "span": "int initialEndTimeMs",
+        "type_span": "int ",
+        "name_span": "initialEndTimeMs"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "ticketPriceSompi",
+        "span": "int ticketPriceSompi",
+        "type_span": "int ",
+        "name_span": "ticketPriceSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "extensionMs",
+        "span": "int extensionMs",
+        "type_span": "int ",
+        "name_span": "extensionMs"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "maxFutureMs",
+        "span": "int maxFutureMs",
+        "type_span": "int ",
+        "name_span": "maxFutureMs"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "potCapSompi",
+        "span": "int potCapSompi",
+        "type_span": "int ",
+        "name_span": "potCapSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "minSettlePotSompi",
+        "span": "int minSettlePotSompi",
+        "type_span": "int ",
+        "name_span": "minSettlePotSompi"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "maxSettlementFeeSompi",
+        "span": "int maxSettlementFeeSompi",
+        "type_span": "int ",
+        "name_span": "maxSettlementFeeSompi"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "marketingRecipient",
+        "span": "pubkey marketingRecipient",
+        "type_span": "pubkey ",
+        "name_span": "marketingRecipient"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "platformRecipient",
+        "span": "pubkey platformRecipient",
+        "type_span": "pubkey ",
+        "name_span": "platformRecipient"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "roundSigner",
+        "span": "pubkey roundSigner",
+        "type_span": "pubkey ",
+        "name_span": "roundSigner"
+      }
+    ],
+    "fields": [
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "lastBuyer",
+        "expr": {
+          "kind": "identifier",
+          "data": "initialLastBuyer",
+          "span": "initialLastBuyer"
+        },
+        "span": "byte[32] lastBuyer = initialLastBuyer;",
+        "type_span": "byte[32]",
+        "name_span": "lastBuyer"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "endTimeMs",
+        "expr": {
+          "kind": "identifier",
+          "data": "initialEndTimeMs",
+          "span": "initialEndTimeMs"
+        },
+        "span": "int endTimeMs = initialEndTimeMs;",
+        "type_span": "int ",
+        "name_span": "endTimeMs"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "ticketCount",
+        "expr": {
+          "kind": "int",
+          "data": 0,
+          "span": "0"
+        },
+        "span": "int ticketCount = 0;",
+        "type_span": "int ",
+        "name_span": "ticketCount"
+      }
+    ],
+    "constants": [
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "BPS",
+        "expr": {
+          "kind": "int",
+          "data": 10000,
+          "span": "10000"
+        },
+        "span": "int constant BPS = 10000;",
+        "type_span": "int ",
+        "name_span": "BPS"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "WINNER_BPS",
+        "expr": {
+          "kind": "int",
+          "data": 5000,
+          "span": "5000"
+        },
+        "span": "int constant WINNER_BPS = 5000;",
+        "type_span": "int ",
+        "name_span": "WINNER_BPS"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "MARKETING_BPS",
+        "expr": {
+          "kind": "int",
+          "data": 3000,
+          "span": "3000"
+        },
+        "span": "int constant MARKETING_BPS = 3000;",
+        "type_span": "int ",
+        "name_span": "MARKETING_BPS"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "PLATFORM_BPS",
+        "expr": {
+          "kind": "int",
+          "data": 200,
+          "span": "200"
+        },
+        "span": "int constant PLATFORM_BPS = 200;",
+        "type_span": "int ",
+        "name_span": "PLATFORM_BPS"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "RANDOM_SLOT_BPS",
+        "expr": {
+          "kind": "int",
+          "data": 300,
+          "span": "300"
+        },
+        "span": "int constant RANDOM_SLOT_BPS = 300;",
+        "type_span": "int ",
+        "name_span": "RANDOM_SLOT_BPS"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "RANDOM_SLOT_COUNT",
+        "expr": {
+          "kind": "int",
+          "data": 6,
+          "span": "6"
+        },
+        "span": "int constant RANDOM_SLOT_COUNT = 6;",
+        "type_span": "int ",
+        "name_span": "RANDOM_SLOT_COUNT"
+      }
+    ],
+    "functions": [
+      {
+        "name": "requirePolicy",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "ticketPriceSompi",
+                    "span": "ticketPriceSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "ticketPriceSompi > 0"
+              },
+              "message": null,
+              "span": "require(ticketPriceSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "extensionMs",
+                    "span": "extensionMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "extensionMs > 0"
+              },
+              "message": null,
+              "span": "require(extensionMs > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "maxFutureMs",
+                    "span": "maxFutureMs"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "maxFutureMs > 0"
+              },
+              "message": null,
+              "span": "require(maxFutureMs > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "potCapSompi",
+                    "span": "potCapSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "ticketPriceSompi",
+                    "span": "ticketPriceSompi"
+                  }
+                },
+                "span": "potCapSompi >= ticketPriceSompi"
+              },
+              "message": null,
+              "span": "require(potCapSompi >= ticketPriceSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "minSettlePotSompi",
+                    "span": "minSettlePotSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "minSettlePotSompi > 0"
+              },
+              "message": null,
+              "span": "require(minSettlePotSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "maxSettlementFeeSompi",
+                    "span": "maxSettlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "maxSettlementFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(maxSettlementFeeSompi >= 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requirePolicy() {\n        require(ticketPriceSompi > 0);\n        require(extensionMs > 0);\n        require(maxFutureMs > 0);\n        require(potCapSompi >= ticketPriceSompi);\n        require(minSettlePotSompi > 0);\n        require(maxSettlementFeeSompi >= 0);\n    }",
+        "name_span": "requirePolicy",
+        "body_span": "require(ticketPriceSompi > 0);\n        require(extensionMs > 0);\n        require(maxFutureMs > 0);\n        require(potCapSompi >= ticketPriceSompi);\n        require(minSettlePotSompi > 0);\n        require(maxSettlementFeeSompi >= 0);"
+      },
+      {
+        "name": "requireP2PK",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "outputIndex",
+            "span": "int outputIndex",
+            "type_span": "int ",
+            "name_span": "outputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "recipient",
+            "span": "pubkey recipient",
+            "type_span": "pubkey ",
+            "name_span": "recipient"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "amountSompi",
+            "span": "int amountSompi",
+            "type_span": "int ",
+            "name_span": "amountSompi"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "outputIndex",
+                    "span": "outputIndex"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "outputIndex >= 0"
+              },
+              "message": null,
+              "span": "require(outputIndex >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "amountSompi",
+                    "span": "amountSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "amountSompi > 0"
+              },
+              "message": null,
+              "span": "require(amountSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "outputIndex",
+                        "span": "outputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[outputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "amountSompi",
+                    "span": "amountSompi"
+                  }
+                },
+                "span": "tx.outputs[outputIndex].value == amountSompi"
+              },
+              "message": null,
+              "span": "require(tx.outputs[outputIndex].value == amountSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "outputIndex",
+                        "span": "outputIndex"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[outputIndex].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "new",
+                          "data": {
+                            "name": "ScriptPubKeyP2PK",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "recipient",
+                                "span": "recipient"
+                              }
+                            ],
+                            "name_span": "ScriptPubKeyP2PK"
+                          },
+                          "span": "new ScriptPubKeyP2PK(recipient)"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](new ScriptPubKeyP2PK(recipient))"
+                  }
+                },
+                "span": "tx.outputs[outputIndex].scriptPubKey == byte[](new ScriptPubKeyP2PK(recipient))"
+              },
+              "message": null,
+              "span": "require(tx.outputs[outputIndex].scriptPubKey == byte[](new ScriptPubKeyP2PK(recipient)));",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireP2PK(int outputIndex, pubkey recipient, int amountSompi) {\n        require(outputIndex >= 0);\n        require(amountSompi > 0);\n        require(tx.outputs[outputIndex].value == amountSompi);\n        require(tx.outputs[outputIndex].scriptPubKey == byte[](new ScriptPubKeyP2PK(recipient)));\n    }",
+        "name_span": "requireP2PK",
+        "body_span": "require(outputIndex >= 0);\n        require(amountSompi > 0);\n        require(tx.outputs[outputIndex].value == amountSompi);\n        require(tx.outputs[outputIndex].scriptPubKey == byte[](new ScriptPubKeyP2PK(recipient)));"
+      },
+      {
+        "name": "buy",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "buyerSig",
+            "span": "sig buyerSig",
+            "type_span": "sig ",
+            "name_span": "buyerSig"
+          },
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "roundSig",
+            "span": "sig roundSig",
+            "type_span": "sig ",
+            "name_span": "roundSig"
+          },
+          {
+            "type_ref": {
+              "base": "byte",
+              "array_dims": [
+                {
+                  "kind": "fixed",
+                  "value": 32
+                }
+              ]
+            },
+            "name": "buyer",
+            "span": "byte[32] buyer",
+            "type_span": "byte[32]",
+            "name_span": "buyer"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "proposedEndTimeMs",
+            "span": "int proposedEndTimeMs",
+            "type_span": "int ",
+            "name_span": "proposedEndTimeMs"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "roundOutputIndex",
+            "span": "int roundOutputIndex",
+            "type_span": "int ",
+            "name_span": "roundOutputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "buyerSig",
+                      "span": "buyerSig"
+                    },
+                    {
+                      "kind": "call",
+                      "data": {
+                        "name": "pubkey",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "buyer",
+                            "span": "buyer"
+                          }
+                        ],
+                        "name_span": "pubkey"
+                      },
+                      "span": "pubkey(buyer)"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(buyerSig, pubkey(buyer))"
+              },
+              "message": null,
+              "span": "require(checkSig(buyerSig, pubkey(buyer)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "roundSig",
+                      "span": "roundSig"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "roundSigner",
+                      "span": "roundSigner"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(roundSig, roundSigner)"
+              },
+              "message": null,
+              "span": "require(checkSig(roundSig, roundSigner));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "introspection",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 1,
+                    "span": "1"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 1"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 1);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputIdx",
+                      "args": [
+                        {
+                          "kind": "introspection",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        },
+                        {
+                          "kind": "int",
+                          "data": 0,
+                          "span": "0"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputIdx"
+                    },
+                    "span": "OpAuthOutputIdx(this.activeInputIndex, 0)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "roundOutputIndex",
+                    "span": "roundOutputIndex"
+                  }
+                },
+                "span": "OpAuthOutputIdx(this.activeInputIndex, 0) == roundOutputIndex"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputIdx(this.activeInputIndex, 0) == roundOutputIndex);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "proposedEndTimeMs",
+                    "span": "proposedEndTimeMs"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "endTimeMs",
+                    "span": "endTimeMs"
+                  }
+                },
+                "span": "proposedEndTimeMs > endTimeMs"
+              },
+              "message": null,
+              "span": "require(proposedEndTimeMs > endTimeMs);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "proposedEndTimeMs",
+                    "span": "proposedEndTimeMs"
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "add",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "endTimeMs",
+                        "span": "endTimeMs"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "extensionMs",
+                        "span": "extensionMs"
+                      }
+                    },
+                    "span": "endTimeMs + extensionMs"
+                  }
+                },
+                "span": "proposedEndTimeMs <= endTimeMs + extensionMs"
+              },
+              "message": null,
+              "span": "require(proposedEndTimeMs <= endTimeMs + extensionMs);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require_tx_time",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "temporal",
+                  "args": [
+                    {
+                      "kind": "binary",
+                      "data": {
+                        "op": "sub",
+                        "left": {
+                          "kind": "identifier",
+                          "data": "proposedEndTimeMs",
+                          "span": "proposedEndTimeMs"
+                        },
+                        "right": {
+                          "kind": "identifier",
+                          "data": "maxFutureMs",
+                          "span": "maxFutureMs"
+                        }
+                      },
+                      "span": "proposedEndTimeMs - maxFutureMs"
+                    }
+                  ],
+                  "name_span": "temporal"
+                },
+                "span": "temporal(proposedEndTimeMs - maxFutureMs)"
+              },
+              "message": null,
+              "span": "require(tx.time >= temporal(proposedEndTimeMs - maxFutureMs));",
+              "target_span": "tx.time",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "newPotSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "add",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "introspection",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "ticketPriceSompi",
+                    "span": "ticketPriceSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value + ticketPriceSompi"
+              },
+              "span": "int newPotSompi = tx.inputs[this.activeInputIndex].value + ticketPriceSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "newPotSompi"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "newPotSompi",
+                    "span": "newPotSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "potCapSompi",
+                    "span": "potCapSompi"
+                  }
+                },
+                "span": "newPotSompi <= potCapSompi"
+              },
+              "message": null,
+              "span": "require(newPotSompi <= potCapSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "indexed_introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "roundOutputIndex",
+                        "span": "roundOutputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[roundOutputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "newPotSompi",
+                    "span": "newPotSompi"
+                  }
+                },
+                "span": "tx.outputs[roundOutputIndex].value == newPotSompi"
+              },
+              "message": null,
+              "span": "require(tx.outputs[roundOutputIndex].value == newPotSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "validateOutputState",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "roundOutputIndex",
+                  "span": "roundOutputIndex"
+                },
+                {
+                  "kind": "struct_literal",
+                  "data": {
+                    "name": "State",
+                    "fields": [
+                      {
+                        "name": "lastBuyer",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "buyer",
+                          "span": "buyer"
+                        },
+                        "span": "lastBuyer: buyer",
+                        "name_span": "lastBuyer"
+                      },
+                      {
+                        "name": "endTimeMs",
+                        "expr": {
+                          "kind": "identifier",
+                          "data": "proposedEndTimeMs",
+                          "span": "proposedEndTimeMs"
+                        },
+                        "span": "endTimeMs: proposedEndTimeMs",
+                        "name_span": "endTimeMs"
+                      },
+                      {
+                        "name": "ticketCount",
+                        "expr": {
+                          "kind": "binary",
+                          "data": {
+                            "op": "add",
+                            "left": {
+                              "kind": "identifier",
+                              "data": "ticketCount",
+                              "span": "ticketCount"
+                            },
+                            "right": {
+                              "kind": "int",
+                              "data": 1,
+                              "span": "1\n        "
+                            }
+                          },
+                          "span": "ticketCount + 1\n        "
+                        },
+                        "span": "ticketCount: ticketCount + 1\n        ",
+                        "name_span": "ticketCount"
+                      }
+                    ],
+                    "name_span": "State"
+                  },
+                  "span": "State {\n            lastBuyer: buyer,\n            endTimeMs: proposedEndTimeMs,\n            ticketCount: ticketCount + 1\n        }"
+                }
+              ],
+              "span": "validateOutputState(roundOutputIndex, State {\n            lastBuyer: buyer,\n            endTimeMs: proposedEndTimeMs,\n            ticketCount: ticketCount + 1\n        });",
+              "name_span": "validateOutputState"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry buy(sig buyerSig, sig roundSig, byte[32] buyer, int proposedEndTimeMs, int roundOutputIndex) {\n        requirePolicy();\n        require(checkSig(buyerSig, pubkey(buyer)));\n        require(checkSig(roundSig, roundSigner));\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == roundOutputIndex);\n\n        require(proposedEndTimeMs > endTimeMs);\n        require(proposedEndTimeMs <= endTimeMs + extensionMs);\n        require(tx.time >= temporal(proposedEndTimeMs - maxFutureMs));\n\n        int newPotSompi = tx.inputs[this.activeInputIndex].value + ticketPriceSompi;\n        require(newPotSompi <= potCapSompi);\n        require(tx.outputs[roundOutputIndex].value == newPotSompi);\n\n        validateOutputState(roundOutputIndex, State {\n            lastBuyer: buyer,\n            endTimeMs: proposedEndTimeMs,\n            ticketCount: ticketCount + 1\n        });\n    }",
+        "name_span": "buy",
+        "body_span": "requirePolicy();\n        require(checkSig(buyerSig, pubkey(buyer)));\n        require(checkSig(roundSig, roundSigner));\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == roundOutputIndex);\n\n        require(proposedEndTimeMs > endTimeMs);\n        require(proposedEndTimeMs <= endTimeMs + extensionMs);\n        require(tx.time >= temporal(proposedEndTimeMs - maxFutureMs));\n\n        int newPotSompi = tx.inputs[this.activeInputIndex].value + ticketPriceSompi;\n        require(newPotSompi <= potCapSompi);\n        require(tx.outputs[roundOutputIndex].value == newPotSompi);\n\n        validateOutputState(roundOutputIndex, State {\n            lastBuyer: buyer,\n            endTimeMs: proposedEndTimeMs,\n            ticketCount: ticketCount + 1\n        });"
+      },
+      {
+        "name": "settle",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "selectionSig",
+            "span": "sig selectionSig",
+            "type_span": "sig ",
+            "name_span": "selectionSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "settlementFeeSompi",
+            "span": "int settlementFeeSompi",
+            "type_span": "int ",
+            "name_span": "settlementFeeSompi"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "randomRecipient0",
+            "span": "pubkey randomRecipient0",
+            "type_span": "pubkey ",
+            "name_span": "randomRecipient0"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "randomRecipient1",
+            "span": "pubkey randomRecipient1",
+            "type_span": "pubkey ",
+            "name_span": "randomRecipient1"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "randomRecipient2",
+            "span": "pubkey randomRecipient2",
+            "type_span": "pubkey ",
+            "name_span": "randomRecipient2"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "randomRecipient3",
+            "span": "pubkey randomRecipient3",
+            "type_span": "pubkey ",
+            "name_span": "randomRecipient3"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "randomRecipient4",
+            "span": "pubkey randomRecipient4",
+            "type_span": "pubkey ",
+            "name_span": "randomRecipient4"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "randomRecipient5",
+            "span": "pubkey randomRecipient5",
+            "type_span": "pubkey ",
+            "name_span": "randomRecipient5"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "returns_tuple": false,
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requirePolicy",
+              "args": [],
+              "span": "requirePolicy();",
+              "name_span": "requirePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "selectionSig",
+                      "span": "selectionSig"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "roundSigner",
+                      "span": "roundSigner"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(selectionSig, roundSigner)"
+              },
+              "message": null,
+              "span": "require(checkSig(selectionSig, roundSigner));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require_tx_time",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "temporal",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "endTimeMs",
+                      "span": "endTimeMs"
+                    }
+                  ],
+                  "name_span": "temporal"
+                },
+                "span": "temporal(endTimeMs)"
+              },
+              "message": null,
+              "span": "require(tx.time >= temporal(endTimeMs));",
+              "target_span": "tx.time",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpAuthOutputCount",
+                      "args": [
+                        {
+                          "kind": "introspection",
+                          "data": "active_input_index",
+                          "span": "this.activeInputIndex"
+                        }
+                      ],
+                      "name_span": "OpAuthOutputCount"
+                    },
+                    "span": "OpAuthOutputCount(this.activeInputIndex)"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "OpAuthOutputCount(this.activeInputIndex) == 0"
+              },
+              "message": null,
+              "span": "require(OpAuthOutputCount(this.activeInputIndex) == 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "settlementFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(settlementFeeSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "maxSettlementFeeSompi",
+                    "span": "maxSettlementFeeSompi"
+                  }
+                },
+                "span": "settlementFeeSompi <= maxSettlementFeeSompi"
+              },
+              "message": null,
+              "span": "require(settlementFeeSompi <= maxSettlementFeeSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "potSompi",
+              "expr": {
+                "kind": "indexed_introspection",
+                "data": {
+                  "kind": "input_value",
+                  "index": {
+                    "kind": "introspection",
+                    "data": "active_input_index",
+                    "span": "this.activeInputIndex"
+                  },
+                  "field_span": ".value"
+                },
+                "span": "tx.inputs[this.activeInputIndex].value"
+              },
+              "span": "int potSompi = tx.inputs[this.activeInputIndex].value;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "potSompi"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "potSompi",
+                    "span": "potSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "minSettlePotSompi",
+                    "span": "minSettlePotSompi"
+                  }
+                },
+                "span": "potSompi >= minSettlePotSompi"
+              },
+              "message": null,
+              "span": "require(potSompi >= minSettlePotSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "netPotSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "potSompi",
+                    "span": "potSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "settlementFeeSompi",
+                    "span": "settlementFeeSompi"
+                  }
+                },
+                "span": "potSompi - settlementFeeSompi"
+              },
+              "span": "int netPotSompi = potSompi - settlementFeeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "netPotSompi"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "netPotSompi",
+                    "span": "netPotSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "netPotSompi > 0"
+              },
+              "message": null,
+              "span": "require(netPotSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "winnerAmountSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "div",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "mul",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "netPotSompi",
+                        "span": "netPotSompi"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "WINNER_BPS",
+                        "span": "WINNER_BPS"
+                      }
+                    },
+                    "span": "netPotSompi * WINNER_BPS"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "BPS",
+                    "span": "BPS"
+                  }
+                },
+                "span": "netPotSompi * WINNER_BPS / BPS"
+              },
+              "span": "int winnerAmountSompi = netPotSompi * WINNER_BPS / BPS;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "winnerAmountSompi"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "platformAmountSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "div",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "mul",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "netPotSompi",
+                        "span": "netPotSompi"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "PLATFORM_BPS",
+                        "span": "PLATFORM_BPS"
+                      }
+                    },
+                    "span": "netPotSompi * PLATFORM_BPS"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "BPS",
+                    "span": "BPS"
+                  }
+                },
+                "span": "netPotSompi * PLATFORM_BPS / BPS"
+              },
+              "span": "int platformAmountSompi = netPotSompi * PLATFORM_BPS / BPS;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "platformAmountSompi"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "randomSlotAmountSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "div",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "mul",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "netPotSompi",
+                        "span": "netPotSompi"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "RANDOM_SLOT_BPS",
+                        "span": "RANDOM_SLOT_BPS"
+                      }
+                    },
+                    "span": "netPotSompi * RANDOM_SLOT_BPS"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "BPS",
+                    "span": "BPS"
+                  }
+                },
+                "span": "netPotSompi * RANDOM_SLOT_BPS / BPS"
+              },
+              "span": "int randomSlotAmountSompi = netPotSompi * RANDOM_SLOT_BPS / BPS;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "randomSlotAmountSompi"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "randomSlotAmountSompi",
+                    "span": "randomSlotAmountSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "randomSlotAmountSompi > 0"
+              },
+              "message": null,
+              "span": "require(randomSlotAmountSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "randomTotalSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "mul",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "randomSlotAmountSompi",
+                    "span": "randomSlotAmountSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "RANDOM_SLOT_COUNT",
+                    "span": "RANDOM_SLOT_COUNT"
+                  }
+                },
+                "span": "randomSlotAmountSompi * RANDOM_SLOT_COUNT"
+              },
+              "span": "int randomTotalSompi = randomSlotAmountSompi * RANDOM_SLOT_COUNT;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "randomTotalSompi"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "marketingAmountSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "sub",
+                      "left": {
+                        "kind": "binary",
+                        "data": {
+                          "op": "sub",
+                          "left": {
+                            "kind": "identifier",
+                            "data": "netPotSompi",
+                            "span": "netPotSompi"
+                          },
+                          "right": {
+                            "kind": "identifier",
+                            "data": "winnerAmountSompi",
+                            "span": "winnerAmountSompi"
+                          }
+                        },
+                        "span": "netPotSompi - winnerAmountSompi"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "platformAmountSompi",
+                        "span": "platformAmountSompi"
+                      }
+                    },
+                    "span": "netPotSompi - winnerAmountSompi - platformAmountSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "randomTotalSompi",
+                    "span": "randomTotalSompi"
+                  }
+                },
+                "span": "netPotSompi - winnerAmountSompi - platformAmountSompi - randomTotalSompi"
+              },
+              "span": "int marketingAmountSompi = netPotSompi - winnerAmountSompi - platformAmountSompi - randomTotalSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "marketingAmountSompi"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "marketingAmountSompi",
+                    "span": "marketingAmountSompi"
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "div",
+                      "left": {
+                        "kind": "binary",
+                        "data": {
+                          "op": "mul",
+                          "left": {
+                            "kind": "identifier",
+                            "data": "netPotSompi",
+                            "span": "netPotSompi"
+                          },
+                          "right": {
+                            "kind": "identifier",
+                            "data": "MARKETING_BPS",
+                            "span": "MARKETING_BPS"
+                          }
+                        },
+                        "span": "netPotSompi * MARKETING_BPS"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "BPS",
+                        "span": "BPS"
+                      }
+                    },
+                    "span": "netPotSompi * MARKETING_BPS / BPS"
+                  }
+                },
+                "span": "marketingAmountSompi >= netPotSompi * MARKETING_BPS / BPS"
+              },
+              "message": null,
+              "span": "require(marketingAmountSompi >= netPotSompi * MARKETING_BPS / BPS);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 0,
+                  "span": "0"
+                },
+                {
+                  "kind": "call",
+                  "data": {
+                    "name": "pubkey",
+                    "args": [
+                      {
+                        "kind": "identifier",
+                        "data": "lastBuyer",
+                        "span": "lastBuyer"
+                      }
+                    ],
+                    "name_span": "pubkey"
+                  },
+                  "span": "pubkey(lastBuyer)"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "winnerAmountSompi",
+                  "span": "winnerAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(0, pubkey(lastBuyer), winnerAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 1,
+                  "span": "1"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "marketingRecipient",
+                  "span": "marketingRecipient"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "marketingAmountSompi",
+                  "span": "marketingAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(1, marketingRecipient, marketingAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 2,
+                  "span": "2"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "platformRecipient",
+                  "span": "platformRecipient"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "platformAmountSompi",
+                  "span": "platformAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(2, platformRecipient, platformAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 3,
+                  "span": "3"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomRecipient0",
+                  "span": "randomRecipient0"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomSlotAmountSompi",
+                  "span": "randomSlotAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(3, randomRecipient0, randomSlotAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 4,
+                  "span": "4"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomRecipient1",
+                  "span": "randomRecipient1"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomSlotAmountSompi",
+                  "span": "randomSlotAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(4, randomRecipient1, randomSlotAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 5,
+                  "span": "5"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomRecipient2",
+                  "span": "randomRecipient2"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomSlotAmountSompi",
+                  "span": "randomSlotAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(5, randomRecipient2, randomSlotAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 6,
+                  "span": "6"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomRecipient3",
+                  "span": "randomRecipient3"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomSlotAmountSompi",
+                  "span": "randomSlotAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(6, randomRecipient3, randomSlotAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 7,
+                  "span": "7"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomRecipient4",
+                  "span": "randomRecipient4"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomSlotAmountSompi",
+                  "span": "randomSlotAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(7, randomRecipient4, randomSlotAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireP2PK",
+              "args": [
+                {
+                  "kind": "int",
+                  "data": 8,
+                  "span": "8"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomRecipient5",
+                  "span": "randomRecipient5"
+                },
+                {
+                  "kind": "identifier",
+                  "data": "randomSlotAmountSompi",
+                  "span": "randomSlotAmountSompi"
+                }
+              ],
+              "span": "requireP2PK(8, randomRecipient5, randomSlotAmountSompi);",
+              "name_span": "requireP2PK"
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entry settle(\n        sig selectionSig,\n        int settlementFeeSompi,\n        pubkey randomRecipient0,\n        pubkey randomRecipient1,\n        pubkey randomRecipient2,\n        pubkey randomRecipient3,\n        pubkey randomRecipient4,\n        pubkey randomRecipient5\n    ) {\n        requirePolicy();\n        require(checkSig(selectionSig, roundSigner));\n        require(tx.time >= temporal(endTimeMs));\n        require(OpAuthOutputCount(this.activeInputIndex) == 0);\n        require(settlementFeeSompi >= 0);\n        require(settlementFeeSompi <= maxSettlementFeeSompi);\n\n        int potSompi = tx.inputs[this.activeInputIndex].value;\n        require(potSompi >= minSettlePotSompi);\n        int netPotSompi = potSompi - settlementFeeSompi;\n        require(netPotSompi > 0);\n\n        int winnerAmountSompi = netPotSompi * WINNER_BPS / BPS;\n        int platformAmountSompi = netPotSompi * PLATFORM_BPS / BPS;\n        int randomSlotAmountSompi = netPotSompi * RANDOM_SLOT_BPS / BPS;\n        require(randomSlotAmountSompi > 0);\n        int randomTotalSompi = randomSlotAmountSompi * RANDOM_SLOT_COUNT;\n        int marketingAmountSompi = netPotSompi - winnerAmountSompi - platformAmountSompi - randomTotalSompi;\n        require(marketingAmountSompi >= netPotSompi * MARKETING_BPS / BPS);\n\n        requireP2PK(0, pubkey(lastBuyer), winnerAmountSompi);\n        requireP2PK(1, marketingRecipient, marketingAmountSompi);\n        requireP2PK(2, platformRecipient, platformAmountSompi);\n\n        requireP2PK(3, randomRecipient0, randomSlotAmountSompi);\n        requireP2PK(4, randomRecipient1, randomSlotAmountSompi);\n        requireP2PK(5, randomRecipient2, randomSlotAmountSompi);\n        requireP2PK(6, randomRecipient3, randomSlotAmountSompi);\n        requireP2PK(7, randomRecipient4, randomSlotAmountSompi);\n        requireP2PK(8, randomRecipient5, randomSlotAmountSompi);\n    }",
+        "name_span": "settle",
+        "body_span": "requirePolicy();\n        require(checkSig(selectionSig, roundSigner));\n        require(tx.time >= temporal(endTimeMs));\n        require(OpAuthOutputCount(this.activeInputIndex) == 0);\n        require(settlementFeeSompi >= 0);\n        require(settlementFeeSompi <= maxSettlementFeeSompi);\n\n        int potSompi = tx.inputs[this.activeInputIndex].value;\n        require(potSompi >= minSettlePotSompi);\n        int netPotSompi = potSompi - settlementFeeSompi;\n        require(netPotSompi > 0);\n\n        int winnerAmountSompi = netPotSompi * WINNER_BPS / BPS;\n        int platformAmountSompi = netPotSompi * PLATFORM_BPS / BPS;\n        int randomSlotAmountSompi = netPotSompi * RANDOM_SLOT_BPS / BPS;\n        require(randomSlotAmountSompi > 0);\n        int randomTotalSompi = randomSlotAmountSompi * RANDOM_SLOT_COUNT;\n        int marketingAmountSompi = netPotSompi - winnerAmountSompi - platformAmountSompi - randomTotalSompi;\n        require(marketingAmountSompi >= netPotSompi * MARKETING_BPS / BPS);\n\n        requireP2PK(0, pubkey(lastBuyer), winnerAmountSompi);\n        requireP2PK(1, marketingRecipient, marketingAmountSompi);\n        requireP2PK(2, platformRecipient, platformAmountSompi);\n\n        requireP2PK(3, randomRecipient0, randomSlotAmountSompi);\n        requireP2PK(4, randomRecipient1, randomSlotAmountSompi);\n        requireP2PK(5, randomRecipient2, randomSlotAmountSompi);\n        requireP2PK(6, randomRecipient3, randomSlotAmountSompi);\n        requireP2PK(7, randomRecipient4, randomSlotAmountSompi);\n        requireP2PK(8, randomRecipient5, randomSlotAmountSompi);"
+      }
+    ],
+    "span": "contract KaspaFomoRound(\n    byte[32] initialLastBuyer,\n    int initialEndTimeMs,\n    int ticketPriceSompi,\n    int extensionMs,\n    int maxFutureMs,\n    int potCapSompi,\n    int minSettlePotSompi,\n    int maxSettlementFeeSompi,\n    pubkey marketingRecipient,\n    pubkey platformRecipient,\n    pubkey roundSigner\n) {\n    int constant BPS = 10000;\n    int constant WINNER_BPS = 5000;\n    int constant MARKETING_BPS = 3000;\n    int constant PLATFORM_BPS = 200;\n    int constant RANDOM_SLOT_BPS = 300;\n    int constant RANDOM_SLOT_COUNT = 6;\n\n    byte[32] lastBuyer = initialLastBuyer;\n    int endTimeMs = initialEndTimeMs;\n    int ticketCount = 0;\n\n    function requirePolicy() {\n        require(ticketPriceSompi > 0);\n        require(extensionMs > 0);\n        require(maxFutureMs > 0);\n        require(potCapSompi >= ticketPriceSompi);\n        require(minSettlePotSompi > 0);\n        require(maxSettlementFeeSompi >= 0);\n    }\n\n    function requireP2PK(int outputIndex, pubkey recipient, int amountSompi) {\n        require(outputIndex >= 0);\n        require(amountSompi > 0);\n        require(tx.outputs[outputIndex].value == amountSompi);\n        require(tx.outputs[outputIndex].scriptPubKey == byte[](new ScriptPubKeyP2PK(recipient)));\n    }\n\n    entry buy(sig buyerSig, sig roundSig, byte[32] buyer, int proposedEndTimeMs, int roundOutputIndex) {\n        requirePolicy();\n        require(checkSig(buyerSig, pubkey(buyer)));\n        require(checkSig(roundSig, roundSigner));\n        require(OpAuthOutputCount(this.activeInputIndex) == 1);\n        require(OpAuthOutputIdx(this.activeInputIndex, 0) == roundOutputIndex);\n\n        require(proposedEndTimeMs > endTimeMs);\n        require(proposedEndTimeMs <= endTimeMs + extensionMs);\n        require(tx.time >= temporal(proposedEndTimeMs - maxFutureMs));\n\n        int newPotSompi = tx.inputs[this.activeInputIndex].value + ticketPriceSompi;\n        require(newPotSompi <= potCapSompi);\n        require(tx.outputs[roundOutputIndex].value == newPotSompi);\n\n        validateOutputState(roundOutputIndex, State {\n            lastBuyer: buyer,\n            endTimeMs: proposedEndTimeMs,\n            ticketCount: ticketCount + 1\n        });\n    }\n\n    entry settle(\n        sig selectionSig,\n        int settlementFeeSompi,\n        pubkey randomRecipient0,\n        pubkey randomRecipient1,\n        pubkey randomRecipient2,\n        pubkey randomRecipient3,\n        pubkey randomRecipient4,\n        pubkey randomRecipient5\n    ) {\n        requirePolicy();\n        require(checkSig(selectionSig, roundSigner));\n        require(tx.time >= temporal(endTimeMs));\n        require(OpAuthOutputCount(this.activeInputIndex) == 0);\n        require(settlementFeeSompi >= 0);\n        require(settlementFeeSompi <= maxSettlementFeeSompi);\n\n        int potSompi = tx.inputs[this.activeInputIndex].value;\n        require(potSompi >= minSettlePotSompi);\n        int netPotSompi = potSompi - settlementFeeSompi;\n        require(netPotSompi > 0);\n\n        int winnerAmountSompi = netPotSompi * WINNER_BPS / BPS;\n        int platformAmountSompi = netPotSompi * PLATFORM_BPS / BPS;\n        int randomSlotAmountSompi = netPotSompi * RANDOM_SLOT_BPS / BPS;\n        require(randomSlotAmountSompi > 0);\n        int randomTotalSompi = randomSlotAmountSompi * RANDOM_SLOT_COUNT;\n        int marketingAmountSompi = netPotSompi - winnerAmountSompi - platformAmountSompi - randomTotalSompi;\n        require(marketingAmountSompi >= netPotSompi * MARKETING_BPS / BPS);\n\n        requireP2PK(0, pubkey(lastBuyer), winnerAmountSompi);\n        requireP2PK(1, marketingRecipient, marketingAmountSompi);\n        requireP2PK(2, platformRecipient, platformAmountSompi);\n\n        requireP2PK(3, randomRecipient0, randomSlotAmountSompi);\n        requireP2PK(4, randomRecipient1, randomSlotAmountSompi);\n        requireP2PK(5, randomRecipient2, randomSlotAmountSompi);\n        requireP2PK(6, randomRecipient3, randomSlotAmountSompi);\n        requireP2PK(7, randomRecipient4, randomSlotAmountSompi);\n        requireP2PK(8, randomRecipient5, randomSlotAmountSompi);\n    }\n}",
+    "name_span": "KaspaFomoRound"
+  },
+  "abi": [
+    {
+      "name": "buy",
+      "inputs": [
+        {
+          "name": "buyerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "roundSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "buyer",
+          "type_name": "byte[32]"
+        },
+        {
+          "name": "proposedEndTimeMs",
+          "type_name": "int"
+        },
+        {
+          "name": "roundOutputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "settle",
+      "inputs": [
+        {
+          "name": "selectionSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "settlementFeeSompi",
+          "type_name": "int"
+        },
+        {
+          "name": "randomRecipient0",
+          "type_name": "pubkey"
+        },
+        {
+          "name": "randomRecipient1",
+          "type_name": "pubkey"
+        },
+        {
+          "name": "randomRecipient2",
+          "type_name": "pubkey"
+        },
+        {
+          "name": "randomRecipient3",
+          "type_name": "pubkey"
+        },
+        {
+          "name": "randomRecipient4",
+          "type_name": "pubkey"
+        },
+        {
+          "name": "randomRecipient5",
+          "type_name": "pubkey"
+        }
+      ]
+    }
+  ],
+  "state_layout": {
+    "start": 1,
+    "len": 51
+  },
+  "debug_info": null
+}
