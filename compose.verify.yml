@@ -1,0 +1,33 @@
+services:
+  postgres:
+    image: postgres:16-bookworm
+    environment:
+      POSTGRES_USER: markets_test
+      POSTGRES_PASSWORD: markets_test
+      POSTGRES_DB: postgres
+    ports:
+      - "127.0.0.1::5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U markets_test -d postgres"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile.verify
+    environment:
+      SHADOW_TEST_ADMIN_DSN: postgresql://markets_test:markets_test@postgres:5432/postgres
+      SHADOW_PG_BIN: /usr/lib/postgresql/16/bin
+      PYTHONDONTWRITEBYTECODE: "1"
+    working_dir: /source
+    volumes:
+      - .:/source:ro
+    entrypoint: ["bash", "scripts/verify-postgres.sh"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  pgdata:

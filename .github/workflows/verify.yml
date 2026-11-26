@@ -1,0 +1,200 @@
+name: Markets indexer verification
+permissions:
+  contents: read
+jobs:
+  coordination:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        postgres:
+        - '15'
+        - '16'
+    services:
+      postgres:
+        image: postgres:${{ matrix.postgres }}-bookworm
+        env:
+          POSTGRES_USER: shadow_test
+          POSTGRES_PASSWORD: shadow_test
+          POSTGRES_DB: postgres
+        ports:
+        - 5432:5432
+        options: --health-cmd="pg_isready -U shadow_test" --health-interval=5s --health-timeout=5s --health-retries=10
+    env:
+      SHADOW_PG_BIN: /tmp/shadow-pg-client
+      SHADOW_TEST_ADMIN_DSN: postgresql://shadow_test:shadow_test@127.0.0.1:5432/postgres
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - name: Use clients from the tested PostgreSQL image
+      run: 'mkdir -p "$SHADOW_PG_BIN"
+
+        docker cp ''${{ job.services.postgres.id }}:/usr/lib/postgresql/${{ matrix.postgres }}/bin/pg_dump'' "$SHADOW_PG_BIN/pg_dump"
+
+        docker cp ''${{ job.services.postgres.id }}:/usr/lib/postgresql/${{ matrix.postgres }}/bin/pg_restore'' "$SHADOW_PG_BIN/pg_restore"
+
+        "$SHADOW_PG_BIN/pg_dump" --version
+
+        "$SHADOW_PG_BIN/pg_restore" --version
+
+        '
+    - run: pip install -r scripts/shadow-v2/requirements.txt
+    - run: python scripts/shadow-v2/test_coordination.py
+    - run: python scripts/shadow-v2/test_snapshot.py
+    - run: python scripts/shadow-v2/test_archive.py
+    - run: git rev-parse HEAD
+    - name: Record tested revision
+      if: always()
+      run: git rev-parse HEAD > tested-sha.txt
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: coordination-${{ matrix.postgres || matrix.suite || 'single' }}-${{ github.run_attempt }}
+        path: tested-sha.txt
+    timeout-minutes: 45
+  rust:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: shadow_test
+          POSTGRES_PASSWORD: shadow_test
+          POSTGRES_DB: postgres
+        ports:
+        - 5432:5432
+        options: --health-cmd="pg_isready -U shadow_test" --health-interval=5s --health-timeout=5s --health-retries=10
+    env:
+      DATABASE_URL: postgresql://shadow_test:shadow_test@127.0.0.1:5432/postgres
+      CARGO_PROFILE_DEV_DEBUG: '0'
+      CARGO_PROFILE_TEST_DEBUG: '0'
+      CARGO_INCREMENTAL: '0'
+    steps:
+    - uses: actions/checkout@v4
+    - run: echo "SHADOW_DECODER_REVISION=$(cat decoder-compatibility.txt)" >> "$GITHUB_ENV"
+    - uses: dtolnay/rust-toolchain@1.95.0
+    - uses: Swatinem/rust-cache@v2
+    - run: cargo test --locked -p tn12-indexer-db --test shadow_v2
+    - run: cargo test --locked -p tn12-indexer-crawl bounded_notification
+    - run: cargo test --locked -p tn12-indexer-crawl shadow_
+    - run: cargo test --locked -p tn12-indexer-cli --bin tn10-shadow-indexer
+    - run: cargo test --locked -p tn12-indexer-cli --test shadow_replay
+    - run: cargo test --locked -p tn12-indexer-api shadow_current_read_contracts
+    - run: git rev-parse HEAD
+    - name: Record tested revision
+      if: always()
+      run: git rev-parse HEAD > tested-sha.txt
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: rust-${{ matrix.postgres || matrix.suite || 'single' }}-${{ github.run_attempt }}
+        path: tested-sha.txt
+    timeout-minutes: 45
+  image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+    - uses: actions/checkout@v4
+    - run: echo "SHADOW_DECODER_REVISION=$(cat decoder-compatibility.txt)" >> "$GITHUB_ENV"
+    - uses: docker/setup-buildx-action@v3
+    - uses: docker/build-push-action@v6
+      with:
+        context: .
+        file: Dockerfile.shadow-v2
+        push: false
+        load: true
+        tags: markets-indexer:verify
+        build-args: 'SHADOW_DECODER_REVISION=${{ env.SHADOW_DECODER_REVISION }}
+
+          SOURCE_REVISION=${{ github.sha }}'
+        cache-from: type=gha,scope=markets-indexer
+        cache-to: type=gha,mode=max,scope=markets-indexer
+    - run: docker run --rm markets-indexer:verify --help
+    - run: docker run --rm --entrypoint covenant-tools-api markets-indexer:verify --help
+    - name: Record tested revision
+      if: always()
+      run: git rev-parse HEAD > tested-sha.txt
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: image-${{ matrix.postgres || matrix.suite || 'single' }}-${{ github.run_attempt }}
+        path: tested-sha.txt
+  regression:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: tn12_test
+          POSTGRES_PASSWORD: tn12_test
+          POSTGRES_DB: postgres
+        ports:
+        - 5432:5432
+        - 55439:5432
+        options: --health-cmd="pg_isready -U tn12_test" --health-interval=5s --health-timeout=5s --health-retries=5
+    env:
+      DATABASE_URL: postgres://tn12_test:tn12_test@127.0.0.1:5432/postgres
+      RUST_LOG: info,sqlx=warn
+      CARGO_PROFILE_DEV_DEBUG: '0'
+      CARGO_PROFILE_TEST_DEBUG: '0'
+      CARGO_INCREMENTAL: '0'
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@1.95.0
+    - uses: Swatinem/rust-cache@v2
+      with:
+        key: ${{ matrix.suite }}
+    - run: bash scripts/ci/rust-suite.sh "${{ matrix.suite }}"
+    - name: Record tested revision
+      if: always()
+      run: git rev-parse HEAD > tested-sha.txt
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: regression-${{ matrix.postgres || matrix.suite || 'single' }}-${{ github.run_attempt }}
+        path: tested-sha.txt
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        suite:
+        - general
+        - db-unit
+        - db-integration-heavy
+        - db-integration-other
+        - crawl
+        - recovery-db
+        - recovery-crawl
+        - active-output-order
+  local-compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+    - uses: actions/checkout@v4
+    - run: bash scripts/verify.sh
+    - name: Record tested revision
+      if: always()
+      run: git rev-parse HEAD > tested-sha.txt
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: local-compose-${{ matrix.postgres || matrix.suite || 'single' }}-${{ github.run_attempt }}
+        path: tested-sha.txt
+'on':
+  push:
+    branches:
+    - feat/v2-extraction-tests
+    - develop
+    - main
+  pull_request:
+    branches:
+    - develop
+    - main
+  workflow_dispatch: null
+concurrency:
+  group: markets-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
