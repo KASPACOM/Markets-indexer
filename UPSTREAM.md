@@ -14,8 +14,8 @@ dependencies remain pinned by the unchanged Cargo.lock.
 ## Extraction changes
 
 - Cargo.toml repository metadata points here. Crate names and source bytes stay unchanged.
-- Dockerfile.shadow-v2 gains Markets-indexer image metadata; the decoder revision
-  remains an explicit build argument. `.dockerignore` retains embedded build assets.
+- Dockerfile.shadow-v2 pins base image digests and requires source and decoder
+  revision build arguments, both recorded in image metadata. `.dockerignore` retains embedded build assets.
 - Local Compose, verification scripts and workflows belong to this repository.
 - The imported runbook describes the V2 runtime. References to legacy commands
   are context; wallet settlement helpers and frontends are not shipped here.
