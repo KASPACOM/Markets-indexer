@@ -1,0 +1,36 @@
+{
+  "tn10": {
+    "v": 1,
+    "tmpl": "KCC20",
+    "args": [
+      { "name": "creator", "type": "byte[32]", "value": "1111111111111111111111111111111111111111111111111111111111111111" },
+      { "name": "maxSupply", "type": "u64[2]", "value": ["3", "1029883889435672576"] },
+      { "name": "mintLaneCount", "type": "u64", "value": "1" },
+      { "name": "premintSupply", "type": "u64[2]", "value": ["3", "1029883889435672576"] },
+      { "name": "premintRecipient", "type": "byte[32]", "value": "4444444444444444444444444444444444444444444444444444444444444444" },
+      { "name": "premintOwnerScheme", "type": "u64", "value": "4" },
+      { "name": "mintPolicy", "type": "u64", "value": "0" },
+      { "name": "displayScale", "type": "u64", "value": "100000000" },
+      { "name": "mintPriceSompi", "type": "u64", "value": "0" },
+      { "name": "treasury", "type": "byte[32]", "value": "1111111111111111111111111111111111111111111111111111111111111111" },
+      { "name": "protocolFeeRecipient", "type": "byte[32]", "value": "1111111111111111111111111111111111111111111111111111111111111111" },
+      { "name": "protocolFeeBps", "type": "u64", "value": "0" },
+      { "name": "ticker", "type": "string", "value": "NACHO" },
+      { "name": "name", "type": "string", "value": "NACHO" },
+      { "name": "holderExtensionCommitment", "type": "byte[32]", "value": "bd2bc17e17e2a7a6fdc4a557c80fa441760a8ce31f4d09a394bed240f7f9a6e3" },
+      { "name": "snapshotMigrationId", "type": "byte[32]", "value": "2222222222222222222222222222222222222222222222222222222222222222" },
+      { "name": "snapshotManifestCommitment", "type": "byte[32]", "value": "3333333333333333333333333333333333333333333333333333333333333333" },
+      {
+        "name": "snapshotReserves",
+        "type": "object",
+        "value": [
+          { "shardIndex": "0", "amount": "6155259898638223950", "owner": "4444444444444444444444444444444444444444444444444444444444444444", "ownerScheme": 4 },
+          { "shardIndex": "1", "amount": "5951866420246839519", "owner": "5555555555555555555555555555555555555555555555555555555555555555", "ownerScheme": 4 },
+          { "shardIndex": "2", "amount": "5757775773333178726", "owner": "6666666666666666666666666666666666666666666666666666666666666666", "ownerScheme": 4 },
+          { "shardIndex": "3", "amount": "5919898242175782749", "owner": "7777777777777777777777777777777777777777777777777777777777777777", "ownerScheme": 4 },
+          { "shardIndex": "4", "amount": "4915199665605975056", "owner": "8888888888888888888888888888888888888888888888888888888888888888", "ownerScheme": 4 }
+        ]
+      }
+    ]
+  }
+}

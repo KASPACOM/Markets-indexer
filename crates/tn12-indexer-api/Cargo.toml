@@ -1,0 +1,39 @@
+[package]
+name = "tn12-indexer-api"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "tn12-indexer-api"
+path = "src/main.rs"
+
+[[bin]]
+name = "covenant-tools-api"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sqlx = { workspace = true }
+base64 = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+axum = { workspace = true }
+tower-http = { workspace = true }
+clap = { workspace = true }
+hex = { workspace = true }
+kaspa-addresses = { workspace = true }
+utoipa-swagger-ui = { version = "9.0.2", features = ["axum", "vendored"] }
+tn12-indexer-core = { workspace = true }
+tn12-indexer-crawl = { workspace = true }
+tn12-indexer-db = { workspace = true }
+
+[dev-dependencies]
+secp256k1 = { workspace = true }
+tower = { workspace = true }

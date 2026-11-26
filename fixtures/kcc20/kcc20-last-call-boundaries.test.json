@@ -1,0 +1,639 @@
+{
+  "tests": [
+    {
+      "name": "threshold_exact_increase_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 105,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              5,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              105,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "threshold_one_above_is_allowed",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 106,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              6,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              106,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "pass"
+    },
+    {
+      "name": "borrow_zero_increase_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 100,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              0,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              100,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "borrow_collateral_reduction_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 49999999,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              110,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "borrow_shared_family_authorizer_is_allowed",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 1,
+            "constructor_args": [
+              110,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "pass"
+    },
+    {
+      "name": "borrow_mismatched_output_state_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              110,
+              "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "borrow_nonempty_threshold_witness_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x0100"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              110,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "transfer_invalid_path_selector_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x02"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              110,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "transfer_mixed_extension_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              110,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    },
+    {
+      "name": "borrow_wrong_family_binding_is_rejected",
+      "function": "transfer",
+      "constructor_args": [
+        100,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        4,
+        1,
+        "0x0500000000000000000000000000000000000000000000000000000000000000",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ],
+      "args": [
+        [
+          {
+            "amount": 110,
+            "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "owner_scheme": 4,
+            "borrow_scheme": 1,
+            "borrow_guard": "0x0500000000000000000000000000000000000000000000000000000000000000",
+            "extension_commitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          }
+        ],
+        "0x01"
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "constructor_args": [
+              10,
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              4,
+              0,
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          },
+          {
+            "utxo_value": 50000000,
+            "covenant_id": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "utxo_script_hex": "0x51"
+          }
+        ],
+        "outputs": [
+          {
+            "value": 50000000,
+            "covenant_id": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "authorizing_input": 2,
+            "constructor_args": [
+              110,
+              "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              4,
+              1,
+              "0x0500000000000000000000000000000000000000000000000000000000000000",
+              "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+          }
+        ]
+      },
+      "expect": "fail"
+    }
+  ]
+}

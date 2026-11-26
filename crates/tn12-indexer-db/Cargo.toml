@@ -1,0 +1,25 @@
+[package]
+name = "tn12-indexer-db"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sqlx = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+hex = { workspace = true }
+chrono = { workspace = true }
+async-trait = { workspace = true }
+kaspa-addresses = { workspace = true }
+tn12-indexer-core = { workspace = true }
+tn12-indexer-decoder = { workspace = true }
+
+[dev-dependencies]
+blake2 = { workspace = true }

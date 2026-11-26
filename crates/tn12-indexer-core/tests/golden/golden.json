@@ -1,0 +1,57 @@
+[
+  {
+    "name": "empty_auth_outputs",
+    "txid": "0000000000000000000000000000000000000000000000000000000000000000",
+    "index": 0,
+    "authOutputs": [],
+    "expected": "d4d42e680bd643abb63f7acb14f6933577037ea828ee1e8bed3b21eab1031413"
+  },
+  {
+    "name": "single_auth_pubkey_output",
+    "txid": "1111111111111111111111111111111111111111111111111111111111111111",
+    "index": 5,
+    "authOutputs": [
+      {
+        "index": 0,
+        "value": "1000",
+        "scriptVersion": 0,
+        "scriptBytes": "aa"
+      }
+    ],
+    "expected": "1b24e07e17ea9d14387750852ffee7b451aa11da7fc3fdd90a15f41a06a7d5e0"
+  },
+  {
+    "name": "two_auth_outputs",
+    "txid": "cdb813b86af4cef2d4038ef53694e376a703f4cf9df25ec35748bb3d76b5e8fa",
+    "index": 0,
+    "authOutputs": [
+      {
+        "index": 0,
+        "value": "15000000000",
+        "scriptVersion": 0,
+        "scriptBytes": "aa2011f8924c7f0718634c684a96facacfdc38999073f0ce70c0d429b64c89596eb987"
+      },
+      {
+        "index": 1,
+        "value": "5594991436",
+        "scriptVersion": 0,
+        "scriptBytes": "2026cb3ff1d2275f7d5b9d960a6f5ec437bf15dfc099dacb199e8d35e8151562fcac"
+      }
+    ],
+    "expected": "3b3ec68d597326bff4c879287db65b87b99f919ef6dde0aa890195eca9ed7750"
+  },
+  {
+    "name": "big_value_long_script",
+    "txid": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "index": 4294967295,
+    "authOutputs": [
+      {
+        "index": 7,
+        "value": "18446744073709000000",
+        "scriptVersion": 2,
+        "scriptBytes": "aa20dededededededededededededededededededededededededededededededede8701010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101"
+      }
+    ],
+    "expected": "c76d525309f0305df0b07ea1d9af32a360b7e653717155a72ae82c1363daa9f5"
+  }
+]

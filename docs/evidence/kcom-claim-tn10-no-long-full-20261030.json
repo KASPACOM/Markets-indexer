@@ -1,0 +1,3236 @@
+{
+  "schema": "kcom-claim-tn10-live-evidence/v1",
+  "generatedAt": "2026-10-30T15:17:55.677Z",
+  "network": "testnet-10",
+  "scope": "Accepted TN10 transactions with independently rechecked REST outputs and observed indexer status",
+  "campaignId": "e63854d5df1fe4832e98b06d12943b94b7364629fb921c6f972f5d502ae5a805",
+  "graphId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+  "tokenId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+  "manifestRoot": "76ad71a77485b0d3ca2729f6023b7debedc47bca05bbb2c91c698b70e69baec0",
+  "termsHash": "81a5eeecbd7a85f863de7012fe05ea823f5acd1d0b43d063b59d30a219f7b881",
+  "opensMs": "1790781000000",
+  "closesMs": "1793373000000",
+  "tgeMs": "1793373300000",
+  "budgetRaw": "1000",
+  "source": {
+    "address": "kaspatest:qrel6nnqnxg2n024v3m4npd77f0up9cxcrp7n457dhh9w2m7a5pwxkwxfrdrg",
+    "owner": "f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3"
+  },
+  "publicRoles": {
+    "adminOne": {
+      "address": "kaspatest:qpc63xyjqgh66z7962zhe65rl4d2y0vexu05ggz9u5lqkps76x6ycff3cgv3h",
+      "owner": "71a89892022fad0bc5d2857cea83fd5aa23d99371f442045e53e0b061ed1b44c"
+    },
+    "adminTwo": {
+      "address": "kaspatest:qza8qgpxvhh74pl2t9d4wn944ra4h4qaq3fyp6yfp58kpwnrgnercgw3u9u59",
+      "owner": "ba70202665efea87ea595b574cb5a8fb5bd41d045240e8890d0f60ba6344f23c"
+    },
+    "adminThree": {
+      "address": "kaspatest:qqzn73j86ny7zh4p7yrlavv7hjnwazpjvel0aepkjkm3dlept54fw4lv7fe9v",
+      "owner": "053f4647d4c9e15ea1f107feb19ebca6ee8832667efee43695b716ff215d2a97"
+    },
+    "sponsor": {
+      "address": "kaspatest:qr98kymr54q97atqml99tvpqu2wsp8c6fvauk2c7ra0ww30d7nnhs8u9ysr3k",
+      "owner": "ca7b1363a5405f7560dfca55b020e29d009f1a4b3bcb2b1e1f5ee745edf4e778"
+    },
+    "alice": {
+      "address": "kaspatest:qp02dzxe2040x7xp5xwhuqkrsxm3g2xkvm6xpwrcx7ph3q0p0mukyuglrkpf6",
+      "owner": "5ea688d953eaf378c1a19d7e02c381b71428d666f460b87837837881e17ef962"
+    },
+    "bob": {
+      "address": "kaspatest:qpxux2rk9hhl53ew7kxa05gk6zurfjm3ven9hcjy4pucz7c5kwnq2qxem2k5c",
+      "owner": "4dc328762deffa472ef58dd7d116d0b834cb7166665be244a879817b14b3a605"
+    },
+    "carol": {
+      "address": "kaspatest:qzhs2n9jlv85ykmlx98zur35lcjn7kc2ujg99gdtg8ws7t5d2m09cx60guc3d",
+      "owner": "af054cb2fb0f425b7f314e2e0e34fe253f5b0ae49052a1ab41dd0f2e8d56de5c"
+    }
+  },
+  "fundingCapSompi": "15000000000",
+  "cumulativeSourceDrawSompi": "6966774000",
+  "priorCampaignDrawSompi": "3723697000",
+  "thisCampaignSourceDrawSompi": "3243077000",
+  "tokenCapRaw": "20000",
+  "allocatedRaw": "1000",
+  "priorCampaignAllocatedRaw": "1000",
+  "aggregateAllocatedRaw": "2000",
+  "tokenDeploy": {
+    "txid": "d4b096c30da55ba81bffaf49dbcac369544e75fb82e387e3cd81d3dacba6524c",
+    "explorer": "https://tn10.kaspa.stream/transactions/d4b096c30da55ba81bffaf49dbcac369544e75fb82e387e3cd81d3dacba6524c",
+    "acceptedRest": true,
+    "liveVerifiedAtStage": true,
+    "acceptingBlockHash": "be7dcebd65165b3e1bb552f6dd73014dba320a65116a6cac38ba237f2390d5ab",
+    "sourceDrawSompi": "50620000",
+    "reserveSompi": "50000000",
+    "feeSompi": "620000"
+  },
+  "graphIndexer": {
+    "observed": true,
+    "classificationKind": "unknown",
+    "classificationStatus": "unmatched",
+    "claimedTemplate": null,
+    "actionsTotal": 68,
+    "activeUtxoCount": 1,
+    "activeNativeSompi": "600000000"
+  },
+  "indexerHealth": {
+    "observed": false,
+    "httpStatus": null,
+    "fetchError": "The operation was aborted due to timeout"
+  },
+  "tokenConservation": {
+    "sourceRaw": "19000",
+    "originalSupplyRaw": "20000",
+    "graphReserveRaw": "1000",
+    "ownerChangeRaw": "18000",
+    "transferIndexed": true,
+    "vaultFundingIndexed": true,
+    "currentActiveRaw": "20000",
+    "beneficiaryReceipts": [
+      {
+        "outpoint": "ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935:0",
+        "amountRaw": "2",
+        "owner": "4dc328762deffa472ef58dd7d116d0b834cb7166665be244a879817b14b3a605",
+        "ownerScheme": 0
+      },
+      {
+        "outpoint": "c92592c61c9279580c2602c85ea913c06613399fe9bd9960c1b98db52c6f0e14:0",
+        "amountRaw": "18",
+        "owner": "5ea688d953eaf378c1a19d7e02c381b71428d666f460b87837837881e17ef962",
+        "ownerScheme": 0
+      }
+    ],
+    "positionReserves": [
+      {
+        "outpoint": "ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935:1",
+        "amountRaw": "25",
+        "owner": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+        "ownerScheme": 4
+      },
+      {
+        "outpoint": "c92592c61c9279580c2602c85ea913c06613399fe9bd9960c1b98db52c6f0e14:1",
+        "amountRaw": "343",
+        "owner": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+        "ownerScheme": 4
+      }
+    ],
+    "treasuryRecovery": {
+      "outpoint": "4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268:1",
+      "amountRaw": "612",
+      "owner": "053f4647d4c9e15ea1f107feb19ebca6ee8832667efee43695b716ff215d2a97",
+      "ownerScheme": 0
+    },
+    "currentUtxos": [
+      {
+        "outpoint": "3c61f8db02ac87bef50a31fcdd5d930248f6927bcfb3743fba9572b141b6de81:0",
+        "amountRaw": "7",
+        "reserveSompi": "200000000",
+        "ownerScheme": 0,
+        "owner": "7ce68671fac31f799a395afcdc34419a63715bcbf436e5a55ce5b8ee68a3c8a7",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "a702838037474c830005c0f38ff9b9d2fbf51ac552a95490aab4f54c3c4c4ff3:0",
+        "amountRaw": "2",
+        "reserveSompi": "200000000",
+        "ownerScheme": 0,
+        "owner": "33dabe26675a8e0c067eda92183400f6b3e8c9022bf41813ac3fdc9d84489012",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "c92592c61c9279580c2602c85ea913c06613399fe9bd9960c1b98db52c6f0e14:0",
+        "amountRaw": "18",
+        "reserveSompi": "200000000",
+        "ownerScheme": 0,
+        "owner": "5ea688d953eaf378c1a19d7e02c381b71428d666f460b87837837881e17ef962",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935:0",
+        "amountRaw": "2",
+        "reserveSompi": "200000000",
+        "ownerScheme": 0,
+        "owner": "4dc328762deffa472ef58dd7d116d0b834cb7166665be244a879817b14b3a605",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "19e31aeb5fa220dc995d4b004d9781d028cc84625033bff5502fc961cc992f9b:1",
+        "amountRaw": "18000",
+        "reserveSompi": "100000000",
+        "ownerScheme": 0,
+        "owner": "f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "3c61f8db02ac87bef50a31fcdd5d930248f6927bcfb3743fba9572b141b6de81:1",
+        "amountRaw": "146",
+        "reserveSompi": "100000000",
+        "ownerScheme": 4,
+        "owner": "6678a4527a135b67f19a1665fe3d5de9537220f021cada4ad4e58c288a501e10",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268:1",
+        "amountRaw": "612",
+        "reserveSompi": "100000000",
+        "ownerScheme": 0,
+        "owner": "053f4647d4c9e15ea1f107feb19ebca6ee8832667efee43695b716ff215d2a97",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "a702838037474c830005c0f38ff9b9d2fbf51ac552a95490aab4f54c3c4c4ff3:1",
+        "amountRaw": "25",
+        "reserveSompi": "100000000",
+        "ownerScheme": 4,
+        "owner": "fa4f0c3b2c1b3c4bfb0a809435054804056d19727647bcca056cea6379f1c265",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "ad493034545e2a51bbf6cbd60a018cf67da0877a80c0676da6cf032116912ad1:2",
+        "amountRaw": "817",
+        "reserveSompi": "100000000",
+        "ownerScheme": 4,
+        "owner": "be11457d035919e3ff8e327116ea510d050abb9eabbf26221a91d93ac849020d",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "c92592c61c9279580c2602c85ea913c06613399fe9bd9960c1b98db52c6f0e14:1",
+        "amountRaw": "343",
+        "reserveSompi": "100000000",
+        "ownerScheme": 4,
+        "owner": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "d6980f8b684653a1f2452e835d58ecf3e7fb1fda1216e21f1b8dbe2ab07c36b8:1",
+        "amountRaw": "3",
+        "reserveSompi": "100000000",
+        "ownerScheme": 0,
+        "owner": "8f2e8e18b7d13284294aacab40151fd384b0106ad3e37c824db696b1464bea07",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      },
+      {
+        "outpoint": "ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935:1",
+        "amountRaw": "25",
+        "reserveSompi": "100000000",
+        "ownerScheme": 4,
+        "owner": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+        "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+      }
+    ]
+  },
+  "transactions": [
+    {
+      "label": "deploy-initializer",
+      "txid": "85b369836ed13b3f1d36e4010dcec529ac523e445873dc7e3a4970f6fe20f080",
+      "explorer": "https://tn10.kaspa.stream/transactions/85b369836ed13b3f1d36e4010dcec529ac523e445873dc7e3a4970f6fe20f080",
+      "acceptedRest": true,
+      "acceptingBlockHash": "606fc1b8617eb8ab3eb1975fe2116b31e948607c2b62ea0dd0b6a44b903a02b1",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "deploy",
+          "covenantId": "a5794d54372740ea8d149153aec5ebba77581d8df83ec5b93e1d9a8bb64bf340",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "600000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "3c61f8db02ac87bef50a31fcdd5d930248f6927bcfb3743fba9572b141b6de81:3",
+          "amountSompi": "996276303000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20a8d17553ad6389a00d32374d4ad1bef5ce636bb7bc35ac5d4078170b382eece887",
+          "covenantId": "a5794d54372740ea8d149153aec5ebba77581d8df83ec5b93e1d9a8bb64bf340"
+        },
+        {
+          "index": 1,
+          "amountSompi": "995616303000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "660000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "7c3450c53662b0c0c2e8f29564b1906f14db12aeca99371394090a2a0af2fc6a",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "initialize",
+      "txid": "aa52eae7ef67a843a589d1e6cfb7ab998931412137a9b86413fdee480d39c1bd",
+      "explorer": "https://tn10.kaspa.stream/transactions/aa52eae7ef67a843a589d1e6cfb7ab998931412137a9b86413fdee480d39c1bd",
+      "acceptedRest": true,
+      "acceptingBlockHash": "88a4b72d93a95e5ef8875d7e7cf769373b28765188b21380b243a34b4e3e26aa",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "a5794d54372740ea8d149153aec5ebba77581d8df83ec5b93e1d9a8bb64bf340",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "deploy",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "500000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "85b369836ed13b3f1d36e4010dcec529ac523e445873dc7e3a4970f6fe20f080:0",
+          "amountSompi": "600000000",
+          "script": "aa20a8d17553ad6389a00d32374d4ad1bef5ce636bb7bc35ac5d4078170b382eece887"
+        },
+        {
+          "outpoint": "85b369836ed13b3f1d36e4010dcec529ac523e445873dc7e3a4970f6fe20f080:1",
+          "amountSompi": "995616303000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa203a3a2fb73d3bfc0a1b51fa463e67bbb5e799451632e24ecb9a959d213975416f87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20d899689a4f0fcbffba6dc7cb8451d7e611c29f416c22dd1e21d2c1efd181268187",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995556303000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "e56b57b12dd2cc9c546c4e21566179b401285a1e371f6473cfe074e06b0579d2",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "transfer-to-graph",
+      "txid": "19e31aeb5fa220dc995d4b004d9781d028cc84625033bff5502fc961cc992f9b",
+      "explorer": "https://tn10.kaspa.stream/transactions/19e31aeb5fa220dc995d4b004d9781d028cc84625033bff5502fc961cc992f9b",
+      "acceptedRest": true,
+      "acceptingBlockHash": "1ebf2953724429d44bee3198d14b6cf4fef62d17c1c52c999306ab49bbda4603",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "1000",
+              "ownerScheme": 4,
+              "owner": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "18000",
+              "ownerScheme": 0,
+              "owner": "f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "d31b24c8142e3e97df2a1770261ab2f3157b52b089cd4d5fc7d5b05844e49e5f:1",
+          "amountSompi": "100000000",
+          "script": "aa208dfc0091a37e86051547c4763b9236c327db11c2899975bb4cd779888bf23ad787"
+        },
+        {
+          "outpoint": "aa52eae7ef67a843a589d1e6cfb7ab998931412137a9b86413fdee480d39c1bd:2",
+          "amountSompi": "995556303000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2019955417865705442e1814a9c41ce9f81456cde247cd5a6147d0f5b2154eb80c87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa203569537c82c64a9ac5b79741caa960d1acf88244476ed11edf3b20c6625f0b5b87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995393226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "63077000",
+      "sourceDrawSompi": "163077000",
+      "tokenAllocatedRaw": "1000",
+      "wireSha256": "f05093612d7dd477c4ef16f561ede1b05980e6d658527c36ab29d55e21f94695",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f"
+      }
+    },
+    {
+      "label": "fund-vault",
+      "txid": "9ded7cb458f33bbd23c2cb9d756f8b716fddadb476d7d883ed5cd60753f71b61",
+      "explorer": "https://tn10.kaspa.stream/transactions/9ded7cb458f33bbd23c2cb9d756f8b716fddadb476d7d883ed5cd60753f71b61",
+      "acceptedRest": true,
+      "acceptingBlockHash": "ce865128d00f44070b8c6a8d04c514c98d844634ee2bc4f6de90f6efce8975ec",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "1000",
+              "ownerScheme": 4,
+              "owner": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "aa52eae7ef67a843a589d1e6cfb7ab998931412137a9b86413fdee480d39c1bd:1",
+          "amountSompi": "100000000",
+          "script": "aa20d899689a4f0fcbffba6dc7cb8451d7e611c29f416c22dd1e21d2c1efd181268187"
+        },
+        {
+          "outpoint": "19e31aeb5fa220dc995d4b004d9781d028cc84625033bff5502fc961cc992f9b:0",
+          "amountSompi": "100000000",
+          "script": "aa2019955417865705442e1814a9c41ce9f81456cde247cd5a6147d0f5b2154eb80c87"
+        },
+        {
+          "outpoint": "19e31aeb5fa220dc995d4b004d9781d028cc84625033bff5502fc961cc992f9b:2",
+          "amountSompi": "995393226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20e5f6875d72225efb2c85448025c8bf7b0ff35c244eb9956ad9c583f25d05f83487",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa2019955417865705442e1814a9c41ce9f81456cde247cd5a6147d0f5b2154eb80c87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995333226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "cc30b2a1274209219398db67ddb047213813ef47c5fd439a10abe7c2965c7360",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "open",
+      "txid": "318e5b18c67974f713f0a27179713ea58f6a01da76283ef2078cf8d419d70d0f",
+      "explorer": "https://tn10.kaspa.stream/transactions/318e5b18c67974f713f0a27179713ea58f6a01da76283ef2078cf8d419d70d0f",
+      "acceptedRest": true,
+      "acceptingBlockHash": "e50d45213ee4800691bc6a8c55d5c2f62de4528d799234d49883689fc93b39bf",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "500000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "aa52eae7ef67a843a589d1e6cfb7ab998931412137a9b86413fdee480d39c1bd:0",
+          "amountSompi": "500000000",
+          "script": "aa203a3a2fb73d3bfc0a1b51fa463e67bbb5e799451632e24ecb9a959d213975416f87"
+        },
+        {
+          "outpoint": "9ded7cb458f33bbd23c2cb9d756f8b716fddadb476d7d883ed5cd60753f71b61:0",
+          "amountSompi": "100000000",
+          "script": "aa20e5f6875d72225efb2c85448025c8bf7b0ff35c244eb9956ad9c583f25d05f83487"
+        },
+        {
+          "outpoint": "9ded7cb458f33bbd23c2cb9d756f8b716fddadb476d7d883ed5cd60753f71b61:2",
+          "amountSompi": "995333226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa2021bbb879c2d4b1f8117cd9ec0edc909d761149610e8b954f6b1e9be8c62c6f3387",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa2003e6bb563aead22f4af1017d0a9fbe310f5beb141702c90586661dbbf9317c3687",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995273226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "c4233bdefc1edd3531e70c3ececb5923721b5bf09969027fc6ee5c31abdd900b",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "create-shard:0",
+      "txid": "0eb9b5cc1a630b08f8a295927282f65bb722a95288db81f8e06c15907539a982",
+      "explorer": "https://tn10.kaspa.stream/transactions/0eb9b5cc1a630b08f8a295927282f65bb722a95288db81f8e06c15907539a982",
+      "acceptedRest": true,
+      "acceptingBlockHash": "e1990b47d2dadbf9ec47f3f423b829c3ab3fff73876149c35bffee2697496d6b",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "400000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "318e5b18c67974f713f0a27179713ea58f6a01da76283ef2078cf8d419d70d0f:0",
+          "amountSompi": "500000000",
+          "script": "aa2021bbb879c2d4b1f8117cd9ec0edc909d761149610e8b954f6b1e9be8c62c6f3387"
+        },
+        {
+          "outpoint": "318e5b18c67974f713f0a27179713ea58f6a01da76283ef2078cf8d419d70d0f:2",
+          "amountSompi": "995273226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "400000000",
+          "script": "aa209ecf1d1f32775393daffbf782d3e91630fb951156699cb525253b2a8d9d70fce87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20b7f0f0a683c98d0e55b7a26cce17f92d11eb9d016dd0105993a8861d813ac94387",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995213226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "0c4ba1c4e53a891ed64e7e3fdc363eea62b8ed63ee7d2382fab504f042d0446d",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "create-shard:1",
+      "txid": "29c158b7bb393a7f026704ee69374bb96d3d4a0eaebd139b0d7c684dd9cfa81e",
+      "explorer": "https://tn10.kaspa.stream/transactions/29c158b7bb393a7f026704ee69374bb96d3d4a0eaebd139b0d7c684dd9cfa81e",
+      "acceptedRest": true,
+      "acceptingBlockHash": "c022c190c2c0e89d2df473983c4bd10016fe89ffcc14bf66086f06d2f58d6d7c",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "300000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "0eb9b5cc1a630b08f8a295927282f65bb722a95288db81f8e06c15907539a982:0",
+          "amountSompi": "400000000",
+          "script": "aa209ecf1d1f32775393daffbf782d3e91630fb951156699cb525253b2a8d9d70fce87"
+        },
+        {
+          "outpoint": "0eb9b5cc1a630b08f8a295927282f65bb722a95288db81f8e06c15907539a982:2",
+          "amountSompi": "995213226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "300000000",
+          "script": "aa200814a8ab1e64ecc4f540430156bb6999cf96e49289524750e1f3fd9c9b8864a587",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20f18d043784cdfbf1fa61a99d649ee60126a51d194d85e340329c73ef1ed8f42487",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995153226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "87a21fd2227d3f62e8cb54e368cfd4ae56c86d8a8c1199826c74312060fb7037",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "create-shard:2",
+      "txid": "6a17a9c90d52467e4a4d23c558bd9f9725b67d3ce3b91183e8e26a02b41ee4a4",
+      "explorer": "https://tn10.kaspa.stream/transactions/6a17a9c90d52467e4a4d23c558bd9f9725b67d3ce3b91183e8e26a02b41ee4a4",
+      "acceptedRest": true,
+      "acceptingBlockHash": "39335967da6e2c1ccca6374a62766e06a4026a8ece3dd1cf74c17de0d5e5b464",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "200000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "29c158b7bb393a7f026704ee69374bb96d3d4a0eaebd139b0d7c684dd9cfa81e:0",
+          "amountSompi": "300000000",
+          "script": "aa200814a8ab1e64ecc4f540430156bb6999cf96e49289524750e1f3fd9c9b8864a587"
+        },
+        {
+          "outpoint": "29c158b7bb393a7f026704ee69374bb96d3d4a0eaebd139b0d7c684dd9cfa81e:2",
+          "amountSompi": "995153226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20b1f0847a90a9b7fd0ba4ae5440d4f849973328a7dc146011f8b85dbc9d23f2a087",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa2094cadf82370250d1eebfbfa5949b0f46d8a43e322ad4e0cad0a899926631169b87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995093226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "e129168e4827a4d2d1c9b060407482b58f69ff3b2b1590c786b2a817bd70b3f0",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "create-shard:3",
+      "txid": "72ddf658559e93804de6afb32c82b5250897c609e4f36329b15cdc73406ec72c",
+      "explorer": "https://tn10.kaspa.stream/transactions/72ddf658559e93804de6afb32c82b5250897c609e4f36329b15cdc73406ec72c",
+      "acceptedRest": true,
+      "acceptingBlockHash": "81f9cb100266a3a8a0133250027d7909d7086022736052a754819bebf10871de",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "6a17a9c90d52467e4a4d23c558bd9f9725b67d3ce3b91183e8e26a02b41ee4a4:0",
+          "amountSompi": "200000000",
+          "script": "aa20b1f0847a90a9b7fd0ba4ae5440d4f849973328a7dc146011f8b85dbc9d23f2a087"
+        },
+        {
+          "outpoint": "6a17a9c90d52467e4a4d23c558bd9f9725b67d3ce3b91183e8e26a02b41ee4a4:2",
+          "amountSompi": "995093226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa208247da6b0bb284b06fd78bc440decd08921527b6cd8b0b8d405d3cc5bd40e42387",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20a88d87375b72a6e87f6687e7ae2c267fab7a03081298cb3abc48258bde23182d87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "995033226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "d50f9dc20105c1f7316ae5583feebaab2891169ed5b1e574e7158d9b315ceb22",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "finish-initialization",
+      "txid": "26350e1018f2f19f5f13a415b5edaff5228014c1e685a1a0e1feda4e36d8d00c",
+      "explorer": "https://tn10.kaspa.stream/transactions/26350e1018f2f19f5f13a415b5edaff5228014c1e685a1a0e1feda4e36d8d00c",
+      "acceptedRest": true,
+      "acceptingBlockHash": "ca74a9c21f7a3914a81aa311b4dc9f419a83c2fb2b235c2e3234646abc8ac09b",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "72ddf658559e93804de6afb32c82b5250897c609e4f36329b15cdc73406ec72c:0",
+          "amountSompi": "100000000",
+          "script": "aa208247da6b0bb284b06fd78bc440decd08921527b6cd8b0b8d405d3cc5bd40e42387"
+        },
+        {
+          "outpoint": "72ddf658559e93804de6afb32c82b5250897c609e4f36329b15cdc73406ec72c:2",
+          "amountSompi": "995033226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2035e0a7e987f56b95d7514edf4abeea410849041c71a72d3afc9a91722348387087",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994973226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "338251a28b0444156837b0277a21a2841e2f2bf107d5926d725870792c66ea6a",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "select:alice",
+      "txid": "7ffd16144189774e2efc64854b67b55d160219683eca7e9dac44145d50e4d481",
+      "explorer": "https://tn10.kaspa.stream/transactions/7ffd16144189774e2efc64854b67b55d160219683eca7e9dac44145d50e4d481",
+      "acceptedRest": true,
+      "acceptingBlockHash": "fa05ab311aaaffac13be930fd9a8e7d91c019d7a9d40013b82411b2cfcc0e66e",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "72ddf658559e93804de6afb32c82b5250897c609e4f36329b15cdc73406ec72c:1",
+          "amountSompi": "100000000",
+          "script": "aa20a88d87375b72a6e87f6687e7ae2c267fab7a03081298cb3abc48258bde23182d87"
+        },
+        {
+          "outpoint": "26350e1018f2f19f5f13a415b5edaff5228014c1e685a1a0e1feda4e36d8d00c:1",
+          "amountSompi": "994973226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2031716dd90831161b4018f6c5c152eb44c85e39ff42f8795b6b0c50b0faafb2ef87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20d2e5d5baf377bc58c37b14eea2671968866551b4aac230620e4cb37d58fd74ef87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "994813226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "8f3f6859e64c8f8bf470dbbed558d24a51bf1f3c049123f4944f6d387e0f9f57",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "select:carol",
+      "txid": "82c9f74102cf322fc64f016630e334ed6b4d998e5850a0c90c34e6f0c34793b4",
+      "explorer": "https://tn10.kaspa.stream/transactions/82c9f74102cf322fc64f016630e334ed6b4d998e5850a0c90c34e6f0c34793b4",
+      "acceptedRest": true,
+      "acceptingBlockHash": "fe6390cb021bb3ac0774fda1bb615681a3232f953214a110fcc79d4a0d75654d",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "0eb9b5cc1a630b08f8a295927282f65bb722a95288db81f8e06c15907539a982:1",
+          "amountSompi": "100000000",
+          "script": "aa20b7f0f0a683c98d0e55b7a26cce17f92d11eb9d016dd0105993a8861d813ac94387"
+        },
+        {
+          "outpoint": "7ffd16144189774e2efc64854b67b55d160219683eca7e9dac44145d50e4d481:2",
+          "amountSompi": "994813226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20a08340cba616613d920911e642ac0160d044f0d0d6691f9975eb6f53630ae52787",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa204f43b8398362b2d8e0d7b659a1e7a2d3b0f4c95a7b4e66f1c4562b2eb579e76b87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "994653226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "623a5f5ebcad0f03eaf7ff9d56a6d04de3609000590d20f2a887061d0230533e",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "close-shard:0",
+      "txid": "996a4b560f9b18f3cc4b9c1b34dc3a680fa7ee7f01eb925060a9ec9717ce4d45",
+      "explorer": "https://tn10.kaspa.stream/transactions/996a4b560f9b18f3cc4b9c1b34dc3a680fa7ee7f01eb925060a9ec9717ce4d45",
+      "acceptedRest": true,
+      "acceptingBlockHash": "39b935df747e8f95922292b9086763d02887c15cdeb416383245571ac3d97762",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "82c9f74102cf322fc64f016630e334ed6b4d998e5850a0c90c34e6f0c34793b4:0",
+          "amountSompi": "100000000",
+          "script": "aa20a08340cba616613d920911e642ac0160d044f0d0d6691f9975eb6f53630ae52787"
+        },
+        {
+          "outpoint": "82c9f74102cf322fc64f016630e334ed6b4d998e5850a0c90c34e6f0c34793b4:2",
+          "amountSompi": "994653226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20bc26e6d9607498a7c4f2c0a3ae285d588475ea6dde9eae155559ec3bbe84acb987",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994593226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "4aabfb3bf943f9215fb398945fa87c32e844ac9570e2ea7959e945d62fb6208b",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "close-shard:1",
+      "txid": "9e58694e569e19c9be72a0bd59f51df1cf6d81318a8b951752ad44e76d2165ae",
+      "explorer": "https://tn10.kaspa.stream/transactions/9e58694e569e19c9be72a0bd59f51df1cf6d81318a8b951752ad44e76d2165ae",
+      "acceptedRest": true,
+      "acceptingBlockHash": "eeee7ee5709e4f3dcd28ff36571711453faca300a435c61fbbb68e607cf59865",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "29c158b7bb393a7f026704ee69374bb96d3d4a0eaebd139b0d7c684dd9cfa81e:1",
+          "amountSompi": "100000000",
+          "script": "aa20f18d043784cdfbf1fa61a99d649ee60126a51d194d85e340329c73ef1ed8f42487"
+        },
+        {
+          "outpoint": "996a4b560f9b18f3cc4b9c1b34dc3a680fa7ee7f01eb925060a9ec9717ce4d45:1",
+          "amountSompi": "994593226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2014a45e9efbf1fa659353c5b8c14fd571f834c412c0506de852ef4ec8afdf3df487",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994533226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "6f3b74809d810bac1ccec37e72ab86a7c621f9f11f5f2de8b18d7304fc9bca5b",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "close-shard:2",
+      "txid": "a698bfcdf90a93ed8828452e6b8edfbed9e65c9ea94a302230ba63eb9cb5b607",
+      "explorer": "https://tn10.kaspa.stream/transactions/a698bfcdf90a93ed8828452e6b8edfbed9e65c9ea94a302230ba63eb9cb5b607",
+      "acceptedRest": true,
+      "acceptingBlockHash": "af52078f2f364c687134ee9bcca291845398456701b906c9ed11db844f854654",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "6a17a9c90d52467e4a4d23c558bd9f9725b67d3ce3b91183e8e26a02b41ee4a4:1",
+          "amountSompi": "100000000",
+          "script": "aa2094cadf82370250d1eebfbfa5949b0f46d8a43e322ad4e0cad0a899926631169b87"
+        },
+        {
+          "outpoint": "9e58694e569e19c9be72a0bd59f51df1cf6d81318a8b951752ad44e76d2165ae:1",
+          "amountSompi": "994533226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20b0e1f51b41618c3dd2c8b27d3c7c3a81f95fb0ea8748a6f4647fdbb4dcf8e5c587",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994473226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "8d00b5ac016b5bbe3b6a8ab34e75a0fd2b0c4152dcde871a108d91a9da990701",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "close-shard:3",
+      "txid": "d37b080d6082264a44c6327603d11bc61c11e408c8a4fe199977af8368215095",
+      "explorer": "https://tn10.kaspa.stream/transactions/d37b080d6082264a44c6327603d11bc61c11e408c8a4fe199977af8368215095",
+      "acceptedRest": true,
+      "acceptingBlockHash": "11e8ca5801be6ab48c4367f8e636bca2c0bf2d91466a99333e6fa86621ca577e",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "7ffd16144189774e2efc64854b67b55d160219683eca7e9dac44145d50e4d481:0",
+          "amountSompi": "100000000",
+          "script": "aa2031716dd90831161b4018f6c5c152eb44c85e39ff42f8795b6b0c50b0faafb2ef87"
+        },
+        {
+          "outpoint": "a698bfcdf90a93ed8828452e6b8edfbed9e65c9ea94a302230ba63eb9cb5b607:1",
+          "amountSompi": "994473226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20fa0ad8d262f43f18084142909c393ad5a1cf687208baeac027bdbde605d7d5d587",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994413226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "f249065424f7e415ba20a2dfe0912a5338c75fe710283eee2b827410bccb2ab5",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "collect:0",
+      "txid": "b06a98a189e02f9ed030b95f3075058251a63bdd85a2d14c86f8d291c09d10ce",
+      "explorer": "https://tn10.kaspa.stream/transactions/b06a98a189e02f9ed030b95f3075058251a63bdd85a2d14c86f8d291c09d10ce",
+      "acceptedRest": true,
+      "acceptingBlockHash": "9355fbf98f8036f27f9d369b285a96ccb5312da3d29c8711ef7fa3a78b3c001d",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "200000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "26350e1018f2f19f5f13a415b5edaff5228014c1e685a1a0e1feda4e36d8d00c:0",
+          "amountSompi": "100000000",
+          "script": "aa2035e0a7e987f56b95d7514edf4abeea410849041c71a72d3afc9a91722348387087"
+        },
+        {
+          "outpoint": "996a4b560f9b18f3cc4b9c1b34dc3a680fa7ee7f01eb925060a9ec9717ce4d45:0",
+          "amountSompi": "100000000",
+          "script": "aa20bc26e6d9607498a7c4f2c0a3ae285d588475ea6dde9eae155559ec3bbe84acb987"
+        },
+        {
+          "outpoint": "d37b080d6082264a44c6327603d11bc61c11e408c8a4fe199977af8368215095:1",
+          "amountSompi": "994413226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20f3a7695a093281a0f631a4438d536220de01398ec04da3389c5b3dcc3ad07d4387",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994353226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "e838fa3ebd7f7c1f00e995afc5ef36ab0277f87f4cb41381e4b7c59fbd9f53d5",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "collect:1",
+      "txid": "53d6b822dd264c7dc95711072d16c15b985c8f30e5d8ff4c9a53d91ebef79e24",
+      "explorer": "https://tn10.kaspa.stream/transactions/53d6b822dd264c7dc95711072d16c15b985c8f30e5d8ff4c9a53d91ebef79e24",
+      "acceptedRest": true,
+      "acceptingBlockHash": "0dd543691d8e13ec3dfdc1de610547bd1eae5b6784739a41ac740a78e9fa6e2a",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "300000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "b06a98a189e02f9ed030b95f3075058251a63bdd85a2d14c86f8d291c09d10ce:0",
+          "amountSompi": "200000000",
+          "script": "aa20f3a7695a093281a0f631a4438d536220de01398ec04da3389c5b3dcc3ad07d4387"
+        },
+        {
+          "outpoint": "9e58694e569e19c9be72a0bd59f51df1cf6d81318a8b951752ad44e76d2165ae:0",
+          "amountSompi": "100000000",
+          "script": "aa2014a45e9efbf1fa659353c5b8c14fd571f834c412c0506de852ef4ec8afdf3df487"
+        },
+        {
+          "outpoint": "b06a98a189e02f9ed030b95f3075058251a63bdd85a2d14c86f8d291c09d10ce:1",
+          "amountSompi": "994353226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "300000000",
+          "script": "aa207d09d011036f041998a2573761a3f64e577b9307ac5a185702d3893eeb78e27887",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994293226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "36e3fcc7be0c61cd22d06ce91862552d625eff2851a39c9558f0193863bb79d4",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "collect:2",
+      "txid": "ffc81a3c83d4888c97e6d25bb0e113b5b5f8c8ebaf197d5af616e4eb9a872415",
+      "explorer": "https://tn10.kaspa.stream/transactions/ffc81a3c83d4888c97e6d25bb0e113b5b5f8c8ebaf197d5af616e4eb9a872415",
+      "acceptedRest": true,
+      "acceptingBlockHash": "e30fd3aebdc861b55d644ad34ec906cf39cb2d0d75920f0114ba153ab3677e3e",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "400000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "53d6b822dd264c7dc95711072d16c15b985c8f30e5d8ff4c9a53d91ebef79e24:0",
+          "amountSompi": "300000000",
+          "script": "aa207d09d011036f041998a2573761a3f64e577b9307ac5a185702d3893eeb78e27887"
+        },
+        {
+          "outpoint": "a698bfcdf90a93ed8828452e6b8edfbed9e65c9ea94a302230ba63eb9cb5b607:0",
+          "amountSompi": "100000000",
+          "script": "aa20b0e1f51b41618c3dd2c8b27d3c7c3a81f95fb0ea8748a6f4647fdbb4dcf8e5c587"
+        },
+        {
+          "outpoint": "53d6b822dd264c7dc95711072d16c15b985c8f30e5d8ff4c9a53d91ebef79e24:1",
+          "amountSompi": "994293226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "400000000",
+          "script": "aa202c8481ed70b0c5fe9a191ec8b3b70757504a7b3c7192a2f1449c24503f8d18a487",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994233226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "23c222fd68fb650b2dd75139e43def3ad4c8bd1b66785498579b01fafa3d0276",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "collect:3",
+      "txid": "5a67fb85ca2472fac3e7ca4110fb8685020aacaa9dad64597b0b70a9467a667e",
+      "explorer": "https://tn10.kaspa.stream/transactions/5a67fb85ca2472fac3e7ca4110fb8685020aacaa9dad64597b0b70a9467a667e",
+      "acceptedRest": true,
+      "acceptingBlockHash": "e019729bebbea2ffdc520e5234aa717dbdc95cd4b4b7a50e5ce42c74fa06f7e4",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "500000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "ffc81a3c83d4888c97e6d25bb0e113b5b5f8c8ebaf197d5af616e4eb9a872415:0",
+          "amountSompi": "400000000",
+          "script": "aa202c8481ed70b0c5fe9a191ec8b3b70757504a7b3c7192a2f1449c24503f8d18a487"
+        },
+        {
+          "outpoint": "d37b080d6082264a44c6327603d11bc61c11e408c8a4fe199977af8368215095:0",
+          "amountSompi": "100000000",
+          "script": "aa20fa0ad8d262f43f18084142909c393ad5a1cf687208baeac027bdbde605d7d5d587"
+        },
+        {
+          "outpoint": "ffc81a3c83d4888c97e6d25bb0e113b5b5f8c8ebaf197d5af616e4eb9a872415:1",
+          "amountSompi": "994233226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20c7ced4a8b50cb8953db96f79b6ac6d7a6898aacfd173f6c82d3c63f94cfb3fca87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "994173226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "fcd32c8679c55cf04ff6726223ac061af2778a59c54ba6cecb92363198bb7783",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "settle:1",
+      "txid": "62ec273a1233bd52ca0be785e904a4225a1072b459603ca20e5cdb9aec654e2a",
+      "explorer": "https://tn10.kaspa.stream/transactions/62ec273a1233bd52ca0be785e904a4225a1072b459603ca20e5cdb9aec654e2a",
+      "acceptedRest": true,
+      "acceptingBlockHash": "2b12ebd06772dfebd748184572c4c13a6053fc93669cf284f05cad97928df8b4",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "500000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "5a67fb85ca2472fac3e7ca4110fb8685020aacaa9dad64597b0b70a9467a667e:0",
+          "amountSompi": "500000000",
+          "script": "aa20c7ced4a8b50cb8953db96f79b6ac6d7a6898aacfd173f6c82d3c63f94cfb3fca87"
+        },
+        {
+          "outpoint": "7ffd16144189774e2efc64854b67b55d160219683eca7e9dac44145d50e4d481:1",
+          "amountSompi": "100000000",
+          "script": "aa20d2e5d5baf377bc58c37b14eea2671968866551b4aac230620e4cb37d58fd74ef87"
+        },
+        {
+          "outpoint": "5a67fb85ca2472fac3e7ca4110fb8685020aacaa9dad64597b0b70a9467a667e:1",
+          "amountSompi": "994173226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20c79d700f279cbcc25ecbc17dc16a06969956b792ab02c5ae389538f252df9a1e87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa203c32da68d60733ba7ab6cf2d2a403cc8438cd40c1afb9077abc573827bb4809487",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "994113226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "246d87d644e0221b2fc94bd5c66c0550582a4f0ba9ede3d6ae645fc8bc660eeb",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "settle:2",
+      "txid": "25e315baa0d54e6616ec8c8ba432c3132c5d89d40f197ed8bb5584c849b90852",
+      "explorer": "https://tn10.kaspa.stream/transactions/25e315baa0d54e6616ec8c8ba432c3132c5d89d40f197ed8bb5584c849b90852",
+      "acceptedRest": true,
+      "acceptingBlockHash": "6e34acd1f16429581a2dd281050ed47fa27fb1597c350a7f7c0b63ed23fc30a8",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "500000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "62ec273a1233bd52ca0be785e904a4225a1072b459603ca20e5cdb9aec654e2a:0",
+          "amountSompi": "500000000",
+          "script": "aa20c79d700f279cbcc25ecbc17dc16a06969956b792ab02c5ae389538f252df9a1e87"
+        },
+        {
+          "outpoint": "82c9f74102cf322fc64f016630e334ed6b4d998e5850a0c90c34e6f0c34793b4:1",
+          "amountSompi": "100000000",
+          "script": "aa204f43b8398362b2d8e0d7b659a1e7a2d3b0f4c95a7b4e66f1c4562b2eb579e76b87"
+        },
+        {
+          "outpoint": "62ec273a1233bd52ca0be785e904a4225a1072b459603ca20e5cdb9aec654e2a:2",
+          "amountSompi": "994113226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa200b5af56ef94a4e28fb695d6c1cd731e4d3f16540a09695dcebc8daa04ff5389687",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa203fbd03092415367aa84a4a62ad58f2040790a71db104383fe1c8fd32cc65862487",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 2,
+          "amountSompi": "994053226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "b2aeb1ff1b3028dd8aa037bf8835f1a78938581f836ca1e945b149209bee6c8f",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "finish-settlement",
+      "txid": "97fc62871710798e6a15bbca2c858eb247476a7f02b516568d11631bf54e0ba2",
+      "explorer": "https://tn10.kaspa.stream/transactions/97fc62871710798e6a15bbca2c858eb247476a7f02b516568d11631bf54e0ba2",
+      "acceptedRest": true,
+      "acceptingBlockHash": "92501e5ae49eadb3f6b8aae92a4825c7b74f1b1bfe2c016032f0015dddb12a5c",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "500000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "25e315baa0d54e6616ec8c8ba432c3132c5d89d40f197ed8bb5584c849b90852:0",
+          "amountSompi": "500000000",
+          "script": "aa200b5af56ef94a4e28fb695d6c1cd731e4d3f16540a09695dcebc8daa04ff5389687"
+        },
+        {
+          "outpoint": "25e315baa0d54e6616ec8c8ba432c3132c5d89d40f197ed8bb5584c849b90852:2",
+          "amountSompi": "994053226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20c9c972358dafa176497cff010b69dd3722757d755648c784dacefa0b7a48e4c787",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "993993226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "59fb5fac127bc5a58decb94cedf610dd347f55cc20e71041a472f7b53bdfba98",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "seal",
+      "txid": "f993a74804dfb9c624b9fa70400968474a833f9f79e8ebe1928fd45a60b95b00",
+      "explorer": "https://tn10.kaspa.stream/transactions/f993a74804dfb9c624b9fa70400968474a833f9f79e8ebe1928fd45a60b95b00",
+      "acceptedRest": true,
+      "acceptingBlockHash": "83c2f75edc444197340edcfd75c4b739f2029442235c93892f57992f274a0cf0",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "600000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "318e5b18c67974f713f0a27179713ea58f6a01da76283ef2078cf8d419d70d0f:1",
+          "amountSompi": "100000000",
+          "script": "aa2003e6bb563aead22f4af1017d0a9fbe310f5beb141702c90586661dbbf9317c3687"
+        },
+        {
+          "outpoint": "97fc62871710798e6a15bbca2c858eb247476a7f02b516568d11631bf54e0ba2:0",
+          "amountSompi": "500000000",
+          "script": "aa20c9c972358dafa176497cff010b69dd3722757d755648c784dacefa0b7a48e4c787"
+        },
+        {
+          "outpoint": "97fc62871710798e6a15bbca2c858eb247476a7f02b516568d11631bf54e0ba2:1",
+          "amountSompi": "993993226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20dea6e477b92d4b81d214cbccf63017f2c0b9b379ed2da46708cc6f12bc53feb287",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "993933226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "23ea8cc5048bc7a613b86afb7f126539d1338ceca1cc709e3433b619561065df",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092"
+      }
+    },
+    {
+      "label": "recover",
+      "txid": "4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268",
+      "explorer": "https://tn10.kaspa.stream/transactions/4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268",
+      "acceptedRest": true,
+      "acceptingBlockHash": "22e2a4ca7cc4f1d174cdbcfd10e46bfe3eaba78e6489c8bf2af7a9e2864939b1",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "600000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "612",
+              "ownerScheme": 0,
+              "owner": "053f4647d4c9e15ea1f107feb19ebca6ee8832667efee43695b716ff215d2a97",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 2,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "388",
+              "ownerScheme": 4,
+              "owner": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "f993a74804dfb9c624b9fa70400968474a833f9f79e8ebe1928fd45a60b95b00:0",
+          "amountSompi": "600000000",
+          "script": "aa20dea6e477b92d4b81d214cbccf63017f2c0b9b379ed2da46708cc6f12bc53feb287"
+        },
+        {
+          "outpoint": "9ded7cb458f33bbd23c2cb9d756f8b716fddadb476d7d883ed5cd60753f71b61:1",
+          "amountSompi": "100000000",
+          "script": "aa2019955417865705442e1814a9c41ce9f81456cde247cd5a6147d0f5b2154eb80c87"
+        },
+        {
+          "outpoint": "f993a74804dfb9c624b9fa70400968474a833f9f79e8ebe1928fd45a60b95b00:1",
+          "amountSompi": "993933226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20cb6beb4745e7337846cc829ce3321c82152b759bed29546f0ab6bad48977051d87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa207b55ac03202896aadb1a1b92e74856749689cc6c99394fd1f7a39e588ccf9d6587",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa206b0c57dbd3bc94332a945482934a4b9e2510baa4a3c49e4dbc93f838a6971bb187",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 3,
+          "amountSompi": "993773226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "6a5a136ae1a0bbae1f31cd16fbd1d6b3f42610a44225895443f04a9f220b068b",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f"
+      }
+    },
+    {
+      "label": "activate:1",
+      "txid": "76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c",
+      "explorer": "https://tn10.kaspa.stream/transactions/76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c",
+      "acceptedRest": true,
+      "acceptingBlockHash": "76fb33fa7a467c30692f512ddbdf01d9e98d616bad67f7c2034ec09e9b6291c9",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "600000000",
+            "state": null
+          }
+        },
+        {
+          "action": "deploy",
+          "covenantId": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 2,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "27",
+              "ownerScheme": 4,
+              "owner": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 3,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "361",
+              "ownerScheme": 4,
+              "owner": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268:0",
+          "amountSompi": "600000000",
+          "script": "aa20cb6beb4745e7337846cc829ce3321c82152b759bed29546f0ab6bad48977051d87"
+        },
+        {
+          "outpoint": "62ec273a1233bd52ca0be785e904a4225a1072b459603ca20e5cdb9aec654e2a:1",
+          "amountSompi": "100000000",
+          "script": "aa203c32da68d60733ba7ab6cf2d2a403cc8438cd40c1afb9077abc573827bb4809487"
+        },
+        {
+          "outpoint": "4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268:2",
+          "amountSompi": "100000000",
+          "script": "aa206b0c57dbd3bc94332a945482934a4b9e2510baa4a3c49e4dbc93f838a6971bb187"
+        },
+        {
+          "outpoint": "4d7edc59b242cf99705533de188e4b5f1efc851dc99d8e7c703e9c26406b6268:3",
+          "amountSompi": "993773226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa200eddf2446546c6ac5bfc8ee6052f95ef6df02e52831f7d706be4598867e7c87a87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa206ba31e80432e0d45ef23e8c0386e2b4afc31a800c6345bf8977891449385c8f187",
+          "covenantId": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa209e049f8902e060ff17b9cc135d0b4283297b2f3717d2c877e67f44b1e337ee6487",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 3,
+          "amountSompi": "100000000",
+          "script": "aa20e87d7837b3ec1496175bf2b81ab393c6fbb848845224e9eb2ab8553da0bd457187",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 4,
+          "amountSompi": "993613226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "f44cb97645735f532dd11ec737cb49866791f23b3ab8b99b65261d282e224737",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        },
+        {
+          "input": 3,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "096a5b5c76f0be3b0b4289028a245f9f52873cbf070e3fccbbb211860726314d"
+      }
+    },
+    {
+      "label": "activate:2",
+      "txid": "4fb02cf58aa1ec7cd7b138a575d358792905cf72fa444e2a5955bccd8e179838",
+      "explorer": "https://tn10.kaspa.stream/transactions/4fb02cf58aa1ec7cd7b138a575d358792905cf72fa444e2a5955bccd8e179838",
+      "acceptedRest": true,
+      "acceptingBlockHash": "58f9f92a5f5ecf4bdecda236a2c740af853bcf24f17b3e4cc4f828c7317cfc29",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "600000000",
+            "state": null
+          }
+        },
+        {
+          "action": "deploy",
+          "covenantId": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 2,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "361",
+              "ownerScheme": 4,
+              "owner": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c:0",
+          "amountSompi": "600000000",
+          "script": "aa200eddf2446546c6ac5bfc8ee6052f95ef6df02e52831f7d706be4598867e7c87a87"
+        },
+        {
+          "outpoint": "25e315baa0d54e6616ec8c8ba432c3132c5d89d40f197ed8bb5584c849b90852:1",
+          "amountSompi": "100000000",
+          "script": "aa203fbd03092415367aa84a4a62ad58f2040790a71db104383fe1c8fd32cc65862487"
+        },
+        {
+          "outpoint": "76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c:3",
+          "amountSompi": "100000000",
+          "script": "aa20e87d7837b3ec1496175bf2b81ab393c6fbb848845224e9eb2ab8553da0bd457187"
+        },
+        {
+          "outpoint": "76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c:4",
+          "amountSompi": "993613226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20f6b7ca5f73ae8cc5187c8a56e9825649d39cea55aca43ac374b88bb360d6a65a87",
+          "covenantId": "cb94c0e726167ed09120ddb9555f9ae359c4b1634c4998364f0b738617b0abf5"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20d5c2c1f6f1150e66feb876f139fa9f4ceb7deada74f8633dac58abd3df3f32d787",
+          "covenantId": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa20ef6da371849dda4379d502cc4c9b8e8eaba0b65fa1283d6b45cdba8c864de16d87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 3,
+          "amountSompi": "993553226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "82b42bf4015ab8f1d2bd41679669e481827e6c57864bdf31daa4cdedef1bdd12",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        },
+        {
+          "input": 3,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "6664cb2d914e6ed995cb02fe8c4ec98299a2fe6366c659ad0d74cd92e4ed1385",
+        "openingArtifactSha256": "a930cae913dbd2dabab6e2b0296a6a211ce6558a177078d1a6a0f9939a8e9092",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "096a5b5c76f0be3b0b4289028a245f9f52873cbf070e3fccbbb211860726314d"
+      }
+    },
+    {
+      "label": "release:alice:0",
+      "txid": "ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935",
+      "explorer": "https://tn10.kaspa.stream/transactions/ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935",
+      "acceptedRest": true,
+      "acceptingBlockHash": "92f821e2f5073b7447d38f3b14f196bcafc8d1ccacaaac10f3ae0d80197f1bdf",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "200000000",
+            "state": {
+              "amountRaw": "2",
+              "ownerScheme": 0,
+              "owner": "4dc328762deffa472ef58dd7d116d0b834cb7166665be244a879817b14b3a605",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "25",
+              "ownerScheme": 4,
+              "owner": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 2,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c:1",
+          "amountSompi": "100000000",
+          "script": "aa206ba31e80432e0d45ef23e8c0386e2b4afc31a800c6345bf8977891449385c8f187"
+        },
+        {
+          "outpoint": "76d8bf5b471c89e4bb10435ae4fb1ce2254c74a82afde3ead0cd9956987b254c:2",
+          "amountSompi": "100000000",
+          "script": "aa209e049f8902e060ff17b9cc135d0b4283297b2f3717d2c877e67f44b1e337ee6487"
+        },
+        {
+          "outpoint": "4fb02cf58aa1ec7cd7b138a575d358792905cf72fa444e2a5955bccd8e179838:3",
+          "amountSompi": "993553226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20905ef39ecf1fb4942fb726cd931b51e15f89b9e0ee6bba7838d217a86d73c48087",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20c6d01f354d4e1605ebb167c4e4a37563f051ac93a1e10e62521a33be4ef29c7a87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa20b8cb4e7afa7a4568a0961ef6cb71a822cf8a32ae8b8a6223f13a49822b109bc587",
+          "covenantId": "aaa3ca72a0e806e056001631a2cc39bc0d62cf8ea77e6364281299d82a6c143d"
+        },
+        {
+          "index": 3,
+          "amountSompi": "993293226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "260000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "182f4dfe8d9f34f2063cf78c3b984442bad8d923a3f7d1911ccb5c58edf2138a",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "096a5b5c76f0be3b0b4289028a245f9f52873cbf070e3fccbbb211860726314d"
+      }
+    },
+    {
+      "label": "release:carol:0",
+      "txid": "c92592c61c9279580c2602c85ea913c06613399fe9bd9960c1b98db52c6f0e14",
+      "explorer": "https://tn10.kaspa.stream/transactions/c92592c61c9279580c2602c85ea913c06613399fe9bd9960c1b98db52c6f0e14",
+      "acceptedRest": true,
+      "acceptingBlockHash": "7acac1f52c98c6a542b7d10f3f01345b3df2e14007ae3574f5e68139c2b770f6",
+      "liveVerifiedAtStage": true,
+      "indexed": true,
+      "indexerActions": [
+        {
+          "action": "spend",
+          "covenantId": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": null
+        },
+        {
+          "action": "spend",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": "transfer",
+          "output": null
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 0,
+            "amountSompi": "200000000",
+            "state": {
+              "amountRaw": "18",
+              "ownerScheme": 0,
+              "owner": "5ea688d953eaf378c1a19d7e02c381b71428d666f460b87837837881e17ef962",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+          "classificationKind": "covenant",
+          "classificationStatus": "matched",
+          "entrypoint": null,
+          "output": {
+            "vout": 1,
+            "amountSompi": "100000000",
+            "state": {
+              "amountRaw": "343",
+              "ownerScheme": 4,
+              "owner": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+              "extensionCommitment": "b483d7b6acb6baf6fe82f47850f21cc4eb4da6dca84dffe2dca53c77f39cf1e1"
+            }
+          }
+        },
+        {
+          "action": "continuation",
+          "covenantId": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b",
+          "classificationKind": "unknown",
+          "classificationStatus": "unmatched",
+          "entrypoint": null,
+          "output": {
+            "vout": 2,
+            "amountSompi": "100000000",
+            "state": null
+          }
+        }
+      ],
+      "inputs": [
+        {
+          "outpoint": "4fb02cf58aa1ec7cd7b138a575d358792905cf72fa444e2a5955bccd8e179838:1",
+          "amountSompi": "100000000",
+          "script": "aa20d5c2c1f6f1150e66feb876f139fa9f4ceb7deada74f8633dac58abd3df3f32d787"
+        },
+        {
+          "outpoint": "4fb02cf58aa1ec7cd7b138a575d358792905cf72fa444e2a5955bccd8e179838:2",
+          "amountSompi": "100000000",
+          "script": "aa20ef6da371849dda4379d502cc4c9b8e8eaba0b65fa1283d6b45cdba8c864de16d87"
+        },
+        {
+          "outpoint": "ec207855e6277472134f5d6ba55d7f0d912f630177c38f23389cfed72611c935:3",
+          "amountSompi": "993293226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20f721cff91db2c2c41d8b8fd4f639ec8137fc657497c67e5f9d249cc724618e5287",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20ae00ca6a6bb7cb5b4c2ac84161a3805da6a3a33efe5c4928d851f1ce5d201a9d87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa209575097a0f86eb3e8370c2037d267cc28452bdd2f2fdb7a6faf680ffdf95e94887",
+          "covenantId": "4c2e8784faa0c62663034b908d79307e4e963c9ed44abd493f42bc24b9363f0b"
+        },
+        {
+          "index": 3,
+          "amountSompi": "993033226000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "260000000",
+      "tokenAllocatedRaw": "0",
+      "wireSha256": "d8c51b3757e855d9f58b37489cf78d776abc714ce8002897c06bab3e56d90a66",
+      "engineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "ddf1992aadaaf1939fe8c3d6a97150eadfe2b3ed002b0d45499482805983323c",
+        "builderCommit": "c2f79f173d13a051a3efc462d1361cd8b062456b",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "096a5b5c76f0be3b0b4289028a245f9f52873cbf070e3fccbbb211860726314d"
+      }
+    }
+  ]
+}

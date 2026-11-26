@@ -1,0 +1,1546 @@
+{
+  "contract_name": "KCC20BuyOrder",
+  "script": [
+    107,
+    32,
+    215,
+    57,
+    222,
+    75,
+    59,
+    97,
+    168,
+    148,
+    240,
+    25,
+    136,
+    182,
+    207,
+    208,
+    150,
+    61,
+    67,
+    209,
+    180,
+    10,
+    120,
+    116,
+    19,
+    102,
+    97,
+    34,
+    164,
+    241,
+    46,
+    11,
+    96,
+    213,
+    32,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    32,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    64,
+    66,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    225,
+    245,
+    5,
+    0,
+    0,
+    0,
+    0,
+    32,
+    215,
+    57,
+    222,
+    75,
+    59,
+    97,
+    168,
+    148,
+    240,
+    25,
+    136,
+    182,
+    207,
+    208,
+    150,
+    61,
+    67,
+    209,
+    180,
+    10,
+    120,
+    116,
+    19,
+    102,
+    97,
+    34,
+    164,
+    241,
+    46,
+    11,
+    96,
+    213,
+    8,
+    200,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    108,
+    118,
+    0,
+    156,
+    99,
+    117,
+    89,
+    121,
+    207,
+    86,
+    121,
+    135,
+    105,
+    118,
+    0,
+    162,
+    105,
+    118,
+    2,
+    16,
+    39,
+    161,
+    105,
+    83,
+    121,
+    0,
+    160,
+    105,
+    82,
+    121,
+    0,
+    160,
+    105,
+    185,
+    190,
+    83,
+    121,
+    156,
+    105,
+    88,
+    121,
+    195,
+    85,
+    121,
+    2,
+    0,
+    0,
+    1,
+    170,
+    126,
+    1,
+    32,
+    126,
+    124,
+    126,
+    1,
+    135,
+    126,
+    135,
+    105,
+    82,
+    121,
+    120,
+    149,
+    2,
+    16,
+    39,
+    150,
+    83,
+    121,
+    120,
+    148,
+    118,
+    0,
+    160,
+    105,
+    0,
+    194,
+    120,
+    156,
+    105,
+    0,
+    195,
+    90,
+    121,
+    3,
+    0,
+    0,
+    32,
+    124,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    120,
+    0,
+    160,
+    99,
+    81,
+    194,
+    82,
+    121,
+    156,
+    105,
+    81,
+    195,
+    84,
+    121,
+    3,
+    0,
+    0,
+    32,
+    124,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    104,
+    0,
+    122,
+    117,
+    0,
+    122,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    118,
+    81,
+    156,
+    99,
+    117,
+    88,
+    121,
+    87,
+    121,
+    172,
+    105,
+    87,
+    121,
+    0,
+    162,
+    105,
+    185,
+    190,
+    88,
+    121,
+    148,
+    118,
+    0,
+    160,
+    105,
+    0,
+    194,
+    120,
+    156,
+    105,
+    0,
+    195,
+    88,
+    121,
+    3,
+    0,
+    0,
+    32,
+    124,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    0,
+    122,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    81,
+    103,
+    117,
+    0,
+    105,
+    104,
+    104
+  ],
+  "ast": {
+    "name": "KCC20BuyOrder",
+    "params": [
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "orderBuyer",
+        "span": "pubkey orderBuyer",
+        "type_span": "pubkey ",
+        "name_span": "orderBuyer"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "orderedTokenId",
+        "span": "byte[32] orderedTokenId",
+        "type_span": "byte[32]",
+        "name_span": "orderedTokenId"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "orderedTokenScriptHash",
+        "span": "byte[32] orderedTokenScriptHash",
+        "type_span": "byte[32]",
+        "name_span": "orderedTokenScriptHash"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "orderedTokenAmount",
+        "span": "int orderedTokenAmount",
+        "type_span": "int ",
+        "name_span": "orderedTokenAmount"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "offerPriceSompi",
+        "span": "int offerPriceSompi",
+        "type_span": "int ",
+        "name_span": "offerPriceSompi"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "protocolFeeRecipient",
+        "span": "pubkey protocolFeeRecipient",
+        "type_span": "pubkey ",
+        "name_span": "protocolFeeRecipient"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "protocolFeeBps",
+        "span": "int protocolFeeBps",
+        "type_span": "int ",
+        "name_span": "protocolFeeBps"
+      }
+    ],
+    "fields": [
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "buyer",
+        "expr": {
+          "kind": "identifier",
+          "data": "orderBuyer",
+          "span": "orderBuyer"
+        },
+        "span": "pubkey buyer = orderBuyer;",
+        "type_span": "pubkey ",
+        "name_span": "buyer"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "tokenId",
+        "expr": {
+          "kind": "identifier",
+          "data": "orderedTokenId",
+          "span": "orderedTokenId"
+        },
+        "span": "byte[32] tokenId = orderedTokenId;",
+        "type_span": "byte[32]",
+        "name_span": "tokenId"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "expectedTokenScriptHash",
+        "expr": {
+          "kind": "identifier",
+          "data": "orderedTokenScriptHash",
+          "span": "orderedTokenScriptHash"
+        },
+        "span": "byte[32] expectedTokenScriptHash = orderedTokenScriptHash;",
+        "type_span": "byte[32]",
+        "name_span": "expectedTokenScriptHash"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "tokenAmount",
+        "expr": {
+          "kind": "identifier",
+          "data": "orderedTokenAmount",
+          "span": "orderedTokenAmount"
+        },
+        "span": "int tokenAmount = orderedTokenAmount;",
+        "type_span": "int ",
+        "name_span": "tokenAmount"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "priceSompi",
+        "expr": {
+          "kind": "identifier",
+          "data": "offerPriceSompi",
+          "span": "offerPriceSompi"
+        },
+        "span": "int priceSompi = offerPriceSompi;",
+        "type_span": "int ",
+        "name_span": "priceSompi"
+      },
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "feeRecipient",
+        "expr": {
+          "kind": "identifier",
+          "data": "protocolFeeRecipient",
+          "span": "protocolFeeRecipient"
+        },
+        "span": "pubkey feeRecipient = protocolFeeRecipient;",
+        "type_span": "pubkey ",
+        "name_span": "feeRecipient"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "feeBps",
+        "expr": {
+          "kind": "identifier",
+          "data": "protocolFeeBps",
+          "span": "protocolFeeBps"
+        },
+        "span": "int feeBps = protocolFeeBps;",
+        "type_span": "int ",
+        "name_span": "feeBps"
+      }
+    ],
+    "constants": [
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "FEE_DENOMINATOR_BPS",
+        "expr": {
+          "kind": "int",
+          "data": 10000,
+          "span": "10000"
+        },
+        "span": "int constant FEE_DENOMINATOR_BPS = 10000;",
+        "type_span": "int ",
+        "name_span": "FEE_DENOMINATOR_BPS"
+      }
+    ],
+    "functions": [
+      {
+        "name": "requireSellerTokenInput",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpInputCovenantId",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "tokenInputIndex",
+                          "span": "tokenInputIndex"
+                        }
+                      ],
+                      "name_span": "OpInputCovenantId"
+                    },
+                    "span": "OpInputCovenantId(tokenInputIndex)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "tokenId",
+                    "span": "tokenId"
+                  }
+                },
+                "span": "OpInputCovenantId(tokenInputIndex) == tokenId"
+              },
+              "message": null,
+              "span": "require(OpInputCovenantId(tokenInputIndex) == tokenId);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireSellerTokenInput(int tokenInputIndex) {\n        require(OpInputCovenantId(tokenInputIndex) == tokenId);\n    }",
+        "name_span": "requireSellerTokenInput",
+        "body_span": "require(OpInputCovenantId(tokenInputIndex) == tokenId);"
+      },
+      {
+        "name": "requireFeePolicy",
+        "params": [],
+        "entrypoint": false,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "feeBps",
+                    "span": "feeBps"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "feeBps >= 0"
+              },
+              "message": null,
+              "span": "require(feeBps >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "le",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "feeBps",
+                    "span": "feeBps"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "FEE_DENOMINATOR_BPS",
+                    "span": "FEE_DENOMINATOR_BPS"
+                  }
+                },
+                "span": "feeBps <= FEE_DENOMINATOR_BPS"
+              },
+              "message": null,
+              "span": "require(feeBps <= FEE_DENOMINATOR_BPS);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireFeePolicy() {\n        require(feeBps >= 0);\n        require(feeBps <= FEE_DENOMINATOR_BPS);\n    }",
+        "name_span": "requireFeePolicy",
+        "body_span": "require(feeBps >= 0);\n        require(feeBps <= FEE_DENOMINATOR_BPS);"
+      },
+      {
+        "name": "fillBuyOrder",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenOutputIndex",
+            "span": "int tokenOutputIndex",
+            "type_span": "int ",
+            "name_span": "tokenOutputIndex"
+          },
+          {
+            "type_ref": {
+              "base": "pubkey"
+            },
+            "name": "seller",
+            "span": "pubkey seller",
+            "type_span": "pubkey ",
+            "name_span": "seller"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireSellerTokenInput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "tokenInputIndex",
+                  "span": "tokenInputIndex"
+                }
+              ],
+              "span": "requireSellerTokenInput(tokenInputIndex);",
+              "name_span": "requireSellerTokenInput"
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireFeePolicy",
+              "args": [],
+              "span": "requireFeePolicy();",
+              "name_span": "requireFeePolicy"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "tokenAmount",
+                    "span": "tokenAmount"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "tokenAmount > 0"
+              },
+              "message": null,
+              "span": "require(tokenAmount > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "priceSompi",
+                    "span": "priceSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "priceSompi > 0"
+              },
+              "message": null,
+              "span": "require(priceSompi > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "nullary",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "priceSompi",
+                    "span": "priceSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value == priceSompi"
+              },
+              "message": null,
+              "span": "require(tx.inputs[this.activeInputIndex].value == priceSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "identifier",
+                        "data": "tokenOutputIndex",
+                        "span": "tokenOutputIndex"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[tokenOutputIndex].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "new",
+                          "data": {
+                            "name": "ScriptPubKeyP2SH",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "expectedTokenScriptHash",
+                                "span": "expectedTokenScriptHash"
+                              }
+                            ],
+                            "name_span": "ScriptPubKeyP2SH"
+                          },
+                          "span": "new ScriptPubKeyP2SH(expectedTokenScriptHash)"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](new ScriptPubKeyP2SH(expectedTokenScriptHash))"
+                  }
+                },
+                "span": "tx.outputs[tokenOutputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(expectedTokenScriptHash))"
+              },
+              "message": null,
+              "span": "require(tx.outputs[tokenOutputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(expectedTokenScriptHash)));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "feeSompi",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "div",
+                  "left": {
+                    "kind": "binary",
+                    "data": {
+                      "op": "mul",
+                      "left": {
+                        "kind": "identifier",
+                        "data": "priceSompi",
+                        "span": "priceSompi"
+                      },
+                      "right": {
+                        "kind": "identifier",
+                        "data": "feeBps",
+                        "span": "feeBps"
+                      }
+                    },
+                    "span": "priceSompi * feeBps"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "FEE_DENOMINATOR_BPS",
+                    "span": "FEE_DENOMINATOR_BPS"
+                  }
+                },
+                "span": "priceSompi * feeBps / FEE_DENOMINATOR_BPS"
+              },
+              "span": "int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "feeSompi"
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "sellerNet",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "priceSompi",
+                    "span": "priceSompi"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "feeSompi",
+                    "span": "feeSompi"
+                  }
+                },
+                "span": "priceSompi - feeSompi"
+              },
+              "span": "int sellerNet = priceSompi - feeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "sellerNet"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "sellerNet",
+                    "span": "sellerNet"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "sellerNet > 0"
+              },
+              "message": null,
+              "span": "require(sellerNet > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "byte",
+                "array_dims": [
+                  {
+                    "kind": "fixed",
+                    "value": 34
+                  }
+                ]
+              },
+              "modifiers": [],
+              "name": "sellerLock",
+              "expr": {
+                "kind": "new",
+                "data": {
+                  "name": "ScriptPubKeyP2PK",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "seller",
+                      "span": "seller"
+                    }
+                  ],
+                  "name_span": "ScriptPubKeyP2PK"
+                },
+                "span": "new ScriptPubKeyP2PK(seller)"
+              },
+              "span": "byte[34] sellerLock = new ScriptPubKeyP2PK(seller);",
+              "type_span": "byte[34]",
+              "modifier_spans": [],
+              "name_span": "sellerLock"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[0].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "sellerNet",
+                    "span": "sellerNet"
+                  }
+                },
+                "span": "tx.outputs[0].value == sellerNet"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].value == sellerNet);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[0].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "sellerLock",
+                          "span": "sellerLock"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](sellerLock)"
+                  }
+                },
+                "span": "tx.outputs[0].scriptPubKey == byte[](sellerLock)"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].scriptPubKey == byte[](sellerLock));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "if",
+            "data": {
+              "condition": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "feeSompi",
+                    "span": "feeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "feeSompi > 0"
+              },
+              "then_branch": [
+                {
+                  "kind": "variable_definition",
+                  "data": {
+                    "type_ref": {
+                      "base": "byte",
+                      "array_dims": [
+                        {
+                          "kind": "fixed",
+                          "value": 34
+                        }
+                      ]
+                    },
+                    "modifiers": [],
+                    "name": "feeLock",
+                    "expr": {
+                      "kind": "new",
+                      "data": {
+                        "name": "ScriptPubKeyP2PK",
+                        "args": [
+                          {
+                            "kind": "identifier",
+                            "data": "feeRecipient",
+                            "span": "feeRecipient"
+                          }
+                        ],
+                        "name_span": "ScriptPubKeyP2PK"
+                      },
+                      "span": "new ScriptPubKeyP2PK(feeRecipient)"
+                    },
+                    "span": "byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);",
+                    "type_span": "byte[34]",
+                    "modifier_spans": [],
+                    "name_span": "feeLock"
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "introspection",
+                          "data": {
+                            "kind": "output_value",
+                            "index": {
+                              "kind": "int",
+                              "data": 1,
+                              "span": "1"
+                            },
+                            "field_span": ".value"
+                          },
+                          "span": "tx.outputs[1].value"
+                        },
+                        "right": {
+                          "kind": "identifier",
+                          "data": "feeSompi",
+                          "span": "feeSompi"
+                        }
+                      },
+                      "span": "tx.outputs[1].value == feeSompi"
+                    },
+                    "message": null,
+                    "span": "require(tx.outputs[1].value == feeSompi);",
+                    "message_span": null
+                  }
+                },
+                {
+                  "kind": "require",
+                  "data": {
+                    "expr": {
+                      "kind": "binary",
+                      "data": {
+                        "op": "eq",
+                        "left": {
+                          "kind": "introspection",
+                          "data": {
+                            "kind": "output_script_pub_key",
+                            "index": {
+                              "kind": "int",
+                              "data": 1,
+                              "span": "1"
+                            },
+                            "field_span": ".scriptPubKey"
+                          },
+                          "span": "tx.outputs[1].scriptPubKey"
+                        },
+                        "right": {
+                          "kind": "call",
+                          "data": {
+                            "name": "byte[]",
+                            "args": [
+                              {
+                                "kind": "identifier",
+                                "data": "feeLock",
+                                "span": "feeLock"
+                              }
+                            ],
+                            "name_span": "byte[]"
+                          },
+                          "span": "byte[](feeLock)"
+                        }
+                      },
+                      "span": "tx.outputs[1].scriptPubKey == byte[](feeLock)"
+                    },
+                    "message": null,
+                    "span": "require(tx.outputs[1].scriptPubKey == byte[](feeLock));",
+                    "message_span": null
+                  }
+                }
+              ],
+              "else_branch": null,
+              "span": "if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    ",
+              "then_span": "byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));",
+              "else_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function fillBuyOrder(int tokenInputIndex, int tokenOutputIndex, pubkey seller) {\n        requireSellerTokenInput(tokenInputIndex);\n        requireFeePolicy();\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n        require(tx.inputs[this.activeInputIndex].value == priceSompi);\n        require(tx.outputs[tokenOutputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(expectedTokenScriptHash)));\n\n        int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;\n        int sellerNet = priceSompi - feeSompi;\n        require(sellerNet > 0);\n\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].value == sellerNet);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n        if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    }",
+        "name_span": "fillBuyOrder",
+        "body_span": "requireSellerTokenInput(tokenInputIndex);\n        requireFeePolicy();\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n        require(tx.inputs[this.activeInputIndex].value == priceSompi);\n        require(tx.outputs[tokenOutputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(expectedTokenScriptHash)));\n\n        int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;\n        int sellerNet = priceSompi - feeSompi;\n        require(sellerNet > 0);\n\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].value == sellerNet);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n        if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    "
+      },
+      {
+        "name": "cancelBuyOrder",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "buyerSig",
+            "span": "sig buyerSig",
+            "type_span": "sig ",
+            "name_span": "buyerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "minerFeeSompi",
+            "span": "int minerFeeSompi",
+            "type_span": "int ",
+            "name_span": "minerFeeSompi"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "buyerSig",
+                      "span": "buyerSig"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "buyer",
+                      "span": "buyer"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(buyerSig, buyer)"
+              },
+              "message": null,
+              "span": "require(checkSig(buyerSig, buyer));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "minerFeeSompi",
+                    "span": "minerFeeSompi"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "minerFeeSompi >= 0"
+              },
+              "message": null,
+              "span": "require(minerFeeSompi >= 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "int"
+              },
+              "modifiers": [],
+              "name": "refund",
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "sub",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "input_value",
+                      "index": {
+                        "kind": "nullary",
+                        "data": "active_input_index",
+                        "span": "this.activeInputIndex"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.inputs[this.activeInputIndex].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "minerFeeSompi",
+                    "span": "minerFeeSompi"
+                  }
+                },
+                "span": "tx.inputs[this.activeInputIndex].value - minerFeeSompi"
+              },
+              "span": "int refund = tx.inputs[this.activeInputIndex].value - minerFeeSompi;",
+              "type_span": "int ",
+              "modifier_spans": [],
+              "name_span": "refund"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "refund",
+                    "span": "refund"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "refund > 0"
+              },
+              "message": null,
+              "span": "require(refund > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "byte",
+                "array_dims": [
+                  {
+                    "kind": "fixed",
+                    "value": 34
+                  }
+                ]
+              },
+              "modifiers": [],
+              "name": "buyerLock",
+              "expr": {
+                "kind": "new",
+                "data": {
+                  "name": "ScriptPubKeyP2PK",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "buyer",
+                      "span": "buyer"
+                    }
+                  ],
+                  "name_span": "ScriptPubKeyP2PK"
+                },
+                "span": "new ScriptPubKeyP2PK(buyer)"
+              },
+              "span": "byte[34] buyerLock = new ScriptPubKeyP2PK(buyer);",
+              "type_span": "byte[34]",
+              "modifier_spans": [],
+              "name_span": "buyerLock"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[0].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "refund",
+                    "span": "refund"
+                  }
+                },
+                "span": "tx.outputs[0].value == refund"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].value == refund);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[0].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "buyerLock",
+                          "span": "buyerLock"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](buyerLock)"
+                  }
+                },
+                "span": "tx.outputs[0].scriptPubKey == byte[](buyerLock)"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].scriptPubKey == byte[](buyerLock));",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function cancelBuyOrder(sig buyerSig, int minerFeeSompi) {\n        require(checkSig(buyerSig, buyer));\n        require(minerFeeSompi >= 0);\n\n        int refund = tx.inputs[this.activeInputIndex].value - minerFeeSompi;\n        require(refund > 0);\n        byte[34] buyerLock = new ScriptPubKeyP2PK(buyer);\n        require(tx.outputs[0].value == refund);\n        require(tx.outputs[0].scriptPubKey == byte[](buyerLock));\n    }",
+        "name_span": "cancelBuyOrder",
+        "body_span": "require(checkSig(buyerSig, buyer));\n        require(minerFeeSompi >= 0);\n\n        int refund = tx.inputs[this.activeInputIndex].value - minerFeeSompi;\n        require(refund > 0);\n        byte[34] buyerLock = new ScriptPubKeyP2PK(buyer);\n        require(tx.outputs[0].value == refund);\n        require(tx.outputs[0].scriptPubKey == byte[](buyerLock));"
+      }
+    ],
+    "span": "contract KCC20BuyOrder(\n    pubkey orderBuyer,\n    byte[32] orderedTokenId,\n    byte[32] orderedTokenScriptHash,\n    int orderedTokenAmount,\n    int offerPriceSompi,\n    pubkey protocolFeeRecipient,\n    int protocolFeeBps\n) {\n    int constant FEE_DENOMINATOR_BPS = 10000;\n\n    pubkey buyer = orderBuyer;\n    byte[32] tokenId = orderedTokenId;\n    byte[32] expectedTokenScriptHash = orderedTokenScriptHash;\n    int tokenAmount = orderedTokenAmount;\n    int priceSompi = offerPriceSompi;\n    pubkey feeRecipient = protocolFeeRecipient;\n    int feeBps = protocolFeeBps;\n\n    function requireSellerTokenInput(int tokenInputIndex) {\n        require(OpInputCovenantId(tokenInputIndex) == tokenId);\n    }\n\n    function requireFeePolicy() {\n        require(feeBps >= 0);\n        require(feeBps <= FEE_DENOMINATOR_BPS);\n    }\n\n    entrypoint function fillBuyOrder(int tokenInputIndex, int tokenOutputIndex, pubkey seller) {\n        requireSellerTokenInput(tokenInputIndex);\n        requireFeePolicy();\n        require(tokenAmount > 0);\n        require(priceSompi > 0);\n        require(tx.inputs[this.activeInputIndex].value == priceSompi);\n        require(tx.outputs[tokenOutputIndex].scriptPubKey == byte[](new ScriptPubKeyP2SH(expectedTokenScriptHash)));\n\n        int feeSompi = priceSompi * feeBps / FEE_DENOMINATOR_BPS;\n        int sellerNet = priceSompi - feeSompi;\n        require(sellerNet > 0);\n\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].value == sellerNet);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n        if (feeSompi > 0) {\n            byte[34] feeLock = new ScriptPubKeyP2PK(feeRecipient);\n            require(tx.outputs[1].value == feeSompi);\n            require(tx.outputs[1].scriptPubKey == byte[](feeLock));\n        }\n    }\n\n    entrypoint function cancelBuyOrder(sig buyerSig, int minerFeeSompi) {\n        require(checkSig(buyerSig, buyer));\n        require(minerFeeSompi >= 0);\n\n        int refund = tx.inputs[this.activeInputIndex].value - minerFeeSompi;\n        require(refund > 0);\n        byte[34] buyerLock = new ScriptPubKeyP2PK(buyer);\n        require(tx.outputs[0].value == refund);\n        require(tx.outputs[0].scriptPubKey == byte[](buyerLock));\n    }\n}",
+    "name_span": "KCC20BuyOrder"
+  },
+  "abi": [
+    {
+      "name": "fillBuyOrder",
+      "inputs": [
+        {
+          "name": "tokenInputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "tokenOutputIndex",
+          "type_name": "int"
+        },
+        {
+          "name": "seller",
+          "type_name": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "cancelBuyOrder",
+      "inputs": [
+        {
+          "name": "buyerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "minerFeeSompi",
+          "type_name": "int"
+        }
+      ]
+    }
+  ],
+  "without_selector": false,
+  "state_layout": {
+    "start": 1,
+    "len": 159
+  },
+  "debug_info": null
+}

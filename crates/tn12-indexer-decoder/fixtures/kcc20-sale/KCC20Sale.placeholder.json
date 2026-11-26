@@ -1,0 +1,619 @@
+{
+  "contract_name": "KCC20Sale",
+  "script": [
+    107,
+    108,
+    118,
+    0,
+    156,
+    99,
+    117,
+    118,
+    207,
+    32,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    135,
+    105,
+    3,
+    64,
+    66,
+    15,
+    0,
+    160,
+    105,
+    0,
+    194,
+    4,
+    0,
+    225,
+    245,
+    5,
+    162,
+    105,
+    0,
+    195,
+    32,
+    215,
+    57,
+    222,
+    75,
+    59,
+    97,
+    168,
+    148,
+    240,
+    25,
+    136,
+    182,
+    207,
+    208,
+    150,
+    61,
+    67,
+    209,
+    180,
+    10,
+    120,
+    116,
+    19,
+    102,
+    97,
+    34,
+    164,
+    241,
+    46,
+    11,
+    96,
+    213,
+    3,
+    0,
+    0,
+    32,
+    124,
+    126,
+    1,
+    172,
+    126,
+    135,
+    105,
+    117,
+    81,
+    103,
+    118,
+    81,
+    156,
+    99,
+    117,
+    120,
+    32,
+    215,
+    57,
+    222,
+    75,
+    59,
+    97,
+    168,
+    148,
+    240,
+    25,
+    136,
+    182,
+    207,
+    208,
+    150,
+    61,
+    67,
+    209,
+    180,
+    10,
+    120,
+    116,
+    19,
+    102,
+    97,
+    34,
+    164,
+    241,
+    46,
+    11,
+    96,
+    213,
+    172,
+    105,
+    118,
+    207,
+    32,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    135,
+    105,
+    3,
+    64,
+    66,
+    15,
+    0,
+    160,
+    105,
+    117,
+    117,
+    81,
+    103,
+    117,
+    0,
+    105,
+    104,
+    104
+  ],
+  "ast": {
+    "name": "KCC20Sale",
+    "params": [
+      {
+        "type_ref": {
+          "base": "pubkey"
+        },
+        "name": "seller",
+        "span": "pubkey seller",
+        "type_span": "pubkey ",
+        "name_span": "seller"
+      },
+      {
+        "type_ref": {
+          "base": "byte",
+          "array_dims": [
+            {
+              "kind": "fixed",
+              "value": 32
+            }
+          ]
+        },
+        "name": "tokenId",
+        "span": "byte[32] tokenId",
+        "type_span": "byte[32]",
+        "name_span": "tokenId"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "tokenAmount",
+        "span": "int tokenAmount",
+        "type_span": "int ",
+        "name_span": "tokenAmount"
+      },
+      {
+        "type_ref": {
+          "base": "int"
+        },
+        "name": "priceSompi",
+        "span": "int priceSompi",
+        "type_span": "int ",
+        "name_span": "priceSompi"
+      }
+    ],
+    "constants": [],
+    "functions": [
+      {
+        "name": "requireLockedTokenInput",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": false,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "call",
+                    "data": {
+                      "name": "OpInputCovenantId",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "tokenInputIndex",
+                          "span": "tokenInputIndex"
+                        }
+                      ],
+                      "name_span": "OpInputCovenantId"
+                    },
+                    "span": "OpInputCovenantId(tokenInputIndex)"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "tokenId",
+                    "span": "tokenId"
+                  }
+                },
+                "span": "OpInputCovenantId(tokenInputIndex) == tokenId"
+              },
+              "message": null,
+              "span": "require(OpInputCovenantId(tokenInputIndex) == tokenId);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "function requireLockedTokenInput(int tokenInputIndex) {\n        require(OpInputCovenantId(tokenInputIndex) == tokenId);\n    }",
+        "name_span": "requireLockedTokenInput",
+        "body_span": "require(OpInputCovenantId(tokenInputIndex) == tokenId);"
+      },
+      {
+        "name": "buy",
+        "params": [
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireLockedTokenInput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "tokenInputIndex",
+                  "span": "tokenInputIndex"
+                }
+              ],
+              "span": "requireLockedTokenInput(tokenInputIndex);",
+              "name_span": "requireLockedTokenInput"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "tokenAmount",
+                    "span": "tokenAmount"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "tokenAmount > 0"
+              },
+              "message": null,
+              "span": "require(tokenAmount > 0);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "ge",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_value",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".value"
+                    },
+                    "span": "tx.outputs[0].value"
+                  },
+                  "right": {
+                    "kind": "identifier",
+                    "data": "priceSompi",
+                    "span": "priceSompi"
+                  }
+                },
+                "span": "tx.outputs[0].value >= priceSompi"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].value >= priceSompi);",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "variable_definition",
+            "data": {
+              "type_ref": {
+                "base": "byte",
+                "array_dims": [
+                  {
+                    "kind": "fixed",
+                    "value": 34
+                  }
+                ]
+              },
+              "modifiers": [],
+              "name": "sellerLock",
+              "expr": {
+                "kind": "new",
+                "data": {
+                  "name": "ScriptPubKeyP2PK",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "seller",
+                      "span": "seller"
+                    }
+                  ],
+                  "name_span": "ScriptPubKeyP2PK"
+                },
+                "span": "new ScriptPubKeyP2PK(seller)"
+              },
+              "span": "byte[34] sellerLock = new ScriptPubKeyP2PK(seller);",
+              "type_span": "byte[34]",
+              "modifier_spans": [],
+              "name_span": "sellerLock"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "eq",
+                  "left": {
+                    "kind": "introspection",
+                    "data": {
+                      "kind": "output_script_pub_key",
+                      "index": {
+                        "kind": "int",
+                        "data": 0,
+                        "span": "0"
+                      },
+                      "field_span": ".scriptPubKey"
+                    },
+                    "span": "tx.outputs[0].scriptPubKey"
+                  },
+                  "right": {
+                    "kind": "call",
+                    "data": {
+                      "name": "byte[]",
+                      "args": [
+                        {
+                          "kind": "identifier",
+                          "data": "sellerLock",
+                          "span": "sellerLock"
+                        }
+                      ],
+                      "name_span": "byte[]"
+                    },
+                    "span": "byte[](sellerLock)"
+                  }
+                },
+                "span": "tx.outputs[0].scriptPubKey == byte[](sellerLock)"
+              },
+              "message": null,
+              "span": "require(tx.outputs[0].scriptPubKey == byte[](sellerLock));",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function buy(int tokenInputIndex) {\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n\n        require(tx.outputs[0].value >= priceSompi);\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n    }",
+        "name_span": "buy",
+        "body_span": "requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n\n        require(tx.outputs[0].value >= priceSompi);\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));"
+      },
+      {
+        "name": "cancel",
+        "params": [
+          {
+            "type_ref": {
+              "base": "sig"
+            },
+            "name": "sellerSig",
+            "span": "sig sellerSig",
+            "type_span": "sig ",
+            "name_span": "sellerSig"
+          },
+          {
+            "type_ref": {
+              "base": "int"
+            },
+            "name": "tokenInputIndex",
+            "span": "int tokenInputIndex",
+            "type_span": "int ",
+            "name_span": "tokenInputIndex"
+          }
+        ],
+        "entrypoint": true,
+        "return_types": [],
+        "body": [
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "call",
+                "data": {
+                  "name": "checkSig",
+                  "args": [
+                    {
+                      "kind": "identifier",
+                      "data": "sellerSig",
+                      "span": "sellerSig"
+                    },
+                    {
+                      "kind": "identifier",
+                      "data": "seller",
+                      "span": "seller"
+                    }
+                  ],
+                  "name_span": "checkSig"
+                },
+                "span": "checkSig(sellerSig, seller)"
+              },
+              "message": null,
+              "span": "require(checkSig(sellerSig, seller));",
+              "message_span": null
+            }
+          },
+          {
+            "kind": "function_call",
+            "data": {
+              "name": "requireLockedTokenInput",
+              "args": [
+                {
+                  "kind": "identifier",
+                  "data": "tokenInputIndex",
+                  "span": "tokenInputIndex"
+                }
+              ],
+              "span": "requireLockedTokenInput(tokenInputIndex);",
+              "name_span": "requireLockedTokenInput"
+            }
+          },
+          {
+            "kind": "require",
+            "data": {
+              "expr": {
+                "kind": "binary",
+                "data": {
+                  "op": "gt",
+                  "left": {
+                    "kind": "identifier",
+                    "data": "tokenAmount",
+                    "span": "tokenAmount"
+                  },
+                  "right": {
+                    "kind": "int",
+                    "data": 0,
+                    "span": "0"
+                  }
+                },
+                "span": "tokenAmount > 0"
+              },
+              "message": null,
+              "span": "require(tokenAmount > 0);",
+              "message_span": null
+            }
+          }
+        ],
+        "return_type_spans": [],
+        "span": "entrypoint function cancel(sig sellerSig, int tokenInputIndex) {\n        require(checkSig(sellerSig, seller));\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n    }",
+        "name_span": "cancel",
+        "body_span": "require(checkSig(sellerSig, seller));\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);"
+      }
+    ],
+    "span": "contract KCC20Sale(\n    pubkey seller,\n    byte[32] tokenId,\n    int tokenAmount,\n    int priceSompi\n) {\n    function requireLockedTokenInput(int tokenInputIndex) {\n        require(OpInputCovenantId(tokenInputIndex) == tokenId);\n    }\n\n    entrypoint function buy(int tokenInputIndex) {\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n\n        require(tx.outputs[0].value >= priceSompi);\n        byte[34] sellerLock = new ScriptPubKeyP2PK(seller);\n        require(tx.outputs[0].scriptPubKey == byte[](sellerLock));\n    }\n\n    entrypoint function cancel(sig sellerSig, int tokenInputIndex) {\n        require(checkSig(sellerSig, seller));\n        requireLockedTokenInput(tokenInputIndex);\n        require(tokenAmount > 0);\n    }\n}",
+    "name_span": "KCC20Sale"
+  },
+  "abi": [
+    {
+      "name": "buy",
+      "inputs": [
+        {
+          "name": "tokenInputIndex",
+          "type_name": "int"
+        }
+      ]
+    },
+    {
+      "name": "cancel",
+      "inputs": [
+        {
+          "name": "sellerSig",
+          "type_name": "sig"
+        },
+        {
+          "name": "tokenInputIndex",
+          "type_name": "int"
+        }
+      ]
+    }
+  ],
+  "without_selector": false,
+  "state_layout": {
+    "start": 1,
+    "len": 0
+  },
+  "debug_info": null
+}

@@ -1,0 +1,70 @@
+# Heavy / never-needed at image-build time
+target/
+**/target/
+node_modules/
+**/node_modules/
+
+# Local secrets + transient artifacts
+wallet-lab/.local/
+**/.local/
+*.log
+.env
+.env.*
+
+# VCS + tooling state
+.git/
+.github/
+.vscode/
+.idea/
+
+# Vendored prototype (33 MB of Parker's web demo — not needed at runtime;
+# the indexer binary doesn't read it). Brought in for docs + decoder
+# fixtures, not for the runtime image.
+vendor/
+
+# Docs + repo housekeeping
+docs/
+README.md
+*.md
+
+# Test fixtures kept on the host, not in the image
+fixtures/
+examples/
+
+# The decoder embeds these pinned files at compile time; exclude the rest of wallet-lab.
+wallet-lab/*
+!wallet-lab/vendor/
+wallet-lab/vendor/*
+!wallet-lab/vendor/token-profiles/
+wallet-lab/vendor/token-profiles/*
+!wallet-lab/vendor/token-profiles/registry.json
+!wallet-lab/vendor/token-profiles/registry.sha256
+!wallet-lab/vendor/kcc20-fee-policy-v1/
+wallet-lab/vendor/kcc20-fee-policy-v1/*
+!wallet-lab/vendor/kcc20-fee-policy-v1/manifest.json
+!wallet-lab/vendor/kcom-claim-capabilities/
+wallet-lab/vendor/kcom-claim-capabilities/*
+!wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements/
+wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements/*
+!wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements/program-abi.json
+!wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements-open/
+wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements-open/*
+!wallet-lab/vendor/kcom-claim-capabilities/campaign-entitlements-open/program-abi.json
+
+# Build outputs from other tools
+*.wasm
+*.zip
+*.tar.gz
+
+# Pinned configurable campaign ABIs embedded by the decoder.
+!wallet-lab/vendor/kcom-configurable-v2/
+wallet-lab/vendor/kcom-configurable-v2/*
+!wallet-lab/vendor/kcom-configurable-v2/graph/
+wallet-lab/vendor/kcom-configurable-v2/graph/*
+!wallet-lab/vendor/kcom-configurable-v2/graph/program-abi.json
+!wallet-lab/vendor/kcom-configurable-v2/initializer/
+wallet-lab/vendor/kcom-configurable-v2/initializer/*
+!wallet-lab/vendor/kcom-configurable-v2/initializer/program-abi.json
+!wallet-lab/vendor/kcom-configurable-v2/vesting/
+wallet-lab/vendor/kcom-configurable-v2/vesting/*
+!wallet-lab/vendor/kcom-configurable-v2/vesting/program-abi.json

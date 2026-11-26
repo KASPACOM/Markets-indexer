@@ -1,0 +1,108 @@
+{
+  "tests": [
+    {
+      "name": "partial_covenant_transfer",
+      "function": "transferByCovenant",
+      "constructor_args": [
+        "0x1111111111111111111111111111111111111111111111111111111111111111",
+        2,
+        1000000,
+        false
+      ],
+      "args": [
+        1,
+        "0x2222222222222222222222222222222222222222222222222222222222222222",
+        0,
+        100,
+        0,
+        1
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 5000,
+            "covenant_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 1000,
+            "covenant_id": "1111111111111111111111111111111111111111111111111111111111111111"
+          }
+        ],
+        "outputs": [
+          {
+            "value": 1000,
+            "covenant_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              "0x2222222222222222222222222222222222222222222222222222222222222222",
+              0,
+              100,
+              false
+            ]
+          },
+          {
+            "value": 4000,
+            "covenant_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              "0x1111111111111111111111111111111111111111111111111111111111111111",
+              2,
+              999900,
+              false
+            ]
+          }
+        ]
+      },
+      "expect": "pass"
+    },
+    {
+      "name": "full_covenant_transfer",
+      "function": "transferAllByCovenant",
+      "constructor_args": [
+        "0x1111111111111111111111111111111111111111111111111111111111111111",
+        2,
+        1000000,
+        false
+      ],
+      "args": [
+        1,
+        "0x2222222222222222222222222222222222222222222222222222222222222222",
+        0,
+        1
+      ],
+      "tx": {
+        "version": 1,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 5000,
+            "covenant_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "utxo_value": 1000,
+            "covenant_id": "1111111111111111111111111111111111111111111111111111111111111111"
+          }
+        ],
+        "outputs": [
+          {
+            "value": 1000
+          },
+          {
+            "value": 4000,
+            "covenant_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "authorizing_input": 0,
+            "constructor_args": [
+              "0x2222222222222222222222222222222222222222222222222222222222222222",
+              0,
+              1000000,
+              false
+            ]
+          }
+        ]
+      },
+      "expect": "pass"
+    }
+  ]
+}

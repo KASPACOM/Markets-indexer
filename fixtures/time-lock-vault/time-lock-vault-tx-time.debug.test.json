@@ -1,0 +1,70 @@
+{
+  "tests": [
+    {
+      "name": "recovery_before_timeout_fails",
+      "function": "recover",
+      "constructor_args": [100],
+      "args": [],
+      "expect": "fail",
+      "tx": {
+        "version": 1,
+        "lock_time": 99,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 5000
+          }
+        ],
+        "outputs": [
+          {
+            "value": 5000
+          }
+        ]
+      }
+    },
+    {
+      "name": "recovery_at_timeout_passes",
+      "function": "recover",
+      "constructor_args": [100],
+      "args": [],
+      "expect": "pass",
+      "tx": {
+        "version": 1,
+        "lock_time": 100,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 5000
+          }
+        ],
+        "outputs": [
+          {
+            "value": 5000
+          }
+        ]
+      }
+    },
+    {
+      "name": "recovery_after_timeout_passes",
+      "function": "recover",
+      "constructor_args": [100],
+      "args": [],
+      "expect": "pass",
+      "tx": {
+        "version": 1,
+        "lock_time": 101,
+        "active_input_index": 0,
+        "inputs": [
+          {
+            "utxo_value": 5000
+          }
+        ],
+        "outputs": [
+          {
+            "value": 5000
+          }
+        ]
+      }
+    }
+  ]
+}

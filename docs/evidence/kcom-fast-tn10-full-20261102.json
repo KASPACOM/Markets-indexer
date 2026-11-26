@@ -1,0 +1,2557 @@
+{
+  "schema": "kcom-fast-tn10-live-evidence/v1",
+  "generatedAt": "2026-11-02T23:08:10.420Z",
+  "scope": "Accepted TN10 transactions rechecked against public REST and live terminal UTXOs; indexer status separate",
+  "campaignId": "4a3bc4caca500631203c1b3e6da240132fd8db939fdc58ffcaf6d25c87b11393",
+  "graphId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942",
+  "tokenId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+  "budgetRaw": "1000",
+  "testOnlyTiming": {
+    "network": "testnet-10",
+    "claimWindowMs": "3600000",
+    "vestingArtifactId": "52fdb903011d5f87e67470b6fbb745bb98998834ab5fb4ad1895b0619bfffe16"
+  },
+  "opensMs": "1793654017469",
+  "closesMs": "1793657617469",
+  "tgeMs": "1793657677469",
+  "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+  "artifactManifestSha256": "271215c831d3e136a4bb7bdb26f3c9db3b9845c7cdb136c916fe3a6ad9f4be7d",
+  "publicRoles": {
+    "adminOne": {
+      "address": "kaspatest:qqcpwfjqtpjg25fgejkgmpqymh0qwa9u805sul5lw9sduhqhenmqxg5mds3at",
+      "owner": "301726405864855128ccac8d8404ddde0774bc3be90e7e9f7160de5c17ccf603"
+    },
+    "adminTwo": {
+      "address": "kaspatest:qq0uy5jk8d9axwzj70ytf5rvcnlw236ftpeaa6jt696ylexv8kg2kfxucm2df",
+      "owner": "1fc252563b4bd33852f3c8b4d06cc4fee547495873deea4bd1744fe4cc3d90ab"
+    },
+    "adminThree": {
+      "address": "kaspatest:qrjxpld9wuq2uwvrpv77rvajqq4ahd9zlamuw59cd3hesvmg3lvrsrtam72f3",
+      "owner": "e460fda57700ae39830b3de1b3b2002bdbb4a2ff77c750b86c6f9833688fd838"
+    },
+    "sponsor": {
+      "address": "kaspatest:qp29lfsxpmv0e0xfm84wlpmn34vk30w93tp9fwrgwg9pnunh9uhxv49a68m8p",
+      "owner": "545fa6060ed8fcbcc9d9eaef87738d5968bdc58ac254b868720a19f2772f2e66"
+    },
+    "alice": {
+      "address": "kaspatest:qq3pzrpr7kvenh6cjprc5ww52auz66a96uhqved72skgwp2dyzz3v8uwqfzum",
+      "owner": "22110c23f59999df5890478a39d457782d6ba5d72e0665be542c87054d208516"
+    },
+    "bob": {
+      "address": "kaspatest:qrvddnh4jh8w7502wq5vyq7acgxu5pfp5fwnr2qeeq3t2e3su5sl2574c09tt",
+      "owner": "d8d6cef595ceef51ea7028c203ddc20dca0521a25d31a819c822b56630e521f5"
+    },
+    "carol": {
+      "address": "kaspatest:qrx2j2vm2420k69gcw443s6cgl22vv864z9qk9tpqxt7l83ln8mjcc7nt4ues",
+      "owner": "cca9299b5554fb68a8c3ab58c35847d4a630faa88a0b15610197ef9e3f99f72c"
+    }
+  },
+  "cumulativeSourceDrawSompi": "14652928000",
+  "thisCampaignSourceDrawSompi": "4063077000",
+  "aggregateAllocatedRaw": "4000",
+  "settledRaw": "997",
+  "activatedRaw": "997",
+  "releasedRaw": "997",
+  "recoveredRaw": "3",
+  "terminalOutputs": [
+    {
+      "outpoint": "5148a0e1aea6a368e360c24ad783eba225a0db03e2f3e094a97b1adf7bc796b0:1",
+      "amountSompi": "100000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:prshsj5w2ueauplevsdface4n05f3qz386ylq5c95739g7n5amdwq2qgz9npx"
+    },
+    {
+      "outpoint": "ed2367b3e6e87567e8a39d88ea3a14fb24f546dc48e3632b4d638889b73776e1:0",
+      "amountSompi": "200000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:pzl5p3dfzdtymeuz0yvtwmt9h3njgw0765gffwty4qtrymgganfgjp7xekxmm"
+    },
+    {
+      "outpoint": "875ae2e38edfb653c60093fda319543eba9acc4feac23ed69e8a68d981d947a7:0",
+      "amountSompi": "200000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:pq6r43q8r0tsvt6pcj3cd49usdygczjlvv3y0hwvau64yg0ru8yfjt43239a0"
+    },
+    {
+      "outpoint": "a414ccc99514c40686ef708de8c84b5e5ad8f129a07a0672dc2929c0f4e845c8:0",
+      "amountSompi": "200000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:prkyjuepqr7pwzkgv2j6whxj50se9t6gzteuucngyuh7z8zj0khps6zpkwg02"
+    },
+    {
+      "outpoint": "a566e47151723d43347aa25840bd897706b99cde272ed82ece7e4dfd35d6efd8:0",
+      "amountSompi": "200000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:pzckdu3hm9txqkc9jurnguvt7769qx0fqs8eu7hh5c9jcgh2sl9kqt2qsmwlw"
+    },
+    {
+      "outpoint": "c6395447e2a93fead7d078ee08d9b12956337f3d99d6df9efb27d323295b69f8:0",
+      "amountSompi": "200000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:prfr7hrdt8qvlt4q9gf6ws8x964rgn92wa4u9daxrhr2hexnuejtx38ptl0yx"
+    },
+    {
+      "outpoint": "76ff2d22925928e57af9e944f24ffd9d68175b3e2e7535de0952784c1d014539:0",
+      "amountSompi": "200000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:pza9zkdsq7rmj5g6hcncanupfm2uu3tp92gq75h2m3m4xjdwhawwgwmarlgaq"
+    },
+    {
+      "outpoint": "d17b41ca005c79577d7b7f3646804b1e8a369540a6863f87dbd07e6cdd9c02b2:0",
+      "amountSompi": "600000000",
+      "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942",
+      "address": "kaspatest:pzt3p4cv49jt3p0r60la36wuf3mmk44t67qeqrah7gzv2pqdert754sc467p2"
+    },
+    {
+      "outpoint": "d17b41ca005c79577d7b7f3646804b1e8a369540a6863f87dbd07e6cdd9c02b2:1",
+      "amountSompi": "100000000",
+      "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378",
+      "address": "kaspatest:prwcy63aaa48cxy2s8ra8u4rh0xhmvtrd760lqf9qrdphm6cx0zvqhh70ktjj"
+    },
+    {
+      "outpoint": "d17b41ca005c79577d7b7f3646804b1e8a369540a6863f87dbd07e6cdd9c02b2:2",
+      "amountSompi": "985347072000",
+      "covenantId": null,
+      "address": "kaspatest:qrel6nnqnxg2n024v3m4npd77f0up9cxcrp7n457dhh9w2m7a5pwxkwxfrdrg"
+    }
+  ],
+  "indexerStatus": {
+    "campaignReadHttpStatus": 503,
+    "transactionActions": null
+  },
+  "transactions": [
+    {
+      "label": "deploy-initializer",
+      "txid": "dfe52dafee0ece2ccb8112139b0238d8cbf4aac772d3a7d003f0e9ee1887f7b8",
+      "explorer": "https://tn10.kaspa.stream/transactions/dfe52dafee0ece2ccb8112139b0238d8cbf4aac772d3a7d003f0e9ee1887f7b8",
+      "accepted": true,
+      "acceptingBlockHash": "dc6a1f68a6488e1e0ed2d3a054a34d405bee2adeefb51f2e59ffbbee5d17c4f8",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        }
+      ],
+      "wireSha256": "83deb37d3bd234af0cf4686a5b841e8bc52b6e9f374686f441f7f17175832427",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "660000000",
+      "inputs": [
+        {
+          "outpoint": "b0c5f34e6ef6dec1db523d4286e91738427fd1ff4b686dca773e55fea9a4b5f3:2",
+          "amountSompi": "989410149000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20b9bf01b57f1b29a732399f8d5ed0ec191efabb55d972c8774f02d614ef5a885e87",
+          "covenantId": "1a597fe3de723f762279c4a2e519286cb99bbd89d92476e398b5191907acecc3"
+        },
+        {
+          "index": 1,
+          "amountSompi": "988750149000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "initialize",
+      "txid": "e511b3e308a64dc65a60c5c6995db09c42ec7bc3dd6170ae20d9e9aabebee506",
+      "explorer": "https://tn10.kaspa.stream/transactions/e511b3e308a64dc65a60c5c6995db09c42ec7bc3dd6170ae20d9e9aabebee506",
+      "accepted": true,
+      "acceptingBlockHash": "c38bddc15c7c3c0ed93d12bb2b0742488fe3945cc3e50e10eff4eb4eaedaedf7",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "437febd82fc2556a7fa90b09e50ffa4f6c56149a2efe0f740fcee8a51aa7ea4e",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "dfe52dafee0ece2ccb8112139b0238d8cbf4aac772d3a7d003f0e9ee1887f7b8:0",
+          "amountSompi": "600000000",
+          "script": "aa20b9bf01b57f1b29a732399f8d5ed0ec191efabb55d972c8774f02d614ef5a885e87"
+        },
+        {
+          "outpoint": "dfe52dafee0ece2ccb8112139b0238d8cbf4aac772d3a7d003f0e9ee1887f7b8:1",
+          "amountSompi": "988750149000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20c87d411d01738c7d83c33df5679bf8d946037b6d1fa671e3ca6dade8aba931c487",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa2092f1b1cd23e588da6a511fec4a2275473359a5a7a9d157e144cb312278d85c5d87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988690149000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "transfer-to-graph",
+      "txid": "5148a0e1aea6a368e360c24ad783eba225a0db03e2f3e094a97b1adf7bc796b0",
+      "explorer": "https://tn10.kaspa.stream/transactions/5148a0e1aea6a368e360c24ad783eba225a0db03e2f3e094a97b1adf7bc796b0",
+      "accepted": true,
+      "acceptingBlockHash": "f64ebcbf38b477bcbefd6e1915d78c993b8c116c32745092dca4c4bfdaaa6d21",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "bbd10fa2d827ffd3ce80be60ff6f1a199417c37b9c63f3ee0c2ad1ecbb375065",
+      "feeSompi": "63077000",
+      "sourceDrawSompi": "163077000",
+      "inputs": [
+        {
+          "outpoint": "fa431d484cb8f6a9dcd1076f635d33e1828fc0caf0e090b64912d4524362e873:1",
+          "amountSompi": "100000000",
+          "script": "aa2057308c91fbdaa708b3edf178fd311be98198443734a6e158a4cab6dd9e812b8f87"
+        },
+        {
+          "outpoint": "e511b3e308a64dc65a60c5c6995db09c42ec7bc3dd6170ae20d9e9aabebee506:2",
+          "amountSompi": "988690149000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2051ea7b32815dfed40bf9ad817514a5e89e8f70cec9bd3b50ac4735652fe9f6a087",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20e1784a8e5733de07f9641a9ee3359be89880513e89f05305a7a2547a74eedae087",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988527072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f"
+      }
+    },
+    {
+      "label": "fund-vault",
+      "txid": "ef7a32086576d826eae70653dbc6128f40b32568091a2e78bf04be6ce18b6441",
+      "explorer": "https://tn10.kaspa.stream/transactions/ef7a32086576d826eae70653dbc6128f40b32568091a2e78bf04be6ce18b6441",
+      "accepted": true,
+      "acceptingBlockHash": "1747aca2dd31a78d1e893087abe3ba5094ec19482baaa887e755cdf87b141320",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "886df2b220b9244654df1aefe64f2c9de46a0bafb7fadf8d4c62b3aa3751ac8e",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "e511b3e308a64dc65a60c5c6995db09c42ec7bc3dd6170ae20d9e9aabebee506:1",
+          "amountSompi": "100000000",
+          "script": "aa2092f1b1cd23e588da6a511fec4a2275473359a5a7a9d157e144cb312278d85c5d87"
+        },
+        {
+          "outpoint": "5148a0e1aea6a368e360c24ad783eba225a0db03e2f3e094a97b1adf7bc796b0:0",
+          "amountSompi": "100000000",
+          "script": "aa2051ea7b32815dfed40bf9ad817514a5e89e8f70cec9bd3b50ac4735652fe9f6a087"
+        },
+        {
+          "outpoint": "5148a0e1aea6a368e360c24ad783eba225a0db03e2f3e094a97b1adf7bc796b0:2",
+          "amountSompi": "988527072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20a4f57bf1613400e8426eaf82b7b30c20ae848c2dd6facb9d754d9600ba8c664d87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa2051ea7b32815dfed40bf9ad817514a5e89e8f70cec9bd3b50ac4735652fe9f6a087",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988467072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "open",
+      "txid": "1bfa4a1a6a5650a79f656618c8e7b381056e74b723c3d1caf18bab0ce9253f52",
+      "explorer": "https://tn10.kaspa.stream/transactions/1bfa4a1a6a5650a79f656618c8e7b381056e74b723c3d1caf18bab0ce9253f52",
+      "accepted": true,
+      "acceptingBlockHash": "c1a0ca7d8ff1e9a0d116258d7c79ea05ea2079c10b067686ba4fe4e9b9ff09af",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "b6bd72bc3261b818b8fce586b290e069171c8e8cf429caec6aa12eadf2eab950",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "e511b3e308a64dc65a60c5c6995db09c42ec7bc3dd6170ae20d9e9aabebee506:0",
+          "amountSompi": "500000000",
+          "script": "aa20c87d411d01738c7d83c33df5679bf8d946037b6d1fa671e3ca6dade8aba931c487"
+        },
+        {
+          "outpoint": "ef7a32086576d826eae70653dbc6128f40b32568091a2e78bf04be6ce18b6441:0",
+          "amountSompi": "100000000",
+          "script": "aa20a4f57bf1613400e8426eaf82b7b30c20ae848c2dd6facb9d754d9600ba8c664d87"
+        },
+        {
+          "outpoint": "ef7a32086576d826eae70653dbc6128f40b32568091a2e78bf04be6ce18b6441:2",
+          "amountSompi": "988467072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20dfbab4f32e5ebd0a279a9e27bf3782154362fc61a8b1e273f4f1834d5998490687",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa201e2096447c8efbfe88b3d1cb1074cb4bbb87aee66df72697c79026cad5bbae7a87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988407072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "create-shard:0",
+      "txid": "ae4fd75778fb512e3ebb4cd418f192fb5166d446efd5056de19e9e62deea618a",
+      "explorer": "https://tn10.kaspa.stream/transactions/ae4fd75778fb512e3ebb4cd418f192fb5166d446efd5056de19e9e62deea618a",
+      "accepted": true,
+      "acceptingBlockHash": "74ad2323fe25dc741a68ede7703f95421edb98c38d57ae2083fa7adb09ea5473",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "91f74dd30d5147270604432b9c037a2c7334d2d28273cad59536906d9797f89b",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "1bfa4a1a6a5650a79f656618c8e7b381056e74b723c3d1caf18bab0ce9253f52:0",
+          "amountSompi": "500000000",
+          "script": "aa20dfbab4f32e5ebd0a279a9e27bf3782154362fc61a8b1e273f4f1834d5998490687"
+        },
+        {
+          "outpoint": "1bfa4a1a6a5650a79f656618c8e7b381056e74b723c3d1caf18bab0ce9253f52:2",
+          "amountSompi": "988407072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "400000000",
+          "script": "aa20ef7c657d5ffdab7ac240bb5cb8008ffdf52f09214caee6048a5a3c2898e95d5b87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa208cab799c441562536507250961c4e94a7923d6f19b5d2c87a36aabb575624c2e87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988347072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "create-shard:1",
+      "txid": "c30b9c97e656aa52560dfef3ab5a17d5999414a6e440e961cd6e1a2f337a3db9",
+      "explorer": "https://tn10.kaspa.stream/transactions/c30b9c97e656aa52560dfef3ab5a17d5999414a6e440e961cd6e1a2f337a3db9",
+      "accepted": true,
+      "acceptingBlockHash": "583c1377caeb0dc45d6b685d27d08ed03d8601987cefae4776c12ca7e544d3f8",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "768cf143dca2b22614c9dc5b45bc41acabc89fcbdb438f74b8a7fef1550daeae",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "ae4fd75778fb512e3ebb4cd418f192fb5166d446efd5056de19e9e62deea618a:0",
+          "amountSompi": "400000000",
+          "script": "aa20ef7c657d5ffdab7ac240bb5cb8008ffdf52f09214caee6048a5a3c2898e95d5b87"
+        },
+        {
+          "outpoint": "ae4fd75778fb512e3ebb4cd418f192fb5166d446efd5056de19e9e62deea618a:2",
+          "amountSompi": "988347072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "300000000",
+          "script": "aa20020e33f4dc59c420c53948444bf7e6e2cb97532c7e6f148c31977a0edf66e4ba87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20679ef14c29f13990ac93cd67f2102210790699f192e56070edddf3f5a7a19ff287",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988287072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "create-shard:2",
+      "txid": "da04b75d53d098d568a85a4eadb52f2866e4023ae42ebf03d518afcc15340474",
+      "explorer": "https://tn10.kaspa.stream/transactions/da04b75d53d098d568a85a4eadb52f2866e4023ae42ebf03d518afcc15340474",
+      "accepted": true,
+      "acceptingBlockHash": "4939d587d347d430cba47bf32bdd017bb4ff49d4be69b6b84d44563fb89bd9c4",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "5552512b422dab56d21fee8781b4a02b680f441abf6086b0301b000bde03e223",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "c30b9c97e656aa52560dfef3ab5a17d5999414a6e440e961cd6e1a2f337a3db9:0",
+          "amountSompi": "300000000",
+          "script": "aa20020e33f4dc59c420c53948444bf7e6e2cb97532c7e6f148c31977a0edf66e4ba87"
+        },
+        {
+          "outpoint": "c30b9c97e656aa52560dfef3ab5a17d5999414a6e440e961cd6e1a2f337a3db9:2",
+          "amountSompi": "988287072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20ef5b24823b2e315ff6ee74b6f742beb7eb99aaf89092487dbcc788a0fecd362a87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20d44f3a5ab7aa3de5d551956bc85066fb957b33ae884851c8a393f4718a2fc07c87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988227072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "create-shard:3",
+      "txid": "87c49bfa394cf533388739625f3fb9b3ee6c206437ab7bebd73d746c44ca5b9d",
+      "explorer": "https://tn10.kaspa.stream/transactions/87c49bfa394cf533388739625f3fb9b3ee6c206437ab7bebd73d746c44ca5b9d",
+      "accepted": true,
+      "acceptingBlockHash": "f3e8b605c5f19ab7f9d36e6860525d1f2b181326c33addeddd3dbf8b82044e3e",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "7cf61e719b5dbed9b58fd67f69c809954751e87347b07ffb6e5bb2eab472d816",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "da04b75d53d098d568a85a4eadb52f2866e4023ae42ebf03d518afcc15340474:0",
+          "amountSompi": "200000000",
+          "script": "aa20ef5b24823b2e315ff6ee74b6f742beb7eb99aaf89092487dbcc788a0fecd362a87"
+        },
+        {
+          "outpoint": "da04b75d53d098d568a85a4eadb52f2866e4023ae42ebf03d518afcc15340474:2",
+          "amountSompi": "988227072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa208981f9c544327aa9146d33d23408b471f2e84725011329fc4995ab5bcbec9a6387",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20ea6d2a77e1fbea2d4a8fffb25adbab88444a7340d85aee1e2d3e723818ccf43e87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "988167072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "finish-initialization",
+      "txid": "5fbbe49654b7c8665fee1abe651b24321ef485765a9dd60d49c57ee634d30452",
+      "explorer": "https://tn10.kaspa.stream/transactions/5fbbe49654b7c8665fee1abe651b24321ef485765a9dd60d49c57ee634d30452",
+      "accepted": true,
+      "acceptingBlockHash": "6f930c69955018a37fd1919464843475e82962618c42836ed7ab3c0ba37cdb39",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "4b76fffd29c9013b41c6398b5254e91bd75a3aad03ca84656d25ca5697bff5e7",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "87c49bfa394cf533388739625f3fb9b3ee6c206437ab7bebd73d746c44ca5b9d:0",
+          "amountSompi": "100000000",
+          "script": "aa208981f9c544327aa9146d33d23408b471f2e84725011329fc4995ab5bcbec9a6387"
+        },
+        {
+          "outpoint": "87c49bfa394cf533388739625f3fb9b3ee6c206437ab7bebd73d746c44ca5b9d:2",
+          "amountSompi": "988167072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2038371067994444b1b51da4215e48fd12257676918595a4fd78901f466a5bc68a87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "988107072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "select:alice",
+      "txid": "031d3cb6aafc791c3f553d100df20136e9fa540b6f7f2a5996643c4b41aed726",
+      "explorer": "https://tn10.kaspa.stream/transactions/031d3cb6aafc791c3f553d100df20136e9fa540b6f7f2a5996643c4b41aed726",
+      "accepted": true,
+      "acceptingBlockHash": "6f9da67329b440638194646e3c5161727548954ba5f9a7d9ad422dfb9e741550",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "cfd3c01a1a848c4083b602fbe51648a3ccbbbaa798f81dc70e54c1354134a329",
+      "role": "alice",
+      "beneficiary": "22110c23f59999df5890478a39d457782d6ba5d72e0665be542c87054d208516",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "inputs": [
+        {
+          "outpoint": "c30b9c97e656aa52560dfef3ab5a17d5999414a6e440e961cd6e1a2f337a3db9:1",
+          "amountSompi": "100000000",
+          "script": "aa20679ef14c29f13990ac93cd67f2102210790699f192e56070edddf3f5a7a19ff287"
+        },
+        {
+          "outpoint": "5fbbe49654b7c8665fee1abe651b24321ef485765a9dd60d49c57ee634d30452:1",
+          "amountSompi": "988107072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa208c88ead2cf1ef76451d7b77416a7385c37b2bf56c8fccfa075876bae0edd407f87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa2085a74d135f414e5c7496d9866d85aba41882e9f284e45a8aa7703506e220856487",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "987947072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "select:bob",
+      "txid": "82ebd4c8699402ea9696d30f8e8775f102693a3be3f443c72ca5d32b6e728bdc",
+      "explorer": "https://tn10.kaspa.stream/transactions/82ebd4c8699402ea9696d30f8e8775f102693a3be3f443c72ca5d32b6e728bdc",
+      "accepted": true,
+      "acceptingBlockHash": "152eec9b0a15042a9a7fec3a27aebc6539f2d1afee2bdb9d6f923bd18b710fe0",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "27adfc47d0481e5cc05286919ba4481ba09d23785ec3d8ea8b2011564692714f",
+      "role": "bob",
+      "beneficiary": "d8d6cef595ceef51ea7028c203ddc20dca0521a25d31a819c822b56630e521f5",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "inputs": [
+        {
+          "outpoint": "ae4fd75778fb512e3ebb4cd418f192fb5166d446efd5056de19e9e62deea618a:1",
+          "amountSompi": "100000000",
+          "script": "aa208cab799c441562536507250961c4e94a7923d6f19b5d2c87a36aabb575624c2e87"
+        },
+        {
+          "outpoint": "031d3cb6aafc791c3f553d100df20136e9fa540b6f7f2a5996643c4b41aed726:2",
+          "amountSompi": "987947072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa209f927b38240d6dfa62098f675d8b92ea9a189d43b65f0f4e4f7c9b3c1b922a5e87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20319e5a5d05703c31fda7932eb0cffc0acc4c6f5473a2a1aeb7ba149cd269b0e687",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "987787072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "select:carol",
+      "txid": "1b70b39b9d2fbf9fb1e458c5e2e74d72f0f7b201b720f99437ab4a088d3b9c64",
+      "explorer": "https://tn10.kaspa.stream/transactions/1b70b39b9d2fbf9fb1e458c5e2e74d72f0f7b201b720f99437ab4a088d3b9c64",
+      "accepted": true,
+      "acceptingBlockHash": "f4b53e4ae2ecac6499a4095238a06bd21c3d632de8ccc756dc97c3a8aa1b2959",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "2b7f00ab065adfb0e1d7bdf93bb10e20af5eb62efbe912aa4dc82b3b143f582a",
+      "role": "carol",
+      "beneficiary": "cca9299b5554fb68a8c3ab58c35847d4a630faa88a0b15610197ef9e3f99f72c",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "inputs": [
+        {
+          "outpoint": "da04b75d53d098d568a85a4eadb52f2866e4023ae42ebf03d518afcc15340474:1",
+          "amountSompi": "100000000",
+          "script": "aa20d44f3a5ab7aa3de5d551956bc85066fb957b33ae884851c8a393f4718a2fc07c87"
+        },
+        {
+          "outpoint": "82ebd4c8699402ea9696d30f8e8775f102693a3be3f443c72ca5d32b6e728bdc:2",
+          "amountSompi": "987787072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2033c02629e132831a831cb05ccd689d30ddebaaecd35ab1aebf0b6e1e3178f87c87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa205bbd9fd6ba47ccaea07b2ffd18f1ddee2d5426c0a58654fd0f25d0f01310289987",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "987627072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "close-shard:0",
+      "txid": "f1643b8287d412c1e77b4c512975fd4f08e67444c2fabff56e0ffa0680c2229d",
+      "explorer": "https://tn10.kaspa.stream/transactions/f1643b8287d412c1e77b4c512975fd4f08e67444c2fabff56e0ffa0680c2229d",
+      "accepted": true,
+      "acceptingBlockHash": "dced1939aab51e9ca15a2da27219568baaf468a390cef039d711461f81321399",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "5bc55a50e9b966dc319e3b5675ba4b3e768c29b272fc83202cd4842530a75b35",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "82ebd4c8699402ea9696d30f8e8775f102693a3be3f443c72ca5d32b6e728bdc:0",
+          "amountSompi": "100000000",
+          "script": "aa209f927b38240d6dfa62098f675d8b92ea9a189d43b65f0f4e4f7c9b3c1b922a5e87"
+        },
+        {
+          "outpoint": "1b70b39b9d2fbf9fb1e458c5e2e74d72f0f7b201b720f99437ab4a088d3b9c64:2",
+          "amountSompi": "987627072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa2074f0956e684d0c1a36135113daf1ea519b675c654321774ea61b5a7b108b117e87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987567072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "close-shard:1",
+      "txid": "30c89a4cbb86abf9d8cdfec741c60ba65ad405bd6932ebc2e2cd35dcb094b8b2",
+      "explorer": "https://tn10.kaspa.stream/transactions/30c89a4cbb86abf9d8cdfec741c60ba65ad405bd6932ebc2e2cd35dcb094b8b2",
+      "accepted": true,
+      "acceptingBlockHash": "981159f175aac32ecd1d05069184b3c1dae092bd4a5ef9f841c1744039c017e2",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "f25a82f5aaa3ac1b71dc430341514db03f9806d43788116d32411ef9f78d51ab",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "031d3cb6aafc791c3f553d100df20136e9fa540b6f7f2a5996643c4b41aed726:0",
+          "amountSompi": "100000000",
+          "script": "aa208c88ead2cf1ef76451d7b77416a7385c37b2bf56c8fccfa075876bae0edd407f87"
+        },
+        {
+          "outpoint": "f1643b8287d412c1e77b4c512975fd4f08e67444c2fabff56e0ffa0680c2229d:1",
+          "amountSompi": "987567072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20e2107e2bb1cdf9e30042da69bebf1d105450bf8d86cc4727b2998f3871e1b08087",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987507072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "close-shard:2",
+      "txid": "157b8800edf7fc75d8057cd8fbfe7bfeb8f0515bc131b5139258136e2743b6ea",
+      "explorer": "https://tn10.kaspa.stream/transactions/157b8800edf7fc75d8057cd8fbfe7bfeb8f0515bc131b5139258136e2743b6ea",
+      "accepted": true,
+      "acceptingBlockHash": "4327ca837cdfcad86d0d898c3c4fb252155cd97095924b49d617cb56fa629b17",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "09e079920ba9d8cb849fc83464d44f62137c2c390fdf103cd42d032029fcf950",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "1b70b39b9d2fbf9fb1e458c5e2e74d72f0f7b201b720f99437ab4a088d3b9c64:0",
+          "amountSompi": "100000000",
+          "script": "aa2033c02629e132831a831cb05ccd689d30ddebaaecd35ab1aebf0b6e1e3178f87c87"
+        },
+        {
+          "outpoint": "30c89a4cbb86abf9d8cdfec741c60ba65ad405bd6932ebc2e2cd35dcb094b8b2:1",
+          "amountSompi": "987507072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20cb605dcb101a38f8d941180d30c6cdb0da3ea5bd1eef388a2687a1ece859ca7387",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987447072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "close-shard:3",
+      "txid": "3d86c58fae6725c6d68ac5673a8cfa24212518039fbed0fc319c024555298c47",
+      "explorer": "https://tn10.kaspa.stream/transactions/3d86c58fae6725c6d68ac5673a8cfa24212518039fbed0fc319c024555298c47",
+      "accepted": true,
+      "acceptingBlockHash": "4546f8f74b6a6413dc5113aaec738960fbefc6e5209b04c638c0646edcea24d6",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "99e84abc12d27dcd9659a26d4d54146ad515a4e10e05805cf08d1f358cd1fb7f",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "87c49bfa394cf533388739625f3fb9b3ee6c206437ab7bebd73d746c44ca5b9d:1",
+          "amountSompi": "100000000",
+          "script": "aa20ea6d2a77e1fbea2d4a8fffb25adbab88444a7340d85aee1e2d3e723818ccf43e87"
+        },
+        {
+          "outpoint": "157b8800edf7fc75d8057cd8fbfe7bfeb8f0515bc131b5139258136e2743b6ea:1",
+          "amountSompi": "987447072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "100000000",
+          "script": "aa20bfd93d26a0f50c211075613288d0d2ee1b78dba8a05ba0c1b4e62aadf41ceb5b87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987387072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "collect:0",
+      "txid": "357968239bddcf1f1705f297f97cd566566bf0546fdb699dec17903ab757e6a9",
+      "explorer": "https://tn10.kaspa.stream/transactions/357968239bddcf1f1705f297f97cd566566bf0546fdb699dec17903ab757e6a9",
+      "accepted": true,
+      "acceptingBlockHash": "c4a97758d8136fdccd8fec4c98e6fee28412c9352defcb1a93e51ab7a8887a9e",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "1ec7d93621650c7bd421a60c8f557e9c2374110f69c94fcabf436c9e92fb6d78",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "5fbbe49654b7c8665fee1abe651b24321ef485765a9dd60d49c57ee634d30452:0",
+          "amountSompi": "100000000",
+          "script": "aa2038371067994444b1b51da4215e48fd12257676918595a4fd78901f466a5bc68a87"
+        },
+        {
+          "outpoint": "f1643b8287d412c1e77b4c512975fd4f08e67444c2fabff56e0ffa0680c2229d:0",
+          "amountSompi": "100000000",
+          "script": "aa2074f0956e684d0c1a36135113daf1ea519b675c654321774ea61b5a7b108b117e87"
+        },
+        {
+          "outpoint": "3d86c58fae6725c6d68ac5673a8cfa24212518039fbed0fc319c024555298c47:1",
+          "amountSompi": "987387072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20da4f18b52ec3ada4898d32aca8499b14a479f1dc42ca346335fc853faaf11d8887",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987327072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "collect:1",
+      "txid": "745952ac7297f496213d2b306bff0d9289599d781cd4181d849a2dad7adfd1c5",
+      "explorer": "https://tn10.kaspa.stream/transactions/745952ac7297f496213d2b306bff0d9289599d781cd4181d849a2dad7adfd1c5",
+      "accepted": true,
+      "acceptingBlockHash": "a5328771eabfb1de6a3152b220df5e139ce03bb18bdeae181a5ce5fc2d6cd75e",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "f48a6e8ac57995e5425d7f853186ee5cacfd8c3033726492e538a972872c0456",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "357968239bddcf1f1705f297f97cd566566bf0546fdb699dec17903ab757e6a9:0",
+          "amountSompi": "200000000",
+          "script": "aa20da4f18b52ec3ada4898d32aca8499b14a479f1dc42ca346335fc853faaf11d8887"
+        },
+        {
+          "outpoint": "30c89a4cbb86abf9d8cdfec741c60ba65ad405bd6932ebc2e2cd35dcb094b8b2:0",
+          "amountSompi": "100000000",
+          "script": "aa20e2107e2bb1cdf9e30042da69bebf1d105450bf8d86cc4727b2998f3871e1b08087"
+        },
+        {
+          "outpoint": "357968239bddcf1f1705f297f97cd566566bf0546fdb699dec17903ab757e6a9:1",
+          "amountSompi": "987327072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "300000000",
+          "script": "aa20fd7915f6aaf31cfe56b5d41984c620d01043e90c17befd222918884c8490871d87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987267072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "collect:2",
+      "txid": "62c5cf79f8fc0b012b762f98a5546b80bda153113e8a6ddcfb9afcab75105877",
+      "explorer": "https://tn10.kaspa.stream/transactions/62c5cf79f8fc0b012b762f98a5546b80bda153113e8a6ddcfb9afcab75105877",
+      "accepted": true,
+      "acceptingBlockHash": "c1091b6edbc493f3ae0a80504b7a58f0a56aa52a00a4af3d0e64748d707a8c65",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "cace5c6a1c5daa9a1169d4a8896c468d5cb1d24d01eb878cb3072db5a3c04c2a",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "745952ac7297f496213d2b306bff0d9289599d781cd4181d849a2dad7adfd1c5:0",
+          "amountSompi": "300000000",
+          "script": "aa20fd7915f6aaf31cfe56b5d41984c620d01043e90c17befd222918884c8490871d87"
+        },
+        {
+          "outpoint": "157b8800edf7fc75d8057cd8fbfe7bfeb8f0515bc131b5139258136e2743b6ea:0",
+          "amountSompi": "100000000",
+          "script": "aa20cb605dcb101a38f8d941180d30c6cdb0da3ea5bd1eef388a2687a1ece859ca7387"
+        },
+        {
+          "outpoint": "745952ac7297f496213d2b306bff0d9289599d781cd4181d849a2dad7adfd1c5:1",
+          "amountSompi": "987267072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "400000000",
+          "script": "aa20354229b93ef0a70b3fc3f8675befd7e328e5923c6c6b6b73b6928e0a862837d087",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987207072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "collect:3",
+      "txid": "f3abeed7049f5f45d806bc7fd8a5a848dd71d214846aaff212cde03dc3fec364",
+      "explorer": "https://tn10.kaspa.stream/transactions/f3abeed7049f5f45d806bc7fd8a5a848dd71d214846aaff212cde03dc3fec364",
+      "accepted": true,
+      "acceptingBlockHash": "8ad937cecca08fdd02cddfbe25fbfced5c89cb9e5c9a612c3fe1d92ecbc8112e",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "b792fba71dc521140dce5ec0a24828c8fe46b60daa456c6c9278e6f1a175b020",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "62c5cf79f8fc0b012b762f98a5546b80bda153113e8a6ddcfb9afcab75105877:0",
+          "amountSompi": "400000000",
+          "script": "aa20354229b93ef0a70b3fc3f8675befd7e328e5923c6c6b6b73b6928e0a862837d087"
+        },
+        {
+          "outpoint": "3d86c58fae6725c6d68ac5673a8cfa24212518039fbed0fc319c024555298c47:0",
+          "amountSompi": "100000000",
+          "script": "aa20bfd93d26a0f50c211075613288d0d2ee1b78dba8a05ba0c1b4e62aadf41ceb5b87"
+        },
+        {
+          "outpoint": "62c5cf79f8fc0b012b762f98a5546b80bda153113e8a6ddcfb9afcab75105877:1",
+          "amountSompi": "987207072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20aeaddf0cdac2a3804c9e9cf87c2b96d4db4891398f8550606019c2198e6313e487",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "987147072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "settle:0",
+      "txid": "683f12ee60f6bed24c28e925b1d918ca357fca4ba626cd761f5f92130380632f",
+      "explorer": "https://tn10.kaspa.stream/transactions/683f12ee60f6bed24c28e925b1d918ca357fca4ba626cd761f5f92130380632f",
+      "accepted": true,
+      "acceptingBlockHash": "8f71345f6f7318bfae96cd67213a76054bf6c1e94d05287d10a49f31a0c46690",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "353a3e689158f4f233d57cc4e6fead544c1ae9fce54a6b2aff97f523c18d1f8d",
+      "role": "alice",
+      "beneficiary": "22110c23f59999df5890478a39d457782d6ba5d72e0665be542c87054d208516",
+      "allocationRaw": "27",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "f3abeed7049f5f45d806bc7fd8a5a848dd71d214846aaff212cde03dc3fec364:0",
+          "amountSompi": "500000000",
+          "script": "aa20aeaddf0cdac2a3804c9e9cf87c2b96d4db4891398f8550606019c2198e6313e487"
+        },
+        {
+          "outpoint": "031d3cb6aafc791c3f553d100df20136e9fa540b6f7f2a5996643c4b41aed726:1",
+          "amountSompi": "100000000",
+          "script": "aa2085a74d135f414e5c7496d9866d85aba41882e9f284e45a8aa7703506e220856487"
+        },
+        {
+          "outpoint": "f3abeed7049f5f45d806bc7fd8a5a848dd71d214846aaff212cde03dc3fec364:1",
+          "amountSompi": "987147072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20433ca8b8fb6f01e6916455a5028ca3c2f9370f729bde8260433886ed109da64687",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa209933149ec91623a39d83cfda0842eeec023bed90aea6c6345a2e1d425bafaebf87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "987087072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "settle:3",
+      "txid": "1bde0d23e558107b52b988395c93340bd45bcf55e5b7a001fdeffbeccaf6a584",
+      "explorer": "https://tn10.kaspa.stream/transactions/1bde0d23e558107b52b988395c93340bd45bcf55e5b7a001fdeffbeccaf6a584",
+      "accepted": true,
+      "acceptingBlockHash": "deaf68b3523a81fd8b22c393c5ce8299c526cfbc4f556dd2c681282869344a8f",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "06a3efab9f1468dda0544473763619ac3e5475846f08b1c1613f65e817104f41",
+      "role": "bob",
+      "beneficiary": "d8d6cef595ceef51ea7028c203ddc20dca0521a25d31a819c822b56630e521f5",
+      "allocationRaw": "153",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "683f12ee60f6bed24c28e925b1d918ca357fca4ba626cd761f5f92130380632f:0",
+          "amountSompi": "500000000",
+          "script": "aa20433ca8b8fb6f01e6916455a5028ca3c2f9370f729bde8260433886ed109da64687"
+        },
+        {
+          "outpoint": "82ebd4c8699402ea9696d30f8e8775f102693a3be3f443c72ca5d32b6e728bdc:1",
+          "amountSompi": "100000000",
+          "script": "aa20319e5a5d05703c31fda7932eb0cffc0acc4c6f5473a2a1aeb7ba149cd269b0e687"
+        },
+        {
+          "outpoint": "683f12ee60f6bed24c28e925b1d918ca357fca4ba626cd761f5f92130380632f:2",
+          "amountSompi": "987087072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa209017f4b75e56b7fa0b624367f8499606e10b33a8d28096b266b26f1b198568a387",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa204baab078523be72c39964e1b0de6ee2b7b5993b203fd51582cf8fb116e987c1987",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "987027072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "settle:2",
+      "txid": "397d9e74c2fbde2bb9107e3e24c345ad61ee5172fe47b21958b84ba35415f065",
+      "explorer": "https://tn10.kaspa.stream/transactions/397d9e74c2fbde2bb9107e3e24c345ad61ee5172fe47b21958b84ba35415f065",
+      "accepted": true,
+      "acceptingBlockHash": "2df16dff7179bad0525ae3451eaf147950447a37aa9213d68c7c556ad27d5563",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "e1976638eac5016ba9218ea37dca1338ded01a8c7d77f358dd694362b1ccafb6",
+      "role": "carol",
+      "beneficiary": "cca9299b5554fb68a8c3ab58c35847d4a630faa88a0b15610197ef9e3f99f72c",
+      "allocationRaw": "817",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "1bde0d23e558107b52b988395c93340bd45bcf55e5b7a001fdeffbeccaf6a584:0",
+          "amountSompi": "500000000",
+          "script": "aa209017f4b75e56b7fa0b624367f8499606e10b33a8d28096b266b26f1b198568a387"
+        },
+        {
+          "outpoint": "1b70b39b9d2fbf9fb1e458c5e2e74d72f0f7b201b720f99437ab4a088d3b9c64:1",
+          "amountSompi": "100000000",
+          "script": "aa205bbd9fd6ba47ccaea07b2ffd18f1ddee2d5426c0a58654fd0f25d0f01310289987"
+        },
+        {
+          "outpoint": "1bde0d23e558107b52b988395c93340bd45bcf55e5b7a001fdeffbeccaf6a584:2",
+          "amountSompi": "987027072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20eb25f0c775c28bec0adbb938e22a63c964c77acc493042ea6a3c4233e3f7679887",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20cf3996742786aa3e742ab27fa335ac387f54b7ce493cc14382737c323ce1219f87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 2,
+          "amountSompi": "986967072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "finish-settlement",
+      "txid": "b0d351fda849a2152c3d59bdde1ff0cc14f9f56edacd3045003cdc4120da9404",
+      "explorer": "https://tn10.kaspa.stream/transactions/b0d351fda849a2152c3d59bdde1ff0cc14f9f56edacd3045003cdc4120da9404",
+      "accepted": true,
+      "acceptingBlockHash": "ff8e299928837367c6b73b0beb195ae7a511c337f2bf4d9d409c504478a3ec30",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        }
+      ],
+      "wireSha256": "b9bcc3aa2e287326096f7c218c52dd1b3ff26c50d1d0cb9f9d00ce43a8150059",
+      "surplusRaw": "3",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "397d9e74c2fbde2bb9107e3e24c345ad61ee5172fe47b21958b84ba35415f065:0",
+          "amountSompi": "500000000",
+          "script": "aa20eb25f0c775c28bec0adbb938e22a63c964c77acc493042ea6a3c4233e3f7679887"
+        },
+        {
+          "outpoint": "397d9e74c2fbde2bb9107e3e24c345ad61ee5172fe47b21958b84ba35415f065:2",
+          "amountSompi": "986967072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "500000000",
+          "script": "aa20bf9ef733369d2362ba2e5ef6088f59582a4ae3dd15eeaff5454a597b5cc5596f87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "986907072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "seal",
+      "txid": "4dd594c63d9ae6a137b8be7deed4bdd25299fcc9b72bc5d52d711502179e2b94",
+      "explorer": "https://tn10.kaspa.stream/transactions/4dd594c63d9ae6a137b8be7deed4bdd25299fcc9b72bc5d52d711502179e2b94",
+      "accepted": true,
+      "acceptingBlockHash": "a3dcff8d8bc995d95bc71de39473b10f467982241f9d0c8cc583f383b001daa6",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "c83d85da9ba0c161ea511cf04a81e6dda45bc70282d08e56b6a9bf5c4d8f2428",
+      "surplusRaw": "3",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "1bfa4a1a6a5650a79f656618c8e7b381056e74b723c3d1caf18bab0ce9253f52:1",
+          "amountSompi": "100000000",
+          "script": "aa201e2096447c8efbfe88b3d1cb1074cb4bbb87aee66df72697c79026cad5bbae7a87"
+        },
+        {
+          "outpoint": "b0d351fda849a2152c3d59bdde1ff0cc14f9f56edacd3045003cdc4120da9404:0",
+          "amountSompi": "500000000",
+          "script": "aa20bf9ef733369d2362ba2e5ef6088f59582a4ae3dd15eeaff5454a597b5cc5596f87"
+        },
+        {
+          "outpoint": "b0d351fda849a2152c3d59bdde1ff0cc14f9f56edacd3045003cdc4120da9404:1",
+          "amountSompi": "986907072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa2001a1588e7fd197f3bdbd37c60ae62496b7ab1a3e9bef968434afbe08f2a462a487",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "986847072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369"
+      }
+    },
+    {
+      "label": "activate:0",
+      "txid": "39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed",
+      "explorer": "https://tn10.kaspa.stream/transactions/39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed",
+      "accepted": true,
+      "acceptingBlockHash": "872706551f3a2a7fcaa28a6fe02e921ad126d644ca297f74f042d8d3d5950f3a",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        },
+        {
+          "input": 3,
+          "ok": true
+        }
+      ],
+      "wireSha256": "b736692fd20077d111cabacdce7b209bf8ace22cebb51d255f762b09e89bb9d9",
+      "role": "alice",
+      "beneficiary": "22110c23f59999df5890478a39d457782d6ba5d72e0665be542c87054d208516",
+      "positionId": "79a61cb5bffaf370eaf6bcee7b8ec7e0eaba8d0ae0a5c1d262eed2d94e4dafae",
+      "allocationRaw": "27",
+      "remainingRaw": "973",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "inputs": [
+        {
+          "outpoint": "4dd594c63d9ae6a137b8be7deed4bdd25299fcc9b72bc5d52d711502179e2b94:0",
+          "amountSompi": "600000000",
+          "script": "aa2001a1588e7fd197f3bdbd37c60ae62496b7ab1a3e9bef968434afbe08f2a462a487"
+        },
+        {
+          "outpoint": "683f12ee60f6bed24c28e925b1d918ca357fca4ba626cd761f5f92130380632f:1",
+          "amountSompi": "100000000",
+          "script": "aa209933149ec91623a39d83cfda0842eeec023bed90aea6c6345a2e1d425bafaebf87"
+        },
+        {
+          "outpoint": "ef7a32086576d826eae70653dbc6128f40b32568091a2e78bf04be6ce18b6441:1",
+          "amountSompi": "100000000",
+          "script": "aa2051ea7b32815dfed40bf9ad817514a5e89e8f70cec9bd3b50ac4735652fe9f6a087"
+        },
+        {
+          "outpoint": "4dd594c63d9ae6a137b8be7deed4bdd25299fcc9b72bc5d52d711502179e2b94:1",
+          "amountSompi": "986847072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20e8d3fcfae3650e48deee5d975f9755748b87d3502e74481e06e537dd1b5ddfd887",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa206d7148d9cb6a1c0164cbf0459a918bbfac2e29bbd156c0ec01ccbcde28d5d64d87",
+          "covenantId": "79a61cb5bffaf370eaf6bcee7b8ec7e0eaba8d0ae0a5c1d262eed2d94e4dafae"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa204136b590dc2ab3bab496d8dfdbe91c2ede61b1c107889b26041267e1c9011d4b87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 3,
+          "amountSompi": "100000000",
+          "script": "aa20e046c8c4e94aaf5b56dbf1ccb96328ef2cb68c015fb6f6c16c60506a68541e3387",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 4,
+          "amountSompi": "986687072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "activate:3",
+      "txid": "d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1",
+      "explorer": "https://tn10.kaspa.stream/transactions/d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1",
+      "accepted": true,
+      "acceptingBlockHash": "1524ea21cfd2260fb0c640f8f30971b4859b4ccb247bd4657fcb96c5703adfa7",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        },
+        {
+          "input": 3,
+          "ok": true
+        }
+      ],
+      "wireSha256": "6d64447889cc32c2347b1affd3ddb31eaa94ef32a77bb4f5aca1cc33a4340711",
+      "role": "bob",
+      "beneficiary": "d8d6cef595ceef51ea7028c203ddc20dca0521a25d31a819c822b56630e521f5",
+      "positionId": "acd1712b0ab2934517cf10f95b97c43e556d4ec403167ea172d61b4f65411ad3",
+      "allocationRaw": "153",
+      "remainingRaw": "820",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "inputs": [
+        {
+          "outpoint": "39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed:0",
+          "amountSompi": "600000000",
+          "script": "aa20e8d3fcfae3650e48deee5d975f9755748b87d3502e74481e06e537dd1b5ddfd887"
+        },
+        {
+          "outpoint": "1bde0d23e558107b52b988395c93340bd45bcf55e5b7a001fdeffbeccaf6a584:1",
+          "amountSompi": "100000000",
+          "script": "aa204baab078523be72c39964e1b0de6ee2b7b5993b203fd51582cf8fb116e987c1987"
+        },
+        {
+          "outpoint": "39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed:3",
+          "amountSompi": "100000000",
+          "script": "aa20e046c8c4e94aaf5b56dbf1ccb96328ef2cb68c015fb6f6c16c60506a68541e3387"
+        },
+        {
+          "outpoint": "39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed:4",
+          "amountSompi": "986687072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa20c0ec01244e77d5ff5e434290bde847ec60d6ca7d0e2ea1d17bb3a38212e770a687",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa208374d7c13f45951b1df849a483883093b778ff3a8f8d7b28b6288c9332dd977f87",
+          "covenantId": "acd1712b0ab2934517cf10f95b97c43e556d4ec403167ea172d61b4f65411ad3"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa20315aa0bb7224b8dbbd4bf3bd4356169037572d305aa36bff9737c4e07eefded687",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 3,
+          "amountSompi": "100000000",
+          "script": "aa20f644aeb803935acdeaaa9a5d9483ab66e36f706f97f62cde0c458b892f6285e687",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 4,
+          "amountSompi": "986527072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "activate:2",
+      "txid": "e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8",
+      "explorer": "https://tn10.kaspa.stream/transactions/e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8",
+      "accepted": true,
+      "acceptingBlockHash": "93431cfe270369541017d6996939492a524173eb22a90483f4786fc1ff603d59",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        },
+        {
+          "input": 3,
+          "ok": true
+        }
+      ],
+      "wireSha256": "e4af1dcb6e38df66c9e92547167a821344a2dfb933e84e43ed30b03b3b2b16c6",
+      "role": "carol",
+      "beneficiary": "cca9299b5554fb68a8c3ab58c35847d4a630faa88a0b15610197ef9e3f99f72c",
+      "positionId": "1f36b7b41de1cf2409d7f5fa6e1cd38c049312a855930a64f8e64680c7128cfe",
+      "allocationRaw": "817",
+      "remainingRaw": "3",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "160000000",
+      "inputs": [
+        {
+          "outpoint": "d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1:0",
+          "amountSompi": "600000000",
+          "script": "aa20c0ec01244e77d5ff5e434290bde847ec60d6ca7d0e2ea1d17bb3a38212e770a687"
+        },
+        {
+          "outpoint": "397d9e74c2fbde2bb9107e3e24c345ad61ee5172fe47b21958b84ba35415f065:1",
+          "amountSompi": "100000000",
+          "script": "aa20cf3996742786aa3e742ab27fa335ac387f54b7ce493cc14382737c323ce1219f87"
+        },
+        {
+          "outpoint": "d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1:3",
+          "amountSompi": "100000000",
+          "script": "aa20f644aeb803935acdeaaa9a5d9483ab66e36f706f97f62cde0c458b892f6285e687"
+        },
+        {
+          "outpoint": "d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1:4",
+          "amountSompi": "986527072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa205822f80567dfd067623c419341b95107e09e8802d51d2bfe9483f46d0831cdc987",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa203d381c3bc752a40a40cb053cf6147d8bc1139cbf335cf818bacdfb4bb04caa5b87",
+          "covenantId": "1f36b7b41de1cf2409d7f5fa6e1cd38c049312a855930a64f8e64680c7128cfe"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa204c9320638bfc87a7088278275e5c96e17cce223b6e26464ae0c7dfc6188fdc0f87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 3,
+          "amountSompi": "100000000",
+          "script": "aa2029772398181c0081b8549b9ea4a56ac24b06ca3d792683a041e76b5a79656e9b87",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 4,
+          "amountSompi": "986367072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "release:alice:0",
+      "txid": "ed2367b3e6e87567e8a39d88ea3a14fb24f546dc48e3632b4d638889b73776e1",
+      "explorer": "https://tn10.kaspa.stream/transactions/ed2367b3e6e87567e8a39d88ea3a14fb24f546dc48e3632b4d638889b73776e1",
+      "accepted": true,
+      "acceptingBlockHash": "29fbc472f266e1e9b5da747edcb27c6a10285d1926177ea5c031d09051bcf6cd",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "50ef58a20f5f59c87f1c8a6d11f09f409f8b4f7cbe58e2831f12933c9ce08699",
+      "role": "alice",
+      "beneficiary": "22110c23f59999df5890478a39d457782d6ba5d72e0665be542c87054d208516",
+      "positionId": "79a61cb5bffaf370eaf6bcee7b8ec7e0eaba8d0ae0a5c1d262eed2d94e4dafae",
+      "releaseRaw": "1",
+      "remainingRaw": "26",
+      "positionClosed": false,
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "260000000",
+      "inputs": [
+        {
+          "outpoint": "39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed:1",
+          "amountSompi": "100000000",
+          "script": "aa206d7148d9cb6a1c0164cbf0459a918bbfac2e29bbd156c0ec01ccbcde28d5d64d87"
+        },
+        {
+          "outpoint": "39a2527a9e677593dc87c1e297373849fd14a853c454fa517d54dee52d843aed:2",
+          "amountSompi": "100000000",
+          "script": "aa204136b590dc2ab3bab496d8dfdbe91c2ede61b1c107889b26041267e1c9011d4b87"
+        },
+        {
+          "outpoint": "e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8:4",
+          "amountSompi": "986367072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20bf40c5a913564de7827918b76d65bc672439fed51094b964a816326d08ecd28987",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20f02660a28ea7207699797779d41114be394840c1ea6704f482d6fb5e6acfc7e687",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa2075f455afcf04381af9d2770370f75060b174e245e2809a2f91653a12c0ed855487",
+          "covenantId": "79a61cb5bffaf370eaf6bcee7b8ec7e0eaba8d0ae0a5c1d262eed2d94e4dafae"
+        },
+        {
+          "index": 3,
+          "amountSompi": "986107072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "release:bob:0",
+      "txid": "875ae2e38edfb653c60093fda319543eba9acc4feac23ed69e8a68d981d947a7",
+      "explorer": "https://tn10.kaspa.stream/transactions/875ae2e38edfb653c60093fda319543eba9acc4feac23ed69e8a68d981d947a7",
+      "accepted": true,
+      "acceptingBlockHash": "edba1d507ec666d7222837bd383633902b3d6719ed4f93df733d27091c5fb4e6",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "55edf0ff4638aba2500f142ea2cadecb20b44e07572d51a93b547a03b1a44881",
+      "role": "bob",
+      "beneficiary": "d8d6cef595ceef51ea7028c203ddc20dca0521a25d31a819c822b56630e521f5",
+      "positionId": "acd1712b0ab2934517cf10f95b97c43e556d4ec403167ea172d61b4f65411ad3",
+      "releaseRaw": "1",
+      "remainingRaw": "152",
+      "positionClosed": false,
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "260000000",
+      "inputs": [
+        {
+          "outpoint": "d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1:1",
+          "amountSompi": "100000000",
+          "script": "aa208374d7c13f45951b1df849a483883093b778ff3a8f8d7b28b6288c9332dd977f87"
+        },
+        {
+          "outpoint": "d7dcb36eddf8bc48702d679af58e6bded8d8fe8041bd23cba727b62ba65b84e1:2",
+          "amountSompi": "100000000",
+          "script": "aa20315aa0bb7224b8dbbd4bf3bd4356169037572d305aa36bff9737c4e07eefded687"
+        },
+        {
+          "outpoint": "ed2367b3e6e87567e8a39d88ea3a14fb24f546dc48e3632b4d638889b73776e1:3",
+          "amountSompi": "986107072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20343ac4071bd7062f41c4a386d4bc83488c0a5f632247ddccef355221e3e1c89987",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa208b329ef0cf239bafba0a22abaa0c04052c909f34fbd393ebb0f9622452c233a587",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa20d0d31fd234cc01ae583b0738d28d38ca4bb2356f62bca87eb7044df5061fefa487",
+          "covenantId": "acd1712b0ab2934517cf10f95b97c43e556d4ec403167ea172d61b4f65411ad3"
+        },
+        {
+          "index": 3,
+          "amountSompi": "985847072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "release:carol:0",
+      "txid": "a414ccc99514c40686ef708de8c84b5e5ad8f129a07a0672dc2929c0f4e845c8",
+      "explorer": "https://tn10.kaspa.stream/transactions/a414ccc99514c40686ef708de8c84b5e5ad8f129a07a0672dc2929c0f4e845c8",
+      "accepted": true,
+      "acceptingBlockHash": "18ce25fde7e526069bb7a0b6878c9068555ae33a05a3e01c7c339db332922bb6",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "44b98b6be44a1c91bc9f361f433ea00f1415aafcbde37e141fbf54cde29fbcc1",
+      "role": "carol",
+      "beneficiary": "cca9299b5554fb68a8c3ab58c35847d4a630faa88a0b15610197ef9e3f99f72c",
+      "positionId": "1f36b7b41de1cf2409d7f5fa6e1cd38c049312a855930a64f8e64680c7128cfe",
+      "releaseRaw": "1",
+      "remainingRaw": "816",
+      "positionClosed": false,
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "260000000",
+      "inputs": [
+        {
+          "outpoint": "e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8:1",
+          "amountSompi": "100000000",
+          "script": "aa203d381c3bc752a40a40cb053cf6147d8bc1139cbf335cf818bacdfb4bb04caa5b87"
+        },
+        {
+          "outpoint": "e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8:2",
+          "amountSompi": "100000000",
+          "script": "aa204c9320638bfc87a7088278275e5c96e17cce223b6e26464ae0c7dfc6188fdc0f87"
+        },
+        {
+          "outpoint": "875ae2e38edfb653c60093fda319543eba9acc4feac23ed69e8a68d981d947a7:3",
+          "amountSompi": "985847072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20ec49732100fc170ac862a5a75cd2a3e192af4812f3ce6268272fe11c527dae1887",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa208612232d385220f8136e8455aa9e3d628f7d075ef59431d824e2a01355fedf8687",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "100000000",
+          "script": "aa20f014476f54d609a304de455f36fb2b2883968180c3d37c9e578972962fafef1a87",
+          "covenantId": "1f36b7b41de1cf2409d7f5fa6e1cd38c049312a855930a64f8e64680c7128cfe"
+        },
+        {
+          "index": 3,
+          "amountSompi": "985587072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "finish:alice",
+      "txid": "a566e47151723d43347aa25840bd897706b99cde272ed82ece7e4dfd35d6efd8",
+      "explorer": "https://tn10.kaspa.stream/transactions/a566e47151723d43347aa25840bd897706b99cde272ed82ece7e4dfd35d6efd8",
+      "accepted": true,
+      "acceptingBlockHash": "dc5f59ee2cb81c6ff1ed0a7a3afd231cac37341f44c6f0677a50e64495498671",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "cbefbb7292e6437cce76102f065ee49f1e4c3e24b9a3c4ae0f11dcbb8312cd9c",
+      "role": "alice",
+      "beneficiary": "22110c23f59999df5890478a39d457782d6ba5d72e0665be542c87054d208516",
+      "positionId": "79a61cb5bffaf370eaf6bcee7b8ec7e0eaba8d0ae0a5c1d262eed2d94e4dafae",
+      "releaseRaw": "26",
+      "remainingRaw": "0",
+      "positionClosed": true,
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "ed2367b3e6e87567e8a39d88ea3a14fb24f546dc48e3632b4d638889b73776e1:2",
+          "amountSompi": "100000000",
+          "script": "aa2075f455afcf04381af9d2770370f75060b174e245e2809a2f91653a12c0ed855487"
+        },
+        {
+          "outpoint": "ed2367b3e6e87567e8a39d88ea3a14fb24f546dc48e3632b4d638889b73776e1:1",
+          "amountSompi": "100000000",
+          "script": "aa20f02660a28ea7207699797779d41114be394840c1ea6704f482d6fb5e6acfc7e687"
+        },
+        {
+          "outpoint": "a414ccc99514c40686ef708de8c84b5e5ad8f129a07a0672dc2929c0f4e845c8:3",
+          "amountSompi": "985587072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20b166f237d956605b05970734718bf7b45019e9040f9e7af7a60b2c22ea87cb6087",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "985527072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "finish:bob",
+      "txid": "c6395447e2a93fead7d078ee08d9b12956337f3d99d6df9efb27d323295b69f8",
+      "explorer": "https://tn10.kaspa.stream/transactions/c6395447e2a93fead7d078ee08d9b12956337f3d99d6df9efb27d323295b69f8",
+      "accepted": true,
+      "acceptingBlockHash": "9e4412e1004747a57adccd53021cf4402cb9e5d50d851c670501c2d29b5d2da2",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "cf72a6e8f557fcd6226e54bdb517cc3c236cc12c85d7f66df0bf56e2311a9ce7",
+      "role": "bob",
+      "beneficiary": "d8d6cef595ceef51ea7028c203ddc20dca0521a25d31a819c822b56630e521f5",
+      "positionId": "acd1712b0ab2934517cf10f95b97c43e556d4ec403167ea172d61b4f65411ad3",
+      "releaseRaw": "152",
+      "remainingRaw": "0",
+      "positionClosed": true,
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "875ae2e38edfb653c60093fda319543eba9acc4feac23ed69e8a68d981d947a7:2",
+          "amountSompi": "100000000",
+          "script": "aa20d0d31fd234cc01ae583b0738d28d38ca4bb2356f62bca87eb7044df5061fefa487"
+        },
+        {
+          "outpoint": "875ae2e38edfb653c60093fda319543eba9acc4feac23ed69e8a68d981d947a7:1",
+          "amountSompi": "100000000",
+          "script": "aa208b329ef0cf239bafba0a22abaa0c04052c909f34fbd393ebb0f9622452c233a587"
+        },
+        {
+          "outpoint": "a566e47151723d43347aa25840bd897706b99cde272ed82ece7e4dfd35d6efd8:1",
+          "amountSompi": "985527072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20d23f5c6d59c0cfaea02a13a740e62eaa344caa776bc2b7a61dc6abe4d3e664b387",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "985467072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "finish:carol",
+      "txid": "76ff2d22925928e57af9e944f24ffd9d68175b3e2e7535de0952784c1d014539",
+      "explorer": "https://tn10.kaspa.stream/transactions/76ff2d22925928e57af9e944f24ffd9d68175b3e2e7535de0952784c1d014539",
+      "accepted": true,
+      "acceptingBlockHash": "342e03073668d387579bce2b4ac37acc9b904621f0c010c65a73876e3439e329",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "cd9ef1e9a812ccc9c4fa0ad0889c3be20afe0fb01cdfe955973ffb82864514b6",
+      "role": "carol",
+      "beneficiary": "cca9299b5554fb68a8c3ab58c35847d4a630faa88a0b15610197ef9e3f99f72c",
+      "positionId": "1f36b7b41de1cf2409d7f5fa6e1cd38c049312a855930a64f8e64680c7128cfe",
+      "releaseRaw": "816",
+      "remainingRaw": "0",
+      "positionClosed": true,
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "a414ccc99514c40686ef708de8c84b5e5ad8f129a07a0672dc2929c0f4e845c8:2",
+          "amountSompi": "100000000",
+          "script": "aa20f014476f54d609a304de455f36fb2b2883968180c3d37c9e578972962fafef1a87"
+        },
+        {
+          "outpoint": "a414ccc99514c40686ef708de8c84b5e5ad8f129a07a0672dc2929c0f4e845c8:1",
+          "amountSompi": "100000000",
+          "script": "aa208612232d385220f8136e8455aa9e3d628f7d075ef59431d824e2a01355fedf8687"
+        },
+        {
+          "outpoint": "c6395447e2a93fead7d078ee08d9b12956337f3d99d6df9efb27d323295b69f8:1",
+          "amountSompi": "985467072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "200000000",
+          "script": "aa20ba5159b00787b9511abe278ecf814ed5ce45612a900f52eadc775349aebf5ce487",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 1,
+          "amountSompi": "985407072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f",
+        "vestingArtifactSha256": "892dab793921e824703f3426c6fb6f3f7aeda0ac573969ededc12b2299fdbd79"
+      }
+    },
+    {
+      "label": "recover",
+      "txid": "d17b41ca005c79577d7b7f3646804b1e8a369540a6863f87dbd07e6cdd9c02b2",
+      "explorer": "https://tn10.kaspa.stream/transactions/d17b41ca005c79577d7b7f3646804b1e8a369540a6863f87dbd07e6cdd9c02b2",
+      "accepted": true,
+      "acceptingBlockHash": "3b86cbf6ef2551b8ea99b66576b506e9b9f38746e9bba76d521e4d4dc0bd7ba3",
+      "liveVerifiedAtStage": true,
+      "localEngineInputs": [
+        {
+          "input": 0,
+          "ok": true
+        },
+        {
+          "input": 1,
+          "ok": true
+        },
+        {
+          "input": 2,
+          "ok": true
+        }
+      ],
+      "wireSha256": "d53f976a92e0d7539744fc684d9867f5b4458bb3bc1d94adefb38e600530d1e2",
+      "surplusRaw": "3",
+      "feeSompi": "60000000",
+      "sourceDrawSompi": "60000000",
+      "inputs": [
+        {
+          "outpoint": "e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8:0",
+          "amountSompi": "600000000",
+          "script": "aa205822f80567dfd067623c419341b95107e09e8802d51d2bfe9483f46d0831cdc987"
+        },
+        {
+          "outpoint": "e93ba3754eb67cbba4e14e7dd4975aecb3ab56b87408eb6c0e1bc3179e2d32c8:3",
+          "amountSompi": "100000000",
+          "script": "aa2029772398181c0081b8549b9ea4a56ac24b06ca3d792683a041e76b5a79656e9b87"
+        },
+        {
+          "outpoint": "76ff2d22925928e57af9e944f24ffd9d68175b3e2e7535de0952784c1d014539:1",
+          "amountSompi": "985407072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac"
+        }
+      ],
+      "outputs": [
+        {
+          "index": 0,
+          "amountSompi": "600000000",
+          "script": "aa209710d70ca964b885e3d3ffd8e9dc4c77bb56abd781900fb7f204c5040dc8d7ea87",
+          "covenantId": "e8418ea75b7a547d51ee4cd4dd3d83d55da623713d933c31e86369636c3b7942"
+        },
+        {
+          "index": 1,
+          "amountSompi": "100000000",
+          "script": "aa20dd826a3def6a7c188a81c7d3f2a3bbcd7db1636fb4ff812500da1bef5833c4c087",
+          "covenantId": "ff85720b618dd926398806f0ec1e9aa0fd4a9d7e611ffb81747c2049eaa7e378"
+        },
+        {
+          "index": 2,
+          "amountSompi": "985347072000",
+          "script": "20f3fd4e609990a9bd5564775985bef25fc09706c0c3e9d69e6dee572b7eed02e3ac",
+          "covenantId": null
+        }
+      ],
+      "toolchain": {
+        "argentCommit": "9a9f4b107116d0b259fae629f200fa3b663e7e9d",
+        "engineSha256": "76ced9cb35dd59306c03644328460fd986cf53bc0b1274cbce3e9263d1e50e92",
+        "builderCommit": "dc0e8fd53fd821cc74d6219e3c5899cef8b5ed20",
+        "wasmSha256": "a38cbba3cf498f25dff227586986031660c2d0f1637c35649d933c08a0c14632",
+        "graphArtifactSha256": "a81c30dfbf67b464991959d98c9dfffde52076085642f806cb95e06824302e26",
+        "openingArtifactSha256": "682a7c5bdd1ff7a374b2e8a911cbbf7611b53b1731db2b05bd8b1e7cb48e2369",
+        "canonicalArtifactSha256": "a45d06e8351421dac1ef73f3595c6f34068e4fa1e13d3f8fa1c88be518c6e56f"
+      }
+    }
+  ]
+}
