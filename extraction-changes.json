@@ -1,4 +1,5 @@
 {
   "Cargo.toml": "f9f76bf7c36c1187c48706151cf91b5a91b541c6baa61a83f7f480d83d9b7379",
-  "Dockerfile.shadow-v2": "b99082d5cbc6e69354a8a318b6e96d0b9f6a6ec7e2a4dcddda55f5c11dffb350"
+  "Dockerfile.shadow-v2": "b99082d5cbc6e69354a8a318b6e96d0b9f6a6ec7e2a4dcddda55f5c11dffb350",
+  "docs/architecture/tn10-shadow-v2.md": "e4e78b782b081af9fb495321b92dce3826f8cd21589e697908edb71e80e3541c"
 }
